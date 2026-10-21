@@ -15,12 +15,14 @@
 ## 2. 主机逻辑测试
 
 ```sh
-sudo apt-get install build-essential python3-cairo python3-gi gir1.2-pango-1.0 python3-pygame python3-bleak python3-dbus-fast python3-qrcode
+sudo apt-get install build-essential python3-cairo python3-gi python3-gi-cairo gir1.2-pango-1.0 python3-pygame python3-bleak python3-dbus-fast python3-qrcode
 python3 tools/build_native.py --target host
 python3 tools/run_tests.py --full
 ```
 
 原版PID/事件核心已随源树提供，不用临时克隆GitHub；cJSON v1.7.19也已校验并提供源码。Linux FFI自动在64位主机使用 `app/compat/build-host/libmi4compat.so`；32位设备使用build-armhf目录。不要把x86库装上ARM设备。
+
+`python3-gi-cairo` 是 PangoCairo 与 pycairo Context 之间的桥接，不能只安装 `python3-gi` 和 `python3-cairo`。首次 GitHub Actions 干净环境测试曾因漏装它而出现 `KeyError: could not find foreign type Context`；依赖清单与 CI 现已补齐，不跳过相应渲染回归测试。
 
 本次推荐完整入口运行188项测试，其中2项按条件跳过：真实SDL触摸选择测试、未再分发的原厂aboot私有样本测试。内存中的写入/回滚测试照常运行，不实际打开设备。
 

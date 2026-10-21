@@ -33,7 +33,7 @@
 ## 快速验证（Ubuntu 24.04 / WSL）
 
 ```sh
-sudo apt-get install build-essential python3-cairo python3-gi gir1.2-pango-1.0 python3-pygame python3-bleak python3-dbus-fast python3-qrcode
+sudo apt-get install build-essential python3-cairo python3-gi python3-gi-cairo gir1.2-pango-1.0 python3-pygame python3-bleak python3-dbus-fast python3-qrcode
 python3 tools/build_native.py --target host
 python3 tools/run_tests.py --full
 ```
