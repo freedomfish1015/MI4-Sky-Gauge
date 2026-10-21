@@ -12,6 +12,12 @@
 
 源码仓库：[freedomfish1015/MI4-Sky-Gauge](https://github.com/freedomfish1015/MI4-Sky-Gauge)。大体积源码附件见 [Releases](https://github.com/freedomfish1015/MI4-Sky-Gauge/releases)。本仓库由原 ESP32 工程整理为小米 4 Linux 项目，迁移范围与历史恢复方法见 [仓库整理说明](docs/REPOSITORY-MIGRATION.md)。
 
+## 完整 Windows 文件集
+
+[下载系统完整包与 PDF 说明书](https://github.com/freedomfish1015/MI4-Sky-Gauge/releases/tag/system-2026.10.21-profile)。完整 ZIP 约 764 MiB，含独立 `.mi4sky` 镜像、安装器 3、fastboot/驱动及使用手册；另附 SHA256。它与纯源码发布分开，第三方二进制/素材不会因此改授 GPL。
+
+**安装流程仍为测试版**：仅验证 Mi4 LTE/JDI/mxt640t 的系统运行，未验收另一台手机清空重装；原厂 Fastboot 缺少 boot 大小等信息时安装器仍会拒绝。请先阅读 Release 风险说明和 PDF，不关闭安全检查硬刷。
+
 ## 当前能力
 
 - Ubuntu 24.04 ARMhf，原生 1920×1080 横屏显示；Cairo 静态缓存/脏矩形 + SDL2 KMSDRM/GLES2 显示，不需要桌面合成器。
