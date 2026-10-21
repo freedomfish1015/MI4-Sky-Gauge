@@ -1,0 +1,8 @@
+product: MSM8974
+Finished. Total time: 0.001s
+version-bootloader: 
+Finished. Total time: 0.002s
+partition-size:boot: 
+Finished. Total time: 0.002s
+partition-size:userdata: 	 0x32b3fbe00
+Finished. Total time: 0.000s

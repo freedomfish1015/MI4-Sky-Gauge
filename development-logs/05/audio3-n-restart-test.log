@@ -1,0 +1,15 @@
+
+=== 服务结果 ===
+success
+=== 声卡 ===
+ 0 [Mi4Taiko       ]: Mi4-Taiko - Mi4-Taiko
+                      Mi4-Taiko
+=== 路由 ===
+  : values=on
+=== sink ===
+ ├─ Sinks:
+ │  *   46. Built-in Audio Internal speaker     [vol: 1.00]
+ │  
+
+DONE_82a76ac0e89d4436a93ec57860eddc32
+umeko@umeko-cancro:~$ 

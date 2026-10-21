@@ -1,0 +1,17 @@
+
+=== 服务 ===
+enabled
+=== WP 配置 ===
+-rw-rw-r-- 1 umeko umeko 830 10月 18 18:12 /home/umeko/.config/wireplumber/main.lua.d/51-mi4-format.lua
+1
+=== modprobe.d ===
+options wcd9320 mi4_speaker_test_max=1
+=== UCM ===
+/usr/share/alsa/ucm2/conf.d/Mi4-Taiko
+=== alsa state ===
+-rw-r--r-- 1 root root 160496 10月 18 17:55 /var/lib/alsa/asound.state
+=== 脚本 ===
+-rwxr-xr-x 1 root root 1767 10月 18 18:00 /usr/local/bin/mi4-audio-init.sh
+
+DONE_8a83197745444fc596b5e396f49090da
+umeko@umeko-cancro:~$ 

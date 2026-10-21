@@ -1,0 +1,7 @@
+
+{"status": "searching", "fix": false, "satellites": 0, "session_started": true, "nmea_at": 1550.519697011, "nmea_count": 28, "session_status": "in-progress"}
+{"status": "searching", "fix": false, "satellites": 0, "session_started": true, "nmea_at": 1562.518929246, "nmea_count": 76, "session_status": "in-progress"}
+{"status": "searching", "fix": false, "satellites": 0, "session_started": true, "nmea_at": 1574.51936794, "nmea_count": 124, "session_status": "in-progress"}
+{"status": "searching", "fix": false, "satellites": 0, "session_started": true, "nmea_at": 1586.518959081, "nmea_count": 172, "session_status": "in-progress"}
+
+umeko@umeko-cancro:~$ 

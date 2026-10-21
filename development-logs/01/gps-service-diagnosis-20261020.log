@@ -1,0 +1,17 @@
+
+sudo: 需要密码
+REMOTEPROC
+/sys/class/remoteproc/remoteproc0/name:fb204000.remoteproc
+/sys/class/remoteproc/remoteproc1/name:fc880000.remoteproc
+/sys/class/remoteproc/remoteproc2/name:adsp
+/sys/class/remoteproc/remoteproc0/state:running
+/sys/class/remoteproc/remoteproc1/state:running
+/sys/class/remoteproc/remoteproc2/state:running
+PROCESSES
+  566 /usr/bin/python3 /usr/local/lib/obd-motion/mi4_motiond.py
+  904 [kworker/u16:1-qmi_msg_handler]
+SOURCE
+c4eeb6b9fb0621d4ad48caaae008b73edc5376b43afda0239fc5a30d302e7c0d  /usr/local/lib/obd-motion/mi4_gnss.py
+sudo: 需要密码
+
+umeko@umeko-cancro:~$ 

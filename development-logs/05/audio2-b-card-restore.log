@@ -1,0 +1,14 @@
+
+=== 声卡 ===
+ 0 [Mi4Taiko       ]: Mi4-Taiko - Mi4-Taiko
+                      Mi4-Taiko
+=== PCM ===
+**** PLAYBACK 硬體裝置清單 ****
+card 0: Mi4Taiko [Mi4-Taiko], device 0: MultiMedia1 Playback (*) []
+  子设备: 1/1
+  子设备 #0: subdevice #0
+=== 叠加状态 ===
+OVERLAY_LOADED
+
+DONE_de745a9042054fdf8254049940c852ea
+umeko@umeko-cancro:~$ 

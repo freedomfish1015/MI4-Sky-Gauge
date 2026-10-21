@@ -1,0 +1,426 @@
+
+# ]8;;file://umeko-cancro/etc/systemd/system/obd-power.service/etc/systemd/system/obd-power.service]8;;
+[Unit]
+Description=OBD external power countdown policy
+After=local-fs.target
+
+[Service]
+Type=simple
+User=root
+Group=umeko
+UMask=0027
+RuntimeDirectory=obd-power
+RuntimeDirectoryMode=0750
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-power/gauge_power_service.py
+Restart=on-failure
+RestartSec=2
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_UNIX
+
+[Install]
+WantedBy=multi-user.target
+#!/usr/bin/env python3
+
+"""Root-owned cable policy. No charger register writes or generic RPC execution."""
+
+import argparse
+
+import json
+
+import math
+
+import os
+
+from pathlib import Path
+
+import pwd
+
+import signal
+
+import socket
+
+import struct
+
+import subprocess
+
+import time
+
+
+
+
+
+# Unplug policy: hard poweroff after the 20 s countdown.
+
+#
+
+# A suspend-based variant was tried on 2026-10-19 to keep the modem's GNSS
+
+# ephemeris alive across an unplug (warm start instead of a cold 30-60 s
+
+# acquisition). It was reverted on 2026-10-20: s2idle on this MSM8974 image
+
+# draws enough current to flatten the 3080 mAh cell overnight, which is far
+
+# worse than losing the ephemeris. Keeping modem RAM alive requires powering
+
+# the modem, so there is no low-power variant of this idea that is safe here.
+
+
+
+
+
+def external_online(root=Path('/sys/class/power_supply')):
+
+    states = []
+
+    for name in ('smbb-usbin', 'smbb-dcin'):
+
+        try:
+
+            raw = (Path(root) / name / 'online').read_text().strip()
+
+            states.append({'0': False, '1': True}.get(raw))
+
+        except OSError:
+
+            states.append(None)
+
+    if True in states:
+
+        return True
+
+    return False if all(value is False for value in states) else None
+
+
+
+
+
+class Policy:
+
+    def __init__(self):
+
+        self.online = None
+
+        self.phase = 'idle'
+
+        self.deadline = None
+
+        self.last_ui = -math.inf
+
+        self.message = ''
+
+        self.reason = 'cable'
+
+
+
+    def heartbeat(self, now):
+
+        self.last_ui = now
+
+
+
+    def keep_on(self):
+
+        if self.phase in ('waiting_ui', 'countdown', 'error'):
+
+            self.phase, self.deadline, self.message = 'held', None, ''
+
+
+
+    def update(self, online, now):
+
+        previous = self.online
+
+        self.online = online
+
+        if self.phase == 'shutdown':
+
+            return False  # Already committed; never enqueue shutdown twice.
+
+        if self.phase == 'error' and online is previous:
+
+            return False  # Keep failures visible, including manual off on USB.
+
+        if online is not False:
+
+            # A missing/unreadable sensor is NOT evidence of unplugging.
+
+            self.phase, self.deadline, self.message = 'idle', None, ''
+
+        elif previous is True:
+
+            self.phase, self.deadline, self.message = 'waiting_ui', None, ''
+
+            self.reason = 'cable'
+
+        ui_ready = now - self.last_ui < 3
+
+        if self.phase == 'countdown' and not ui_ready:
+
+            self.phase, self.deadline = 'waiting_ui', None
+
+        if self.phase == 'waiting_ui' and ui_ready:
+
+            self.phase, self.deadline = 'countdown', now + 20
+
+        return self.phase == 'countdown' and now >= self.deadline
+
+
+
+    def snapshot(self, now):
+
+        remaining = max(0, math.ceil(self.deadline - now)) if self.deadline is not None else 20
+
+        if self.phase == 'shutdown':
+
+            remaining = 0
+
+        return dict(online=self.online, phase=self.phase, remaining=remaining,
+
+                    message=self.message, reason=self.reason)
+
+
+
+
+
+class Service:
+
+    def __init__(self, directory, supply_root, uid, dry_run=False):
+
+        self.directory, self.supply_root = Path(directory), Path(supply_root)
+
+        self.uid, self.dry_run = uid, dry_run
+
+        self.policy, self.previous, self.running = Policy(), None, True
+
+
+
+    def publish(self):
+
+        state = self.policy.snapshot(time.monotonic())
+
+        if state == self.previous:
+
+            return
+
+        temporary = self.directory / 'state.next'
+
+        temporary.write_text(json.dumps(state), encoding='utf-8')
+
+        temporary.chmod(0o640)
+
+        os.replace(temporary, self.directory / 'state.json')
+
+        self.previous = state
+
+        print('CABLE_STATE ' + json.dumps(state), flush=True)
+
+
+
+    def command(self, connection):
+
+        try:
+
+            _pid, uid, _gid = struct.unpack('3i', connection.getsockopt(
+
+                socket.SOL_SOCKET, socket.SO_PEERCRED, struct.calcsize('3i')))
+
+            if uid not in (0, self.uid):
+
+                return
+
+            connection.settimeout(.15)
+
+            request = json.loads(connection.recv(256))
+
+            operation = request.get('command')
+
+            if operation == 'heartbeat':
+
+                self.policy.heartbeat(time.monotonic())
+
+            elif operation == 'keep_on':
+
+                self.policy.keep_on()
+
+            elif operation == 'shutdown':
+
+                # A one-click manual action is distinct from unplug timing.
+
+                # Acknowledge first so the UI can show shutdown immediately.
+
+                connection.sendall(b'{"ok":true}\n')
+
+                self.poweroff('manual')
+
+                return
+
+            else:
+
+                raise ValueError('unsupported operation')
+
+            connection.sendall(b'{"ok":true}\n')
+
+        except (OSError, ValueError, AttributeError):
+
+            pass
+
+
+
+    def step(self):
+
+        now = time.monotonic()
+
+        due = self.policy.update(external_online(self.supply_root), now)
+
+        if due:
+
+            # Re-read hardware after IPC handling and immediately before the
+
+            # single fixed command. Replug/unknown/frozen UI cancel shutdown.
+
+            fresh = external_online(self.supply_root)
+
+            if fresh is not False:
+
+                self.policy.update(fresh, time.monotonic())
+
+            elif time.monotonic() - self.policy.last_ui < 3:
+
+                self.poweroff('cable')
+
+        self.publish()
+
+
+
+    def poweroff(self, reason):
+
+        if self.policy.phase == 'shutdown':
+
+            return
+
+        self.policy.phase, self.policy.deadline = 'shutdown', None
+
+        self.policy.reason = reason
+
+        self.publish()
+
+        if self.dry_run:
+
+            print('DRY_RUN_POWEROFF_NO_ACTION', flush=True)
+
+        else:
+
+            try:
+
+                subprocess.run(['/usr/bin/systemctl', '--no-block', 'poweroff'],
+
+                               check=True, timeout=5)
+
+            except (OSError, subprocess.SubprocessError) as exc:
+
+                self.policy.phase = 'error'
+
+                self.policy.message = '关机请求失败，请保持开机后手动处理'
+
+                self.publish()
+
+                print('POWEROFF_ERROR %r' % exc, flush=True)
+
+
+
+    def run(self):
+
+        os.umask(0o027)
+
+        self.directory.mkdir(parents=True, exist_ok=True)
+
+        path = self.directory / 'control.sock'
+
+        path.unlink(missing_ok=True)
+
+        def stop(*_):
+
+            self.running = False
+
+        signal.signal(signal.SIGTERM, stop)
+
+        signal.signal(signal.SIGINT, stop)
+
+        with socket.socket(socket.AF_UNIX, socket.SOCK_STREAM) as server:
+
+            server.bind(str(path))
+
+            path.chmod(0o660)
+
+            server.listen(8)
+
+            server.settimeout(.1)
+
+            self.step()
+
+            while self.running:
+
+                try:
+
+                    connection, _ = server.accept()
+
+                except socket.timeout:
+
+                    connection = None
+
+                if connection is not None:
+
+                    with connection:
+
+                        self.command(connection)
+
+                self.step()
+
+        path.unlink(missing_ok=True)
+
+
+
+
+
+def main():
+
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument('--directory', default='/run/obd-power')
+
+    parser.add_argument('--supply-root', default='/sys/class/power_supply')
+
+    parser.add_argument('--dry-run', action='store_true')
+
+    args = parser.parse_args()
+
+    Service(args.directory, args.supply_root, pwd.getpwnam('umeko').pw_uid,
+
+            args.dry_run).run()
+
+
+
+
+
+if __name__ == '__main__':
+
+    main()
+
+10月 20 15:59:30 umeko-cancro systemd[1]: Started obd-power.service - OBD external power countdown policy.
+
+10月 20 15:59:31 umeko-cancro python3[463]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+[s2idle]
+freeze mem
+0
+0
+
+umeko@umeko-cancro:~$ 

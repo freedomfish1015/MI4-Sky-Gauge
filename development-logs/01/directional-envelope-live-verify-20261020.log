@@ -1,0 +1,11 @@
+
+NRestarts=0
+Id=mi4-motion.service
+ActiveState=active
+
+NRestarts=0
+Id=obd-gauge-kiosk.service
+ActiveState=active
+{'ready': True, 'measurement_mode': 'accelerometer_autocenter', 'envelope_window_s': 5.0, 'envelope_g': [], 'display_g': [0.0, -0.0]}
+
+umeko@umeko-cancro:~$ 

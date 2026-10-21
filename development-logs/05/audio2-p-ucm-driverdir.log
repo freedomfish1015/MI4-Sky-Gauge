@@ -1,0 +1,9 @@
+
+=== 目录 ===
+wcd9320-lumia-q6.conf
+=== alsaucm listcards ===
+ALSA lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+  list is empty
+
+DONE_4bf99fa9c0ad404081889f99976b5a09
+umeko@umeko-cancro:~$ 

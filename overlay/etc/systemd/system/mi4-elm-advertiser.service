@@ -1,0 +1,26 @@
+[Unit]
+ConditionPathExists=/etc/mi4-sky/sky-peer.conf
+Description=Mi4 OBDII BLE gateway (gauge owns the real uplink)
+Wants=bluetooth.service
+After=bluetooth.service
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/umeko/desktop-offline
+ExecStart=/usr/bin/python3 /usr/local/lib/mi4-sky/sky_peer.py run
+RuntimeDirectory=mi4-elm
+RuntimeDirectoryMode=0755
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+NoNewPrivileges=true
+ProtectSystem=full
+ProtectHome=read-only
+PrivateTmp=true
+LogRateLimitIntervalSec=30s
+LogRateLimitBurst=100
+
+[Install]
+WantedBy=multi-user.target

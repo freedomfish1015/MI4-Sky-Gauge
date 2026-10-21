@@ -1,0 +1,15 @@
+
+CHARGE_PRIORITY_ACTIVE {"brightness": 901, "active": {"obd-gauge-kiosk.service": true, "mi4-motion.service": true, "mi4-elm-advertiser.service": true}}
+
+Restore: sudo python3 /home/umeko/desktop-offline/temporary_charge_priority.py --restore
+
+inactive
+inactive
+inactive
+0
+0
+Charging
+1
+ 17:27:22 up 14 min,  1 user,  load average: 1.79, 1.71, 1.15
+
+umeko@umeko-cancro:~$ 

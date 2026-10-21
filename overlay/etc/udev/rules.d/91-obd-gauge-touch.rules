@@ -1,0 +1,2 @@
+# Grant the KMS dashboard access to this touchscreen, not other input devices.
+SUBSYSTEM=="input", KERNEL=="event*", ATTRS{name}=="Atmel maXTouch Touchscreen", GROUP="video", MODE="0660"

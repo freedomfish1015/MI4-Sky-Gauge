@@ -1,0 +1,9 @@
+
+NRestarts=0
+ActiveState=active
+27e29eb0e7ca74643fc202dff871daedd4a297f9f0e1f2b37d73f388679ea8f7  /home/umeko/desktop-offline/gauge_sdl.py
+d794dce1aa7909c7218012b3e14806fbbe494678e1b52b23de29ceea09674eb0  /home/umeko/desktop-offline/gauge_settings.py
+crw-rw---- 1 root video 13, 65 10月 18 22:03 /dev/input/event1
+-rw-rw-r-- 1 root video   4096 10月 18 22:04 /sys/class/backlight/backlight/brightness
+
+umeko@umeko-cancro:~$ 

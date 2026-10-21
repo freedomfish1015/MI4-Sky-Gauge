@@ -1,0 +1,9 @@
+
+BACKUP /home/umeko/desktop-offline/backups/home-bars-before-a4c32q91
+
+HOME_BARS_INSTALLED sha256=7ac0f3af716441c23707c6a8f888eea2bef49d3e3bf05691acf6dfc14ea6ecff
+
+MOTION_PID before=3712 after=3712
+
+
+umeko@umeko-cancro:~$ 

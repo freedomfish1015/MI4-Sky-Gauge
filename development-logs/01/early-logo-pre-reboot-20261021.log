@@ -1,0 +1,10 @@
+
+EARLY_GAUGE_START uptime=910.93
+EARLY_GAUGE_START uptime=934.13
+EARLY_GAUGE_START uptime=1087.78
+EARLY_GAUGE_LOGO_PRESENTED uptime=1088.86
+EARLY_GAUGE_BMS_READY uptime=1088.9
+EARLY_GAUGE_FIRST_FRAME {"pid": 1600, "uptime": 1091.81, "elapsed": 4.034}
+{"pid": 1600, "uptime": 1091.81, "elapsed": 4.034}REBOOT_PRECHECK_OK
+
+umeko@umeko-cancro:~$ 

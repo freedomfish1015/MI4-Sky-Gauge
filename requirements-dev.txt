@@ -1,0 +1,6 @@
+# Ubuntu/Debian: prefer distro Cairo/pygame/GObject; see docs/BUILD.md.
+bleak>=0.21,<2
+dbus-fast>=2,<4
+qrcode>=7,<9
+pygame>=2.5,<3
+pycairo>=1.20,<2

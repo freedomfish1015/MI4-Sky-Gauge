@@ -1,0 +1,16 @@
+
+test_all_17_catalog_profiles_compile_unchanged (test_gauge_compat.NativeCompatTests.test_all_17_catalog_profiles_compile_unchanged) ... ok
+test_engine_fake_adapter_and_disconnect (test_gauge_compat.NativeCompatTests.test_engine_fake_adapter_and_disconnect) ... ok
+test_forbidden_vehicle_commands_never_reach_transport (test_gauge_compat.NativeCompatTests.test_forbidden_vehicle_commands_never_reach_transport) ... ok
+test_minimal_inherits_and_disabled_signal_does_not_return (test_gauge_compat.NativeCompatTests.test_minimal_inherits_and_disabled_signal_does_not_return) ... ok
+test_rule_priority_reset_and_invalidation (test_gauge_compat.NativeCompatTests.test_rule_priority_reset_and_invalidation) ... ok
+test_strict_import_does_not_hide_unknown_target (test_gauge_compat.NativeCompatTests.test_strict_import_does_not_hide_unknown_target) ... ok
+test_upstream_rule_golden_vectors_through_python_ffi (test_gauge_compat.NativeCompatTests.test_upstream_rule_golden_vectors_through_python_ffi) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.308s
+
+OK
+active
+
+umeko@umeko-cancro:~$ 

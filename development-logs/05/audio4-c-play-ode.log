@@ -1,0 +1,12 @@
+
+Volume: 1.00
+=== 播放欢乐颂 14.5s ===
+--- 播放中功放状态 ---
+supply_owned=1 clock_owned=1 supply_hw_enabled=1
+reg[0x1df]=ef rc=0
+reg[0x1e0]=04 rc=0
+reg[0x2e7]=00 rc=0
+=== 播放结束 ===
+
+DONE_17aae9bb88a5455695f17601d29e5627
+umeko@umeko-cancro:~$ 

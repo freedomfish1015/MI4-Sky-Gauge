@@ -1,0 +1,7 @@
+
+lo [IP-ADDRESS]/8
+wlan0 [IP-ADDRESS]/24
+usb0 [IP-ADDRESS]/24
+
+DONE_b33f9360313a427bace42384793559c1
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,18 @@
+
+=== 验证写入 ===
+/usr/share/alsa/ucm2/conf.d/Mi4Taiko/:
+总计 4
+-rw-r--r-- 1 root root 117 10月 18 17:32 Mi4Taiko.conf
+
+/usr/share/alsa/ucm2/Qualcomm/mi4-cancro/:
+总计 4
+-rw-r--r-- 1 root root 1068 10月 18 17:32 HiFi.conf
+Syntax 3
+
+SectionUseCase."HiFi" {
+	File "/Qualcomm/mi4-cancro/HiFi.conf"
+	Comment "Mi4 internal speaker playback."
+}
+
+DONE_8bac8c8854ac4f56bd9edeb3f7014122
+umeko@umeko-cancro:~$ 

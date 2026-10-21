@@ -1,0 +1,19 @@
+
+MODEM_CHANNEL remoteproc2:smd-edge.DIAG.-1.-1 /dev/rpmsg0
+
+DIAG_RX len=12 prefix=4b1302000000000000000000
+
+DIAG_RX len=24 prefix=4b1304000000000000000000040000000000000007000000
+
+GNSS_CONFIG_BYTES 07000000 length 4
+
+READ_ONLY_RESULT; do not infer bit meanings without matching documentation
+
+DIAG_RX len=8 prefix=4b13030000000000
+
+RPMSG_BINDING_RESTORED
+
+active
+active
+
+umeko@umeko-cancro:~$ 

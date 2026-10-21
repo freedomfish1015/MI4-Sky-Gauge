@@ -1,0 +1,17 @@
+
+362986d35fe58e55508615fc806483a4533e55f83fa9ab631ed1d7d9cb7c3f40  /dev/disk/by-partlabel/aboot
+
+47dbe469e9fcb84280f741161e1e76a67abe4b008d17f3f91bcea86fa7b173c5  /dev/disk/by-partlabel/logo
+
+1852dd1bda97b9bee008ccf46165db11c17e9b35dd40d18255a0c665157e8a1a  /dev/disk/by-partlabel/boot
+
+MainPID=525
+ActiveState=active
+
+MainPID=559
+ActiveState=active
+21
+3658455
+ 23:28:33 up 41 min,  1 user,  load average: 1.37, 1.45, 1.41
+
+umeko@umeko-cancro:~$ 

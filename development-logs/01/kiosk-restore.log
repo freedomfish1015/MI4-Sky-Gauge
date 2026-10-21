@@ -1,0 +1,9 @@
+
+active
+10月 18 20:33:25 umeko-cancro python3[1666]: FPS 33.0  paint=16.0ms upload=0.3ms present=14.1ms
+10月 18 20:33:27 umeko-cancro python3[1666]: FPS 39.0  paint=7.2ms upload=0.2ms present=17.7ms
+10月 18 20:33:29 umeko-cancro python3[1666]: FPS 52.8  paint=1.3ms upload=0.1ms present=17.4ms
+10月 18 20:33:31 umeko-cancro python3[1666]: FPS 54.8  paint=1.1ms upload=0.0ms present=16.9ms
+
+DONE_b8cefd9785224d499a71b3d260a7aeb7
+umeko@umeko-cancro:~$ 

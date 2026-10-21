@@ -1,0 +1,20 @@
+
+Volume: 1.00
+=== 重启后首次播放（PipeWire） ===
+--- 播放中 hw_params ---
+access: MMAP_INTERLEAVED
+format: S16_LE
+subformat: STD
+channels: 1
+rate: 48000 (48000/1)
+period_size: 512
+buffer_size: 4096
+--- 播放中 codec ---
+supply_owned=1 clock_owned=1 supply_hw_enabled=1
+reg[0x1df]=ef rc=0
+reg[0x1e0]=04 rc=0
+reg[0x2e7]=00 rc=0
+=== 播放结束 ===
+
+DONE_c9afbd46aae142809209a1bed8d43eba
+umeko@umeko-cancro:~$ 

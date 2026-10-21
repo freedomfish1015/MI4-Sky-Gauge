@@ -1,0 +1,59 @@
+
+Id=systemd-udev-trigger.service
+InactiveExitTimestampMonotonic=5558487
+ActiveEnterTimestampMonotonic=8731676
+
+Id=dev-dri-card0.device
+InactiveExitTimestampMonotonic=0
+ActiveEnterTimestampMonotonic=0
+
+Id=dev-dri-renderD128.device
+InactiveExitTimestampMonotonic=0
+ActiveEnterTimestampMonotonic=0
+lrwxrwxrwx 1 root root   9 10月 21 06:36 /dev/input/by-path/platform-f9924000.i2c-event -> ../event1
+lrwxrwxrwx 1 root root   9 10月 21 06:36 /dev/input/by-path/platform-fc4cf000.spmi-platform-fc4cf000.spmi:pm8941@0:pon@800:pwrkey-event -> ../event2
+lrwxrwxrwx 1 root root   9 10月 21 06:36 /dev/input/by-path/platform-fc4cf000.spmi-platform-fc4cf000.spmi:pm8941@1:vibrator@c000-event -> ../event0
+
+/dev/dri:
+总计 0
+drwxr-xr-x 2 root root         80 10月 21 06:36 by-path
+crw-rw---- 1 root video  226,   0 10月 21 06:36 card0
+crw-rw---- 1 root render 226, 128 10月 21 06:36 renderD128
+         65309 function calls (63974 primitive calls) in 1.295 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     87/1    0.003    0.000    1.295    1.295 {built-in method builtins.exec}
+        1    0.007    0.007    1.295    1.295 gauge_sdl.py:1(<module>)
+   151/13    0.009    0.000    0.940    0.072 <frozen importlib._bootstrap>:1349(_find_and_load)
+   128/13    0.005    0.000    0.935    0.072 <frozen importlib._bootstrap>:1304(_find_and_load_unlocked)
+   118/13    0.005    0.000    0.917    0.071 <frozen importlib._bootstrap>:911(_load_unlocked)
+   281/24    0.005    0.000    0.898    0.037 <frozen importlib._bootstrap>:480(_call_with_frames_removed)
+    85/15    0.003    0.000    0.867    0.058 <frozen importlib._bootstrap_external>:989(exec_module)
+        1    0.000    0.000    0.716    0.716 gauge_sdl.py:1473(main)
+        1    0.001    0.001    0.715    0.715 gauge_sdl.py:521(__init__)
+       11    0.004    0.000    0.714    0.065 __init__.py:1(<module>)
+        1    0.001    0.001    0.389    0.389 base_events.py:1(<module>)
+    35/18    0.001    0.000    0.362    0.020 {built-in method builtins.__import__}
+   127/59    0.002    0.000    0.357    0.006 <frozen importlib._bootstrap>:1390(_handle_fromlist)
+       40    0.000    0.000    0.292    0.007 gauge_sdl.py:34(load_drawing)
+        3    0.249    0.083    0.267    0.089 gauge_sdl.py:488(__init__)
+  118/104    0.002    0.000    0.257    0.002 <frozen importlib._bootstrap>:806(module_from_spec)
+      9/2    0.001    0.000    0.187    0.094 importer.py:125(create_module)
+     34/8    0.001    0.000    0.182    0.023 __init__.py:73(import_module)
+     34/8    0.000    0.000    0.182    0.023 <frozen importlib._bootstrap>:1375(_gcd_import)
+        9    0.007    0.001    0.171    0.019 __init__.py:74(load_overrides)
+  300/297    0.043    0.000    0.163    0.001 {built-in method builtins.__build_class__}
+       85    0.008    0.000    0.151    0.002 <frozen importlib._bootstrap_external>:1062(get_code)
+      137    0.012    0.000    0.135    0.001 <frozen importlib._bootstrap>:1240(_find_spec)
+      122    0.001    0.000    0.110    0.001 <frozen importlib._bootstrap_external>:1520(find_spec)
+      122    0.006    0.000    0.109    0.001 <frozen importlib._bootstrap_external>:1491(_get_spec)
+      261    0.030    0.000    0.101    0.000 <frozen importlib._bootstrap_external>:1593(find_spec)
+       85    0.013    0.000    0.089    0.001 <frozen importlib._bootstrap_external>:751(_compile_bytecode)
+       13    0.012    0.001    0.089    0.007 enum.py:919(_convert_)
+        1    0.001    0.001    0.086    0.086 ssl.py:1(<module>)
+    95/90    0.015    0.000    0.080    0.001 module.py:127(__getattr__)
+       85    0.075    0.001    0.075    0.001 {built-in method marshal.loads}
+
+umeko@umeko-cancro:~$ 

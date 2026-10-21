@@ -1,0 +1,28 @@
+
+insmod: ERROR: could not insert module /home/umeko/desktop-offline/snd-soc-lumia1520-q6-linkfix.ko: Unknown symbol in module
+
+--- no soundcards ---
+[  854.901772] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL6(*) -> [MultiMedia6] -> RX_CODEC_DMA_RX_6 Audio Mixer
+[  854.916005] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL7(*) -> [MultiMedia7] -> RX_CODEC_DMA_RX_6 Audio Mixer
+[  854.930243] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL8(*) -> [MultiMedia8] -> RX_CODEC_DMA_RX_6 Audio Mixer
+[  854.944521] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL1(*) -> [MultiMedia1] -> RX_CODEC_DMA_RX_7 Audio Mixer
+[  854.958718] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL2(*) -> [MultiMedia2] -> RX_CODEC_DMA_RX_7 Audio Mixer
+[  854.972964] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL3(*) -> [MultiMedia3] -> RX_CODEC_DMA_RX_7 Audio Mixer
+[  854.987189] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL4(*) -> [MultiMedia4] -> RX_CODEC_DMA_RX_7 Audio Mixer
+[  855.001421] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL5(*) -> [MultiMedia5] -> RX_CODEC_DMA_RX_7 Audio Mixer
+[  855.015673] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL6(*) -> [MultiMedia6] -> RX_CODEC_DMA_RX_7 Audio Mixer
+[  855.029899] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL7(*) -> [MultiMedia7] -> RX_CODEC_DMA_RX_7 Audio Mixer
+[  855.044136] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL8(*) -> [MultiMedia8] -> RX_CODEC_DMA_RX_7 Audio Mixer
+[  855.064618] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MultiMedia1 Mixer -> MM_UL1(*)
+[  855.072602] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MultiMedia2 Mixer -> MM_UL2(*)
+[  855.084410] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MultiMedia3 Mixer -> MM_UL3(*)
+[  855.096126] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MultiMedia4 Mixer -> MM_UL4(*)
+[  855.107841] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MultiMedia5 Mixer -> MM_UL5(*)
+[  855.119555] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MultiMedia6 Mixer -> MM_UL6(*)
+[  855.131280] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MultiMedia7 Mixer -> MM_UL7(*)
+[  855.143004] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MultiMedia8 Mixer -> MM_UL8(*)
+[  855.155229] wcd9320-lumia-q6 sound: ASoC: failed to instantiate card -19
+[  855.167586] wcd9320-lumia-q6 sound: error -ENODEV: failed to register the card
+[ 1007.281138] snd_soc_lumia1520_q6: Unknown symbol qcom_snd_parse_of (err -2)
+
+umeko@umeko-cancro:~$ 

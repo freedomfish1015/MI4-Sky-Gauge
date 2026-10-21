@@ -1,0 +1,97 @@
+
+    raise DBusError('org.bluez.Error.Failed', str(exc))
+
+dbus_fast.errors.DBusError: upstream not ready or Sky has not subscribed
+
+{"event": "sky_write", "monotonic": 5677.262951375, "size": 5, "upstream_ready": false, "at": null}
+
+ERROR:root:Unexpected error processing message: %s
+
+Traceback (most recent call last):
+
+  File "/home/umeko/desktop-offline/elm327_ble_bridge.py", line 102, in WriteValue
+
+    relay.write(value)
+
+  File "/home/umeko/desktop-offline/elm_bridge_core.py", line 16, in write
+
+    raise RuntimeError('upstream not ready or Sky has not subscribed')
+
+RuntimeError: upstream not ready or Sky has not subscribed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+
+  File "src/dbus_fast/aio/message_reader.py", line 23, in dbus_fast.aio.message_reader._message_reader
+
+  File "src/dbus_fast/message_bus.py", line 797, in dbus_fast.message_bus.BaseMessageBus._process_message
+
+  File "src/dbus_fast/message_bus.py", line 847, in dbus_fast.message_bus.BaseMessageBus._process_message
+
+  File "src/dbus_fast/message_bus.py", line 879, in dbus_fast.message_bus.BaseMessageBus._callback_method_handler
+
+  File "src/dbus_fast/message_bus.py", line 888, in dbus_fast.message_bus.BaseMessageBus._callback_method_handler
+
+  File "/home/umeko/desktop-offline/elm327_ble_bridge.py", line 104, in WriteValue
+
+    raise DBusError('org.bluez.Error.Failed', str(exc))
+
+dbus_fast.errors.DBusError: upstream not ready or Sky has not subscribed
+
+{"event": "sky_unsubscribed", "monotonic": 5677.371433458}
+
+Stopping mi4-elm-advertiser.service - Mi4 OBDII BLE discovery (no simulated or forwarded vehicle data)...
+
+{"event": "legacy_advertisement_removed", "monotonic": 5822.043829548, "result": "Instance removed: 2"}
+
+{"event": "bridge_stopped", "monotonic": 5822.055195382}
+
+mi4-elm-advertiser.service: Deactivated successfully.
+
+Stopped mi4-elm-advertiser.service - Mi4 OBDII BLE discovery (no simulated or forwarded vehicle data).
+
+mi4-elm-advertiser.service: Consumed 1.966s CPU time, 9.0M memory peak, 0B memory swap peak.
+
+Started mi4-elm-advertiser.service - Mi4 OBDII BLE gateway (gauge owns the real uplink).
+
+{"event": "legacy_main_packet_name_enabled", "monotonic": 5830.175306577, "result": "Instance added: 2"}
+
+{"event": "bridge_advertising", "monotonic": 5830.175595691, "name": "OBDII Mi4", "upstream_ready": false, "mode": "gauge_owned_uart_gateway"}
+
+{"event": "ipc_upstream_ready", "monotonic": 5868.658777343, "address": "[BT-ADDRESS]", "simulated": true}
+
+{"event": "ipc_upstream_closed", "monotonic": 5876.227849632, "reason": "ValueError"}
+
+{"event": "ipc_upstream_ready", "monotonic": 5880.310455464, "address": "[BT-ADDRESS]", "simulated": true}
+
+{"event": "ipc_upstream_closed", "monotonic": 5884.072376087, "reason": "ValueError"}
+
+{"event": "ipc_upstream_ready", "monotonic": 5888.93791671, "address": "[BT-ADDRESS]", "simulated": true}
+
+{"event": "ipc_upstream_closed", "monotonic": 5889.801093168, "reason": "ValueError"}
+
+{"event": "ipc_upstream_ready", "monotonic": 5893.764381032, "address": "[BT-ADDRESS]", "simulated": true}
+
+{"event": "ipc_upstream_closed", "monotonic": 6047.878002587, "reason": "ValueError"}
+
+{"event": "ipc_upstream_ready", "monotonic": 6054.932762168, "address": "[BT-ADDRESS]", "simulated": true}
+
+{"event": "ipc_upstream_closed", "monotonic": 6055.72053123, "reason": "ValueError"}
+
+{"event": "ipc_upstream_ready", "monotonic": 6059.320359302, "address": "[BT-ADDRESS]", "simulated": true}
+
+{"event": "ipc_upstream_closed", "monotonic": 6093.846371945, "reason": "ValueError"}
+
+{"event": "ipc_upstream_ready", "monotonic": 6104.075609233, "address": "[BT-ADDRESS]", "simulated": true}
+
+{"event": "ipc_upstream_closed", "monotonic": 6133.670896982, "reason": "ValueError"}
+
+{"event": "ipc_upstream_ready", "monotonic": 6139.51463125, "address": "[BT-ADDRESS]", "simulated": true}
+
+{"time_utc": "2026-10-19T17:33:48Z", "monotonic_s": 6174.918, "pid": 3176, "event": "elm_forward_stats", "address": "[BT-ADDRESS]", "simulated": true, "sky": false, "commands": 0, "rx_bytes": 0, "tx_bytes": 0}
+{"time_utc": "2026-10-19T17:33:53Z", "monotonic_s": 6179.989, "pid": 3176, "event": "elm_forward_stats", "address": "[BT-ADDRESS]", "simulated": true, "sky": false, "commands": 0, "rx_bytes": 0, "tx_bytes": 0}
+{"time_utc": "2026-10-19T17:33:58Z", "monotonic_s": 6185.048, "pid": 3176, "event": "elm_forward_stats", "address": "[BT-ADDRESS]", "simulated": true, "sky": false, "commands": 0, "rx_bytes": 0, "tx_bytes": 0}
+{"time_utc": "2026-10-19T17:34:00Z", "monotonic_s": 6186.721, "pid": 3176, "event": "scan_begin"}
+
+umeko@umeko-cancro:~$ 

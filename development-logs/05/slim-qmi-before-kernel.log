@@ -1,0 +1,50 @@
+
+Traceback (most recent call last):
+  File "/home/umeko/desktop-offline/query_slim_qrtr.py", line 7, in <module>
+    sock.bind((0, 0))
+OSError: [Errno 22] Invalid argument
+Module                  Size  Used by
+rfcomm                 73728  4
+algif_hash             12288  1
+algif_skcipher         12288  1
+af_alg                 24576  6 algif_hash,algif_skcipher
+bnep                   24576  2
+wcn36xx                90112  0
+mac80211              929792  1 wcn36xx
+libarc4                12288  1 mac80211
+btqcomsmd              12288  0
+btqca                  20480  1 btqcomsmd
+cfg80211              892928  2 mac80211,wcn36xx
+bluetooth             733184  31 btqcomsmd,btqca,bnep,rfcomm
+ecdh_generic           12288  2 bluetooth
+ecc                    40960  1 ecdh_generic
+qcom_smgr              12288  0
+sns_smgr               12288  1 qcom_smgr
+qrtr_smd               12288  1 qcom_smgr
+qrtr                   36864  3 qrtr_smd
+qcom_sns_reg           16384  0
+qmi_helpers            20480  2 qcom_sns_reg,qcom_smgr
+qcom_bam_dmux          20480  0
+syscon_reboot_mode     12288  0
+qcom_q6v5_pas          36864  0
+qcom_spmi_vadc         24576  0
+qcom_vadc_common       16384  1 qcom_spmi_vadc
+qcom_spmi_iadc         12288  0
+pm8941_pwrkey          12288  0
+qcom_q6v5_mss          32768  0
+qcom_q6v5              12288  2 qcom_q6v5_pas,qcom_q6v5_mss
+qcom_wcnss_pil         20480  0
+qcom_pil_info          12288  3 qcom_q6v5_pas,qcom_wcnss_pil,qcom_q6v5_mss
+qcom_common            16384  4 qcom_sns_reg,qcom_q6v5_pas,qcom_wcnss_pil,qcom_q6v5_mss
+qcom_rng               12288  0
+qcom_stats             12288  0
+binfmt_misc            20480  1
+fuse                  172032  3
+ip_tables              20480  0
+x_tables               32768  1 ip_tables
+autofs4                40960  2
+/usr/sbin/update-initramfs
+文件系统         大小  已用  可用 已用% 挂载点
+/dev/mmcblk0p25   13G  2.2G  9.7G   19% /
+
+umeko@umeko-cancro:~$ 

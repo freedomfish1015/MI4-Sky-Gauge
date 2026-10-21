@@ -1,0 +1,10 @@
+
+=== 重载前 clock ===
+supply_owned=0 clock_owned=0 supply_hw_enabled=0
+=== 重载后 ===
+ 0 [Mi4Taiko       ]: Mi4-Taiko - Mi4-Taiko
+                      Mi4-Taiko
+supply_owned=0 clock_owned=0 supply_hw_enabled=0
+
+DONE_f9f64d008f0e4fe1a07dc0424b171b9f
+umeko@umeko-cancro:~$ 

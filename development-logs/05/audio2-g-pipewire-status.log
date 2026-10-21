@@ -1,0 +1,37 @@
+
+=== wpctl status ===
+PipeWire 'pipewire-0' [1.0.5, umeko@umeko-cancro, cookie:1456657793]
+ └─ Clients:
+        32. pipewire                            [1.0.5, umeko@umeko-cancro, pid:557]
+        35. WirePlumber                         [1.0.5, umeko@umeko-cancro, pid:2554]
+        43. Phone Shell Volume Control          [1.0.5, umeko@umeko-cancro, pid:636]
+        44. GNOME Volume Control Media Keys     [1.0.5, umeko@umeko-cancro, pid:720]
+        60. WirePlumber [export]                [1.0.5, umeko@umeko-cancro, pid:2554]
+        68. wpctl                               [1.0.5, umeko@umeko-cancro, pid:2562]
+
+Audio
+ ├─ Devices:
+ │      36. Built-in Audio                      [alsa]
+ │  
+ ├─ Sinks:
+ │  *   33. 虚拟输出                        [vol: 0.95]
+ │  
+ ├─ Sink endpoints:
+ │  
+ ├─ Sources:
+ │  
+ ├─ Source endpoints:
+ │  
+ └─ Streams:
+
+Video
+ ├─ Devices:
+ │  
+ ├─ Sinks:
+ │  
+ ├─ Sink endpoints:
+ │  
+ ├─ Sources:
+
+DONE_a9798865bbf44700984d0e79e741fb88
+umeko@umeko-cancro:~$ 

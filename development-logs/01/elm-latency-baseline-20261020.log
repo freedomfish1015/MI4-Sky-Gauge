@@ -1,0 +1,75 @@
+
+{
+
+  "label": "baseline-20261020",
+
+  "seconds": 12,
+
+  "links": {
+
+    "11": {
+
+      "requests": 60,
+
+      "host_rtt_ms": {
+
+        "n": 60,
+
+        "mean": 88.8,
+
+        "median": 86.1,
+
+        "maximum": 159.73
+
+      },
+
+      "rpm_interval_ms": {
+
+        "n": 29,
+
+        "mean": 393.11,
+
+        "median": 400.0,
+
+        "maximum": 1000.0
+
+      }
+
+    },
+
+    "10": {
+
+      "requests": 60,
+
+      "host_rtt_ms": {
+
+        "n": 60,
+
+        "mean": 76.5,
+
+        "median": 73.79,
+
+        "maximum": 144.7
+
+      },
+
+      "rpm_interval_ms": {
+
+        "n": 29,
+
+        "mean": 393.09,
+
+        "median": 399.73,
+
+        "maximum": 999.04
+
+      }
+
+    }
+
+  }
+
+}
+
+
+umeko@umeko-cancro:~$ 

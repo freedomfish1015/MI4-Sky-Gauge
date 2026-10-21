@@ -1,0 +1,16 @@
+[Unit]
+Description=Sky Gauge framebuffer logo retained until SDL handoff
+DefaultDependencies=no
+Before=sysinit.target obd-gauge-kiosk.service shutdown.target
+Conflicts=shutdown.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/lib/obd-gauge/sky_boot_curtain --hold-logo /usr/local/share/obd-gauge/sky-logo-1080.argb
+RemainAfterExit=yes
+TimeoutStartSec=3
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=sysinit.target

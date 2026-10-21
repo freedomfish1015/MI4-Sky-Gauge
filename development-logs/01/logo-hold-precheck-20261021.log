@@ -1,0 +1,46 @@
+
+earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=0 vt.global_cursor_default=0
+{"pid": 450, "uptime": 19.63, "elapsed": 6.898}82
+4100073
+crw-rw---- 1 root video 29, 0 10月 21 07:47 /dev/fb0
+FB_OK 1080x1920 bpp=32 stride=4352 bytes=8355840 name=msmdrmfb ABI=160/68
+# ]8;;file://umeko-cancro/etc/systemd/system/obd-boot-curtain.service/etc/systemd/system/obd-boot-curtain.service]8;;
+[Unit]
+Description=Early native NERV boot curtain (rootfs only)
+DefaultDependencies=no
+After=systemd-remount-fs.service
+Before=sysinit.target obd-gauge-kiosk.service shutdown.target
+Conflicts=shutdown.target
+ConditionPathExists=/usr/local/share/obd-gauge/startup-1080.argb
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-gauge/boot_curtain.py /usr/local/share/obd-gauge/startup-1080.argb
+RemainAfterExit=yes
+TimeoutStartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=sysinit.target
+
+# ]8;;file://umeko-cancro/etc/systemd/system/obd-boot-curtain.service.d/90-direct-quiet.conf/etc/systemd/system/obd-boot-curtain.service.d/90-direct-quiet.conf]8;;
+[Unit]
+Description=Keep Sky Gauge splash and suppress rootfs console text
+ConditionPathExists=
+
+[Service]
+ExecStart=
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-gauge/quiet_boot_direct.py
+
+# ]8;;file://umeko-cancro/etc/systemd/system/obd-boot-curtain.service.d/95-fast-quiet.conf/etc/systemd/system/obd-boot-curtain.service.d/95-fast-quiet.conf]8;;
+[Service]
+ExecStart=
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-gauge/quiet_boot_fast.py
+总计 56M
+-rw-r--r-- 1 root root 8.0M 10月 18 23:11 nerv-first-1080.argb
+-rw-r--r-- 1 root root  41M 10月 18 23:11 nerv-startup-1080-mjpeg.avi
+-rw-r--r-- 1 root root 8.0M 10月 18 23:11 startup-1080.argb
+c6a85d6923df84102db8b89db7ada7f18ae23638bb6d3f86efe787a2a087de37  /usr/local/lib/obd-gauge/launch_gauge_direct.py
+{"phase": "normal"}
+umeko@umeko-cancro:~$ 

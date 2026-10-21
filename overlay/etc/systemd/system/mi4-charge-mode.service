@@ -1,0 +1,19 @@
+[Unit]
+Description=Mi4 explicit low-load charging mode and power-key restore
+After=systemd-udev-trigger.service
+Before=shutdown.target
+Conflicts=shutdown.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-charge/gauge_charge_mode_service.py
+Restart=on-failure
+RestartSec=1
+RuntimeDirectory=mi4-charge-mode
+RuntimeDirectoryMode=0755
+RuntimeDirectoryPreserve=restart
+TimeoutStopSec=5
+UMask=0022
+
+[Install]
+WantedBy=multi-user.target

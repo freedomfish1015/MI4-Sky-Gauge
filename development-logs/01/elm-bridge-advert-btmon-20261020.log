@@ -1,0 +1,131 @@
+
+        Status: Success (0x00)
+@ MGMT Event: Command Complete (0x0001) plen 4         {0x0001} [hci0] 1.714671
+      Remove Advertising (0x003f) plen 1
+        Status: Success (0x00)
+        Instance: 1
+bluetoothd[590]: @ MGMT Command: R.. (0x0011) plen 16  {0x0001} [hci0] 1.723218
+        UUID: Unknown
+< HCI Command: Write Extended Inq.. (0x03|0x0052) plen 241  #13 [hci0] 1.723335
+        FEC: Not required (0x00)
+        Name (complete): umeko-cancro
+        TX power: 2 dBm
+        Device ID: USB Implementer's Forum assigned (0x0002)
+          Vendor: Linux Foundation (0x1d6b)
+          Product: 0x0246
+          Version: 5.4.8 (0x0548)
+        16-bit Service UUIDs (complete): 9 entries
+          Generic Access Profile (0x1800)
+          Generic Attribute Profile (0x1801)
+          Device Information (0x180a)
+          A/V Remote Control (0x110e)
+          A/V Remote Control Target (0x110c)
+          Handsfree Audio Gateway (0x111f)
+          Handsfree (0x111e)
+          Audio Source (0x110a)
+          Audio Sink (0x110b)
+> HCI Event: Command Complete (0x0e) plen 4                 #14 [hci0] 1.723600
+--
+        Status: Success (0x00)
+@ MGMT Event: Command Complete (0x0001) plen 6         {0x0001} [hci0] 1.723712
+      Remove UUID (0x0011) plen 3
+        Status: Success (0x00)
+        Class: 0x6c020c
+          Major class: Phone (cellular, cordless, payphone, modem)
+          Minor class: Smart phone
+          Rendering (Printing, Speaker)
+          Capturing (Scanner, Microphone)
+          Audio (Speaker, Microphone, Headset)
+          Telephony (Cordless telephony, Modem, Headset)
+> HCI Event: LE Meta Event (0x3e) plen 29                   #15 [hci0] 2.431385
+      LE Advertising Report (0x02)
+        Num reports: 1
+        Event type: Connectable undirected - ADV_IND (0x00)
+        Address type: Random (0x01)
+        Address: [BT-ADDRESS] (Resolvable)
+        Data length: 17
+        Flags: 0x1a
+          LE General Discoverable Mode
+          Simultaneous LE and BR/EDR (Controller)
+          Simultaneous LE and BR/EDR (Host)
+        TX power: 12 dBm
+        Company: Apple, Inc. (76)
+          Type: Unknown (16)
+          Data: 091cf4870b
+--
+        Status: Success (0x00)
+@ MGMT Event: Command Complete (0x0001) plen 6         {0x0001} [hci0] 2.863847
+      Add UUID (0x0010) plen 3
+        Status: Success (0x00)
+        Class: 0x6c020c
+          Major class: Phone (cellular, cordless, payphone, modem)
+          Minor class: Smart phone
+          Rendering (Printing, Speaker)
+          Capturing (Scanner, Microphone)
+          Audio (Speaker, Microphone, Headset)
+          Telephony (Cordless telephony, Modem, Headset)
+bluetoothd[590]: @ MGMT Command: A.. (0x0054) plen 18  {0x0001} [hci0] 2.880314
+        Instance: 1
+        Flags: 0x00010001
+          Switch into Connectable mode
+          Contain Scan Response Data
+        Duration: 0
+        Timeout: 0
+        Min advertising interval: 0.000 msec (0x0000)
+        Max advertising interval: 0.000 msec (0x0000)
+        TX power: 0 dbm (0x00)
+@ MGMT Event: Command Complete (0x0001) plen 7         {0x0001} [hci0] 2.880343
+      Add Extended Advertising Parameters (0x0054) plen 4
+        Status: Success (0x00)
+        Instance: 1
+        TX power: 127 dbm (0x7f)
+        Available adv data len: 31
+        Available scan rsp data len: 31
+bluetoothd[590]: @ MGMT Command: A.. (0x0055) plen 21  {0x0001} [hci0] 2.880688
+        Instance: 1
+        Advertising data length: 7
+        16-bit Service UUIDs (complete): 1 entry
+          Unknown (0xfff0)
+        Flags: 0x06
+          LE General Discoverable Mode
+          BR/EDR Not Supported
+        Scan response length: 11
+        Name (complete): OBDII Mi4
+< HCI Command: LE Set Advertising... (0x08|0x0008) plen 32  #19 [hci0] 2.880884
+        Length: 7
+        16-bit Service UUIDs (complete): 1 entry
+          Unknown (0xfff0)
+        Flags: 0x06
+          LE General Discoverable Mode
+          BR/EDR Not Supported
+> HCI Event: Command Complete (0x0e) plen 4                 #20 [hci0] 2.881131
+      LE Set Advertising Data (0x08|0x0008) ncmd 1
+        Status: Success (0x00)
+< HCI Command: LE Set Advertising... (0x08|0x0006) plen 15  #21 [hci0] 2.881284
+        Min advertising interval: 1280.000 msec (0x0800)
+        Max advertising interval: 1280.000 msec (0x0800)
+        Type: Connectable undirected - ADV_IND (0x00)
+        Own address type: Public (0x00)
+        Direct address type: Public (0x00)
+        Direct address: [BT-ADDRESS] (OUI 00-00-00)
+        Channel map: 37, 38, 39 (0x07)
+        Filter policy: Allow Scan Request from Any, Allow Connect Request from Any (0x00)
+> HCI Event: Command Complete (0x0e) plen 4                 #22 [hci0] 2.881492
+      LE Set Advertising Parameters (0x08|0x0006) ncmd 1
+        Status: Success (0x00)
+< HCI Command: LE Set Advertise Ena.. (0x08|0x000a) plen 1  #23 [hci0] 2.881630
+        Advertising: Enabled (0x01)
+> HCI Event: Command Complete (0x0e) plen 4                 #24 [hci0] 2.881992
+      LE Set Advertise Enable (0x08|0x000a) ncmd 1
+        Status: Success (0x00)
+@ MGMT Event: Command Complete (0x0001) plen 4         {0x0001} [hci0] 2.882092
+10月 20 00:48:40 umeko-cancro systemd[1]: Stopped mi4-elm-bridge-discovery.service - /usr/bin/python3 -u /home/umeko/desktop-offline/elm327_ble_bridge.py --advertise-only --sky-address [BT-ADDRESS] --seconds 180.
+
+10月 20 00:48:40 umeko-cancro systemd[1]: mi4-elm-bridge-discovery.service: Consumed 1.074s CPU time.
+
+10月 20 00:48:40 umeko-cancro systemd[1]: Started mi4-elm-bridge-discovery.service - /usr/bin/python3 -u /home/umeko/desktop-offline/elm327_ble_bridge.py --advertise-only --sky-address [BT-ADDRESS] --seconds 180.
+
+10月 20 00:48:41 umeko-cancro python3[2078]: {"event": "bridge_advertising", "monotonic": 3467.974933884, "name": "OBDII Mi4", "upstream_ready": false, "mode": "discovery_only_no_fake_replies"}
+
+
+umeko@umeko-cancro:~$ 

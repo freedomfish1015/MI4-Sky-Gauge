@@ -1,0 +1,17 @@
+
+gauge_sdl.py: 成功
+gauge_settings.py: 成功
+/usr/local/lib/obd-power/gauge_power_service.py: 成功
+gauge_sdl.manual-candidate.py: 成功
+gauge_settings.manual-candidate.py: 成功
+gauge_power.manual-candidate.py: 成功
+gauge_power_service.manual-candidate.py: 成功
+Running timer as unit: obd-manual-off-install-guard.timer
+
+
+Will run service as unit: obd-manual-off-install-guard.service
+
+
+MANUAL_OFF_BUTTON_INSTALLED
+
+umeko@umeko-cancro:~$ 

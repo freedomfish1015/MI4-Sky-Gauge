@@ -1,0 +1,36 @@
+
+earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=0
+ExecMainStartTimestampMonotonic=5641148
+Id=obd-boot-curtain.service
+After=system.slice systemd-remount-fs.service systemd-journald.socket
+ActiveEnterTimestampMonotonic=7411464
+
+ExecMainStartTimestampMonotonic=5620378
+Id=mi4-audio-init.service
+After=systemd-remount-fs.service system.slice systemd-journald.socket -.mount
+ActiveEnterTimestampMonotonic=11210466
+
+ExecMainStartTimestampMonotonic=12062515
+Id=obd-gauge-kiosk.service
+After=systemd-udev-trigger.service systemd-remount-fs.service system.slice obd-boot-curtain.service -.mount systemd-journald.socket mi4-audio-init.service
+ActiveEnterTimestampMonotonic=12062868
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+[   14.099018] umeko-cancro python3[442]: Mouse cursor hidden (SDL cursor state=0)
+[   14.531130] umeko-cancro python3[442]: Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+[   16.014821] umeko-cancro python3[442]: BOOT_VIDEO_FIRST_FRAME startup=0.58s native=1080x1920 audio=1 volume=0.50 GPU=YUV strides=[1080, 540, 540]
+[   38.529956] umeko-cancro python3[442]: BOOT_VIDEO_EOS_COMPLETE frames=361 elapsed=22.51s fps=16.0 last_pts=12.0 render=4.8ms
+[   38.823186] umeko-cancro python3[442]: BOOT_HANDOFF_TO_GAUGE same_window=1
+[   39.127536] umeko-cancro python3[442]: KMS mode 1080x1920 @60Hz vsync=True
+[   42.287994] umeko-cancro python3[442]: BLE connected [BT-ADDRESS] profile=standard
+[   42.993475] umeko-cancro python3[442]: FPS 48.4  paint=6.0ms upload=0.5ms present=14.9ms wait=5.2ms pipeline=1
+[   45.004269] umeko-cancro python3[442]: FPS 42.8  paint=16.0ms upload=1.1ms present=11.9ms wait=10.4ms pipeline=1
+[   47.009636] umeko-cancro python3[442]: FPS 58.8  paint=3.9ms upload=0.2ms present=15.7ms wait=1.1ms pipeline=1
+[   49.014872] umeko-cancro python3[442]: FPS 59.3  paint=4.4ms upload=0.2ms present=15.3ms wait=1.4ms pipeline=1
+[   51.021174] umeko-cancro python3[442]: FPS 59.3  paint=3.7ms upload=0.2ms present=15.7ms wait=1.0ms pipeline=1
+{"status": "complete", "complete": true, "frames": 361, "last_pts": 12.0}
+umeko@umeko-cancro:~$ 

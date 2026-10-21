@@ -1,0 +1,14 @@
+
+Created symlink /etc/systemd/system/multi-user.target.wants/mi4-audio-init.service → /etc/systemd/system/mi4-audio-init.service.
+
+
+=== 文件 ===
+-rw-r--r-- 1 root root  235 10月 18 17:40 /etc/systemd/system/mi4-audio-init.service
+-rwxr-xr-x 1 root root 1005 10月 18 17:40 /usr/local/bin/mi4-audio-init.sh
+=== 是否开机启用 ===
+enabled
+=== 幂等试运行 ===
+script_rc=0
+
+DONE_73ed1d1ebc74451a8dd39904d3c8841e
+umeko@umeko-cancro:~$ 

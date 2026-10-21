@@ -1,0 +1,1 @@
+umeko ALL=(root) NOPASSWD: /usr/local/lib/obd-log-transfer/control.py start, /usr/local/lib/obd-log-transfer/control.py stop

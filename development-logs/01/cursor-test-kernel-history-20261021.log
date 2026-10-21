@@ -1,0 +1,6 @@
+
+earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=0124.92 393.08
+edf91d38f7cd87b5a59480ac5b0f00acb79a71aaa5f16577047959e47e4b035d  /dev/disk/by-partlabel/boot
+
+
+umeko@umeko-cancro:~$ 

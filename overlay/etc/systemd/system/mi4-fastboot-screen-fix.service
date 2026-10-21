@@ -1,0 +1,15 @@
+[Unit]
+Description=MI4 Sky automatic exact-version Fastboot rabbit repair
+After=mi4-sky-firstboot.service mi4-bms-fixed.service
+Wants=mi4-bms-fixed.service
+Before=obd-gauge-kiosk.service
+ConditionPathExists=!/var/lib/mi4-sky/fastboot-repair/completed
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /usr/local/lib/mi4-sky/fastboot_screen_repair.py --auto
+TimeoutStartSec=90
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

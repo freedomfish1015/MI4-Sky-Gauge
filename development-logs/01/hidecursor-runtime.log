@@ -1,0 +1,9 @@
+
+10月 18 21:45:35 umeko-cancro python3[2592]: FPS 57.8  paint=4.5ms upload=0.2ms present=15.3ms wait=1.8ms pipeline=1
+10月 18 21:45:37 umeko-cancro python3[2592]: FPS 56.8  paint=4.1ms upload=0.2ms present=15.5ms wait=1.9ms pipeline=1
+10月 18 21:45:39 umeko-cancro python3[2592]: FPS 57.8  paint=4.7ms upload=0.2ms present=15.0ms wait=2.1ms pipeline=1
+10月 18 21:45:41 umeko-cancro python3[2592]: FPS 55.3  paint=4.6ms upload=0.2ms present=15.7ms wait=2.2ms pipeline=1
+NRestarts=0
+ActiveState=active
+
+umeko@umeko-cancro:~$ 

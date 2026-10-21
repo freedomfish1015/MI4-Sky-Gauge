@@ -1,0 +1,25 @@
+
+ 22:36:51 up 0 min,  1 user,  load average: 2.71, 0.84, 0.29
+earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait
+MainPID=602
+NRestarts=0
+ActiveState=active
+SubState=running
+crw-rw---- 1 root video 13, 65 10月 18 22:36 /dev/input/event1
+-rw-rw-r-- 1 root video   4096 10月 18 22:36 /sys/class/backlight/backlight/brightness
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+10月 18 22:36:36 umeko-cancro python3[602]: FPS 59.2  paint=4.0ms upload=0.2ms present=15.5ms wait=1.2ms pipeline=1
+10月 18 22:36:38 umeko-cancro python3[602]: FPS 57.7  paint=3.6ms upload=0.2ms present=16.0ms wait=1.1ms pipeline=1
+10月 18 22:36:40 umeko-cancro python3[602]: FPS 57.7  paint=4.6ms upload=0.2ms present=15.7ms wait=1.4ms pipeline=1
+10月 18 22:36:42 umeko-cancro python3[602]: FPS 52.2  paint=6.1ms upload=0.2ms present=16.2ms wait=2.7ms pipeline=1
+10月 18 22:36:44 umeko-cancro python3[602]: FPS 52.3  paint=5.5ms upload=0.2ms present=16.4ms wait=2.5ms pipeline=1
+10月 18 22:36:46 umeko-cancro python3[602]: FPS 49.8  paint=5.8ms upload=0.2ms present=17.4ms wait=2.5ms pipeline=1
+10月 18 22:36:48 umeko-cancro python3[602]: FPS 51.3  paint=6.5ms upload=0.2ms present=16.1ms wait=3.2ms pipeline=1
+10月 18 22:36:50 umeko-cancro python3[602]: FPS 57.7  paint=5.1ms upload=0.2ms present=15.2ms wait=1.9ms pipeline=1
+
+umeko@umeko-cancro:~$ 

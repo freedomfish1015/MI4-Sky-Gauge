@@ -1,0 +1,65 @@
+
+Simple mixer control 'DISPLAY_PORT_RX Audio Mixer MultiMedia1',0
+  Mono: Playback [off]
+Simple mixer control 'DISPLAY_PORT_RX Audio Mixer MultiMedia2',0
+  Mono: Playback [off]
+Simple mixer control 'DISPLAY_PORT_RX Audio Mixer MultiMedia3',0
+  Mono: Playback [off]
+Simple mixer control 'DISPLAY_PORT_RX Audio Mixer MultiMedia4',0
+  Mono: Playback [off]
+Simple mixer control 'DISPLAY_PORT_RX Audio Mixer MultiMedia5',0
+  Mono: Playback [off]
+Simple mixer control 'DISPLAY_PORT_RX Audio Mixer MultiMedia6',0
+  Mono: Playback [off]
+Simple mixer control 'DISPLAY_PORT_RX Audio Mixer MultiMedia7',0
+  Mono: Playback [off]
+Simple mixer control 'DISPLAY_PORT_RX Audio Mixer MultiMedia8',0
+  Mono: Playback [off]
+Simple mixer control 'HDMI Mixer MultiMedia1',0
+  Mono: Playback [off]
+Simple mixer control 'HDMI Mixer MultiMedia2',0
+  Mono: Playback [off]
+Simple mixer control 'HDMI Mixer MultiMedia3',0
+  Mono: Playback [off]
+Simple mixer control 'HDMI Mixer MultiMedia4',0
+  Mono: Playback [off]
+Simple mixer control 'HDMI Mixer MultiMedia5',0
+  Mono: Playback [off]
+Simple mixer control 'HDMI Mixer MultiMedia6',0
+  Mono: Playback [off]
+Simple mixer control 'HDMI Mixer MultiMedia7',0
+  Mono: Playback [off]
+Simple mixer control 'HDMI Mixer MultiMedia8',0
+  Mono: Playback [off]
+Simple mixer control 'Mi4 Speaker Gate',0
+  Mono: Playback [on]
+Simple mixer control 'MultiMedia1 Mixer PRIMARY_TDM_TX_0',0
+  Mono: Playback [off]
+Simple mixer control 'MultiMedia1 Mixer PRIMARY_TDM_TX_1',0
+  Mono: Playback [off]
+Simple mixer control 'MultiMedia1 Mixer PRIMARY_TDM_TX_2',0
+  Mono: Playback [off]
+Simple mixer control 'MultiMedia1 Mixer PRIMARY_TDM_TX_3',0
+  Mono: Playback [off]
+Simple mixer control 'MultiMedia1 Mixer PRIMARY_TDM_TX_4',0
+  Mono: Playback [off]
+Simple mixer control 'MultiMedia1 Mixer PRIMARY_TDM_TX_5',0
+  Mono: Playback [off]
+Simple mixer control 'MultiMedia1 Mixer PRIMARY_TDM_TX_6',0
+  Mono: Playback [off]
+Simple mixer control 'MultiMedia1 Mixer PRIMARY_TDM_TX_7',0
+  Mono: Playback [off]
+Simple mixer control 'MultiMedia1 Mixer PRI_MI2S_TX',0
+  Mono: Playback [off]
+Simple mixer control 'MultiMedia1 Mixer QUAT_MI2S_TX',0
+  Mono: Playback [off]
+Simple mixer control 'MultiMedia1 Mixer QUAT_TDM_TX_0',0
+  Mono: Playback [off]
+Simple mixer control 'MultiMedia1 Mixer QUAT_TDM_TX_1',0
+  Mono: Playback [off]
+Simple mixer control 'MultiMedia1 Mixer QUAT_TDM_TX_2',0
+  Mono: Playback [off]
+grep: 写入错误: 断开的管道
+
+DONE_0c87ab5a5f834c29b1835c25dfaefa9f
+umeko@umeko-cancro:~$ 

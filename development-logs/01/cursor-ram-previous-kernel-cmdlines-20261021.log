@@ -1,0 +1,7 @@
+
+BOOT_INDEX=-1
+BOOT_INDEX=-2
+BOOT_INDEX=-3
+[   19.905712] umeko-cancro python3[458]: DIRECT_GAUGE_FIRST_FRAME {"pid": 458, "uptime": 19.9, "elapsed": 6.798}
+
+umeko@umeko-cancro:~$ 

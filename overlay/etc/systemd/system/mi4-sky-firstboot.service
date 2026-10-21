@@ -1,0 +1,15 @@
+[Unit]
+Description=MI4 Sky clean installation initialization
+DefaultDependencies=no
+After=systemd-remount-fs.service systemd-udev-trigger.service
+Before=obd-gauge-kiosk.service mi4-motion.service usb-gadget.service ncm-serial.service
+ConditionPathExists=!/var/lib/mi4-sky/initialized
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /usr/local/lib/mi4-sky/firstboot.py
+TimeoutStartSec=300
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

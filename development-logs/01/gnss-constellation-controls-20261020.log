@@ -1,0 +1,25 @@
+
+ACK 0088 flags=2 [(2, '0000ffff')]
+
+ACK 0088 flags=4 [(1, '01000000')]
+
+CONFIG_REJECTED 1 LOC indication rejected request 0088
+
+ACK 0088 flags=2 [(2, '00000000')]
+
+ACK 0088 flags=4 [(1, '01000000')]
+
+CONFIG_REJECTED 4 LOC indication rejected request 0088
+
+ACK 0088 flags=2 [(2, '00000000')]
+
+ACK 0088 flags=4 [(1, '01000000')]
+
+CONFIG_REJECTED 7 LOC indication rejected request 0088
+
+ACK 0023 flags=2 [(2, '00000000')]
+
+TRIAL_SOCKET_CLOSED; supervisor must restore mi4-motion
+
+
+umeko@umeko-cancro:~$ 

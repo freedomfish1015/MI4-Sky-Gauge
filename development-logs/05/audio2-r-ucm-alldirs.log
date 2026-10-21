@@ -1,0 +1,18 @@
+
+=== 已建目录 ===
+/usr/share/alsa/ucm2/conf.d/Mi4-Taiko
+/usr/share/alsa/ucm2/conf.d/Mi4Taiko
+/usr/share/alsa/ucm2/conf.d/Mi4Taiko-wcd9320
+/usr/share/alsa/ucm2/conf.d/Mi4Taiko-wcd9320
+/usr/share/alsa/ucm2/conf.d/wcd9320-lumia-q6
+=== 测试 ===
+  0: hw:0
+    Mi4-Taiko
+=== 用 python 读 card driver ===
+get_id = b'Mi4Taiko'
+get_driver = b'Mi4-Taiko'
+get_name = b'Mi4-Taiko'
+get_longname = b'Mi4-Taiko'
+
+DONE_39ce6a00960d4f369c1e266ffca4f137
+umeko@umeko-cancro:~$ 

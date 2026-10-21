@@ -1,0 +1,25 @@
+
+BACKUP /home/umeko/desktop-offline/backups/elm-gateway-before-20261020-012754
+
+GATEWAY_INSTALLED_BENCH_SOURCE
+
+active
+active
+{"event": "sky_unsubscribed", "monotonic": 5677.371433458}
+
+Stopping mi4-elm-advertiser.service - Mi4 OBDII BLE discovery (no simulated or forwarded vehicle data)...
+
+{"event": "legacy_advertisement_removed", "monotonic": 5822.043829548, "result": "Instance removed: 2"}
+
+{"event": "bridge_stopped", "monotonic": 5822.055195382}
+
+mi4-elm-advertiser.service: Deactivated successfully.
+
+Stopped mi4-elm-advertiser.service - Mi4 OBDII BLE discovery (no simulated or forwarded vehicle data).
+
+mi4-elm-advertiser.service: Consumed 1.966s CPU time, 9.0M memory peak, 0B memory swap peak.
+
+Started mi4-elm-advertiser.service - Mi4 OBDII BLE gateway (gauge owns the real uplink).
+
+
+umeko@umeko-cancro:~$ 

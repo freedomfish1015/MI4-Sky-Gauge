@@ -1,0 +1,34 @@
+
+BOOT_WARMUP_JOINED alive=False
+BOOT_HANDOFF_TO_GAUGE same_window=1 warm=1 static=1
+BLE preset reused from boot warmup
+KMS mode 1080x1920 @60Hz vsync=True
+FPS 39.2  paint=18.8ms upload=0.4ms present=12.7ms wait=12.3ms pipeline=1
+FPS 21.5  paint=43.5ms upload=1.6ms present=8.2ms wait=36.7ms pipeline=1
+FPS 26.4  paint=25.1ms upload=1.5ms present=13.5ms wait=15.3ms pipeline=1
+FPS 51.8  paint=3.2ms upload=0.1ms present=16.7ms wait=0.5ms pipeline=1
+BLE error: BleakDeviceNotFoundError('Device with address [BT-ADDRESS] was not found.')
+FPS 56.8  paint=1.4ms upload=0.2ms present=16.8ms wait=0.6ms pipeline=1
+FPS 59.3  paint=0.6ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+FPS 59.3  paint=0.6ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+FPS 57.3  paint=1.3ms upload=0.1ms present=16.6ms wait=0.7ms pipeline=1
+FPS 31.8  paint=16.7ms upload=1.9ms present=15.0ms wait=14.5ms pipeline=1
+FPS 38.4  paint=10.8ms upload=1.2ms present=15.8ms wait=9.0ms pipeline=1
+BLE error: BleakDeviceNotFoundError('Device with address [BT-ADDRESS] was not found.')
+FPS 39.1  paint=10.2ms upload=1.1ms present=15.6ms wait=8.8ms pipeline=1
+FPS 45.7  paint=6.0ms upload=0.7ms present=16.2ms wait=5.0ms pipeline=1
+FPS 43.6  paint=9.0ms upload=0.3ms present=15.0ms wait=7.6ms pipeline=1
+FPS 17.2  paint=52.5ms upload=5.2ms present=6.6ms wait=46.2ms pipeline=1
+  PID %CPU COMMAND         COMMAND
+ 2770  350 ps              ps -eo pid,pcpu,comm,args --sort=-pcpu
+ 2724 97.8 python3         /usr/bin/python3 /usr/local/lib/obd-gauge/launch_boot_video.py --ble [BT-ADDRESS]
+ 2668  7.0 python3         /usr/bin/python3 /usr/local/lib/obd-motion/mi4_motiond.py
+ 2766  6.6 bash            bash
+ 2459  2.2 wireplumber     /usr/bin/wireplumber
+  758  1.7 python3         /usr/bin/python3 /usr/local/lib/obd-power/gauge_power_service.py
+ 2445  0.7 systemd         /usr/lib/systemd/systemd --user
+{"type": "header", "schema": "mi4.telemetry/1", "session": "5d22b30e395e", "sample_hz": 10, "units": {"rpm": "RPM", "speed": "km/h", "throttle": "%", "gx": "G", "gy": "G"}, "missing": "null", "g_coordinates": "calibrated mounted display axes", "note": "raw source snapshots; values repeat between OBD responses, not unique ECU samples"}
+{"type": "sample", "utc": "2026-10-19T17:05:59.458+00:00", "t": 4505.548229946, "channels": {"rpm": null, "speed": null, "throttle": null, "gx": -0.01441012156036975, "gy": -0.0018826028684617044}, "values": {"rpm": null, "coolant": null, "oil": null, "speed": null, "battery": null}, "signals": {}, "connection": "连接失败，稍后重试", "context": {"address": "[BT-ADDRESS]", "profile": "bmw.fg", "mode": "direct"}}
+{"type": "sample", "utc": "2026-10-19T17:05:59.570+00:00", "t": 4505.660125624, "channels": {"rpm": null, "speed": null, "throttle": null, "gx": -0.013067394533301383, "gy": -0.0001151197830043873}, "values": {"rpm": null, "coolant": null, "oil": null, "speed": null, "battery": null}, "signals": {}, "connection": "连接失败，稍后重试", "context": {"address": "[BT-ADDRESS]", "profile": "bmw.fg", "mode": "direct"}}
+{"type": "sample", "utc": "2026-10-19T17:05:59.698+00:00", "t": 4505.787655207, "channels": {"rpm": null, "speed": null, "throttle": null, "gx": -0.01465439519101834, "gy": 0.002813052018783173}, "values"
+umeko@umeko-cancro:~$ 

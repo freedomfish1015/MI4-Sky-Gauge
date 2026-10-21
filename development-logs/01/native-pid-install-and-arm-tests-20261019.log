@@ -1,0 +1,19 @@
+
+PROFILES 19 SELECTION_PRESERVED standard
+NATIVE_PID_USERSPACE_INSTALLED_NO_SERVICE_RESTART_NO_HARDWARE_WRITES
+test_all_17_catalog_profiles_compile_unchanged (__main__.NativeCompatTests.test_all_17_catalog_profiles_compile_unchanged) ... ok
+test_engine_fake_adapter_and_disconnect (__main__.NativeCompatTests.test_engine_fake_adapter_and_disconnect) ... ok
+test_forbidden_vehicle_commands_never_reach_transport (__main__.NativeCompatTests.test_forbidden_vehicle_commands_never_reach_transport) ... ok
+test_minimal_inherits_and_disabled_signal_does_not_return (__main__.NativeCompatTests.test_minimal_inherits_and_disabled_signal_does_not_return) ... ok
+test_native_ble_transport_cancels_and_releases_connection (__main__.NativeCompatTests.test_native_ble_transport_cancels_and_releases_connection) ... ok
+test_rule_priority_reset_and_invalidation (__main__.NativeCompatTests.test_rule_priority_reset_and_invalidation) ... ok
+test_settings_accepts_original_profiles_without_converting_pid_numbers (__main__.NativeCompatTests.test_settings_accepts_original_profiles_without_converting_pid_numbers) ... ok
+test_strict_import_does_not_hide_unknown_target (__main__.NativeCompatTests.test_strict_import_does_not_hide_unknown_target) ... ok
+test_upstream_rule_golden_vectors_through_python_ffi (__main__.NativeCompatTests.test_upstream_rule_golden_vectors_through_python_ffi) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.332s
+
+OK
+
+umeko@umeko-cancro:~$ 

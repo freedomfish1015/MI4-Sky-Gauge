@@ -1,0 +1,32 @@
+
+gauge_sdl.py: 成功
+10月 18 22:00:21 umeko-cancro python3[2592]: FPS 54.8  paint=5.3ms upload=0.2ms present=15.6ms wait=2.4ms pipeline=1
+
+10月 18 22:00:23 umeko-cancro systemd[1]: Stopping obd-gauge-kiosk.service - OBD Gauge kiosk (KMSDRM, no compositor)...
+
+10月 18 22:00:23 umeko-cancro systemd[1]: obd-gauge-kiosk.service: Deactivated successfully.
+
+10月 18 22:00:23 umeko-cancro systemd[1]: Stopped obd-gauge-kiosk.service - OBD Gauge kiosk (KMSDRM, no compositor).
+
+10月 18 22:00:23 umeko-cancro systemd[1]: obd-gauge-kiosk.service: Consumed 5min 24.860s CPU time, 49.7M memory peak, 0B memory swap peak.
+
+10月 18 22:00:23 umeko-cancro systemd[1]: Started obd-gauge-kiosk.service - OBD Gauge kiosk (KMSDRM, no compositor).
+
+10月 18 22:00:25 umeko-cancro python3[2724]: Mouse cursor hidden (SDL cursor state=0)
+
+10月 18 22:00:25 umeko-cancro python3[2724]: Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+
+10月 18 22:00:25 umeko-cancro python3[2724]: KMS mode 1080x1920 @60Hz vsync=True
+
+10月 18 22:00:26 umeko-cancro python3[2724]: BLE connected [BT-ADDRESS] profile=standard
+
+10月 18 22:00:29 umeko-cancro python3[2724]: FPS 14.2  paint=63.5ms upload=6.0ms present=5.4ms wait=59.0ms pipeline=1
+
+10月 18 22:00:31 umeko-cancro python3[2724]: FPS 38.3  paint=18.2ms upload=1.1ms present=10.7ms wait=14.4ms pipeline=1
+
+27e29eb0e7ca74643fc202dff871daedd4a297f9f0e1f2b37d73f388679ea8f7  gauge_sdl.py
+1686149b384712ed0bfd676a5e97cc629e28997d89931dcb9e4a268f8778679e  gauge_settings.py
+root:video 664 /sys/class/backlight/backlight/brightness
+SETTINGS_INSTALLED
+
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,46 @@
+
+10月 20 00:25:06 umeko-cancro systemd[1]: Starting mi4-bds-trial-20261020.service - /usr/bin/python3 -u /home/umeko/desktop-offline/gnss_constellation_trial.py...
+
+10月 20 00:25:06 umeko-cancro systemd[1]: Started mi4-bds-trial-20261020.service - /usr/bin/python3 -u /home/umeko/desktop-offline/gnss_constellation_trial.py.
+
+10月 20 00:25:07 umeko-cancro python3[1328]: ACK 0021 flags=2 [(2, '0000ffff')]
+
+10月 20 00:25:07 umeko-cancro python3[1328]: ACK 0022 flags=2 [(2, '00000000')]
+
+10月 20 00:25:07 umeko-cancro python3[1328]: PHASE baseline
+
+10月 20 00:25:22 umeko-cancro python3[1328]: SUMMARY baseline {"indications": {"0026": 60, "0024": 15}, "nmea_observed_snr": {}}
+
+10月 20 00:25:22 umeko-cancro python3[1328]: ACK 0023 flags=2 [(2, '0000e8b1')]
+
+10月 20 00:25:22 umeko-cancro python3[1328]: ACK 0088 flags=2 [(2, '0000ffff')]
+
+10月 20 00:25:22 umeko-cancro python3[1328]: ACK 0088 flags=4 [(1, '01000000')]
+
+10月 20 00:25:22 umeko-cancro python3[1328]: ACK 0023 flags=2 [(2, '00000000')]
+
+10月 20 00:25:22 umeko-cancro python3[1328]: TRIAL_SOCKET_CLOSED; supervisor must restore mi4-motion
+
+10月 20 00:25:22 umeko-cancro python3[1328]: Traceback (most recent call last):
+
+10月 20 00:25:22 umeko-cancro python3[1328]:   File "/home/umeko/desktop-offline/gnss_constellation_trial.py", line 161, in <module>
+
+10月 20 00:25:22 umeko-cancro python3[1328]:     main()
+
+10月 20 00:25:22 umeko-cancro python3[1328]:   File "/home/umeko/desktop-offline/gnss_constellation_trial.py", line 145, in main
+
+10月 20 00:25:22 umeko-cancro python3[1328]:     trial.request(0x88, tlv(0x10, struct.pack('<Q', 7)), indication=True)
+
+10月 20 00:25:22 umeko-cancro python3[1328]:   File "/home/umeko/desktop-offline/gnss_constellation_trial.py", line 113, in request
+
+10月 20 00:25:22 umeko-cancro python3[1328]:     raise RuntimeError('LOC indication rejected request %04x' % msg)
+
+10月 20 00:25:22 umeko-cancro python3[1328]: RuntimeError: LOC indication rejected request 0088
+
+10月 20 00:25:22 umeko-cancro systemd[1]: mi4-bds-trial-20261020.service: Main process exited, code=exited, status=1/FAILURE
+
+10月 20 00:25:22 umeko-cancro systemd[1]: mi4-bds-trial-20261020.service: Failed with result 'exit-code'.
+
+{"status": "searching", "fix": false, "satellites": 0, "session_started": true, "nmea_at": 2083.518850506, "nmea_count": 56, "session_status": "in-progress"}
+
+umeko@umeko-cancro:~$ 

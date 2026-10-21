@@ -1,0 +1,9 @@
+
+=== clock 占用 ===
+supply_owned=0 clock_owned=0 supply_hw_enabled=0
+=== divider ===
+applied=1 base=0x5b00
+div_ctl1=02 factor=2
+
+DONE_8165fe4b7e0241d69777293476efb76c
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,23 @@
+
+MODEM_CHANNEL remoteproc2:smd-edge.DIAG.-1.-1 /dev/rpmsg0
+
+DIAG_RX len=15 prefix=4b1302000000000000000000046d7e
+
+RPMSG_BINDING_RESTORED
+
+Traceback (most recent call last):
+
+  File "/home/umeko/desktop-offline/diag_gnss_config_read.py", line 97, in <module>
+
+    main()
+
+  File "/home/umeko/desktop-offline/diag_gnss_config_read.py", line 69, in main
+
+    raise RuntimeError('unexpected EFS OPEN response size')
+
+RuntimeError: unexpected EFS OPEN response size
+
+active
+active
+
+umeko@umeko-cancro:~$ 

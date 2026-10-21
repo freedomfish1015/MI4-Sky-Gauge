@@ -1,0 +1,3579 @@
+{
+  "files": [
+    {
+      "file": "01/ACCEL-AUTO-CENTER-20261020.md",
+      "sha256": "f60a12f37ac7c669c25f8fda7a2fbe010018a9a7571be4a333d5d3bde77527e5",
+      "redactions": {}
+    },
+    {
+      "file": "01/adv-controller-probe-20261020.log",
+      "sha256": "d2e14895a34bc2854d89bc2b11b8da3283f0a1f1feeabba6c786e49f0bc8bcf2",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 2
+      }
+    },
+    {
+      "file": "01/adv-owner-interactive-probe-20261020.log",
+      "sha256": "5c99b9e794a319c9f58ab48c8384e2d06b27c2cceb25943a14273972c2fca927",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/adv-owner-probe-20261020.log",
+      "sha256": "f8658b1c3288dbe1ea59b627f7e895b79c544d87f6a64262f6d612dc92b594fb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/ai-passport-sim-flash-20261020.log",
+      "sha256": "572c153f2474d34d92463bd539511c64601c1d6a592d5d35e569d8b6db48576b",
+      "redactions": {
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/apt-sim.log",
+      "sha256": "f0ff6d7cfe8ac25685121ae3971e887d88a685cc36477376c07a1ee644f5985a",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/apt-sim2.log",
+      "sha256": "efca2f120a1382c1f75fe33d79e5887e8f7406aaaf04ed1423820d7f687de165",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/auto-center-device-tests-live-20261020.log",
+      "sha256": "b11e017fa739986872ed2e54dc0336a9f1bcc5eb5769f92a72a105916b7e99a3",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/auto-center-install-20261020.log",
+      "sha256": "f817af0e6b64d7ce2c12ca0877d9b63214c72d478f13b5064ec2000790609b5b",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/avsync-replay-20261019.log",
+      "sha256": "4ec6ddf1ebe1d19beb4e7b746cf56b79d4356d938cfee4334f08b17592d35734",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/BEIDOU-CHECK-20261020.md",
+      "sha256": "4f98b2b3c08018ef7009367ae7a3044b122d14d1e17166672fde8cdc43c5d3d4",
+      "redactions": {
+        "non-public-url": 1,
+        "location": 1
+      }
+    },
+    {
+      "file": "01/beidou-track-schema-check-20261020.log",
+      "sha256": "3e981f2f02517092c4439a80441d7d645f737424338f49ae73c75a081edf3d18",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "location": 3
+      }
+    },
+    {
+      "file": "01/beidou-window-observation-20261020.log",
+      "sha256": "4b992306e8983cd31618dc65a8ed2ad94bf3f0323cef93eef94818649ce5cbbd",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/bms-fix-precheck-20261020.log",
+      "sha256": "38083c818d9c299cff217d40d17f2c821da455198a4d7bd7edf253165baa1f63",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/bms-fixed-final-verify-20261020.log",
+      "sha256": "6fd8c686fbba02fcf2dfcab65f25f396e07db9c2a105bed1a7eb5daf3921d7c2",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/bms-fixed-live-test-20261020.log",
+      "sha256": "73ad37105999b227109dbbbecc5f0941cb50e27f8bab23787c96248a9be92bb0",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/bms-fixed-persistent-install-20261020.log",
+      "sha256": "1af1ec35bef7760573aa9b3c7576f36eea024e54343e49e6490e9950961fc202",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/bms-fixed-samples-20261020.log",
+      "sha256": "8d78fa6e98535d8bb3281b59b181f376ed3efeab67c62f274eda948dd70ed906",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/BMS-REPORT-FIX-20261020.md",
+      "sha256": "c9b9f9e2708f7340999bb4d39e6a3f2ab8c3188490fa071e607428d57b5ea984",
+      "redactions": {
+        "local-path": 1,
+        "non-public-url": 1
+      }
+    },
+    {
+      "file": "01/boot-audio-kms-timeline-20261019.log",
+      "sha256": "3449245a0e183d3762c3d87c1e5276c0099233656d42570383bb59cb19fc7752",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "ip-address": 1
+      }
+    },
+    {
+      "file": "01/boot-delay-timeline-20261019.log",
+      "sha256": "ba077c9a404904cc61e897f5e87f19936e7d2d2941a0d1648fce6860e428f3a7",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 2
+      }
+    },
+    {
+      "file": "01/boot-red-led-adc-20261020.log",
+      "sha256": "f3ef327bc40bc024111eb07f05f2e4ad2bf1f33728d74f8d3784b11ff134991a",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/BOOT-RED-LED-DIAGNOSIS-20261020.md",
+      "sha256": "22f83c7479709803a935a198f9e19b5a4ae13ab2f01465146b7eed320e42573a",
+      "redactions": {
+        "non-public-url": 2
+      }
+    },
+    {
+      "file": "01/boot-red-led-errors-20261020.log",
+      "sha256": "abc21f4a83f5e33d7840025077b748284ba1f071520d23a79674c5b68fb9aee3",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/boot-red-led-final-check-20261020.log",
+      "sha256": "b329afd5649c23c1210fc42a3616e93ba4ae32790da6eb963f6a0abe123908ea",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/boot-red-led-hardware-20261020.log",
+      "sha256": "092eca0d049d24d76c2934e1d2efc74da95c1cea05b7f9d6185a005263d82e7d",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/boot-red-led-initial-20261020.log",
+      "sha256": "a0e8db4df026fdb4ba78611632dfbfc64aa158328b8034be1bd72cb54642871d",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/boot-red-led-power-policy-20261020.log",
+      "sha256": "8809bb474f48abd1e7a74ccc418726226fa4de3019a9c440a863231a912e6f42",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/boot-red-led-previous-20261020.log",
+      "sha256": "fa3c8ca77fb41c824a979a7865b0b34aa8ed0a4c08996cdf066872dc4829b988",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 8
+      }
+    },
+    {
+      "file": "01/boot-red-led-suspend-history-20261020.log",
+      "sha256": "221bba1b7572e24c7c944a2311f9c67bb50b64e11791133e54b25ff55cfc7a34",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/boot-red-led-voltage-20261020.log",
+      "sha256": "1a50989919b6d41b0d8494169822a3c3e688e4316f44c1b9c3f34083482505ad",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/boot-video-audio-inspect.log",
+      "sha256": "678212882e93156e2e6def02b0408873145b6855de2194684452976a0262bd52",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/boot-video-clock-probe.log",
+      "sha256": "20e9f3fd81fb89c0740601213a0512b24edd171c0f0203699e4584dc55d2e416",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/boot-video-decode-test.log",
+      "sha256": "3da9e4bdfef6f7f756a4869b610ed5ed9551f1bc960428e5da84b914d1406515",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/boot-video-gir-package.log",
+      "sha256": "7319e2e47d2bf48633e4d0671b5f9bca3f47488fd8c85ee8c1065168d19002b1",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/boot-video-gpu-fullplay.log",
+      "sha256": "81bb4bd27b69813b603028aa6b72004e882af804be65dcacd57f1b1fcc582a18",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/boot-video-guard-status.log",
+      "sha256": "75266ad4ce5dbc1e40017b0304772fda0a9591af24057257cbb916fae92e3fcb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/boot-video-install.log",
+      "sha256": "f7e47db95d4cbef1ce29e9bb1319c31741fad8243ce03cbf2e313ad5b80eaed4",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/boot-video-runtime-audio-test.log",
+      "sha256": "3c8a613199afa620aa643d168a378e625e380e242ddd213e05a07931fed8e0b6",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/boot-video-same-window-test.log",
+      "sha256": "33bce2eb3f020c1d02adc1a5b836946832ab72b31808445b6ca1f5987544038f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/boot-video-yuv-inspect.log",
+      "sha256": "d4b5b5f636a7eb7b9d05dfa72f973fe2ec387676954a5285135ba1e4fa4150e1",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/CHARGE-MODE-20261021.md",
+      "sha256": "a127926df2bbc4295fd643406afbb42c95604d9d74da6dccdd070d28156bac63",
+      "redactions": {}
+    },
+    {
+      "file": "01/charge-mode-device-tests-20261021.log",
+      "sha256": "ea3dcb42e75f8075c038081d5b9cf4b6738bb6b9ac903dc93271c639783b5b81",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/charge-mode-inspect-20261021.log",
+      "sha256": "e5e34e20c82ece32c43ec7c6f98ab637aa115ea6ad30c44af3bdc6a6ef64f874",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/charge-mode-install-20261021.log",
+      "sha256": "05b0ee76bcda202c051acafa60ed5f4174cfe438a405f0e4a2b2443c276c51d6",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/charge-mode-live-smoke-20261021.log",
+      "sha256": "3f9e8b71e7d7dfd0f2c4c95868631fd2e855b29e3df780f6a51672ce46d7b8ad",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/charge-mode-live-smoke-v2-20261021.log",
+      "sha256": "0bdd52f326b0719c80b4bca8afa868d59ad8c624fa02bf829d8e7f8015d60408",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/charge-only-backup-20261020.log",
+      "sha256": "5702606411dda03291b2d33d781d7a740c1ffb6a57e7a9701413e31ff6a60df8",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/charge-only-bootloader-inspect-20261020.log",
+      "sha256": "a05c6f150491d7000a6f26ff3838a4da2a671b386bcbc5256adb88bd4e9291e9",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/CHARGE-PRIORITY-STATUS-20261020.md",
+      "sha256": "1d2f64d258a0e74c82bf4147b654ffab530abc32fc91738ceeb5b2c3e429c8fa",
+      "redactions": {}
+    },
+    {
+      "file": "01/charging-progress-check-20261020.log",
+      "sha256": "71fb10a63868700032b401c545ed6e8a2ce9c69e36857ce9a111885c57a16182",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/charging-reconnected-20261020.log",
+      "sha256": "1ce160c4e2294d4f51440049af8868f4b93afddd9ab5b5b6501f54e3d320e773",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/cleanup.log",
+      "sha256": "1fba710f5f21602775f3c96aa30931607550777c8bec048bc5d0bcfe48cafa60",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/compact-settings-arm-tests-20261019.log",
+      "sha256": "87210098bb2e612f6ec3a698aa15e60a4d2c8447645f3b11c36052bc64de595d",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 2
+      }
+    },
+    {
+      "file": "01/compact-settings-live-20261019.log",
+      "sha256": "57d7f7bf6420d2cedf1e4c37fead1e70d5f34596b5a99280d11009f7beb54857",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/COMPAT-976106C-PHASE1-20261019.md",
+      "sha256": "980201ca6b52d61bdb8cb876c80a0cddd4cc273a10e6178553f21f5f2bed55db",
+      "redactions": {
+        "local-path": 3,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/compat-arm-smoke-20261019.log",
+      "sha256": "81c98e17226b2db52fdb5e028d9c20a70413b7586be66a929c5f66b3a3824fa4",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/COMPATIBILITY-AUDIT-20261019.md",
+      "sha256": "db79fede9d533c2c7ac679fb35d674f4e45fcc986e40b6fd65aff407c26ea5d5",
+      "redactions": {
+        "local-path": 6,
+        "non-public-url": 1
+      }
+    },
+    {
+      "file": "01/CONTINUOUS-LOGO-20261021.md",
+      "sha256": "80b0b024bca1515bd7b1c0a61b6d8c7a863d66a6cf07c4765ba61583dcab0287",
+      "redactions": {}
+    },
+    {
+      "file": "01/continuous-logo-full-reboot-details-20261021.log",
+      "sha256": "fe936f687f0a00d0edd0d77f23008f6eb467e5d98540c3c490f4dfaa24fc98fe",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/continuous-logo-hot-check-20261021.log",
+      "sha256": "6ae161eb3bd9f14736d030c30d2822d7eef88a547cc138e1389cda4a0b44c751",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/continuous-logo-install-20261021.log",
+      "sha256": "43c4e724d224fe9816344a6294f54bc03b77794efd991d9d80e8062b2b372032",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/continuous-logo-normal-reboot-20261021.log",
+      "sha256": "96f3722027c01c2c1276f9249eca8de799908a52fe05d45bb203f403bb71dc40",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/continuous-logo-reboot-command-20261021.log",
+      "sha256": "dad1ad347b13ea55dab8295ec814200fe923600dec74aab79a9fc0ba083c8b9f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/CURSOR-EARLY-RAMTEST-20261021.md",
+      "sha256": "43b764e1bfba676d07c9085d867ede87ae6d2e8566efa3abd764152ee9e332d1",
+      "redactions": {}
+    },
+    {
+      "file": "01/cursor-early-reconnect-20261021.log",
+      "sha256": "ff951f2df91d8ef839fe3b06e10a6a7259127bd768ccc0df04b33917904dfd21",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/cursor-parameter-persist-20261021.log",
+      "sha256": "c7440370f2567e991a4932ec0b56bcdf1fb55bc33d0056e688a27f36b9355c65",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/cursor-persist-final-hashes-20261021.log",
+      "sha256": "eca976c8af36403e80f11e196295c054004d472cf0276b0295d60202151cda70",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/cursor-persist-normal-reboot-20261021.log",
+      "sha256": "a49cb8ee0f43c165c57937b462b81688afcc3eb26c76f4ee043cf010b0663d0f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/cursor-persist-normal-reboot-command-20261021.log",
+      "sha256": "94a94febda4ef507f7663435fe38db343005b066717d54863abe0db644318cea",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/cursor-persist-precheck-20261021.log",
+      "sha256": "84ea499917eb193abd5649752d977cb44254b199bc7f3babfd0c2996d3051e9e",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/CURSOR-PERSISTED-20261021.md",
+      "sha256": "0112097b4f2e0915241948ee31f2d50f80d026f549bdb0be9f739016a77ed3dd",
+      "redactions": {
+        "local-path": 1
+      }
+    },
+    {
+      "file": "01/cursor-ram-boot-history-20261021.log",
+      "sha256": "4a66bf8d8ec0725a1e0f05511124c10acdb831648dbf6d88c0f202727927fe0f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/cursor-ram-first-boot-20261021.log",
+      "sha256": "c25853fa05931760feb93816e35b8a9ca8dd8e433f6d7d0c556f9253bb568712",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/cursor-ram-previous-kernel-cmdlines-20261021.log",
+      "sha256": "0e4d8803891e41cbb6481761673262c1f376cdfab23e754b0acb99248a7f4822",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/cursor-ram-second-immediate-20261021.log",
+      "sha256": "37ad32f79175fe43de219d987b7584e5986adfecefc91ea7be947c4b172ee981",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/cursor-ram-source-prepare-20261021.log",
+      "sha256": "baf9c117cbba73e891c65e2b926a0cf45a9de34d9f2400e7e93ccfb0ce8538bb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/cursor-ram-third-immediate-20261021.log",
+      "sha256": "5705fb4568addc3c24aca71286fba009c6aa02274b7aeb2a7617e3aa8b35aa87",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/cursor-test-kernel-history-20261021.log",
+      "sha256": "20b38e3b4979855367bbd2f128119f9ecef9ca0239c9880fd1276772923764d0",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/curtain-fb-inspect.log",
+      "sha256": "b7a07d5f527b32344746aaffeebc1a4daccd231fb2982b0fe2194e3907a18dd2",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/curtain-runtime-test.log",
+      "sha256": "7631477660a2549d34c2b2d408fbfef5557dc43950c36adc5239d7df2ed395fb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/DEBUG-SCREEN-STANDBY-20261020.md",
+      "sha256": "4ebd66850b87d6aa5d0b7640571faa051048f70c5b8c59c12e9d492bcf12f04f",
+      "redactions": {}
+    },
+    {
+      "file": "01/diag-gnss-config-read-20261020.log",
+      "sha256": "5dbe8f9be0d0db1039270a631867a938e75b8df0e14a825e150aa1eb2111103f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/diag-gnss-config-read2-20261020.log",
+      "sha256": "8f93b196f64368cddf627898278e46a810607ebb0a29a9e43fb6336d9730f1bb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/direct-gauge-final-check-20261021.log",
+      "sha256": "9e62e61d373db8d1a4585e6c2a6bd7f236c1d19e11ef3d3fb8b52e0b84ed6353",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/direct-gauge-install-20261021.log",
+      "sha256": "b6077e474c960e546d1fcb45344078e24e88bcd6eed1e6089a9f1f8b845c6178",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/direct-gauge-live-20261021.log",
+      "sha256": "d1842298007ad4f084e69993b0344bd3d0f81557a382d7b6e1137d2ccd9a442c",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 3
+      }
+    },
+    {
+      "file": "01/direct-gauge-reboot-20261021.log",
+      "sha256": "de9c5a5e19b6c9b9ec13478465df351c547abf9eaa5f03d066fdc5e2854ba721",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/direct-gauge-reboot-command-20261021.log",
+      "sha256": "8acc328e816e29d374c4c226cc14158d7a5526c136cf2a42bef28a87fe41a681",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/DIRECT-STARTUP-20261021.md",
+      "sha256": "6ce2d8b3753ead4d86407b7ccea956f72eadd0a730651b65c549c7360cc2e909",
+      "redactions": {}
+    },
+    {
+      "file": "01/DIRECTIONAL-ENVELOPE-20261020.md",
+      "sha256": "6240f7b79a62694c9f679e17f5a36f94bd24e4e38bf47db52b86cf8b25618d9d",
+      "redactions": {}
+    },
+    {
+      "file": "01/directional-envelope-device-tests-20261020.log",
+      "sha256": "de29f837512afdcb7b47511f2c3306b6849b04b47c2468c4e418647263a9a889",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/directional-envelope-live-verify-20261020.log",
+      "sha256": "8744d349089e200b144545d123668143ebc5a3049dd4e78ac20e3b813a4aa31e",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/dirtyfix-after-tests.log",
+      "sha256": "04870da17b9635778662ef37d7d32daa3b425266c2b16f8c30b858df2e2aa521",
+      "redactions": {}
+    },
+    {
+      "file": "01/dirtyfix-before-tests.log",
+      "sha256": "e05f6812477d3299cd5ae87d37c47f837470da6050264e5367e27273fa9f4aef",
+      "redactions": {}
+    },
+    {
+      "file": "01/dirtyfix-install.log",
+      "sha256": "ab0130e2d75e9a35f3efc4c27d38f97cd5678ecb8758c17d93ecf0077abe1971",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/dirtyfix-phone-tests.log",
+      "sha256": "779a0ba566f7ba43502d38d8110c21a60f43f1e969e782139d05acd6e9ca1eb0",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/dirtyfix-runtime-verified.log",
+      "sha256": "49f7990c520824f5610a690e90bc4a12a3f38a5403731bf7b0be1880b1dbb1af",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/EARLY-LOGO-EXPERIMENT-20261021.md",
+      "sha256": "6f2c53b79cd66dcfb21819aba7d2e5b11cb3be926daa03c847e7f4d5c1197150",
+      "redactions": {}
+    },
+    {
+      "file": "01/early-logo-final-preservation-20261021.log",
+      "sha256": "c6d1080b557816a34ca87c9d376c91188377eaefa89331cd870be75866a295e6",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/early-logo-gpu-warnings-20261021.log",
+      "sha256": "d5550e7cfaf9ac47b871db4424e89cc22e7fa5fcd7b7bb627a30d9d4fcb12cd2",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 2
+      }
+    },
+    {
+      "file": "01/early-logo-install-20261021.log",
+      "sha256": "2c8dece89ceecf5cd9e324443335dbaba98e0e67da949a6df45cbbd7dc83f0bb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/early-logo-kernel-handoff-20261021.log",
+      "sha256": "1ebdd610e19136717c2a9982ef1cfe1372d09b06f004a7cbfa2387264d5f6a71",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/early-logo-live-check-20261021.log",
+      "sha256": "675c84ce5547862890ff4ac5ec9289d0d768884f38158468fb49035491695686",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/early-logo-normal-reboot-20261021.log",
+      "sha256": "e11b25052d1ecb4bf925f1e7bfc32c850c658153ed74ad5af955d5c1a050545e",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/early-logo-pre-reboot-20261021.log",
+      "sha256": "70292e89a43b20f1ea6a3430e2e8ddd52c907d27029fe0e8c499d292d3ea9adb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/early-logo-rollback-20261021.log",
+      "sha256": "08cf1e684190fa477c9787f17e25ec4245a8ea7fe529a721ff7f5e8a9753ac3b",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/early-single-window-precheck-20261021.log",
+      "sha256": "c007fc446df9274653d222f3e0d187d91ab782dd2647d7e942042377191db574",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/early-video-coldboot-20261019.log",
+      "sha256": "b6383fbb40cde89a023e0947b9d80d1215828a6e8c15adc8d3a5a919468d0869",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/early-video-first-trial-20261019.log",
+      "sha256": "bb950cbf0bb3b31184383736addbaba807981fd1efcac908680d45d132ae12b2",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/early-video-install-20261019.log",
+      "sha256": "3bd19d34fd8c6ae0dfe7a198505e8c8c129cbe2a3f444c48d342c8c2618e1942",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/early-video-live-20261019.log",
+      "sha256": "1184c65f665bccc8218a41eb1b44d583da90baf984c83bfcf6711c3ccc39b155",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/early-video-v2-eos-20261019.log",
+      "sha256": "fc9b2e8e5e292a7c7dcdad67b7de0120c15b21d5d1b0490bffc737ac79c810e8",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/early-video-v2-install-20261019.log",
+      "sha256": "88c52f91859b03a95e8dcd13e9a82deda764cbeca7f1d8b9d8d67bf5d920a599",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/early-video-v2-live-20261019.log",
+      "sha256": "7f6dda3ef6d41f5184a4ce3be592b305971bd703555cc1757c69418b1bc9a6d7",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/elm-advertiser-deploy-20261020.log",
+      "sha256": "74d8a9680f3d4df798687426407ec46041a3a5a5eb997ce661422355388753b8",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/elm-advertiser-verify-20261020.log",
+      "sha256": "eda06b1b45da21a35fd10742b1f8213d9d14bd78be12bace50896bf5e19da363",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/elm-bridge-advert-btmon-20261020.log",
+      "sha256": "b7bfb249fb9db545b1029e9ab0606cc2aece640f254e01a905a9d55c080406d7",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 4
+      }
+    },
+    {
+      "file": "01/ELM-BRIDGE-PROTOTYPE-20261020.md",
+      "sha256": "cd23afebc76da07d8903ec24651483acc8e68644c4a26b1bc1275cbf09f7886a",
+      "redactions": {}
+    },
+    {
+      "file": "01/elm-demo-linked-verification-20261020.log",
+      "sha256": "3d595eed2945b62c123e7da40dcf055020d66718a6be195bed8d1e41d780e5ea",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/elm-gateway-device-tests-20261020.log",
+      "sha256": "cea0f5cc01781325e53187f4bd703bdfa0e7ba32d98adcea370fe1147bd36134",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/elm-gateway-final-device-tests-20261020.log",
+      "sha256": "a57c03bfdd14b582a63ac310eb2250649c2f740362237f5be9792a0c1b862a67",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 2
+      }
+    },
+    {
+      "file": "01/elm-gateway-final-update-20261020.log",
+      "sha256": "ad62bc0f7fd0f2523ce424e524484d4a70b27c6a773f8b57bca41bf1596fc410",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/ELM-GATEWAY-HANDOFF-20261020.md",
+      "sha256": "af11ad3936f7204b2bff466e193e4d9fed8b96730d1777d74a1b9467c1fbae08",
+      "redactions": {
+        "bluetooth-address": 3,
+        "local-path": 2
+      }
+    },
+    {
+      "file": "01/elm-gateway-install-20261020.log",
+      "sha256": "e3a0a7486cb0f6396d4388e165468acce40800d0466c196e0c94a22cdd45cc28",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/elm-gateway-live-route-proof-20261020.log",
+      "sha256": "270120202b2cac2f1e74f13f80279eb8042354a2aee1b0d2180a0868cac54eca",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 4
+      }
+    },
+    {
+      "file": "01/elm-gateway-reconnect-proof-20261020.log",
+      "sha256": "379c57c3ce084460aaf6e9db03266f241449e96ce58ca9425f77b4bf664387ca",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 3
+      }
+    },
+    {
+      "file": "01/elm-gateway-recovery-events-20261020.log",
+      "sha256": "c55c1994cd8b3ea5e3ccd1a40b7910595f2703dd1ad24c46cebd0d73b22faa68",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 5
+      }
+    },
+    {
+      "file": "01/elm-gateway-route-check-20261020.log",
+      "sha256": "9450b39e46256186717b9c1c7d203d8f21b59014b539612513431cb0b109e5dc",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 11
+      }
+    },
+    {
+      "file": "01/ELM-LATENCY-20261020.md",
+      "sha256": "bc356fe29c416191c29c3593bb7b543d1b9cb4b70e9c7f87a0b568b2f018bb38",
+      "redactions": {}
+    },
+    {
+      "file": "01/elm-latency-auto-verify-20261020.log",
+      "sha256": "2a5472c186c2aa30bf56c3e18ce79d42d581f110cf18a0653590c588416b28d4",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 3
+      }
+    },
+    {
+      "file": "01/elm-latency-baseline-20261020.log",
+      "sha256": "760def87fec760be64ff6f7c4b1badc5389eb7bec5f27cde35c25ad34e948083",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/elm-latency-deployed-20261020.log",
+      "sha256": "3fd352a4970b495e42c01702052f10e9236c01d131873fd9a9d8d72f663e503d",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/elm-latency-install-20261020.log",
+      "sha256": "a7b68a04c8fde831fca3ff7ab9a6cd54c58118db0f8c49b4f56251a8501e4393",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/elm-latency-radio-fast-20261020.log",
+      "sha256": "b05b6a934bbb142accf562afca40698d7a629d17a841f4ca1a96cb526dedc77f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/esp32-c3-backup-20261020.log",
+      "sha256": "4a756c3c08a28dd4b3091c85945b03d20f2969351706c0d583833836f844ede9",
+      "redactions": {
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/esp32-c3-backup-v5-20261020.log",
+      "sha256": "fa36936b4884faca11090e0172e92d39edcee41f973a64446599c10cc0dbd16a",
+      "redactions": {
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/esp32-c3-block-backup-20261020.log",
+      "sha256": "368983d3877ddff470f19c73ea3f3a09c7934b0b086745211de14cc0d5a86cb6",
+      "redactions": {
+        "local-path": 5
+      }
+    },
+    {
+      "file": "01/esp32-c3-rom-backup-20261020.log",
+      "sha256": "a8d10db3d3d8e7bc33b275431d64638bd230143c6612c3e5912b960f5dc41f25",
+      "redactions": {
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/export-final.log",
+      "sha256": "6d6903128bfb6d45485673220c64eb43679c31e5cdd74aa3bbe1d6f192acb9e6",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/export-final2.log",
+      "sha256": "e64f560e45ef4b3708e92bb60a4cd234deb47a536b62b8e3362d0d87418aaf03",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/export-flat.log",
+      "sha256": "66b709aedc91a4a35661926ccf2630d5ccad0c78a0f1e6dbc073f665147ebb19",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1,
+        "non-public-url": 1
+      }
+    },
+    {
+      "file": "01/export-flat2.log",
+      "sha256": "d27a60c35b2bb41bd44732f1a07e0fba24608933fe30f3c6952da7caffadd44d",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1,
+        "non-public-url": 1
+      }
+    },
+    {
+      "file": "01/export-glyph.log",
+      "sha256": "0d9af4340c0ac1b6c8986c6b62c92b819b82b4d05f38a79c96a50e1b090708c5",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1,
+        "non-public-url": 1
+      }
+    },
+    {
+      "file": "01/export-hires.log",
+      "sha256": "8cf5468a0b3b4789b2a7cbf9b1b0e65d0a24e4f0c3ed48f56dd1cc0868d9759b",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1,
+        "non-public-url": 1
+      }
+    },
+    {
+      "file": "01/export-look.log",
+      "sha256": "92e002d9eebf33003926e5857ca33af78f5144cac0f3262373095240b30bc14a",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/fast-boot-after-reboot-20261021.log",
+      "sha256": "6bbdba5c79d557f26fea84151be0ef3d59508130dd472d3c4d4d6c305909ca28",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/fast-boot-install-20261021.log",
+      "sha256": "cc0e2950466baf38430b7918331fed67330fc785d7196fd5049e23aa3c0eb1f8",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/fast-boot-profile-20261021.log",
+      "sha256": "cc9184522a7d3cc4a60742e94216ac9a153d936467274ba08c9a89f3ae605195",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/fast-boot-reboot-command-20261021.log",
+      "sha256": "526a6c659f046174ef7ed7440edfce42b80971c55072bd357d67499a1ab07333",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/FAST-STARTUP-CURSOR-20261021.md",
+      "sha256": "e4095dd340618ef036daea965885289f464e0fbe601c6bcc4819b7bf2f892efa",
+      "redactions": {
+        "local-path": 2
+      }
+    },
+    {
+      "file": "01/fastboot-v2-bms-20261021.log",
+      "sha256": "3fa40c433536c27668050d4c05c65189519042eac0450b56ef7f940c250c2733",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/GAUGE-BOOTLATENCY-20261019.md",
+      "sha256": "4ee1bcf3672fa94966df2842dc43c42d0dfc82a252feaa1ef1b84c142d2f3970",
+      "redactions": {
+        "bluetooth-address": 2
+      }
+    },
+    {
+      "file": "01/GAUGE-DIRTYFIX-20261018.md",
+      "sha256": "1abef48088c3e821639f98bcec77a8bd82c56b6256cbfd0d8068044143882a82",
+      "redactions": {
+        "non-public-url": 2,
+        "local-path": 1
+      }
+    },
+    {
+      "file": "01/GAUGE-NATIVE1080-20261018.md",
+      "sha256": "36a971bf3db5f2cbbf80e5892ae7fa4e347cef07c2305f5ce75f8600d6c5a17e",
+      "redactions": {
+        "local-path": 1
+      }
+    },
+    {
+      "file": "01/GAUGE-PIPELINE60-20261018.md",
+      "sha256": "2294b4bd41b99d1dd4c6c2773aeace9211487fddb81116d24e1df501c8ed8edf",
+      "redactions": {
+        "local-path": 1,
+        "non-public-url": 2
+      }
+    },
+    {
+      "file": "01/GAUGE-POWER-POLICY-20261018.md",
+      "sha256": "030f6a2a1f57826ba0752946833b1d0bd970e1b6f5ee4ec0cbed63d5b4ee0ef8",
+      "redactions": {}
+    },
+    {
+      "file": "01/GAUGE-QUIETBOOT-20261018.md",
+      "sha256": "ba03ba4424c514afd9fc0e71f3b38a0f4017e4589fe2448aa84ac136f401cce0",
+      "redactions": {
+        "local-path": 2,
+        "non-public-url": 2
+      }
+    },
+    {
+      "file": "01/GAUGE-REI-BOOTVIDEO-20261018.md",
+      "sha256": "0869214801dfe393686781a4bb1e0d765ab4cc3ac83d4cc77e4d42afdccb7b57",
+      "redactions": {
+        "local-path": 3
+      }
+    },
+    {
+      "file": "01/GAUGE-REI-HEX-HUD-20261018.md",
+      "sha256": "249f5ac90d6b26f1d79cc0f6f30b339a624906651e47483fb74d96eabd5f3e7d",
+      "redactions": {}
+    },
+    {
+      "file": "01/GAUGE-STARTUP-MANUALOFF-20261019.md",
+      "sha256": "f73c92e8d58ed95f51f44bdda5fc5db0a0d9b31a9a37c134e12c8e27ded3a013",
+      "redactions": {
+        "serial": 4,
+        "non-public-url": 2
+      }
+    },
+    {
+      "file": "01/GAUGE-TOUCH-SETTINGS-20261018.md",
+      "sha256": "c6ca14fbcc0d6a7d43c9884b6e47b6de974c9b598f56cfb13431bc982a0d9dd9",
+      "redactions": {
+        "local-path": 1,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/gnss-constellation-controls-20261020.log",
+      "sha256": "5f79736ef4958127b020e9fba94da99070737be0f6976afd379df7c283ff86e9",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/gnss-constellation-trial-20261020.log",
+      "sha256": "5a13147f403f9b16b5132d9e293bbe6d99217e5f1daa28a91751953f4da8ed21",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/gps-compat-install-20261020.log",
+      "sha256": "94f08bcd7f59a2f5d25c73334b1de2afd08cd8a0ece7e84e3ac34db6033452cd",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/gps-compat-live-verify-20261020.log",
+      "sha256": "8b70f2ab5b49dbdf58d9a04e97fafc07888a5ff0b5e3d9023e7ee73afe64e49e",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/gps-crash-diagnosis-20261020.log",
+      "sha256": "9144b04916be30ca83aa1b15170b8dbfe7b2c8fc962ed119125929aa459d3ea7",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "location": 2
+      }
+    },
+    {
+      "file": "01/gps-gi-reproduction-20261020.log",
+      "sha256": "aa7f241f0137ebe30bae0ac7baa0695e41c6b057f3dd3d85b038d2a8e2ba146a",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/gps-gi-stress-20261020.log",
+      "sha256": "45c012abea14ceb06f1bc6c4e2b4c29b585bf415e6343af42778ecb9bc0cbf63",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/gps-live-satellites-20261020-latest.log",
+      "sha256": "7e6c2e3eea931128cf607fd03da7b8f9e7b4cfc1f35b4627ea239051007d9674",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/gps-log-diagnosis-20261020.log",
+      "sha256": "17337844532ea3e0e09259339f9db8f89e16d85d511cce75bd11370691967161",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "location": 22
+      }
+    },
+    {
+      "file": "01/gps-native-stress-20261020.log",
+      "sha256": "bdb7d8186937913c48902ec15bfb64a5fb5c49f34e7f76e54a8b3503e2c915d4",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/gps-native-tests-assistance-20261020.log",
+      "sha256": "e7f6eb629f1d2c18dfd417804e9c5d5f0d69ccba91a2d009d177441a5db89686",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/GPS-OFFLINE-FASTFIX-20261019.md",
+      "sha256": "cc9e59fe21b2a8fb8c34d5eb112b9f1e2b6e98c523bb767aa1490d7ef45b61c9",
+      "redactions": {
+        "location": 1
+      }
+    },
+    {
+      "file": "01/GPS-REPAIR-PROGRESS-20261020.md",
+      "sha256": "9e1993eb16b9aca9d5c7afdda9ba1519be5b975b2adf617e8b01838c8b957046",
+      "redactions": {
+        "non-public-url": 4
+      }
+    },
+    {
+      "file": "01/gps-route-device-verify-20261020.log",
+      "sha256": "a6afd2e48f2835666eea80812d16b622f75b643353e690c287a1b04c8fb3337c",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/gps-route-history-verify-20261020.log",
+      "sha256": "aa2029c7accef5a12f45542e930d4248392460e977b9f950203853e868e4d27c",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/gps-route-install-20261020.log",
+      "sha256": "f5220b69f2cb6bdd4c9431d7875cc4011ab809b0e4f7a244fcdd20b4c23526e7",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/GPS-ROUTE-PAGE-20261020.md",
+      "sha256": "bdad43c1ff48527bde180ca815229da51325f48c42adfe3f66a38cabee54e3b0",
+      "redactions": {
+        "local-path": 1
+      }
+    },
+    {
+      "file": "01/gps-service-diagnosis-20261020.log",
+      "sha256": "be8ebbfd15566eda444de3b7ca1ea7c783690ff5fc5535ca68721ec34666e8df",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/gps-service-root-diagnosis-20261020.log",
+      "sha256": "4ab933d3f1e4d029f4866392c0199a46d591425d3089a46daf28d30a142fec3f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/gps-xtra-injection-20261020.log",
+      "sha256": "48755e697e11a4c1069e9ed217ed0c06668987ed34d017a0c339a6935e7da1bc",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/gps-xtra-time-trial-20261020.log",
+      "sha256": "529c45ee3f81d387a6c8139556f69df9908da806f7779ffe7ac8e0ffb4269513",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/HANDOFF-SKYGAUGE-20261019.md",
+      "sha256": "89cf5f9c644dd0ca4372415470290a317da7ec696b356626404b4d90eaaad726",
+      "redactions": {
+        "bluetooth-address": 7,
+        "local-path": 9
+      }
+    },
+    {
+      "file": "01/hex-hud-install.log",
+      "sha256": "faf31ceae1bcf5a4ccfcb458cbc3708ff9b8838700167fb12bbb5c03529f0b8a",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/hex-hud-installed-verified.log",
+      "sha256": "3d4f908ca3f35ab8890532340c8d04878fbcbe7617ed5c6a678cae4f40b1cccb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/hex-hud-runtime-complete.log",
+      "sha256": "fdd4ed7befa51859397ae56c262a044acfc8866d9f15aa41c314cfaefdd56763",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/hex-hud-runtime.log",
+      "sha256": "e0754d258d279ffc791fd88f2f52b8f32c3e990a9b0693b8e2ac333b3c7ba14f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/hide-lk-footer-flash-20261020.log",
+      "sha256": "d2c602054db64c3a92f0fb363c6cc1af903594bc555da2184aa03232e92ace1f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/hide-lk-footer-postboot-20261020.log",
+      "sha256": "190a129efeaab012b448ee2e37a28d7d7b8769796a727c4d42bd8136d979eee0",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/hide-lk-footer-reboot-20261020.log",
+      "sha256": "8acc328e816e29d374c4c226cc14158d7a5526c136cf2a42bef28a87fe41a681",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/hidecursor-installed.log",
+      "sha256": "e6711a6855825f1b98a298d9380cd500c3985009cd40221e7adee73e032883ea",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/hidecursor-local-tests.log",
+      "sha256": "08c4d3da35facf0c18e8d7ff26f7b9994bba78ac6f6b63e8f9f803505c812633",
+      "redactions": {}
+    },
+    {
+      "file": "01/hidecursor-phone-tests.log",
+      "sha256": "b2bc40d36af1561ddb8acb9e66b4a5ffd7632cd4eaf7b8c05fbb7192e3985ebd",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/hidecursor-runtime.log",
+      "sha256": "1f61c6e08b6bcbec10a7b62b0d1142e337993c0555bce9fbf47204b0115da5f3",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/home-bars-device-tests-20261020.log",
+      "sha256": "d950c3ffb470598b623a394eda7b87587e9dddf848b5a999e34564975a296530",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/home-bars-install-20261020.log",
+      "sha256": "e059519e4cf69785d83c910989bc9b8ae888ab95d5fb22948d27c884b150e371",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/home-bars-long-device-tests-20261020.log",
+      "sha256": "7a697e7512fa86360a034a3ee0e626a56668658c1fb1b6a77139b5e67478ac07",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/home-bars-long-install-20261020.log",
+      "sha256": "42927f9b2a269e85feb38a0b6625de636d521a63bda7220c18647c6c674d551e",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/home-bars-long-live-20261020.log",
+      "sha256": "17a79db0d7776ad4ed32baf6e47e40af2f622bfc972c141deb940c81c43886a5",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/HOME-DESIGN-20261020.md",
+      "sha256": "aa47c888c4ef6c7dc8d4b7aa93991ac791e51cf9011a159bfd0c1d7b4ca37826",
+      "redactions": {
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/home-design-device-tests-20261020.log",
+      "sha256": "1abc7f76d2110625bc77750255674d3ec86995d0f0136d5269cb7bf75f23d5e1",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/home-design-live-verify-20261020.log",
+      "sha256": "7c08b68eab305717f0553c0b6dfb8611f97e2108f50a1c5a4bf7283db9afef51",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/http-start2.log",
+      "sha256": "8329acc5841497f521d5bffe288da153f44c709cabfd6a2888030b1eed6179e3",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1,
+        "ip-address": 3
+      }
+    },
+    {
+      "file": "01/hz-check.log",
+      "sha256": "eb3436294d2ec5a04f513c0a0cf7783c3b3159d84898db189f5b1247f6e23cb3",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/hz2.log",
+      "sha256": "674bf34c81808716ff143e6000d3161b07498ac97ee699bbaf0fc15d13f85587",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/keep-envelope-device-tests-20261020.log",
+      "sha256": "3426d0a7356ef09b36947cf6dd18b7b915cf9b56187244a36a88bfe2b9bf0bf1",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/keep-logo-light-install-20261021.log",
+      "sha256": "8a05bf27268531620dd2dda752e11ad7792da83e56e2f42e60b49244adb95d19",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/keep-logo-light-normal-reboot-20261021.log",
+      "sha256": "f738c4947aee44a195f8dd7296b13e6daa62b277d4fbf363183592a02cf6457e",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/keep-logo-light-reboot-command-20261021.log",
+      "sha256": "3c0316091effd70b5b9f71d97064ef3cc0479f58cc26e7b58c883e71c09e37c5",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/kiosk-hires.log",
+      "sha256": "de643f35bff4ba94c78ad5aacd17ced702c8b51b80a7e3bc71147b7554e64cb2",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/kiosk-regions.log",
+      "sha256": "b6e02f2fc0319a076452beb5b3f5c69985e1608a1017b90b7a97b1838bf61c5f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/kiosk-restore.log",
+      "sha256": "d8e3b82d69756c349da45ac51ead982b0633f453d7db781b9164bf034da012b8",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/lazy-boot-active-20261019.log",
+      "sha256": "d85ad956a5dbd31d9165c4661716920510572a1a0955b54ab0a9c1110f24377d",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/lazy-boot-install-20261019.log",
+      "sha256": "c0a338931a529f4190c2f03a2a5c5e64e232c38af8f3383845f7c78f930d31b0",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/LK2ND-HIDE-FOOTER-20261020.md",
+      "sha256": "4412b6589cea900b9c6aeb154290cc5db5f3ed5eb1849cd542267bcd8ae27943",
+      "redactions": {}
+    },
+    {
+      "file": "01/loglevel0-ram-boot-20261019.log",
+      "sha256": "f899bacebb72cf5f38122270556664080255c4b956d973fd7ad71f4aece40e6b",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/LOGO-HOLD-20261021.md",
+      "sha256": "ed796bbdf0422a171833fd853b4d1635050fcf3cd7dd2068712e603673b655c7",
+      "redactions": {}
+    },
+    {
+      "file": "01/logo-hold-first-normal-reboot-20261021.log",
+      "sha256": "28fa4936225b8a80b38f14b0c603b3354704fe2759fb10b41c73c498782712f8",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/logo-hold-install-20261021.log",
+      "sha256": "5a4840fb50682c61e9b72f003a11f482b78ca69abf6ad477bd56c05000b9f2a6",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/logo-hold-live-check-20261021.log",
+      "sha256": "043bb852ef10bd577e3446efa1a7731bcfec2af8d252343480cd66c0b27fbcd6",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/logo-hold-normal-reboot-command-20261021.log",
+      "sha256": "94a94febda4ef507f7663435fe38db343005b066717d54863abe0db644318cea",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/logo-hold-precheck-20261021.log",
+      "sha256": "64fc19b124c495c2b93795daca4a2182c6ef40b9d210528541b7d774252ea690",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/logo-hold-user-reboot-20261021.log",
+      "sha256": "0c47bd8c4246d48f713f69e9a697116c40622f62c3aa67afe3fe1fa11ca6bbf8",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/low-battery-guard-reconnect-20261020.log",
+      "sha256": "7d767073e599754105815b463f6f2d7c583d88c352e7ff19be9bf95287ea4070",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/manual-off-active-20261019.log",
+      "sha256": "428b330e812fd7538ba10d0975bac6845a4feec12eee2a95e09c306b0aba7034",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/manual-off-install-20261019.log",
+      "sha256": "364a2f092c09511971eb66269a8e7ea2c2dc11ed39b55a4cceb65f672bf80d09",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/MI4-OBD-HANDOFF-20261019-LATEST.md",
+      "sha256": "e4ffb50206626046ed664e92bacd00e3699b1cae3a568e0ebc7f35922aa1fc1d",
+      "redactions": {
+        "local-path": 12,
+        "serial": 1
+      }
+    },
+    {
+      "file": "01/modem-poweroff-inspect-20261020.log",
+      "sha256": "3d9983d183ae5481b0e0fbe6ebb1754d0aaddea89aa926b81d4baaf2bbd92963",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/native-pid-install-and-arm-tests-20261019.log",
+      "sha256": "736d7a766eb8b1bfe69382a2f2fd1389136e22e52f4168309473ef6952a4c462",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/native-pid-live-20261019.log",
+      "sha256": "ed64178cb5952e75c78cfdf0cca89f114ce98a35ff214e6a91dce680ec9149d4",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/native1080-hardware-snapshot.log",
+      "sha256": "a5f23ad74a154b7ef5fa5bd64654ffa83fb0a0882e5f6002e12ef87b90bb3936",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/native1080-install.log",
+      "sha256": "6ee4edb71c43b752e534f90395880bbb99f55deb2ffa38a089baab89f0ee7ecb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/native1080-local-tests.log",
+      "sha256": "f1b0cb920225a60b97758ee5605873c10336d632e216526513d1233a245442eb",
+      "redactions": {}
+    },
+    {
+      "file": "01/native1080-phone-upload-tests.log",
+      "sha256": "a8c6c7c6fd40629c68b5c6d1133db70c9ea68e73b6908a19469635024e0cd994",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/native1080-runtime-verified.log",
+      "sha256": "22bd9ad6dd3c207e2e53d3da8e44f676af2d46ef25fcf7ce0c9f8148534a70ed",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/new-video-live-boot-check-20261021.log",
+      "sha256": "4d6d3b9787b9e7c1947b670ef7b137a3c4fd055710a39d6557582bb7a769e256",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/no-animation-details-20261021.log",
+      "sha256": "146d93c9c6e2118fcb3feec5bcfcc14aea277341e59fe01b15904cc7229e5069",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/no-animation-startup-inspect-20261021.log",
+      "sha256": "2fd5d7b7a5a9d93001214c7b49d0eebfc7c608a5f67d5dab34c2b2957b411113",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 2
+      }
+    },
+    {
+      "file": "01/panel-hz.log",
+      "sha256": "29ce8bed0d3bcbab3216c5e2b60a1e512618f66beecf1c81b9602b9937a7043c",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/parallel-boot-next-install-20261019.log",
+      "sha256": "e1c76443bc192069e5700001b1346f7b5015c19d7dff65202b9c88f400372cb2",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/pipeline-benchmark.log",
+      "sha256": "40b3e8760b014a898b728dfafaf2e4b86d23199f2c2b0ac35ad0fd598e96435f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/pipeline60-cpu-gpu-status.log",
+      "sha256": "24f7f69ff8e08f544864313330502816f13893ff668718b4accd6ac665618936",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/pipeline60-final-state.log",
+      "sha256": "174208685fd379e5eec592904342728fada7cde382ec85bbd7107d527f3749a5",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/pipeline60-gpu-busy-samples.log",
+      "sha256": "a64e4b0f46e77af5dd93804eeba2a3515e81223155fb3493ad6c3c76f26ada54",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/pipeline60-install.log",
+      "sha256": "2abc01192ab0e1a82f042e89432148d1c64987189e0a0ab759b817fdd527f703",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/pipeline60-local-tests.log",
+      "sha256": "2cc53a59f710117bc99dc7fefecf3f2917daeab572eb65f1ad9313b889e179d4",
+      "redactions": {}
+    },
+    {
+      "file": "01/pipeline60-phone-tests.log",
+      "sha256": "481bfaf4940fce03c59de6d4f6fd02c1b2e522aa21d719526a3ee1764a85673c",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/pipeline60-vblank-and-load.log",
+      "sha256": "a3c3b90755ce30eb488c96cbe343ceaa307e85fad799ad503e339064984d97cb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/pkg-check.log",
+      "sha256": "fb40b7025a5a3db6c091c8fc67fbb87686a1db6f3bd16b2c5923ba810e235fba",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/power-policy-active-verified.log",
+      "sha256": "a363cb5023adf518fc8452d0cee72b79ae168f52e03a87b00d1c2149260dfed5",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/power-policy-after-reconnect.log",
+      "sha256": "e9559e82d7099d9d10fe5fdf2ba4856121145ab4510a2a9dcd9b5f8e26890801",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/power-policy-dryrun-eos.log",
+      "sha256": "bdd1add2e92d3ad100c47dbe09d7c8335e00e48e782df7729f4f645b02971ee9",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/power-policy-dryrun-start.log",
+      "sha256": "86924ca3fb6c95ee348b68d822b091749ded89abf7d155c9ac1acd43238ac273",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/power-policy-physical-verified-20261019.log",
+      "sha256": "7edd5e554e0274482b5e6c224f780138c1fd8a75f8a673d871dae02d1c4d1709",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/power-policy-real-active.log",
+      "sha256": "f0f186688c560ea0bf51203e7faab7dc4a483f73513bdcbbc2fe5f17d803c7b3",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/power-policy-touch-confirmed.log",
+      "sha256": "869743dfc052df2b2cfb405e25868a6f468a66d9358f091aec212d8c36257e1a",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/prevideo-install-20261019.log",
+      "sha256": "c650c3a335167b7b6be257bff4680aa581ffdb72eae748e2219d0fac5c3969d2",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/prevideo-replay-20261019.log",
+      "sha256": "160ea36a2621793f04ed87e39dce1fb3cfbe9666dc82b868c21312f51a2dd73e",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/probe-logo-visibility-20261021.log",
+      "sha256": "bd38ab9777f73009df45c0eb268ab4f44cb7046b1059e1275679164afff9c277",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/prof.log",
+      "sha256": "ca34a0e502f0c89556ab3683df0698f3e99577c17698ae26765a76dd87199a79",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/purge-desktop.log",
+      "sha256": "b0a37d89e02fdb68787bf0a04fcb80cfee32c64e19698d7ec977d61c67150a3e",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/qmi-loc-idle-readonly-20261020.log",
+      "sha256": "3a9c62ade9a619709b1e65e25e6df1be0212acfaccc231e2172214edc2f8a827",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/qmi-loc-readonly-20261020.log",
+      "sha256": "fd272fdd56ceac42bf8f8931e5f4f6150b793e50966e7a5190754a92032244bf",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/quiet-order-coldboot-timing-20261019.log",
+      "sha256": "af305a79cf99cff3d1b12f42e524a4ec55119a4f801c1ca61a1e5da373822109",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/quiet-order-precheck-20261019.log",
+      "sha256": "18dd325c48a5d497df8729d9bbdcf78d6ac34678390fc509444206b25c3c3722",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/quiet-order-write-20261019.log",
+      "sha256": "a82d43e4e7b82d5f96e533030d2ed8873fc0de8ebb232ab3ef6d099cb016313b",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/quiet-persist-precheck-20261019.log",
+      "sha256": "347a86c29f4857549edf4b8525bea3eee6ace929ca6bba34771d04be387c3e3e",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/quiet-persist-write-20261019.log",
+      "sha256": "177aa282082ba7cb41f464e0901b45c2a65c8ed56ebc2c8e247107410f62f5b4",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/quiet-ram-retest-20261019.log",
+      "sha256": "78d3aadb8976c465294acb9ed9aca06f3a875de3a3d7fb8b4b741b5d55917405",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/quietboot-fastboot-rollback-reboot.log",
+      "sha256": "2a71a73a6591714815b552cd2e35aaf0b15d8fdf6fd98c7c7d9b10f7a6c781e2",
+      "redactions": {}
+    },
+    {
+      "file": "01/quietboot-fastboot-rollback.log",
+      "sha256": "e141d1a3c78e82917d035c28b165905eb9f23bfb034047b8da462f2818e23bcf",
+      "redactions": {}
+    },
+    {
+      "file": "01/quietboot-inspect.log",
+      "sha256": "1eee033b5033a789f0e164d8c7e64cf47022957a6ed3d298bfb5ab073d899ff0",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/quietboot-prepare.log",
+      "sha256": "80df049394d0285346baa3723cbcf2b58c4b2b65b99b5b4436fc6fb5a2d759a2",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/quietboot-rollback-running.log",
+      "sha256": "aa80d88294926afa1986a42530ca8d6c895813b1a8067c4e0765b7c412649e91",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/quietboot-rollback-verified.log",
+      "sha256": "9cbca9244cd026560592f980caf5457314eb6708b51f54eccf5f1a815c61da52",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/quietboot-written.log",
+      "sha256": "aaf097687b11594b8fce392a19b482436f33db857c543768b6d841815ed2b949",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/raw-accel-device-tests-20261020.log",
+      "sha256": "fe25991cbbafaeebcbc5174dc92dfeca60364eb1c86c0feb27d024bec8e6a172",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/raw-accel-install-tests-20261020.log",
+      "sha256": "30c70afac2beb5b8ab2179346fb95772edf183b83e61741d7f182bd8ebe05d66",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/raw-accel-live-verify-20261020.log",
+      "sha256": "3ab1f5680023f03cf3709ac522d6a1314e22813ed6e2b627dbf1e9f6fcd59b2f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/rei-accepted-software.log",
+      "sha256": "01103d42de92bf37189bda33886cf2dd7530d336cfbb15d36534d3347d461695",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/rei-install.log",
+      "sha256": "b30d67779ba62af887d61696c13b6b7dca74cda3190d1023f8043886cc5efd89",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/rei-runtime-status.log",
+      "sha256": "e6ad5ff77bd2c3da0e2341130df1748d492ba1df43360f7bcaa2d0270e28e2bc",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/rei-video-handoff.log",
+      "sha256": "e6267914ec77d2846de572216e2d116c0eff27ef2f1da0841f9539a26a33c085",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/renderer-log.log",
+      "sha256": "327f9c7957692ab8f58bf63847d08bf05c59ee3506ca876e1469af9e91997b9d",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1,
+        "non-public-url": 1,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/rounded-envelope-device-tests-20261020.log",
+      "sha256": "7c16275a71e047e0d8daa5d7e12add285f6803d5910e0305cb997924168a6dc9",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/SATELLITE-RECORDING-20261020.md",
+      "sha256": "cba7b05b849c965aa240228a19186bd7d9f004fccf64fe94416c2a65e471b9dd",
+      "redactions": {
+        "local-path": 1
+      }
+    },
+    {
+      "file": "01/satellite-recording-verify-20261020.log",
+      "sha256": "60d49ef0f1089540455173d0c0eb5e96e34e2fa9535375120af9ce54da11370d",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/sdl-incr.log",
+      "sha256": "142ac1a3a7a1506f3d0f29eb5f6eb91f57a40f6a478b43bb1ef9fca1e2027d8c",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/sdl-native.log",
+      "sha256": "70011d5b97480daaceebd6d2fd544e32a66aaa3894ceb14d43b9ba3d33d24d06",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/SETTINGS-COMPACT-SCROLL-20261019.md",
+      "sha256": "da66f3f0b97f4fcc04104c0107c85fc20241ca7f6e87b90cfbdbf5ee161464df",
+      "redactions": {}
+    },
+    {
+      "file": "01/settings-final.log",
+      "sha256": "1edc2038515e54485c38ff51a0706106f75116d6ce8686ef61447ecec91a8522",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/settings-install.log",
+      "sha256": "d34d6490d0b9d25a37928c0907f26781b2224c74268da36e5788621d54ecc5d5",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/settings-phone-tests.log",
+      "sha256": "93b189757e3d5da3a05776c59ea4e6aa3f9bd0f0f86e87fe5fdda543dfc73ddf",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 2
+      }
+    },
+    {
+      "file": "01/settings-runtime.log",
+      "sha256": "b0b8193b36e0c4ec857c0fd753c93f57af8e50fdd8e5758e01bfa4c62ca0d790",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/settings-scroll-install.log",
+      "sha256": "5df2dfdd6ccf3b3dd587bd69f38af5cea275d633345b5e17ed23f74d87330441",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/settings-scroll-phone-tests.log",
+      "sha256": "4e1ac14557f6ead97dd56462d2414921491327b5da20047de9e6f6b5c8f0b060",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 2
+      }
+    },
+    {
+      "file": "01/settings-smoke.log",
+      "sha256": "842688b635ad9c558e4b720908a8db62403bda0fd15276c9fcbce36a15db24f8",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 21
+      }
+    },
+    {
+      "file": "01/settings-touch-diagnosis.log",
+      "sha256": "0e962abb379283dc4499e990f7cf3d6acfd99dff7d82784aebf5424e2e066c2b",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/settings-touch-permissions.log",
+      "sha256": "11615a4151d8d520dc04c8d265a94f40da416f5fe1798f3e3a67d74c23f7fe6f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/sky-ble-stock104-fix-verification-20261019-serial.log",
+      "sha256": "63185543ff8741d65fd65a5d0e5eae98b20867d62701e572b738377a69fcc632",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 13
+      }
+    },
+    {
+      "file": "01/sky-ble-stock104-fix-verification-20261019.log",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "redactions": {}
+    },
+    {
+      "file": "01/SKY-BOOT-LOGO-20261020.md",
+      "sha256": "c1d2ce221f095ebe8d0c4454d491d49574628958efc786ec4d135a2166263981",
+      "redactions": {
+        "local-path": 1
+      }
+    },
+    {
+      "file": "01/sky-logo-after-reboot-20261020.log",
+      "sha256": "9be89d7c4603298038de34fb164ff191f0f5552d6c29f8c2dd7b3a2f7b728dbb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/sky-logo-flash-20261020.log",
+      "sha256": "86be70ecc5c7a672599d75f3cdfb88510ec432aa3412685bc4f785cb15441e90",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/sky-logo-flash-verified-20261020.log",
+      "sha256": "df2237927b2a036482e407cc114be9bb49d5f74e3309b0098e3b3b6ef217e445",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/sky-logo-inspect-20261020.log",
+      "sha256": "92bea2ca4dcd333a500b9e9c319410606826d76652fd86d88151d9edff07e873",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/sky-logo-postflash-check-20261020.log",
+      "sha256": "933aa6000a90437e75be3f64c981deee2aa7f3deca2794d6aff9e74b706d2872",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/sky-logo-prereboot-20261020.log",
+      "sha256": "fb3a723bd065c43ca4290e7c68f195b8959e46a79e0e3cae06527c8f3d18be7f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/sky-logo-reboot-command-20261020.log",
+      "sha256": "abbf9d134b7bdb7a31232665222267350feb825f55f30e8878888cf4ae27f646",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/sky-recovery-inventory-20261020.log",
+      "sha256": "278bb3d1041ce570ba8d77f287dfefca4a2c9d6df3698e489a7ac5a67372674a",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/SKYG-SLAVE-WIFI-EXPERIMENT-20261019.md",
+      "sha256": "1a4ac1a06914b837bcd30f644b49fd5b6a0526a648da18d47425a5a18bfc1b88",
+      "redactions": {
+        "local-path": 1,
+        "bluetooth-address": 3
+      }
+    },
+    {
+      "file": "01/SKYGAUGE-BLE-DIAGNOSIS-20261019.md",
+      "sha256": "7bb2d32584019936651f0f7b2337044fad5fe38e788ef1111a8f73add6234085",
+      "redactions": {
+        "local-path": 2,
+        "bluetooth-address": 3
+      }
+    },
+    {
+      "file": "01/SKYGAUGE-BLE-FIXED-20261019.md",
+      "sha256": "2cd1ea2c622747d2881a7095add17b8bea5a6936a6d54d4b25086c5999ee54ab",
+      "redactions": {
+        "bluetooth-address": 4
+      }
+    },
+    {
+      "file": "01/SKYGAUGE-BLE-MULTICONN-20261019.md",
+      "sha256": "5dfab3868db7f10ca5ede0030b556647741ae6aa1d75a8da75618780e36d794e",
+      "redactions": {
+        "bluetooth-address": 1,
+        "local-path": 4
+      }
+    },
+    {
+      "file": "01/SKYGAUGE-BLE-TELEMETRY-CONFIRMED-20261019.md",
+      "sha256": "eb0abe0d8dc68f532898eeca53becca477eebe196682e74138cd5049b1f56378",
+      "redactions": {
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/SKYGAUGE-DIAG-20261019.md",
+      "sha256": "34d73f0dff95e9ad5e4059c1f99273e7b6eac65e27dc2216c5ddb26efe3fa5f7",
+      "redactions": {
+        "bluetooth-address": 3,
+        "local-path": 1
+      }
+    },
+    {
+      "file": "01/SKYGAUGE-PHONE-FIX-20261019.md",
+      "sha256": "71f978de38fb82ce5237b3192d57c3033ec2bdfcafd9196fb1aae02b7d715290",
+      "redactions": {
+        "bluetooth-address": 2
+      }
+    },
+    {
+      "file": "01/skygauge-positive-control-20261019.log",
+      "sha256": "fd995d5a0366055a37743309cef1e25107d0bf3d2ee05f99b64d16a48ce47e8d",
+      "redactions": {}
+    },
+    {
+      "file": "01/SKYGAUGE-POSITIVE-CONTROL-20261019.md",
+      "sha256": "20f8bef70927071adc134f46f00d0b36549e64a2c1b796be034677b1b0153ad2",
+      "redactions": {
+        "bluetooth-address": 2
+      }
+    },
+    {
+      "file": "01/stop-for-vsync.log",
+      "sha256": "78e9d780b9e85f956828b9316baba46e4a921c2e3ffdb7275d1658da7e5bc64d",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/svc-cat.log",
+      "sha256": "12bd4898318c98db6ca6da382cdfaa93ee6dc2e4935140d36a947dfe198a1ec0",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/telemetry-device-tests-20261020.log",
+      "sha256": "6168e4d1c5d9e3b8fc1f0af42c40a905c486f07603776c0273d5f4c16ab9cbb5",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/telemetry-install-20261020.log",
+      "sha256": "9ca1c12c0f19b5d0ae59ebfa3bb75227923a2b55fb0ca83c7711f36a673e92dc",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/TELEMETRY-PAGE-20261020.md",
+      "sha256": "5aec314b190ba23bef3a3f2252fac122ad2641df09e2a3d8c29eca10cc28d1be",
+      "redactions": {
+        "bluetooth-address": 1,
+        "local-path": 1
+      }
+    },
+    {
+      "file": "01/telemetry-verification-20261020.log",
+      "sha256": "09c9d9058acfc136810d61ee14d0e5543101129645c0bd28b093bb4adc930260",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 5
+      }
+    },
+    {
+      "file": "01/temporary-charge-priority-20261020.log",
+      "sha256": "c0a8d037301bc1b0793987ff58d35dca3302979394e8826114e8e824ea184bed",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/temporary-charge-voltage-20261020.log",
+      "sha256": "12bb83f0c24b815639c227b4e2e0ba3f9338ae635119f89563619b775e7a0a9d",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/track-log-install-tests-20261020.log",
+      "sha256": "2356564f82ae071e01c2f7edacab504e21fa3bed30a29ff16b5f3a6085c8dd23",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/track-log-live-verify-20261020.log",
+      "sha256": "54498790446bbcd13b54442d8da2912f9f18622cf06ad5a9ab06e14882b36771",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/TRIP-RECORDING-20261020.md",
+      "sha256": "7c1c3bedb30e66d260601b283ba5cc15e87c1c0571976fa524d44a484ef43598",
+      "redactions": {}
+    },
+    {
+      "file": "01/trip-recording-install-20261020.log",
+      "sha256": "f4773cd715e1e54f20746b490171948ce56e7008a5995e154813e145a34d1c7f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "01/trip-recording-verify-20261020.log",
+      "sha256": "e63b7070d590c8efd916e1f3db16355e08fc92c61305db33a8d4cf2e0133564b",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/vsync-off-test.log",
+      "sha256": "ccbc6ab0f544f53dc23b4698a3bd177317568818eb3f881e14538ab12c158688",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "01/window-data-install-tests-20261019.log",
+      "sha256": "e4186a4fbe3954b2a5ae10b7a7595e5da4ac5d4a199e82a4343d647f0163a1da",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 2
+      }
+    },
+    {
+      "file": "01/window-data-live-20261019.log",
+      "sha256": "2e4a22c859d048cb09678a7153b7a0cd1835abd0c79479a175ab4989e0c98178",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/WIRELESS-FIRMWARE-OFFLINE-20261019.md",
+      "sha256": "e57af8e6822a61bff711a582dc776ef81489d07bdcf0f11dd648c6d6d0de548c",
+      "redactions": {
+        "local-path": 2
+      }
+    },
+    {
+      "file": "01/WIRELESS-FIRMWARE-TRIAL-20261019.md",
+      "sha256": "505c73f13e222bdc3cf96f5d91e8efec25f863d05f9bba64f1c1265d4435c5ef",
+      "redactions": {
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "01/wireless-fw-trials-20261019.log",
+      "sha256": "21e37e35185248b55e33579dd8184af96604c62d036fc262f05b855ec81c36db",
+      "redactions": {}
+    },
+    {
+      "file": "01/wireless-live-filters-20261019.log",
+      "sha256": "81a361e678a03709b2f9e390446948b07d1abb816d5c19f14a195eb68fbfcb32",
+      "redactions": {}
+    },
+    {
+      "file": "01/WIRELESS-LIVE-FILTERS-20261019.md",
+      "sha256": "a2bc5830877c701e4b7b43dc077da1bf73af3133d8ddb9bc0b79b380e940a78f",
+      "redactions": {}
+    },
+    {
+      "file": "02/auto-already-repaired-live.log",
+      "sha256": "caa5c38a1e07cb674f00bc59e67564af7981b30053a9985836927dae634650fb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "02/deploy-precheck.log",
+      "sha256": "496049b3166d662be1752c8e2f8cdce2a832efa38e071e46dce3d0e384bc358c",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "02/deploy-readback.log",
+      "sha256": "c3899fce7696a8ff40d7dd60fe6b744024a3066fc6ff194d7ac52708aa6f9312",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "02/修复与更新说明.md",
+      "sha256": "56ea250822ac836599d374421324355643627b3188700082dabdc7a9ee76c384",
+      "redactions": {}
+    },
+    {
+      "file": "03/install.log",
+      "sha256": "daf42292bcd519c990b55d915fbd5ea416ab3fe9b20e6ea2b59a3f5dadc458ec",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "03/log-missing-diagnosis-20261021.log",
+      "sha256": "e0e028a8c64cb571a42a0786b101f6e649e2227e2fa3720754180ffd81edf9db",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "03/log-missing-export-check-20261021.log",
+      "sha256": "3a6858c87c1950b54a796b52c831634639b272aa84fb86f1944323d6ae0f07bc",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "03/log-missing-timeline-20261021.log",
+      "sha256": "e3ac656cb84d6e1a8ee71753ebceb24aa2be7a28359e7559679b9acb0da527d9",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 2
+      }
+    },
+    {
+      "file": "03/MI4-SKY-LOG-HANDOFF-20261021.md",
+      "sha256": "f17beea610957d8c910d79198dca9cf0c1ebc55107ddaf9dfe003f27e9659d90",
+      "redactions": {
+        "ip-address": 5,
+        "credential": 3,
+        "non-public-url": 2,
+        "local-path": 1
+      }
+    },
+    {
+      "file": "03/MI4-SKY-MINIPROGRAM-DEVELOPER-GUIDE-20261021.md",
+      "sha256": "6db09ead40e380b6cf2ca42396f35756fff26d0249fca115ebca60c9003d9bf3",
+      "redactions": {
+        "local-path": 2,
+        "credential": 3,
+        "ip-address": 7,
+        "non-public-url": 10,
+        "location": 5
+      }
+    },
+    {
+      "file": "03/pairing-install.log",
+      "sha256": "9b520703fbefd1cfb928ab44686815196166b4c89b7f6c2bf00db9c15b302ded",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "credential": 1
+      }
+    },
+    {
+      "file": "03/racechrono-install.log",
+      "sha256": "c373e91e7cbb7f583b17ac1e15de11d2f2e06f60bb54434202faeebb2315cd3f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "03/START-HERE-MI4-SKY.md",
+      "sha256": "969692a2ba9490efacd6bce5fad7c290ca9e2612605d3e015d8f4f57e72991fd",
+      "redactions": {}
+    },
+    {
+      "file": "04/bluetooth-charge-policy.log",
+      "sha256": "4c1945717bc136efcf6c9add990904f22b44161a13ead34aacf49b8832c69aa2",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "04/bluetooth-charge-service-source.log",
+      "sha256": "842d40e1bdd152d96570906f82b74becf7571077cd48b38bcf2d39a649be9c88",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "04/bluetooth-post-reboot-diagnosis.log",
+      "sha256": "795eff59cfdb6db7f872ede68c7b352841a39691ba2565ffd4a278804557c0e9",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 2
+      }
+    },
+    {
+      "file": "04/bluetooth-restored.log",
+      "sha256": "0cc783d27b7c10e849cfbf05be9371e655036e3e1fda4bb749a0d333e56092b1",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "bluetooth-address": 1
+      }
+    },
+    {
+      "file": "04/charge-service-loop.log",
+      "sha256": "4094296519ecfadb3fafa91a9714243061c6931c21476dfd860ca67d5884842a",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "04/factory-fastboot-getvars.log",
+      "sha256": "ae639181e8759de0ccc7cbabc4b636ed0d6a348b0d14f5d7088a17d140842ff4",
+      "redactions": {}
+    },
+    {
+      "file": "04/fastboot-reboot-normal.log",
+      "sha256": "2318026932664d0dc3e51eb00448dfd8ce2683a377f01253468e7ac6fb119e01",
+      "redactions": {}
+    },
+    {
+      "file": "04/flash-write-readback.log",
+      "sha256": "f30a4a54a546fd7a13e262cdc67ce5884817af18a8ff3b1b171da2a943bf3bcb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "04/README.md",
+      "sha256": "6455a9e94dbe17e10f9a8f61ea0db77a55569f38c83894591aca6b43ad3ec98e",
+      "redactions": {
+        "local-path": 1
+      }
+    },
+    {
+      "file": "04/reboot-to-fastboot.log",
+      "sha256": "1eeff6571671f91195aec1a1d1e6bd583ea8cca79f58c178a55acdf376b90177",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "04/write-final-supply.log",
+      "sha256": "f76c630d8032a05f05df2b5495410317efa254087d212d08bb0f1dd45b102781",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "04/write-precheck.log",
+      "sha256": "8fc5b5d720210e836f1b777c5d189eff3c3b4fa3ec32adf10daa23ec968d2fc0",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/adsp-probe-load.log",
+      "sha256": "dd2bca7fc62684f333c97c23e7aa41a685277bc80e03cde2257005e03bad42c9",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/adsp-probe-result.log",
+      "sha256": "c113916b62334e5f2bd2f82b39d267e712e28a57e8cba307e0d803b78f162fea",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/adsp-probe-v2-result.log",
+      "sha256": "f0b885043d85569d4d94d15514937bb19ebcbc7dab23ffc8ed34d347a69d4173",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/arch-check.log",
+      "sha256": "4fdcc6ab9add7e02e272edc6066a3215e4b6ce29d9600d61e3560b59dcc307c4",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/AUDIO1-BRINGUP.md",
+      "sha256": "53a355e3c4a4dc1e5c08d00dd4470a02319d79f82e2178fff148d423a02fe074",
+      "redactions": {
+        "non-public-url": 1
+      }
+    },
+    {
+      "file": "05/audio1-card-enable.log",
+      "sha256": "1a10cc6a4d8688addd8185dd0e61cd489e0f04c8ea5fdf747666081e0825f3bb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/audio1-card-failure-detail.log",
+      "sha256": "15cde3bc7a484f5d4fa17777170fc2ca6d68b36131dcf16e28b3e64a3eefa3e0",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/audio1-card-linkfix-result.log",
+      "sha256": "5a3c16f444452e6b96dc9b9a50d4fdee9d3e4f4bfae0bd30d5b842fb8787a42e",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/audio1-card-linkfix-result2.log",
+      "sha256": "c8f074a23beed01ae108cb07d654763f4072919d2711f9a6a452cb81a1aada98",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/audio1-dsp-codec-probe.log",
+      "sha256": "26bd4ad83c802446d8ec0db8d99be3794142c8b5767028dca982fa471580bf1a",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/audio1-first-boot.log",
+      "sha256": "6bc31306be8d82e01fc3054430c5f80e3e9fa58f1f8adac205611cac0b3b90bd",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/audio1-pcm-silence-test.log",
+      "sha256": "ae82664ffda5236db968f8df49aa7c935c0d7910d0e45e9850b9442b9b88cb2a",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/audio1-preflight.log",
+      "sha256": "ca8ed94e38c8ce68be689039e56177922316d4d49cce8177837a204043d72fbf",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/audio1-q6-and-gpu-detail.log",
+      "sha256": "c7ddf23f2876a9e5f4fc29cb0e524913bab9738178054a4062bbe6c22efa6816",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2,
+        "ip-address": 1
+      }
+    },
+    {
+      "file": "05/audio1-update-verified.log",
+      "sha256": "33e4383dc256094a335313dd30318246e368e65260103f0b124f7a33d22ce6b8",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/audio2-a-restore-check.log",
+      "sha256": "b1360773ee62dc473c5bd77c0b2140d5e9cfa2e30c6cfc2540cda3153ebdefa7",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-aa-hw-direct.log",
+      "sha256": "d57d7da367491767fe51903a1f6e3b2f63567fb07375521447369dd6a5bf72aa",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-b-card-restore.log",
+      "sha256": "8241c8ae4c479127f266152d6275167a13d325e6b5d2c34ade4c5f8731edbff6",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-bb-sink-inspect.log",
+      "sha256": "e617ed897949656a7a852094d95f2977f22f63e9dedb5f48c5bc66804964a372",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-c-module-version.log",
+      "sha256": "0a3549848e301f4c4de7f3180112bd44276ccb48cd548f17d48fecd46a8b8356",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-cc-controls.log",
+      "sha256": "c7bf16e21af38e8cc4f2c7968ce43140e5c71d0c77c051d994fe8d6786b4102e",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-d-scripts.log",
+      "sha256": "f8bd17494ffd299979258d26394fcdab9b11f890e62c89d5ccba71c0be7d1fcf",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-dd-script-20s.log",
+      "sha256": "5bcf587e023b880e395a0a9087cf47db3c9662b9b16d58a58172f49599adfce2",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-e-prep-reload.log",
+      "sha256": "8f982b3f317f71c9c9005a34e6bc969b158def9dc3551d96f99f3408c38d4780",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-ee1-stop-pw.log",
+      "sha256": "8803c117d3f5535129d48834028cab59a223a3b668f1c03b8157675233ee2b8b",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-ee2-play20s.log",
+      "sha256": "5c2ceef6328c1a2b9f5b741bd7935219708043aa709ceb270e7cd13f35eed28b",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-ee3-restore-pw.log",
+      "sha256": "be94d8a16e6f3f8da3a488d2e1fe9938e371eb4bc23d32ec275a28fc4e14c5bb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-f-reload-max.log",
+      "sha256": "19dd4e719e31d51e6cd237e2328d355bdb593b6518bf00322316a1c7e368db3b",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-ff-speaker-state-full.log",
+      "sha256": "5a7e845b3cb81adfcaea6058aa06c270ea3d2717efce84d4dd2591df90ba3926",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-g-pipewire-status.log",
+      "sha256": "d818493827b35aef98396ca89c0d2aa6c53821fd2e3106a9a3c773403d26585d",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-gg-live-regs.log",
+      "sha256": "2ee0cddadbd443ef063a3b76edbaf3b134e2b716d8be4bf7fa22e9e224c1854a",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-h-ucm-install.log",
+      "sha256": "2118da4c459fd97f1ffa66a3e1f285dc26396495b61d3d80cb786496e1961f50",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-hh-kernel-now.log",
+      "sha256": "93bcf550a32560b3a9ac601723676f2ba5d7eba833bfbf05d5cb5dee3d79cb6d",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-i-ucm-sample.log",
+      "sha256": "b62c98082bca4547b6bb8d08cd84fbb66349cb375768bbda7d5aed10f62c04b7",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-ii-occupancy.log",
+      "sha256": "ae77787ad62365e472bf52770fe6e5a9b044e6b42cb0ddb2753ef17b145052cc",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-j-ucm-sm8250.log",
+      "sha256": "abed0cb9bb286c77b29bca043436ed33df217e44648ef4fa90501c6738a398fa",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-jj-full-script.log",
+      "sha256": "e308b56204643909279896fb53e5bc6d112cbed53bbf3997d3befa870c926e5c",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-k-ucm-hifi.log",
+      "sha256": "50106b832ea87683a953b54e5c327fcacb3801dbaf2afc66a8d0c26ceb3c2083",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-kk-store-routes.log",
+      "sha256": "5fc71ce91aac8ca863f668a564387a59e7672de2a33f7e4ac227927ca1ffec96",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-l-ucm-write.log",
+      "sha256": "8dcab69fd711c26db32b0ca17a88be262463a7f28549ddcfc0da3eee6f6be0b8",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-ll-pw-verify.log",
+      "sha256": "8cefd28132b51c1b484e2945e56e675365b5a48d5ae37316e1809344f3046f0e",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-m-enable-and-status.log",
+      "sha256": "452922fbe943270c013bf9d76071e8330d6b0e0b3bf7166a94a4e48d28d3e4c8",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-mm-update-init.log",
+      "sha256": "8d97e69c58c95727620553e31735b1726a3056e83816179b6b13f656e7e3343b",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-n-ucm-check.log",
+      "sha256": "db59480b869e5532f882db4cf67e31d30c74afdfa16d1e4473582cac883c4b4b",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-nn-pw-final-play.log",
+      "sha256": "ef59a4c86e6fd16d16758cede98e59377e73c110daf5eb9ec9fa839e52cad486",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-o-driver-name.log",
+      "sha256": "97d6cdc179ead515179af85a9da17bd557dc34ea72adef342a08b9a8de505011",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-oo-preflight.log",
+      "sha256": "e54486453523700ffa703cff9501166bd03c745dfa1d3e44ef3effd557815219",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-p-ucm-driverdir.log",
+      "sha256": "e4ee5e9a5ded531575f55cec89eecbf3eb89d03bea83e4185ee166dc29ccdfc7",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-pp-service-test.log",
+      "sha256": "dcd24300020696f686cc338dac9ef80e1c34c4783e188fb932209a6f5c741646",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-q-ucm-debug.log",
+      "sha256": "0458533cc727e37c86acbe0bf0613e28c8b15a3c077c3eb9250f1b668a2f097c",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-r-ucm-alldirs.log",
+      "sha256": "bd80a7073b5475e1fefec06ce20ddc9723532f91175adcb695d3313a0a6b74fe",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-s-sink-check.log",
+      "sha256": "2a5ac9bf9873897c705afbf94fb63c01362281e0f4908f5d5599344dc570f05d",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-t-playback-test.log",
+      "sha256": "407d5cb246da6e96586b324cea184c630a65f5c3f6cd0825bfab61e0df983ca5",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-u-cleanup-verify.log",
+      "sha256": "aa17e6742153d397051272413fc3752c5cc5cf1b1834f444a8d34027705bd1d1",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-v-modprobe-conf.log",
+      "sha256": "fc5d41b76328cd3e476175db6db6f3927a31d8312edc43ed3160d206631acba5",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-w-boot-service.log",
+      "sha256": "9cd1c12deb8f56f32f47cc7124da4d51512e89e499c500070540d1cae94c4c27",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-x-audible-test.log",
+      "sha256": "99e8d615eeed07302a85c614f558e867c08546c1ee9c6f430e0543e84ad64be6",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-y-set-volume.log",
+      "sha256": "1b75995f71d4db37a2b3f3e888f2a9ba592301291b562ebf11be80ca2be9b2de",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio2-z-play20s-diag.log",
+      "sha256": "c43e17aa85f4e67393d2a51bf3a88b0e2b299d34cae162b8b27413c98e4f8e04",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio3-a-boot-verify.log",
+      "sha256": "6c5bc7c2ae9b2fee93de762093f6963e414cc5cf7c88366d2754497d03e6f528",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio3-b-boot-play.log",
+      "sha256": "14f2e2a619818322da2bcac8c09c774d7ef6118c3bc25a9dcb127ae7b3ab25b4",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio3-c-retry-supply.log",
+      "sha256": "2f65c4495ee416d96710993eda1c6d14a1af76705e189e8babe0b55a9ded3a9f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio3-d-regulator-check.log",
+      "sha256": "58893e5551fbc38c6640f33eeb44675f40144f50adc4c98ad6e9d6b6466558de",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio3-e-stop-pw.log",
+      "sha256": "566061d958f8f79bee84ac9bac45b9c7b14ae0273ad5616986717a19e7b656f8",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio3-f-reload.log",
+      "sha256": "6f3fddc2981e3e71a4579c408ecdb453f450644c2d6b4ffa881721305beb7ccb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio3-g-holders.log",
+      "sha256": "82da852c63fafd2315e972213706a9ab42704d47299a8daedab432743b4e46c6",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio3-h-stop-all.log",
+      "sha256": "a57edeca548c525414eb48aa9d9676683a540c79c9e96f1f0c78b068d3678653",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio3-i-reload2.log",
+      "sha256": "b9ed17c5ae3ca2e0077e15b2726a22402e34916d17b5dc8c10223e00ea346723",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio3-j-play-after-reload.log",
+      "sha256": "8c5226070102837db379176c13f495987ec8571b4b4498511d0b415c5ab2366d",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio3-k-rpm-state.log",
+      "sha256": "ba3a2e0cb40cb7ec044ef7964f0733986c22f553b730072340b657dab42e43e6",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio3-l-restore-pw.log",
+      "sha256": "2293c066160bca61e56054db4c6848bf527473cfab96a068b4dbf5eee93a068f",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio3-m-update-init2.log",
+      "sha256": "d2793606f959e2514e4b74186904f673813768144642cb9d49e5635d26e90840",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio3-n-restart-test.log",
+      "sha256": "aeb1b2e1133632bfd497eb87c0fd3c7d93d577af8cbc9602e99bc79aa8b91e99",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio3-o-final-play.log",
+      "sha256": "3a95c728cca38e1cdeafb6c95a9d793ca54b4487f7ea340589dde803d989369b",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio4-b-gen-ode.log",
+      "sha256": "0e58980ca3e3ea7cc23df8789364061ce1079a38fa2354ae40d1e60893686f59",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio4-c-play-ode.log",
+      "sha256": "4fe74bd5d7d43d3a693cb8c1794a78daa52ece0f2d5b3c0164316720c0a0dc33",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio4-d-divider-live.log",
+      "sha256": "50db2c598f0385c5aa67117c88d9eb4ccc2b47327399ae3969ebd4da739f6298",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio4-e-wav-inspect.log",
+      "sha256": "5d1014d1adce73420052f0ae5cb833ebccab92ed41e2f843b02a109c59071a02",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio4-f-mute-and-stop.log",
+      "sha256": "aeffdcb9aa66a943f6e3e814af8de849194e1bb1726507fa30277155f3338b43",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio4-g-script-20s2.log",
+      "sha256": "f8082424a941498d806063d9703262d2d7ebba2742ba6fc61130268e10fdbc0d",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio4-h-reload-clean.log",
+      "sha256": "98f354a75c5379ff183112cf6689a09e0425f47177004fb678c12544175b7fb9",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio4-i-script-20s3.log",
+      "sha256": "838c9a5ed8904c32b22f191d65e8ab065dae228d147f3f220a005f50d4b094ac",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio4-j-restore.log",
+      "sha256": "b715e01be21ef89e7a065a7e80a5cc05c2101df804ac0939074efdbdf327b373",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio4-k-stop-and-gen.log",
+      "sha256": "cbd1b4f09fa0eba2ea8b0823985ffe38b96da080b06234efeebf90cef5d32963",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio4-l-fullscale-play.log",
+      "sha256": "0f7c4d0eb52929dd12dbdbc808da1c7de307a85937185b2c2eab6c402181a482",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio4-m-restore2.log",
+      "sha256": "70ff7a09aea04a91dfd4cedff4dc9250a3b105c11b238c54624e0cab242f6c4a",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio4-n-mclk-freq.log",
+      "sha256": "7f54dce886a4d75f0e6202b7208d3e8f54310e5d3b037d59824e2956db2aeeb9",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio5-a-ode-via-pipewire.log",
+      "sha256": "31c2448bd952db4dac67efac98de7869afb87c18177e88f2fa45607ce9027ddf",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio5-b-stop-for-exp2.log",
+      "sha256": "2cc5989aa4eb922044bb8a48d28b1b75e197133df27d03c6fb90f11d675ac4da",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio5-c-ode-via-hw.log",
+      "sha256": "f83f285661f12ce52830be51d39cdd20014174aeff7b7636ecee695897809ff3",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio5-d-pw-format.log",
+      "sha256": "241871cd68ff0fa717a8a8b1f96eb3f7cdeb3619c57f7bc5e0d9b7752973c6ff",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio5-e-wp-format-config.log",
+      "sha256": "23d9a153f3c68b1ca54a966f48e18be754190d10b17dfe41beb97d79a82e2c29",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio5-f-exp3-s16.log",
+      "sha256": "02abca428fc87c4c83f48fa2d9c7de02c5bc7abfe3d46b48085ecbea08b7958d",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio6-a-preflight.log",
+      "sha256": "e9a3be62c285d50c628678cfc5bd6fa70276fb24160d059826df97acf17a45e4",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio6-b-reboot.log",
+      "sha256": "2fa8262c50deba51d73506c972b422e40d97c2240404c7a32c7771eaabd9dbee",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio6-c-postreboot.log",
+      "sha256": "0de846deea5a7a40679028a31553dda3b32bb465ea21327aad92d622bfdcae5c",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio6-d-first-play.log",
+      "sha256": "786a9a274545b724ba945a4e9b42b4b14011dd108da6d596d5c0320a3cec0960",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio7-a-volume-controls.log",
+      "sha256": "5d54c7f1dd6c38673ebdfaff033cf6ec684a4b1d94b3a5021cb604d3ee9bae4a",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio7-b-gen-loud.log",
+      "sha256": "3dccbb2a5d86ef1f09c071a688bf5a6848842533b4157c72d6327183c71404c0",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/audio7-c-loud-play.log",
+      "sha256": "1df4e714b423814d8ae0c8bae1109122de4ee015a3ba8c55ba255489cac95a06",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/black-screen-after-idle-initial.log",
+      "sha256": "9fdec8572fa6052a8e07de3152644c3ddeccb0f3ee49aec81503567350de98e7",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/black-screen-display-sleep-events.log",
+      "sha256": "8c118692fe98d6c31d770f1888f46ca00b0a785fda1212a4fc6bd96dcfe8b840",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/black-screen-previous-boot-root.log",
+      "sha256": "f6ead0c3a1db0dfe389d5ea330470b1f5c0d6aaa147440087c518a7efa22c201",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/black-screen-tail-and-idle-settings.log",
+      "sha256": "dce2236bfa4b8821dc70d7ff9c14c355426983e515cf3bb24c894f25916e8103",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/blackscreen-20261018-a-current.log",
+      "sha256": "f390eebf3d956eab58e6d32af9be8f24dc592ba0e243a608a9c51ad1ca610c95",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/blackscreen-20261018-b-screen-state.log",
+      "sha256": "d6c72259fae97d7ee8636c13f0d7419eba7283f822b3b4eb0f8f64e5af839ab4",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/blackscreen-20261018-c-dpms-wake.log",
+      "sha256": "c905e23f7a4b43d6f620c5a0448194d50e24c715a1c02b9b5fa439871832eec8",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 1
+      }
+    },
+    {
+      "file": "05/build-audio1.log",
+      "sha256": "639226a6921e739eca3a930a7bc469be0ff9c7300c17a0a154e083215440536e",
+      "redactions": {}
+    },
+    {
+      "file": "05/final-state-and-boot-check.log",
+      "sha256": "645b9ba0ea2a14a1f9e0419945ebfe6e5fd82614cf3e9c55457a2b9178d010f6",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/HANDOFF-MI4-AUDIO-20261018.md",
+      "sha256": "6fd97e93b8ac976fe28122ba5e20e16dcd1fc068d8b2729ac75fc79164e24fb7",
+      "redactions": {
+        "local-path": 8,
+        "non-public-url": 1
+      }
+    },
+    {
+      "file": "05/modules-install-phone.log",
+      "sha256": "9e31d4f514a10f15dee155975f085a206bab090186cc03a1e30734e672f28993",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/pre-audio1-boot-guard.log",
+      "sha256": "0954915c2ac9d2f6d0a1289e6cf64d8641856692de81cc2245153737f394d2b4",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/RESULT-20261018.md",
+      "sha256": "f5e347e8d405963c95a90e1911d6b6957d66f3b6c7218c1084668308b2e73717",
+      "redactions": {}
+    },
+    {
+      "file": "05/slim-qmi-before-kernel.log",
+      "sha256": "65d2601a60634a8ff080e93843508e98c6cbe6bd7bbd9175d1e9fbbbd3f0644c",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/slim-qmi-lookup-result.log",
+      "sha256": "87deb238204214d6dc826d620fd08c680ff2019bdd4b018541f75bb81a598237",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/speaker1-module-load.log",
+      "sha256": "70aedc8f3988f1e4268e0add23ab5eed8bf995830a67dbe66c96fea2fc6c7b38",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/speaker2-clock-probe.log",
+      "sha256": "3a89a0b6dc0f93ae2ee643e00fe21ddea879b409995841bf58e410b3f5b9d030",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/speaker2-first-tone.log",
+      "sha256": "0e27c3680e17bbb2fb41aad5e9c224b87126c6c00adff2c3e2cb12a571654bae",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/speaker2-tone-failure.log",
+      "sha256": "9bbf05e4d4b4926608991c49bdfb8f57bf0fbd66199bcddf6c65e646e0fdbbcb",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/speaker3-idle-cleanup-verified.log",
+      "sha256": "6c9d2e3ea2c5082e02ab862d6908da0a6aab261f95a63b974345b5c4be2e1ec4",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/speaker3-repeat-listen.log",
+      "sha256": "2fc92bcd60249ed6668efacc4bae6825aa4082f030318ec09754b75d17ba5cda",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/speaker3-test-tone.log",
+      "sha256": "a9d77837f8acb00b663722ce2ad3ccdac2fbe96ed8df7664fffcb935cc039368",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/speaker4-first-nonmute-test.log",
+      "sha256": "a7cf22c17c89f56274a8674000a9f6b6de920a7450a6c7562d85a718a632d496",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/speaker5-install.log",
+      "sha256": "0c2a2cf2502a6f5518c90d7ee85d578c1d8e8952e66c9af0b78fce2c09a0b929",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/speaker5-live-status.log",
+      "sha256": "a679c90f8c01ff0fcae8a31727c23d5a9a71f38cb1f6ba8c9cf16fe3fd07d047",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/speaker6-cleanup.log",
+      "sha256": "b929ad920a10d8144e92a74936e3b6e18686530c895c0ef31c283eb131a55065",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/speaker6-clock-test.log",
+      "sha256": "b5f7d2e62d9f4452ef33d99ca1a89e752d6f703df550869775e594c6e73d9395",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    },
+    {
+      "file": "05/speaker7-max-20s-test.log",
+      "sha256": "40af041c1c06e7c32a6b58e95c359e8d3f50bcb3ea2259ab6028ed035c41e5bf",
+      "redactions": {
+        "encoded-transfer-or-shell-envelope": 2
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "file": "settings-backup-chunk-0.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "settings-backup-chunk-1.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "settings-backup-chunk-2.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "settings-backup-chunk-3.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "audio4-a-music-assets.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "music-a-device-check.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "music-b-webkit.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "music-c-cookie-api.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "music-d-restore-receiver.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "music-e-deploy.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "music-f-launch.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "music-g-launch-status.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "music-h-env.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "music-i-webkit-api.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "music-j-weapi-probe.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "netease-pc-probe.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "netease-pc-probe2.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "netease-pc-probe3.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "qq-probe.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "qq-probe2.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "qq-probe3.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "qq-probe4.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "qq-probe5.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    },
+    {
+      "file": "weapi-probe-real.log",
+      "reason": "account/private/transfer material; technical summary retained elsewhere"
+    }
+  ],
+  "warning": "Historical evidence, not current deployment instructions; inputs remain private and unchanged."
+}

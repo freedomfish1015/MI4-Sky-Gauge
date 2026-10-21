@@ -1,0 +1,20 @@
+
+6.15.11-mi4-audio1
+/sys/devices/platform/soc/fc4cf000.spmi/spmi-0/0-00/fc4cf000.spmi:pm8941@0:battery@4000
+/sys/bus/platform/drivers/qcom-bms
+driver		 power_supply
+driver_override  subsystem
+modalias	 supplier:platform:fc4cf000.spmi
+of_node		 supplier:platform:fc4cf000.spmi:pm8941@0:adc@3100
+power		 uevent
+4090: y y y n
+4091: y y y n
+40a8: y y y n
+40a9: y y y n
+40aa: y y y n
+40ab: y y y n
+40ac: y y y n
+drivers/power/supply/pm8941_bms.c:250 [pm8941_bms]bms_read_cc =_ "read coulomb counter value of: %lld uah"
+drivers/power/supply/pm8941_bms.c:198 [pm8941_bms]bms_read_ocv =_ "read open circuit voltage of: %d mv"
+
+umeko@umeko-cancro:~$ 

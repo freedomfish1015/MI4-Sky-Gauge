@@ -1,0 +1,34 @@
+
+67.86 179.48
+cbb98d2c-ed56-457d-b611-122efb0c1764
+MainPID=452
+NRestarts=0
+ExecMainStatus=0
+Id=obd-gauge-kiosk.service
+
+MainPID=0
+NRestarts=0
+ExecMainStatus=0
+Id=obd-boot-curtain.service
+{"pid": 452, "uptime": 19.69, "elapsed": 7.099}Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+[   12.597583] umeko-cancro python3[452]: DIRECT_GAUGE_START uptime=12.59
+[   15.244568] umeko-cancro python3[452]: DIRECT_GAUGE_CURTAIN_RELEASE uptime=15.24
+[   17.018408] umeko-cancro python3[452]: Mouse cursor hidden (SDL cursor state=0)
+[   17.396999] umeko-cancro python3[452]: Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+[   17.723488] umeko-cancro python3[452]: DIRECT_GAUGE_LOGO_PRESENTED uptime=17.72
+[   17.729648] umeko-cancro python3[452]: KMS mode 1080x1920 @60Hz vsync=True
+[   19.696056] umeko-cancro python3[452]: DIRECT_GAUGE_FIRST_FRAME {"pid": 452, "uptime": 19.69, "elapsed": 7.099}
+[   21.224053] umeko-cancro python3[452]: FPS 42.4  paint=6.8ms upload=0.3ms present=18.0ms wait=0.6ms pipeline=1
+[   23.230144] umeko-cancro python3[452]: FPS 59.3  paint=1.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   25.235642] umeko-cancro python3[452]: FPS 59.3  paint=1.2ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   27.241808] umeko-cancro python3[452]: FPS 58.3  paint=1.2ms upload=0.0ms present=17.0ms wait=0.1ms pipeline=1
+1
+69
+3964671
+
+umeko@umeko-cancro:~$ 

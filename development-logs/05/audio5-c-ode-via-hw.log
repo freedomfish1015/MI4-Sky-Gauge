@@ -1,0 +1,14 @@
+
+sh: 1: echo: echo: I/O error
+
+  : values=on
+  : values=on
+=== 实验2: hw:0,0 播放《欢乐颂》14.5s ===
+正在播放 WAVE '/tmp/ode-to-joy.wav' : Signed 16 bit Little Endian, 频率48000Hz， Mono
+=== 播放中后寄存器 ===
+reg[0x1df]=6f rc=0
+reg[0x1e0]=3c rc=0
+reg[0x2e7]=f4 rc=0
+
+DONE_a096633aaad44cf1804fb8017b8e0f44
+umeko@umeko-cancro:~$ 

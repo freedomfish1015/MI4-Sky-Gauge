@@ -1,0 +1,33 @@
+
+NRestarts=0
+ExecStart={ path=/usr/bin/python3 ; argv[]=/usr/bin/python3 /usr/local/lib/obd-power/gauge_power_service.py ; ignore_errors=no ; start_time=[Sun 2026-10-18 23:51:35 CST] ; stop_time=[n/a] ; pid=2337 ; code=(null) ; status=0/0 }
+Id=obd-power.service
+ActiveState=active
+SubState=running
+
+NRestarts=0
+ExecStart={ path=/usr/bin/python3 ; argv[]=/usr/bin/python3 /usr/local/lib/obd-gauge/launch_boot_video.py --ble [BT-ADDRESS] ; ignore_errors=no ; start_time=[n/a] ; stop_time=[n/a] ; pid=0 ; code=(null) ; status=0/0 }
+Id=obd-gauge-kiosk.service
+ActiveState=active
+SubState=running
+enabled
+{"online": true, "phase": "idle", "remaining": 20, "message": ""}Stopping obd-power.service - OBD external power countdown policy...
+
+obd-power.service: Deactivated successfully.
+
+Stopped obd-power.service - OBD external power countdown policy.
+
+obd-power.service: Consumed 3.986s CPU time, 5.0M memory peak, 0B memory swap peak.
+
+Started obd-power.service - OBD external power countdown policy.
+
+CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": ""}
+
+a1329c50140c7b869fdeeb77fa6e51b07d4d1af0ca6ff86a3581676a3806d648  /usr/local/lib/obd-power/gauge_power_service.py
+
+FPS 57.8  paint=2.0ms upload=0.2ms present=17.0ms wait=0.1ms pipeline=1
+FPS 57.3  paint=2.0ms upload=0.2ms present=17.2ms wait=0.1ms pipeline=1
+FPS 58.3  paint=2.8ms upload=0.2ms present=16.5ms wait=0.4ms pipeline=1
+FPS 58.8  paint=3.9ms upload=0.2ms present=15.8ms wait=1.0ms pipeline=1
+
+umeko@umeko-cancro:~$ 

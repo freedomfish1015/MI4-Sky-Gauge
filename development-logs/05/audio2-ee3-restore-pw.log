@@ -1,0 +1,12 @@
+
+=== sink 状态 ===
+ ├─ Sinks:
+ │  *   46. Built-in Audio Internal speaker     [vol: 1.00]
+ │  
+ ├─ Sink endpoints:
+--
+=== 音量 ===
+Volume: 1.00
+
+DONE_421f7858a9944fc0bc942a1dcdf9b1a9
+umeko@umeko-cancro:~$ 

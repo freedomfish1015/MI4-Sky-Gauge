@@ -1,0 +1,19 @@
+
+applied=1 base=0x5b00
+div_ctl1=02 factor=2
+en_ctl=00 enabled=0
+gpio15_mode_ctl=25 dir=2 function=2
+正在播放 WAVE '/home/umeko/desktop-offline/mi4-quiet-test.wav' : Signed 16 bit Little Endian, 频率48000Hz， Mono
+LOW_VOLUME_PCM_COMPLETED
+AUDIO_TEST_CLEANUP_DONE
+SPEAKER_REPEAT_EXIT=0
+up=0 port=16 channel=144 ups=2 downs=2
+origin=asoc-trigger
+rc_prepare=0 rc_enable=0 rc_disable=0 rc_unprepare=0
+allocated=0
+[ 1905.461206] wcd9320 217:a0:1:0: Mi4 speaker: RX1->RX7, fixed minimum gain, PA ON
+[ 1907.149438] wcd9320 217:a0:1:0: Mi4 speaker: PA, RX7, bias, MCLK and boost OFF
+[ 2958.489083] wcd9320 217:a0:1:0: Mi4 speaker: RX1->RX7, fixed minimum gain, PA ON
+[ 2960.189520] wcd9320 217:a0:1:0: Mi4 speaker: PA, RX7, bias, MCLK and boost OFF
+
+umeko@umeko-cancro:~$ 

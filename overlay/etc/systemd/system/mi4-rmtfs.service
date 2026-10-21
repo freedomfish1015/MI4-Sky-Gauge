@@ -1,0 +1,11 @@
+[Unit]
+Description=Mi4 modem remote filesystem (read-only partitions)
+After=local-fs.target
+
+[Service]
+ExecStart=/usr/bin/rmtfs -r -P -s
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,37 @@
+
+ 10:21:39 up 2 min,  1 user,  load average: 2.32, 1.05, 0.40
+earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait loglevel=0
+{"status": "complete", "complete": true, "frames": 361, "last_pts": 12.0}NRestarts=0
+Id=obd-gauge-kiosk.service
+ActiveState=active
+ActiveEnterTimestampMonotonic=12062622
+
+NRestarts=0
+Id=mi4-audio-init.service
+ActiveState=active
+ActiveEnterTimestampMonotonic=11661649
+
+NRestarts=0
+Id=obd-power.service
+ActiveState=active
+ActiveEnterTimestampMonotonic=17421113
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+[   14.084867] umeko-cancro python3[429]: Mouse cursor hidden (SDL cursor state=0)
+[   14.515620] umeko-cancro python3[429]: Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+[   14.938446] umeko-cancro systemctl[443]: Failed to connect to bus: 没有那个文件或目录
+[   15.193994] umeko-cancro systemctl[444]: Failed to connect to bus: 没有那个文件或目录
+[   15.425388] umeko-cancro systemctl[445]: Failed to connect to bus: 没有那个文件或目录
+[   15.660572] umeko-cancro systemctl[446]: Failed to connect to bus: 没有那个文件或目录
+[   15.894606] umeko-cancro systemctl[447]: Failed to connect to bus: 没有那个文件或目录
+[   16.130247] umeko-cancro systemctl[455]: Failed to connect to bus: 没有那个文件或目录
+[   16.364816] umeko-cancro systemctl[468]: Failed to connect to bus: 没有那个文件或目录
+[   16.598428] umeko-cancro systemctl[475]: Failed to connect to bus: 没有那个文件或目录
+[   16.833002] umeko-cancro systemctl[477]: Failed to connect to bus: 没有那个文件或目录
+[   17.067015] umeko-cancro systemctl[478]: Failed to connect to bus: 没有那个文件或目录
+
+umeko@umeko-cancro:~$ 

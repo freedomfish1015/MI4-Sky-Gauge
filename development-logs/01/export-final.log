@@ -1,0 +1,8 @@
+
+EXPORTED /tmp/look2.png
+10月 18 20:37:16 umeko-cancro python3[1920]: FPS 52.8  paint=1.2ms upload=0.1ms present=17.5ms
+10月 18 20:37:18 umeko-cancro python3[1920]: FPS 53.8  paint=0.9ms upload=0.0ms present=17.4ms
+10月 18 20:37:20 umeko-cancro python3[1920]: FPS 53.3  paint=1.0ms upload=0.1ms present=17.7ms
+
+DONE_15c90815618f42bd88fafddefd866f35
+umeko@umeko-cancro:~$ 

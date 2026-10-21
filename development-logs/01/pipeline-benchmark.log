@@ -1,0 +1,14 @@
+
+Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+KMS mode 1080x1920 @60Hz vsync=True
+BENCH renderer=opengles2 flags=e swap_interval=1 double_buffer=0
+BENCH phase=static fps=58.79 paint=0.015ms upload=0.035ms copy=0.474ms swap=16.206ms events=0.030ms
+BENCH phase=dynamic fps=28.45 paint=29.967ms upload=1.243ms copy=0.303ms swap=3.026ms events=0.041ms
+Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+KMS mode 1080x1920 @60Hz vsync=True
+BENCH renderer=opengles2 flags=e swap_interval=1 double_buffer=1
+BENCH phase=static fps=58.79 paint=0.015ms upload=0.035ms copy=0.477ms swap=16.204ms events=0.029ms
+BENCH phase=dynamic fps=28.92 paint=29.538ms upload=1.244ms copy=0.303ms swap=2.894ms events=0.042ms
+active
+
+umeko@umeko-cancro:~$ 

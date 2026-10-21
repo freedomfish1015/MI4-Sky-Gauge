@@ -1,0 +1,84 @@
+
+earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait
+tty0                 -WU (EC     )    4:1
+ttyMSM0              -W- (E   p  )  247:0
+总计 7480
+-rw-r--r-- 1 root root  202809 10月 18 01:24 config-6.15.11-mi4-test1
+-rw-r--r-- 1 root root 7453097 10月 18 01:24 initrd.img-6.15.11-mi4-test1
+/boot/initrd.img-6.15.11-mi4-test1
+/boot/config-6.15.11-mi4-test1
+  UNIT                      LOAD      ACTIVE   SUB     DESCRIPTION              
+  getty-static.service      loaded    inactive dead    getty on tty2-tty6 if db…
+● plymouth-quit-wait.servi… not-found inactive dead    plymouth-quit-wait.servi…
+● plymouth-start.service    not-found inactive dead    plymouth-start.service
+  serial-getty@ttyMSM0.ser… loaded    active   running Serial Getty on ttyMSM0  
+  system-getty.slice        loaded    active   active  Slice /system/getty
+  system-serial\x2dgetty.s… loaded    active   active  Slice /system/serial-get…
+  getty-pre.target          loaded    inactive dead    Preparation for Logins
+  getty.target              loaded    active   active  Login Prompts
+
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
+
+8 loaded units listed.
+To show all installed unit files use 'systemctl list-unit-files'.
+[Unit]
+Description=OBD Gauge kiosk (KMSDRM, no compositor)
+# Bluetooth is needed for the BLE adapter link; no network or desktop required.
+After=systemd-user-sessions.service bluetooth.target
+Wants=bluetooth.target
+# This service owns the display, so it must not compete with a desktop session.
+Conflicts=phosh.service
+
+[Service]
+Type=simple
+User=umeko
+Group=umeko
+WorkingDirectory=/home/umeko/desktop-offline
+# logind cleans /run/user/<uid> when no session exists, so give the process its
+# own runtime dir instead of depending on a desktop session being active.
+RuntimeDirectory=obd-gauge
+RuntimeDirectoryMode=0700
+Environment=XDG_RUNTIME_DIR=/run/obd-gauge
+Environment=SDL_VIDEODRIVER=kmsdrm
+Environment=SDL_RENDER_DRIVER=opengles2
+Environment=SDL_VIDEO_KMSDRM_DEVICE=/dev/dri/card0
+ExecStart=/usr/bin/python3 /home/umeko/desktop-offline/gauge_sdl.py --ble [BT-ADDRESS]
+Restart=always
+RestartSec=2
+# Give the GPU/BLE stack a moment during boot before the first frame.
+TimeoutStartSec=30
+
+[Install]
+WantedBy=multi-user.target
+总计 0
+lrwxrwxrwx 1 root root 15 10月 18 20:04 aboot -> ../../mmcblk0p7
+lrwxrwxrwx 1 root root 15 10月 18 20:04 bk1 -> ../../mmcblk0p8
+lrwxrwxrwx 1 root root 16 10月 18 20:04 bk2 -> ../../mmcblk0p11
+lrwxrwxrwx 1 root root 16 10月 18 20:04 bk3 -> ../../mmcblk0p15
+lrwxrwxrwx 1 root root 16 10月 18 20:04 bk4 -> ../../mmcblk0p17
+lrwxrwxrwx 1 root root 16 10月 18 20:04 bk5 -> ../../mmcblk0p18
+lrwxrwxrwx 1 root root 16 10月 18 20:04 boot -> ../../mmcblk0p19
+lrwxrwxrwx 1 root root 16 10月 18 20:04 cache -> ../../mmcblk0p24
+lrwxrwxrwx 1 root root 15 10月 18 20:04 dbi -> ../../mmcblk0p6
+lrwxrwxrwx 1 root root 15 10月 18 20:04 DDR -> ../../mmcblk0p4
+lrwxrwxrwx 1 root root 16 10月 18 20:04 fsc -> ../../mmcblk0p14
+lrwxrwxrwx 1 root root 16 10月 18 20:04 fsg -> ../../mmcblk0p16
+lrwxrwxrwx 1 root root 16 10月 18 20:04 logo -> ../../mmcblk0p10
+lrwxrwxrwx 1 root root 15 10月 18 20:04 misc -> ../../mmcblk0p9
+lrwxrwxrwx 1 root root 16 10月 18 20:04 modem -> ../../mmcblk0p22
+lrwxrwxrwx 1 root root 16 10月 18 20:04 modemst1 -> ../../mmcblk0p12
+lrwxrwxrwx 1 root root 16 10月 18 20:04 modemst2 -> ../../mmcblk0p13
+lrwxrwxrwx 1 root root 16 10月 18 20:04 persist -> ../../mmcblk0p21
+lrwxrwxrwx 1 root root 16 10月 18 20:04 recovery -> ../../mmcblk0p20
+lrwxrwxrwx 1 root root 15 10月 18 20:04 rpm -> ../../mmcblk0p2
+lrwxrwxrwx 1 root root 15 10月 18 20:04 sbl1 -> ../../mmcblk0p1
+lrwxrwxrwx 1 root root 15 10月 18 20:04 ssd -> ../../mmcblk0p5
+lrwxrwxrwx 1 root root 16 10月 18 20:04 system -> ../../mmcblk0p23
+lrwxrwxrwx 1 root root 15 10月 18 20:04 tz -> ../../mmcblk0p3
+lrwxrwxrwx 1 root root 16 10月 18 20:04 userdata -> ../../mmcblk0p25
+4	4	1	7
+
+
+umeko@umeko-cancro:~$ 

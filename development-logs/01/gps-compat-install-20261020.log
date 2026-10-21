@@ -1,0 +1,10 @@
+
+BACKUP /home/umeko/desktop-offline/backups/gnss-compat-before-pmawsqu3
+
+GNSS_COMPAT_INSTALLED; no kernel, boot, NV, charge or gauge changes
+
+NRestarts=0
+ActiveState=active
+searching
+
+umeko@umeko-cancro:~$ 

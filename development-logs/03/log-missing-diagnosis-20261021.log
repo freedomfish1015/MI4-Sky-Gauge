@@ -1,0 +1,17 @@
+
+SOURCE_SHA gauge_telemetry.py 41e03c689dc4ce02e8212d0537965cf3afbb93a2a323525a218005afaab6e497
+SOURCE_SHA gauge_sdl.py a541e6c531255652d42a9f49c8bb255b6b34e2df5d1e1e0d04074ae1acfe1dfc
+SERVICE MainPID=1452
+NRestarts=0
+ActiveState=active
+MOTION {"recording": false, "track": "", "points": 0, "error": null}
+GPS {"fix": false, "session_started": true, "status": "searching"}
+LOG_COUNT 8 NOW_UTC 2026-10-21T03:11:54.283857+00:00
+LOG {"name": "telemetry-20261021T023654465426Z-5e8acc1b.jsonl", "size": 5242540, "age_s": 1539.0, "header_trip": null, "first": "2026-10-21T02:36:54.461+00:00", "last": "2026-10-21T02:46:16.707+00:00", "rpm_min": null, "rpm_max": null, "samples": 5537, "simulated": 5537, "obd_rpm": 0, "obd_speed": 0, "gps_fix": 0}
+LOG {"name": "telemetry-20261021T024616812766Z-93dcb9ac.jsonl", "size": 5241945, "age_s": 980.2, "header_trip": null, "first": "2026-10-21T02:46:16.809+00:00", "last": "2026-10-21T02:55:37.064+00:00", "rpm_min": null, "rpm_max": null, "samples": 5536, "simulated": 5536, "obd_rpm": 0, "obd_speed": 0, "gps_fix": 0}
+LOG {"name": "telemetry-20261021T025537170465Z-91fd2b6f.jsonl", "size": 5242384, "age_s": 418.0, "header_trip": null, "first": "2026-10-21T02:55:37.165+00:00", "last": "2026-10-21T03:05:00.705+00:00", "rpm_min": null, "rpm_max": null, "samples": 5534, "simulated": 5534, "obd_rpm": 0, "obd_speed": 0, "gps_fix": 0}
+LOG {"name": "telemetry-20261021T030500812926Z-6a980646.jsonl", "size": 1239425, "age_s": 284.4, "header_trip": null, "first": "2026-10-21T03:05:00.806+00:00", "last": "2026-10-21T03:07:14.799+00:00", "rpm_min": 526.25, "rpm_max": 2182.0, "samples": 1250, "simulated": 1250, "obd_rpm": 314, "obd_speed": 311, "gps_fix": 0}
+SIZE_DELTA_2S {}
+OPEN_LOG_FILES ['telemetry-20261021T030500812926Z-6a980646.jsonl']
+
+umeko@umeko-cancro:~$ 

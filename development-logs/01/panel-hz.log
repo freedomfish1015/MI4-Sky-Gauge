@@ -1,0 +1,11 @@
+
+=== drm modes ===
+1080x1920
+=== status ===
+connected
+=== panel timing from dmesg ===
+[ 1685.811304] dsi_err_worker: status=c
+[ 1685.848685] dsi_err_worker: status=c
+
+DONE_f0ed87ecc906480c944d2cecb1bd0228
+umeko@umeko-cancro:~$ 

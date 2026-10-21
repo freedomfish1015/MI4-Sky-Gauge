@@ -1,0 +1,25 @@
+{
+  "python": {
+    "run": 188,
+    "skipped": 2,
+    "result": "pass",
+    "skips": [
+      "opt-in native SDL touch test",
+      "non-redistributed private aboot fixture"
+    ]
+  },
+  "windows": {
+    "offline_tests": 20,
+    "result": "pass"
+  },
+  "native": {
+    "host": "built",
+    "armhf": "built",
+    "startup_c": "compiled"
+  },
+  "hardware": {
+    "current_dts": "dtc compile passed with decompilation warnings",
+    "kernel_prefix": "matches known zImage"
+  },
+  "note": "No real flash, phone modification, second-device clean installation, or GitHub Actions run was performed."
+}

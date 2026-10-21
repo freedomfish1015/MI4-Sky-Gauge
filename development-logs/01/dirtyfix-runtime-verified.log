@@ -1,0 +1,24 @@
+
+MainPID=2179
+NRestarts=0
+ActiveState=active
+10月 18 21:21:51 umeko-cancro python3[2179]: FPS 53.3  paint=1.3ms upload=0.1ms present=17.2ms
+10月 18 21:21:53 umeko-cancro python3[2179]: FPS 51.3  paint=1.5ms upload=0.1ms present=17.4ms
+10月 18 21:21:55 umeko-cancro python3[2179]: FPS 53.8  paint=1.2ms upload=0.1ms present=17.0ms
+10月 18 21:21:57 umeko-cancro python3[2179]: FPS 52.3  paint=1.2ms upload=0.1ms present=17.5ms
+10月 18 21:21:59 umeko-cancro python3[2179]: FPS 53.3  paint=1.2ms upload=0.1ms present=17.1ms
+10月 18 21:22:01 umeko-cancro python3[2179]: FPS 51.3  paint=1.1ms upload=0.1ms present=17.9ms
+10月 18 21:22:03 umeko-cancro python3[2179]: FPS 53.8  paint=0.9ms upload=0.1ms present=17.3ms
+10月 18 21:22:05 umeko-cancro python3[2179]: FPS 53.3  paint=1.1ms upload=0.1ms present=17.2ms
+10月 18 21:22:07 umeko-cancro python3[2179]: FPS 53.3  paint=1.0ms upload=0.1ms present=17.4ms
+10月 18 21:22:09 umeko-cancro python3[2179]: FPS 52.8  paint=1.2ms upload=0.1ms present=17.3ms
+10月 18 21:22:11 umeko-cancro python3[2179]: FPS 51.8  paint=1.2ms upload=0.1ms present=17.7ms
+10月 18 21:22:13 umeko-cancro python3[2179]: FPS 52.8  paint=1.2ms upload=0.1ms present=17.3ms
+10月 18 21:22:15 umeko-cancro python3[2179]: FPS 52.8  paint=1.1ms upload=0.1ms present=17.3ms
+10月 18 21:22:17 umeko-cancro python3[2179]: FPS 53.8  paint=0.9ms upload=0.1ms present=17.3ms
+
+ 进程 USER      PR  NI    虚拟   驻留   共享    %CPU  %MEM     时间+ COMMAND
+ 2179 umeko     20   0  386328 104448  69572 S  16.0   3.5   0:10.23 python3
+924d7d6a2e9a140f913e3765a5683c1ad2dfeaee3d705433ead1ac6dc9cae88f  /home/umeko/desktop-offline/gauge_sdl.py
+
+umeko@umeko-cancro:~$ 

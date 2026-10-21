@@ -1,0 +1,10 @@
+
+CAPACITY 18
+VOLTAGE 3756465
+USB_ONLINE 1
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '/run/obd-motion/state.json'
+sudo: 需要密码
+
+umeko@umeko-cancro:~$ 

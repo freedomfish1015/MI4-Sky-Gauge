@@ -1,0 +1,59 @@
+
+UPTIME 79.29 231.29
+active
+active
+active
+Result=success
+ActiveState=active
+SubState=running
+UnitFileState=enabled
+0: hci0: Bluetooth
+	Soft blocked: yes
+	Hard blocked: no
+1: phy0: Wireless LAN
+	Soft blocked: no
+	Hard blocked: no
+Controller [BT-ADDRESS] umeko-cancro [default]
+Controller [BT-ADDRESS] (public)
+	Manufacturer: 0x001d (29)
+	Version: 0x07 (7)
+	Name: umeko-cancro
+	Alias: umeko-cancro
+	Class: 0x00000000 (0)
+	Powered: no
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: no
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree Audio Gateway   (0000111f-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+	UUID: A/V Remote Control Target (0000110c-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Access Profile    (00001800-0000-1000-8000-00805f9b34fb)
+	UUID: Generic Attribute Profile (00001801-0000-1000-8000-00805f9b34fb)
+	UUID: Unknown                   (0000fff0-0000-1000-8000-00805f9b34fb)
+	UUID: Device Information        (0000180a-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree                 (0000111e-0000-1000-8000-00805f9b34fb)
+	Modalias: usb:v1D6Bp0246d0548
+	Discovering: no
+	Roles: central
+	Roles: peripheral
+Advertising Features:
+	ActiveInstances: 0x00 (0)
+	SupportedInstances: 0x05 (5)
+	SupportedIncludes: tx-power
+	SupportedIncludes: appearance
+	SupportedIncludes: local-name
+总计 0
+lrwxrwxrwx 1 root root 0 10月 21 13:33 hci0 -> ../../devices/platform/soc/fb204000.remoteproc/remoteproc/remoteproc0/remoteproc0:smd-edge/remoteproc0:smd-edge.WCNSS_CTRL.-1.-1/fb204000.remoteproc:smd-edge:wcnss:bluetooth/bluetooth/hci0
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+-- No entries --
+sudo: 需要密码
+
+umeko@umeko-cancro:~$ 

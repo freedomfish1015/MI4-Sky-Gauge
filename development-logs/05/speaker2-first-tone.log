@@ -1,0 +1,32 @@
+
+on
+
+applied=1 base=0x5b00
+div_ctl1=02 factor=2
+en_ctl=80 enabled=1
+gpio15_mode_ctl=25 dir=2 function=2
+numid=18,iface=MIXER,name='SLIMBUS_0_RX Audio Mixer MultiMedia1'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=1,iface=MIXER,name='Mi4 Speaker Gate Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+正在播放 WAVE '/home/umeko/desktop-offline/mi4-quiet-test.wav' : Signed 16 bit Little Endian, 频率48000Hz， Mono
+aplay: set_params:1435: 无法安装hw参数：
+ACCESS:  RW_INTERLEAVED
+FORMAT:  S16_LE
+SUBFORMAT:  STD
+SAMPLE_BITS: 16
+FRAME_BITS: 16
+CHANNELS: 1
+RATE: 48000
+PERIOD_TIME: 125000
+PERIOD_SIZE: 6000
+PERIOD_BYTES: 12000
+PERIODS: 4
+BUFFER_TIME: 500000
+BUFFER_SIZE: 24000
+BUFFER_BYTES: 48000
+TICK_TIME: 0
+
+umeko@umeko-cancro:~$ 

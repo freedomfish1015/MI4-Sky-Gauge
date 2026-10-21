@@ -1,0 +1,2 @@
+# Only the Mi4 backlight brightness attribute, for members of video.
+ACTION=="add", SUBSYSTEM=="backlight", KERNEL=="backlight", RUN+="/bin/chgrp video /sys%p/brightness", RUN+="/bin/chmod g+w /sys%p/brightness"

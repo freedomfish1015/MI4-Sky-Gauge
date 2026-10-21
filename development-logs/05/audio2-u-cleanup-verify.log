@@ -1,0 +1,15 @@
+
+=== 剩余 Mi4 目录 ===
+/usr/share/alsa/ucm2/conf.d/Mi4-Taiko
+=== 验证 sink ===
+ ├─ Sinks:
+ │  *   44. Built-in Audio Internal speaker     [vol: 0.40]
+ │  
+ ├─ Sink endpoints:
+ │  
+--
+ ├─ Sinks:
+ │  
+
+DONE_47f386906866445bba22627f7fc194d2
+umeko@umeko-cancro:~$ 

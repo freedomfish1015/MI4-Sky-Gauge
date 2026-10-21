@@ -1,0 +1,19 @@
+
+724783b32b5b09dd53245ec42277df4ef3b85cd1da7560ced1c0caaa92da8d2b  /dev/mmcblk0p19
+
+362986d35fe58e55508615fc806483a4533e55f83fa9ab631ed1d7d9cb7c3f40  /dev/mmcblk0p7
+
+47dbe469e9fcb84280f741161e1e76a67abe4b008d17f3f91bcea86fa7b173c5  /dev/mmcblk0p10
+
+a541e6c531255652d42a9f49c8bb255b6b34e2df5d1e1e0d04074ae1acfe1dfc  /home/umeko/desktop-offline/gauge_sdl.py
+38eff83dec8430756c208a54d91b5ffe971623ba8f4f9f3c4d012498faed1e77  /home/umeko/desktop-offline/gauge_settings.py
+66a08e7cdfe9a72b8860029b13251d197c3880c72c8b94ee6ce287fae32bd0a6  /usr/local/lib/mi4-bms-fixed/bms_fixed_init.py
+b0739e78c4450cf753df805d93aee7dc320a591699bc4c140548363bf8a1632a  /usr/local/lib/mi4-bms-fixed/mi4_bms_fixed.ko
+76
+4032735
+active
+active
+active
+active
+
+umeko@umeko-cancro:~$ 

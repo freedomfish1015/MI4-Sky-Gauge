@@ -1,0 +1,16 @@
+
+gauge_sdl.py: 成功
+Created symlink /etc/systemd/system/sysinit.target.wants/obd-boot-curtain.service → /etc/systemd/system/obd-boot-curtain.service.
+
+
+Running timer as unit: obd-boot-video-install-guard.timer
+
+
+Will run service as unit: obd-boot-video-install-guard.service
+
+
+kernel.printk = 0 4 1 7
+
+BOOT_VIDEO_INSTALLED_ROOTFS_ONLY_GUARD_ARMED
+
+umeko@umeko-cancro:~$ 

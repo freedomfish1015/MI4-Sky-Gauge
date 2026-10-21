@@ -1,0 +1,36 @@
+2026-10-19T20:52:29+08:00 umeko-cancro systemd[1]: Started mi4-wcn-positive-control.service - /bin/sh /home/umeko/desktop-offline/trial_wireless_action_fw.sh trial.
+2026-10-19T20:52:29+08:00 umeko-cancro sh[2180]: wcnss.b00: 成功
+2026-10-19T20:52:29+08:00 umeko-cancro sh[2180]: wcnss.b01: 成功
+2026-10-19T20:52:29+08:00 umeko-cancro sh[2180]: wcnss.b02: 成功
+2026-10-19T20:52:29+08:00 umeko-cancro sh[2180]: wcnss.b04: 成功
+2026-10-19T20:52:29+08:00 umeko-cancro sh[2180]: wcnss.b06: 成功
+2026-10-19T20:52:29+08:00 umeko-cancro sh[2180]: wcnss.b07: 成功
+2026-10-19T20:52:29+08:00 umeko-cancro sh[2180]: wcnss.b08: 成功
+2026-10-19T20:52:29+08:00 umeko-cancro sh[2180]: wcnss.b09: 成功
+2026-10-19T20:52:29+08:00 umeko-cancro sh[2180]: wcnss.mdt: 成功
+2026-10-19T20:52:31+08:00 umeko-cancro sh[2171]: CANDIDATE_STATE running
+2026-10-19T20:52:38+08:00 umeko-cancro sh[2217]: MONITOR_CREATED
+2026-10-19T20:52:39+08:00 umeko-cancro sh[2217]: LISTEN channel=1 duration=20.0s
+2026-10-19T20:52:59+08:00 umeko-cancro sh[2217]: SKY_PACKETS_TOTAL 0
+2026-10-19T20:52:59+08:00 umeko-cancro sh[2217]: FRAME_COUNTS {"all_frames": 921, "frame_type_80": 921}
+2026-10-19T20:52:59+08:00 umeko-cancro sh[2217]: SKY_SIGNATURES {}
+2026-10-19T20:52:59+08:00 umeko-cancro sh[2217]: MONITOR_REMOVED
+2026-10-19T20:52:59+08:00 umeko-cancro sh[2171]: rx_total=
+2026-10-19T20:52:59+08:00 umeko-cancro sh[2223]: 929
+2026-10-19T20:52:59+08:00 umeko-cancro sh[2171]: rx_action=
+2026-10-19T20:52:59+08:00 umeko-cancro sh[2224]: 0
+2026-10-19T20:52:59+08:00 umeko-cancro sh[2171]: rx_beacon=
+2026-10-19T20:52:59+08:00 umeko-cancro sh[2225]: 929
+2026-10-19T20:52:59+08:00 umeko-cancro sh[2171]: rx_drop=
+2026-10-19T20:52:59+08:00 umeko-cancro sh[2226]: 0
+2026-10-19T20:52:59+08:00 umeko-cancro sh[2171]: TRIAL_COMPLETED
+2026-10-19T20:53:00+08:00 umeko-cancro sh[2227]: RESTORE_BEGIN
+2026-10-19T20:53:02+08:00 umeko-cancro sh[2227]: RESTORED wcnss.mdt running
+2026-10-19T20:53:02+08:00 umeko-cancro systemd[1]: mi4-wcn-positive-control.service: Deactivated successfully.
+2026-10-19T20:53:02+08:00 umeko-cancro systemd[1]: mi4-wcn-positive-control.service: Consumed 1.401s CPU time.
+[ 5151.810139] wcn36xx: experimental REG_READ address=fb080800 bytes=0f 03 00 09 length=4
+[ 5151.810654] wcn36xx: experimental REG_READ address=fb0808f0 bytes=ff ff ff ff length=4
+[ 5151.811222] wcn36xx: experimental REG_READ address=fb0808f4 bytes=df de 7f c7 length=4
+[ 5151.811739] wcn36xx: experimental REG_READ address=fb080914 bytes=00 0e 00 00 length=4
+[ 5151.812283] wcn36xx: experimental REG_READ address=fb080920 bytes=00 f2 08 00 length=4
+[ 5151.812795] wcn36xx: experimental REG_READ address=fb080934 bytes=00 f2 08 00 length=4

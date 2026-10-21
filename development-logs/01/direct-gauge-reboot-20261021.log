@@ -1,0 +1,47 @@
+
+ 06:26:24 up 0 min,  1 user,  load average: 2.40, 0.70, 0.24
+{"pid": 523, "uptime": 19.79, "elapsed": 5.982}Startup finished in 4.036s (kernel) + 15.631s (userspace) = 19.667s 
+graphical.target reached after 10.949s in userspace.
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+obd-gauge-kiosk.service @9.234s
+└─mi4-bms-fixed.service @7.984s +1.219s
+  └─basic.target @7.907s
+    └─sysinit.target @7.897s
+      └─systemd-backlight@backlight:backlight.service @7.816s +77ms
+        └─system-systemd\x2dbacklight.slice @7.704s
+          └─system.slice @405ms
+            └─-.slice @405ms
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+[   13.817881] umeko-cancro python3[523]: DIRECT_GAUGE_START uptime=13.81
+[   17.247470] umeko-cancro python3[523]: Mouse cursor hidden (SDL cursor state=0)
+[   17.627851] umeko-cancro python3[523]: Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+[   17.638397] umeko-cancro python3[523]: KMS mode 1080x1920 @60Hz vsync=True
+[   19.799464] umeko-cancro python3[523]: DIRECT_GAUGE_FIRST_FRAME {"pid": 523, "uptime": 19.79, "elapsed": 5.982}
+[   21.141156] umeko-cancro python3[523]: FPS 37.3  paint=7.9ms upload=1.3ms present=19.2ms wait=1.0ms pipeline=1
+[   23.144468] umeko-cancro python3[523]: FPS 58.9  paint=1.2ms upload=0.0ms present=16.9ms wait=0.1ms pipeline=1
+[   25.148455] umeko-cancro python3[523]: FPS 59.4  paint=1.2ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   27.153149] umeko-cancro python3[523]: FPS 59.4  paint=1.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   29.156939] umeko-cancro python3[523]: FPS 59.4  paint=1.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   31.161637] umeko-cancro python3[523]: FPS 59.4  paint=1.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   32.572565] umeko-cancro python3[523]: BLE error: BleakError('No powered Bluetooth adapters found.')
+[   33.165870] umeko-cancro python3[523]: FPS 58.4  paint=1.3ms upload=0.0ms present=17.0ms wait=0.1ms pipeline=1
+[   35.169836] umeko-cancro python3[523]: FPS 59.4  paint=1.2ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   37.174693] umeko-cancro python3[523]: FPS 59.4  paint=1.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   39.178510] umeko-cancro python3[523]: FPS 59.4  paint=1.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   41.183108] umeko-cancro python3[523]: FPS 59.4  paint=1.2ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   43.187731] umeko-cancro python3[523]: FPS 58.9  paint=1.3ms upload=0.1ms present=16.9ms wait=0.1ms pipeline=1
+[   44.677661] umeko-cancro python3[523]: BLE error: BleakDeviceNotFoundError('Device with address [BT-ADDRESS] was not found.')
+NRestarts=0
+ActiveState=active
+901
+active
+active
+{"updated": 51.371512791, "imu": {"ready": true, "calibrated": false, "calibration_required": false, "measurement_mode": "accelerometer_autocenter", "includes_gravity": false, "gyro_enabled": false, "accel_ms2": [0.0221241, 0.2105604, -9.184370004], "accel_g": [0.0022560303467544984, 0.02147118536911178, -0.936545099906696], "display_g": [0.0, -0.0], "total_g": 0.0, "plane_g": 0.0, "raw_includes_gravity": true, "gravity_removal": "estimated low-pass baseline", "filter_tau_s": 0.7, "deadzone_g": 0.025, "sustained_g_valid": false, "raw_total_g": 0.9367939077691119, "dynamic_g": [0.0, -0.0, 0.0], "gravity_estimate_g": [7.645005331378996e-05, 0.022182510197339723, -0.9379222677360094], "peaks_g"
+umeko@umeko-cancro:~$ 

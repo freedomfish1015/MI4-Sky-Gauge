@@ -1,0 +1,8 @@
+
+/usr/local/lib/obd-gauge/boot_video.py: 成功
+/usr/local/lib/obd-gauge/launch_boot_video.py: 成功
+93e7c5e8013394af154b5a74974788fef37874c76765d38928e637d57870ecaf  /usr/local/lib/obd-gauge/boot_video.py
+22ace6acfcef4cf47d773601c6de2bc564d57bcd1a575a72b12149aa4eb7f223  /usr/local/lib/obd-gauge/launch_boot_video.py
+PREVIDEO_FIX_INSTALLED_NO_REBOOT_NO_PARTITION_WRITES
+
+umeko@umeko-cancro:~$ 

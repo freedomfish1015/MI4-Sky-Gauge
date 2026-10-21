@@ -1,0 +1,71 @@
+
+    os.replace(temporary,STATE)
+    print('CHARGE_MODE',state['phase'],state.get('reason',''),flush=True)
+
+def run():
+    backend=Platform()
+    mode=ChargeMode(backend,publish)
+    DIRECTORY.mkdir(mode=0o755,parents=True,exist_ok=True)
+    if STATE.exists():
+        state=json.loads(STATE.read_text())
+        if state.get('phase')!='normal':
+            mode.state=state
+            if state.get('phase')=='charging':
+                try:backend.grab_key()
+                except OSError:mode.restore('power-key-unavailable')
+            else:mode.restore('service-recovery')
+    path=DIRECTORY/'control.sock'
+    path.unlink(missing_ok=True)
+    running=True
+    def stop(*_):
+        nonlocal running
+        running=False
+    signal.signal(signal.SIGTERM,stop);signal.signal(signal.SIGINT,stop)
+    with socket.socket(socket.AF_UNIX,socket.SOCK_STREAM) as server:
+        server.bind(str(path));path.chmod(0o660);os.chown(path,0,backend.gid)
+        server.listen(4);server.setblocking(False)
+        publish(mode.state)
+        try:
+            while running:
+                watching=[server]+([backend.key_fd] if backend.key_fd is not None else [])
+                ready,_,_=select.select(watching,[],[],.5)
+                if server in ready:
+                    stream,_=server.accept()
+                    with stream:
+                        try:
+                            stream.settimeout(.5)
+                            _pid,uid,_gid=struct.unpack('3i',stream.getsockopt(socket.SOL_SOCKET,socket.SO_PEERCRED,12))
+                            if uid not in (0,backend.uid):raise ValueError('未授权的请求')
+                            operation=json.loads(stream.recv(256)).get('operation')
+                            if operation=='status':stream.sendall(json.dumps(dict(ok=True,phase=mode.state['phase'])).encode());continue
+                            if operation=='enter':mode.prepare()
+                            elif operation!='restore':raise ValueError('不支持的操作')
+                            stream.sendall(b'{"ok":true}\n')
+                        except (OSError,ValueError) as exc:
+                            stream.sendall(json.dumps(dict(ok=False,error=str(exc)),ensure_ascii=False).encode())
+                            continue
+                    try:
+                        if operation=='enter':mode.enter()
+                        else:mode.restore('usb-command')
+                    except Exception as exc:
+                        print('CHARGE_MODE_ERROR',repr(exc),flush=True)
+                        raise # restart recovers from persisted transition state
+                if backend.key_fd is not None and backend.key_fd in ready:
+                    try:backend.key_bytes+=os.read(backend.key_fd,EVENT.size*16)
+                    except BlockingIOError:pass
+                    while backend.key_fd is not None and len(backend.key_bytes)>=EVENT.size:
+                        event=EVENT.unpack(backend.key_bytes[:EVENT.size]);backend.key_bytes=backend.key_bytes[EVENT.size:]
+                        if mode.key_event(*event[2:]):break
+                mode.tick()
+        finally:
+            backend.release_key();path.unlink(missing_ok=True)
+            # Never start services from SIGTERM during shutdown. State stays
+            # in /run for a service restart; a full reboot starts normally.
+
+if __name__=='__main__':
+    assert os.geteuid()==0
+    run()
+6ed3f4d458f59a5c9142555a327d7379e91ed06df3e4edb9de8aaa7b81e36a6d  /usr/local/lib/obd-charge/gauge_charge_mode_service.py
+{"phase": "normal"}16
+
+umeko@umeko-cancro:~$ 

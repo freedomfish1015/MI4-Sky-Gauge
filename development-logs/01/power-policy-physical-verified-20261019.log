@@ -1,0 +1,14 @@
+
+ 00:07:22 up 2 min,  1 user,  load average: 1.50, 0.93, 0.39
+NRestarts=0
+Id=obd-power.service
+ActiveState=active
+SubState=running
+
+NRestarts=0
+Id=obd-gauge-kiosk.service
+ActiveState=active
+SubState=running
+enabled
+{"online": true, "phase": "idle", "remaining": 20, "message": ""}{"status": "complete", "complete": true, "frames": 361, "last_pts": 12.0}
+umeko@umeko-cancro:~$ 

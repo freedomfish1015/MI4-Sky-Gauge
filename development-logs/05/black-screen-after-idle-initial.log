@@ -1,0 +1,28 @@
+
+6.15.11-mi4-audio1
+ 17:08:39 up 0 min,  2 users,  load average: 1.79, 0.52, 0.18
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+ -4 69baa4a9ea6c4ec29023a4ac86bcc075 Sun 2026-10-18 14:40:39 CST Sun 2026-10-18 14:40:44 CST
+ -3 e84fb39569af4b718c34cc7a5c94e20e Sun 2026-10-18 14:42:41 CST Sun 2026-10-18 15:37:09 CST
+ -2 040b4af0f02e46d390b255229c6fe0e8 Sun 2026-10-18 15:39:22 CST Sun 2026-10-18 16:54:39 CST
+ -1 68c8ccb7a9eb4d8d82d06223c00b9c73 Sun 2026-10-18 16:57:00 CST Sun 2026-10-18 17:05:23 CST
+  0 1c4b91a136c54031bbc445fd5b33a2ce Sun 2026-10-18 17:08:31 CST Sun 2026-10-18 17:08:38 CST
+sudo: 需要密码
+  UNIT LOAD ACTIVE SUB DESCRIPTION
+
+0 loaded units listed.
+ls: 无法访问 '/sys/fs/pstore': 没有那个文件或目录
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+-- No entries --
+
+umeko@umeko-cancro:~$ 

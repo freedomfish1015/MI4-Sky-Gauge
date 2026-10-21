@@ -1,0 +1,32 @@
+{
+  "physical_partition_bytes": 33554432,
+  "linux_offset": 524288,
+  "known_working_boot_sha256": "724783b32b5b09dd53245ec42277df4ef3b85cd1da7560ced1c0caaa92da8d2b",
+  "headers": [
+    {
+      "offset": 0,
+      "kernel_size": 302140,
+      "kernel_address": 32768,
+      "ramdisk_size": 1,
+      "ramdisk_address": 16777216,
+      "second_size": 0,
+      "second_address": 15728640,
+      "tags_address": 256,
+      "page_size": 2048,
+      "command_line": "lk2nd"
+    },
+    {
+      "offset": 524288,
+      "kernel_size": 8881088,
+      "kernel_address": 32768,
+      "ramdisk_size": 7453097,
+      "ramdisk_address": 33554432,
+      "second_size": 0,
+      "second_address": 0,
+      "tags_address": 31457280,
+      "page_size": 2048,
+      "command_line": "earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=0 vt.global_cursor_default=0"
+    }
+  ],
+  "warning": "Reference header metadata only. No stock aboot or boot binary included; do not flash from this JSON."
+}

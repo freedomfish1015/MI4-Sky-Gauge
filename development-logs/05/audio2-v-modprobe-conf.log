@@ -1,0 +1,8 @@
+
+=== 内容 ===
+# Mi4 internal speaker: keep the verified audible gain pair
+# (analog step 0x04 + 0 dB digital). Daily volume is handled by PipeWire.
+options wcd9320 mi4_speaker_test_max=1
+
+DONE_e1866caf5a0641b281f895c58f3438d9
+umeko@umeko-cancro:~$ 

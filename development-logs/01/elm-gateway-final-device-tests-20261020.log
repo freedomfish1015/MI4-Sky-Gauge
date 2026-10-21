@@ -1,0 +1,15 @@
+
+usage: bridge [-h]
+              (--advertise-only | --simulate | --upstream UPSTREAM | --ipc)
+              --sky-address SKY_ADDRESS [--seconds SECONDS]
+              [--legacy-advertising]
+bridge: error: duration must be 0 (daemon) or 1..3600 seconds
+----------------------------------------------------------------------
+Ran 15 tests in 1.108s
+
+OK
+enabled
+{"time_utc": "2026-10-19T17:35:59Z", "monotonic_s": 6305.852, "pid": 3365, "event": "elm_forward_stats", "address": "[BT-ADDRESS]", "simulated": false, "sky": false, "commands": 0, "rx_bytes": 0, "tx_bytes": 0}
+{"time_utc": "2026-10-19T17:35:59Z", "monotonic_s": 6305.898, "pid": 3365, "event": "elm_forward_session_end", "address": "[BT-ADDRESS]", "simulated": false, "commands": 0, "rx_bytes": 0, "tx_bytes": 0}
+
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,96 @@
+
+2026-10-20T07:37:36+08:00 umeko-cancro systemd[1]: Started mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+2026-10-20T07:37:37+08:00 umeko-cancro python3[1009]: GNSS continuous LOC session started
+2026-10-20T07:40:02+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T07:40:02+08:00 umeko-cancro systemd[1]: mi4-motion.service: Failed with result 'signal'.
+2026-10-20T07:40:02+08:00 umeko-cancro systemd[1]: mi4-motion.service: Consumed 7.550s CPU time.
+2026-10-20T07:40:12+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 5.
+2026-10-20T07:40:12+08:00 umeko-cancro systemd[1]: Starting mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+2026-10-20T07:40:12+08:00 umeko-cancro systemd[1]: Started mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+2026-10-20T07:40:13+08:00 umeko-cancro python3[1160]: GNSS continuous LOC session started
+2026-10-20T07:40:15+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T07:40:15+08:00 umeko-cancro systemd[1]: mi4-motion.service: Failed with result 'signal'.
+2026-10-20T07:40:15+08:00 umeko-cancro systemd[1]: mi4-motion.service: Consumed 1.192s CPU time.
+2026-10-20T07:40:25+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 6.
+2026-10-20T07:40:25+08:00 umeko-cancro systemd[1]: Starting mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+2026-10-20T07:40:25+08:00 umeko-cancro systemd[1]: Started mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+2026-10-20T07:40:26+08:00 umeko-cancro python3[1186]: GNSS continuous LOC session started
+2026-10-20T07:40:50+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T07:40:50+08:00 umeko-cancro systemd[1]: mi4-motion.service: Failed with result 'signal'.
+2026-10-20T07:40:50+08:00 umeko-cancro systemd[1]: mi4-motion.service: Consumed 2.168s CPU time.
+2026-10-20T07:41:00+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 7.
+2026-10-20T07:41:00+08:00 umeko-cancro systemd[1]: Starting mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+2026-10-20T07:41:00+08:00 umeko-cancro systemd[1]: Started mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+2026-10-20T07:41:01+08:00 umeko-cancro python3[1225]: GNSS continuous LOC session started
+2026-10-20T07:41:03+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T07:41:03+08:00 umeko-cancro systemd[1]: mi4-motion.service: Failed with result 'signal'.
+2026-10-20T07:41:03+08:00 umeko-cancro systemd[1]: mi4-motion.service: Consumed 1.191s CPU time.
+2026-10-20T07:41:13+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 8.
+2026-10-20T07:41:13+08:00 umeko-cancro systemd[1]: Starting mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+2026-10-20T07:41:13+08:00 umeko-cancro systemd[1]: Started mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+2026-10-20T07:41:14+08:00 umeko-cancro python3[1249]: GNSS continuous LOC session started
+2026-10-20T07:47:07+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T07:47:07+08:00 umeko-cancro systemd[1]: mi4-motion.service: Failed with result 'signal'.
+2026-10-20T07:47:07+08:00 umeko-cancro systemd[1]: mi4-motion.service: Consumed 17.328s CPU time.
+2026-10-20T07:47:17+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 9.
+2026-10-20T07:47:17+08:00 umeko-cancro systemd[1]: Starting mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+2026-10-20T07:47:17+08:00 umeko-cancro systemd[1]: Started mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+2026-10-20T07:47:18+08:00 umeko-cancro python3[1459]: GNSS continuous LOC session started
+2026-10-20T07:49:00+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T07:49:00+08:00 umeko-cancro systemd[1]: mi4-motion.service: Failed with result 'signal'.
+2026-10-20T07:49:00+08:00 umeko-cancro systemd[1]: mi4-motion.service: Consumed 8.276s CPU time.
+2026-10-20T07:49:10+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 10.
+2026-10-20T07:49:10+08:00 umeko-cancro systemd[1]: Starting mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+2026-10-20T07:49:10+08:00 umeko-cancro systemd[1]: Started mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+2026-10-20T07:49:11+08:00 umeko-cancro python3[1541]: GNSS continuous LOC session started
+-- Boot d80c0191379445e9a056b243b6b50dc8 --
+2026-10-20T13:13:27+08:00 umeko-cancro systemd[1]: Starting mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+2026-10-20T13:13:30+08:00 umeko-cancro systemd[1]: Started mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+2026-10-20T13:13:32+08:00 umeko-cancro python3[550]: GNSS continuous LOC session started
+-- Boot 9cad793ab28b4a8791d696c43d5a3fa3 --
+2026-10-20T14:04:13+08:00 umeko-cancro systemd[1]: Starting mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+2026-10-20T14:04:16+08:00 umeko-cancro systemd[1]: Started mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+2026-10-20T14:04:17+08:00 umeko-cancro python3[554]: GNSS continuous LOC session started
+-- Boot e35af922371842f8b02967799457e15e --
+2026-10-20T15:33:14+08:00 umeko-cancro systemd[1]: Starting mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+2026-10-20T15:33:17+08:00 umeko-cancro systemd[1]: Started mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+2026-10-20T15:33:19+08:00 umeko-cancro python3[549]: GNSS continuous LOC session started
+2026-10-20T15:51:07+08:00 umeko-cancro systemd[1]: Stopping mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+2026-10-20T15:51:08+08:00 umeko-cancro systemd[1]: mi4-motion.service: Deactivated successfully.
+2026-10-20T15:51:08+08:00 umeko-cancro systemd[1]: Stopped mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+2026-10-20T15:51:08+08:00 umeko-cancro systemd[1]: mi4-motion.service: Consumed 1min 17.993s CPU time.
+-- Boot fb2f2ce04ab14851b7c23bbc34a94033 --
+2026-10-20T15:59:30+08:00 umeko-cancro systemd[1]: Starting mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+2026-10-20T15:59:33+08:00 umeko-cancro systemd[1]: Started mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+2026-10-20T15:59:34+08:00 umeko-cancro python3[554]: GNSS continuous LOC session started
+-- Boot 199d2ab64efd45bcbc096da99fc29209 --
+2026-10-20T16:41:26+08:00 umeko-cancro systemd[1]: Starting mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+2026-10-20T16:41:29+08:00 umeko-cancro systemd[1]: Started mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+2026-10-20T16:41:30+08:00 umeko-cancro python3[550]: GNSS continuous LOC session started
+-- Boot d7b9d91811e44a43af4ee7b3df8d5290 --
+2026-10-20T21:00:50+08:00 umeko-cancro python3[566]: GNSS continuous LOC session started
+KERNEL
+FIRMWARE
+SOURCE
+[Unit]
+Description=Mi4 IIO motion and local GPS track recorder
+After=mi4-rmtfs.service obd-gauge-kiosk.service
+Requires=mi4-rmtfs.service
+
+[Service]
+Type=simple
+ExecStartPre=/usr/local/lib/obd-motion/mi4-sensors-init.sh
+ExecStartPre=/usr/local/lib/obd-motion/mi4-modem-start.sh
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-motion/mi4_motiond.py
+Restart=on-failure
+RestartSec=10
+RuntimeDirectory=obd-motion
+RuntimeDirectoryMode=0755
+UMask=0027
+Group=umeko
+TimeoutStartSec=90
+TimeoutStopSec=8
+
+[Install]
+WantedBy=multi-user.target
+

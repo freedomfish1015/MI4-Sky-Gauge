@@ -1,0 +1,251 @@
+
+OWNER_RUNNING None
+
+Supported flags: connectable general-discoverable limited-discoverable managed-flags tx-power scan-rsp-appearance scan-rsp-local-name 
+
+Max advertising data len: 31
+
+Max scan response data len: 31
+
+Max instances: 5
+
+Instances list with 0 items
+
+
+
+OWNER_HELD None
+
+Supported flags: connectable general-discoverable limited-discoverable managed-flags tx-power scan-rsp-appearance scan-rsp-local-name 
+
+Max advertising data len: 31
+
+Max scan response data len: 31
+
+Max instances: 5
+
+Instances list with 0 items
+
+
+
+OWNER_OUTPUT [mgmt]# add-adv -c -g -d 0303f0ff0a094f42444949204d6934 -t 600 2
+
+
+
+[mgmt]# Instance added: 2
+
+[mgmt]# hci0 type 6 discovering off
+
+[mgmt]# 
+
+
+
+
+
+btmgmt[2871]: @ MGMT Command: Add... (0x003e) plen 26  {0x0002} [hci0] 0.985910
+
+        Instance: 2
+
+        Flags: 0x00000003
+
+          Switch into Connectable mode
+
+          Advertise as Discoverable
+
+        Duration: 0
+
+        Timeout: 600
+
+        Advertising data length: 15
+
+        16-bit Service UUIDs (complete): 1 entry
+
+          Unknown (0xfff0)
+
+        Name (complete): OBDII Mi4
+
+        Scan response length: 0
+
+< HCI Command: LE Set Advertise Enable (0x08|0x000a) plen 1  #1 [hci0] 0.986047
+
+        Advertising: Disabled (0x00)
+
+> HCI Event: Command Complete (0x0e) plen 4                  #2 [hci0] 0.987020
+
+      LE Set Advertise Enable (0x08|0x000a) ncmd 1
+
+        Status: Success (0x00)
+
+< HCI Command: LE Set Advertising P.. (0x08|0x0006) plen 15  #3 [hci0] 0.987175
+
+        Min advertising interval: 1280.000 msec (0x0800)
+
+        Max advertising interval: 1280.000 msec (0x0800)
+
+        Type: Connectable undirected - ADV_IND (0x00)
+
+        Own address type: Public (0x00)
+
+        Direct address type: Public (0x00)
+
+        Direct address: [BT-ADDRESS] (OUI 00-00-00)
+
+< HCI Command: LE Set Advertising P.. (0x08|0x0006) plen 15  #3 [hci0] 0.987175
+
+        Min advertising interval: 1280.000 msec (0x0800)
+
+        Max advertising interval: 1280.000 msec (0x0800)
+
+        Type: Connectable undirected - ADV_IND (0x00)
+
+        Own address type: Public (0x00)
+
+        Direct address type: Public (0x00)
+
+        Direct address: [BT-ADDRESS] (OUI 00-00-00)
+
+        Channel map: 37, 38, 39 (0x07)
+
+        Filter policy: Allow Scan Request from Any, Allow Connect Request from Any (0x00)
+
+> HCI Event: Command Complete (0x0e) plen 4                  #4 [hci0] 0.987402
+
+      LE Set Advertising Parameters (0x08|0x0006) ncmd 1
+
+        Status: Success (0x00)
+
+< HCI Command: LE Set Advertise Enable (0x08|0x000a) plen 1  #5 [hci0] 0.987540
+
+        Advertising: Enabled (0x01)
+
+> HCI Event: Command Complete (0x0e) plen 4                  #6 [hci0] 0.987889
+
+      LE Set Advertise Enable (0x08|0x000a) ncmd 1
+
+        Status: Success (0x00)
+
+@ MGMT Event: Command Complete (0x0001) plen 4         {0x0002} [hci0] 0.987988
+
+      Add Advertising (0x003e) plen 1
+
+        Status: Success (0x00)
+
+        Instance: 2
+
+btmgmt[2872]: @ MGMT Open: btmgmt (privileged) version 1.23   {0x0003} 1.978017
+
+btmgmt[2872]: @ MGMT Command: Read... (0x003d) plen 0  {0x0003} [hci0] 1.978504
+
+@ MGMT Event: Command Complete (0x0001) plen 11        {0x0003} [hci0] 1.978535
+
+btmgmt[2872]: @ MGMT Command: Read... (0x003d) plen 0  {0x0003} [hci0] 1.978504
+
+@ MGMT Event: Command Complete (0x0001) plen 11        {0x0003} [hci0] 1.978535
+
+      Read Advertising Features (0x003d) plen 8
+
+        Status: Success (0x00)
+
+        Flags: 0x0001f07f
+
+          Switch into Connectable mode
+
+          Advertise as Discoverable
+
+          Advertise as Limited Discoverable
+
+          Add Flags field to Advertising Data
+
+          Add TX Power field to Advertising Data
+
+          Add Appearance field to Scan Response
+
+          Add Local Name in Scan Response
+
+bluetoothd[590]: @ MGMT Command: St.. (0x0024) plen 1  {0x0001} [hci0] 4.540448
+
+        Address type: 0x06
+
+          LE Public
+
+          LE Random
+
+< HCI Command: LE Set Scan Enable (0x08|0x000c) plen 2      #13 [hci0] 4.540581
+
+        Scanning: Disabled (0x00)
+
+        Filter duplicates: Disabled (0x00)
+
+> HCI Event: Command Complete (0x0e) plen 4                 #14 [hci0] 4.542093
+
+      LE Set Scan Enable (0x08|0x000c) ncmd 1
+
+        Status: Success (0x00)
+
+@ MGMT Event: Command Complete (0x0001) plen 4         {0x0001} [hci0] 4.542217
+
+      Stop Discovery (0x0024) plen 1
+
+< HCI Command: LE Set Scan Enable (0x08|0x000c) plen 2      #13 [hci0] 4.540581
+
+        Scanning: Disabled (0x00)
+
+        Filter duplicates: Disabled (0x00)
+
+> HCI Event: Command Complete (0x0e) plen 4                 #14 [hci0] 4.542093
+
+      LE Set Scan Enable (0x08|0x000c) ncmd 1
+
+        Status: Success (0x00)
+
+@ MGMT Event: Command Complete (0x0001) plen 4         {0x0001} [hci0] 4.542217
+
+      Stop Discovery (0x0024) plen 1
+
+        Status: Success (0x00)
+
+        Address type: 0x06
+
+          LE Public
+
+          LE Random
+
+btmgmt[2873]: @ MGMT Command: Read... (0x003d) plen 0  {0x0003} [hci0] 5.988580
+
+@ MGMT Event: Command Complete (0x0001) plen 11        {0x0003} [hci0] 5.988613
+
+      Read Advertising Features (0x003d) plen 8
+
+        Status: Success (0x00)
+
+        Flags: 0x0001f07f
+
+          Switch into Connectable mode
+
+          Advertise as Discoverable
+
+          Advertise as Limited Discoverable
+
+          Add Flags field to Advertising Data
+
+          Add TX Power field to Advertising Data
+
+          Add Appearance field to Scan Response
+
+          Add Local Name in Scan Response
+
+AFTER_OWNER_EXIT
+
+Supported flags: connectable general-discoverable limited-discoverable managed-flags tx-power scan-rsp-appearance scan-rsp-local-name 
+
+Max advertising data len: 31
+
+Max scan response data len: 31
+
+Max instances: 5
+
+Instances list with 0 items
+
+
+
+
+umeko@umeko-cancro:~$ 

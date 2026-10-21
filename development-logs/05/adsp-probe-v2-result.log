@@ -1,0 +1,14 @@
+
+[ 1542.420845] mi4_adsp_probe remoteproc2:smd-edge.apr_audio_svc.-1.-1: read-only ADSP state request: 0
+[ 1542.421562] mi4_adsp_probe remoteproc2:smd-edge.apr_audio_svc.-1.-1: ADSP state=67109121
+[ 1542.421586] mi4_adsp_probe remoteproc2:smd-edge.apr_audio_svc.-1.-1: ADSP build=0x4000201 services=0
+[ 1588.500812] mi4_adsp_probe remoteproc2:smd-edge.apr_audio_svc.-1.-1: read-only ADSP state request: 0
+[ 1588.501530] mi4_adsp_probe remoteproc2:smd-edge.apr_audio_svc.-1.-1: APR opcode=0x1290d header=24 packet=28 bytes=61001c0003040000030500000034494d0d2901000103000401000000
+[ 1588.501566] mi4_adsp_probe remoteproc2:smd-edge.apr_audio_svc.-1.-1: ADSP state=1
+[ 1588.501585] mi4_adsp_probe remoteproc2:smd-edge.apr_audio_svc.-1.-1: APR opcode=0x12906 header=24 packet=120 bytes=6101780003040000030500000034494d0629010001040004000000000b0000000300000000000400040000000000200005000000040007000600000005000700
+[ 1588.501619] mi4_adsp_probe remoteproc2:smd-edge.apr_audio_svc.-1.-1: ADSP build=0x0 services=11
+/sys/module/mi4_adsp_probe/parameters/dsp_state=1
+/sys/module/mi4_adsp_probe/parameters/responses=2
+/sys/module/mi4_adsp_probe/parameters/service_count=11
+
+umeko@umeko-cancro:~$ 

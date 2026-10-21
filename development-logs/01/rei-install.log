@@ -1,0 +1,20 @@
+
+gauge_sdl.py: 成功
+gauge_settings.py: 成功
+gauge_sdl.rei-candidate.py: 成功
+gauge_settings.rei-candidate.py: 成功
+rei-reference.png: 成功
+Running timer as unit: obd-rei-install-guard.timer
+
+
+Will run service as unit: obd-rei-install-guard.service
+
+
+Created symlink /etc/systemd/system/sysinit.target.wants/obd-boot-curtain.service → /etc/systemd/system/obd-boot-curtain.service.
+
+
+kernel.printk = 0 4 1 7
+
+REI_THEME_VIDEO_STARTED_GUARD_ARMED
+
+umeko@umeko-cancro:~$ 

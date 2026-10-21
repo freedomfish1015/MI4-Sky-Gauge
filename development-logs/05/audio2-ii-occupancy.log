@@ -1,0 +1,10 @@
+
+pipewire-pulse.socket
+=== PCM 占用 ===
+bash: 行 1: fuser: 未找到命令
+=== PCM 状态 ===
+closed
+=== 残留播放进程 ===
+
+DONE_ff2706ceaa8e472bbe1ead4b9ae05921
+umeko@umeko-cancro:~$ 

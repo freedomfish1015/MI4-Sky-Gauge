@@ -1,0 +1,165 @@
+
+10月 20 16:41:27 umeko-cancro python3[461]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 16:41:27 umeko-cancro python3[461]: CABLE_STATE {"online": false, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+-- Boot fb2f2ce04ab14851b7c23bbc34a94033 --
+
+10月 20 15:59:31 umeko-cancro python3[463]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+-- Boot e35af922371842f8b02967799457e15e --
+
+10月 20 15:46:28 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:28 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:28 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:28 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:28 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:27 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:27 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:27 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:27 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:27 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:27 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:26 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:26 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:26 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:25 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:25 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:25 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:25 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:25 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:24 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:24 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:24 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:24 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:23 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:23 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:23 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:22 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:22 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:22 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:21 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:21 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:21 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:21 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:20 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:20 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:20 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:20 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:19 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:19 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:19 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:19 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:19 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:19 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:18 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:18 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:17 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:17 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:17 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:17 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:16 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:16 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:16 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:16 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:16 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:15 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:15 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:15 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:15 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:14 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:14 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:14 umeko-cancro python3[456]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 15:46:14 umeko-cancro python3[456]: CABLE_STATE {"online": false, "phase": "countdown", "remaining": 20, "message": "", "reason": "cable"}
+
+-- No entries --
+
+  文件：/usr/local/lib/obd-power/gauge_power_service.py
+
+  大小：7472      	块：16         IO 块大小：4096   普通文件
+
+设备：179,25	Inode: 289901      硬链接：1
+
+权限：(0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+
+访问时间：2026-10-20 13:25:29.421427376 +0800
+
+修改时间：2026-10-20 13:25:29.417238834 +0800
+
+变更时间：2026-10-20 13:25:29.417238834 +0800
+
+创建时间：2026-10-19 10:01:33.539999863 +0800
+
+05543f3ffe769a219b4f5993a59efbcfba7ba50fd2a0e8f7fe71d7f112756533  /usr/local/lib/obd-power/gauge_power_service.py
+
+systemd-battery-check.service                static          -
+systemd-hybrid-sleep.service                 static          -
+systemd-suspend-then-hibernate.service       static          -
+systemd-suspend.service                      static          -
+hybrid-sleep.target                          static          -
+sleep.target                                 static          -
+suspend-then-hibernate.target                static          -
+suspend.target                               static          -
+
+umeko@umeko-cancro:~$ 

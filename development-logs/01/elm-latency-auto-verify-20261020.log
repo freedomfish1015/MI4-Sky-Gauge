@@ -1,0 +1,15 @@
+
+{"event": "ble_low_latency_request", "monotonic": 6881.68636305, "address": "[BT-ADDRESS]", "handle": 11, "interval_ms": [7.5, 15], "accepted": true, "error": ""}
+{"event": "ble_low_latency_request", "monotonic": 6886.077713361, "address": "[BT-ADDRESS]", "handle": 12, "interval_ms": [7.5, 15], "accepted": true, "error": ""}
+{"event": "ble_low_latency_request", "monotonic": 6890.575325912, "address": "[BT-ADDRESS]", "handle": 13, "interval_ms": [7.5, 15], "accepted": true, "error": ""}
+NRestarts=0
+Id=mi4-elm-advertiser.service
+ActiveState=active
+
+NRestarts=0
+Id=obd-gauge-kiosk.service
+ActiveState=active
+9e730535aa3e49f933c7ae4ad74fb1efeae568e77da397e10ad21298b0d6433b  /home/umeko/desktop-offline/gauge_sdl.py
+031c2e7ac455ac1aec713e40fd7d0337ffcc82264f858f65514db4cc7ec7b5e3  /home/umeko/desktop-offline/elm_radio.py
+
+umeko@umeko-cancro:~$ 

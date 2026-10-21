@@ -1,0 +1,22 @@
+
+test_exact_restore_and_killed_process_recovery (test_direct_gauge.DirectBootTests.test_exact_restore_and_killed_process_recovery) ... ok
+test_first_successful_present_restores_once_and_marks_ready (test_direct_gauge.DirectBootTests.test_first_successful_present_restores_once_and_marks_ready) ... DIRECT_GAUGE_FIRST_FRAME {"pid": 1280, "uptime": 949.98, "elapsed": 0.006}
+ok
+test_import_and_recovery_do_not_load_media_or_gauge (test_direct_gauge.DirectBootTests.test_import_and_recovery_do_not_load_media_or_gauge) ... ok
+test_init_failure_restores (test_direct_gauge.DirectBootTests.test_init_failure_restores) ... ok
+test_no_restore_before_successful_present (test_direct_gauge.DirectBootTests.test_no_restore_before_successful_present) ... ok
+test_run_calls_original_main_without_video_and_restores_screen (test_direct_gauge.DirectBootTests.test_run_calls_original_main_without_video_and_restores_screen) ... DIRECT_GAUGE_START uptime=950.33
+ok
+test_unit_clears_old_commands (test_direct_gauge.DirectBootTests.test_unit_clears_old_commands) ... ok
+test_zero_brightness_is_not_overwritten (test_direct_gauge.DirectBootTests.test_zero_brightness_is_not_overwritten) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.382s
+
+OK
+DIRECT_GAUGE_BACKUP /home/umeko/desktop-offline/backups/direct-gauge-before-202zyn9e
+
+DIRECT_GAUGE_INSTALLED {"first_frame": {"pid": 1377, "uptime": 969.23, "elapsed": 3.879}, "files": {"/usr/local/lib/obd-gauge/launch_gauge_direct.py": "c6a85d6923df84102db8b89db7ada7f18ae23638bb6d3f86efe787a2a087de37", "/usr/local/lib/obd-gauge/quiet_boot_direct.py": "412ccefce9410a17c75d330937c3abcf185b266e84f0fb692bad4e0917a1ba52", "/etc/systemd/system/obd-gauge-kiosk.service.d/90-direct-gauge.conf": "1fa9f1d0eb50e30ea2253da69bd06746f2428bf4839ea82246e60cf8da118434", "/etc/systemd/system/obd-boot-curtain.service.d/90-direct-quiet.conf": "71944056b72418ae2a038d858eeec12b617bcb4d65afc350897e8b9fe48ce923"}, "backup": "/home/umeko/desktop-offline/backups/direct-gauge-before-202zyn9e", "partitions_written": false}
+
+
+umeko@umeko-cancro:~$ 

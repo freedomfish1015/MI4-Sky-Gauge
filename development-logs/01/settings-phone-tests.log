@@ -1,0 +1,25 @@
+
+test_real_sdl_finger_events_rotation_and_duplicate_mouse (test_gauge_settings.NativeTouchTests.test_real_sdl_finger_events_rotation_and_duplicate_mouse) ... ok
+test_switch_disconnects_old_client_before_new_connect (test_gauge_settings.ReconnectTests.test_switch_disconnects_old_client_before_new_connect) ... BLE connected [BT-ADDRESS] profile=standard
+BLE connected [BT-ADDRESS] profile=standard
+ok
+test_config_corruption (test_gauge_settings.SettingsTests.test_config_corruption) ... ok
+test_missing_pid_is_not_a_fabricated_value (test_gauge_settings.SettingsTests.test_missing_pid_is_not_a_fabricated_value) ... ok
+test_readonly_profile_validation_and_decoding (test_gauge_settings.SettingsTests.test_readonly_profile_validation_and_decoding) ... ok
+test_scan_is_background_and_connection_is_explicit (test_gauge_settings.SettingsTests.test_scan_is_background_and_connection_is_explicit) ... ok
+test_sdl_abi_and_rotation (test_gauge_settings.SettingsTests.test_sdl_abi_and_rotation) ... ok
+test_settings_cached_and_dashboard_restored (test_gauge_settings.SettingsTests.test_settings_cached_and_dashboard_restored) ... ok
+test_slider_does_not_navigate_and_clamps_and_saves (test_gauge_settings.SettingsTests.test_slider_does_not_navigate_and_clamps_and_saves) ... ok
+test_swipe_tabs_profile_and_persistence (test_gauge_settings.SettingsTests.test_swipe_tabs_profile_and_persistence) ... ok
+test_tap_cannot_be_triggered_by_large_drag (test_gauge_settings.SettingsTests.test_tap_cannot_be_triggered_by_large_drag) ... ok
+test_real_sdl_partial_texture_matches_source (test_gauge_sdl.NativeSDLTests.test_real_sdl_partial_texture_matches_source) ... Mouse cursor hidden (SDL cursor state=0)
+ok
+test_sdl_stays_on_main_and_upload_surface_is_stable (test_gauge_sdl.PipelineTests.test_sdl_stays_on_main_and_upload_surface_is_stable) ... ok
+test_worker_exception_is_propagated (test_gauge_sdl.PipelineTests.test_worker_exception_is_propagated) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 9.441s
+
+OK
+
+umeko@umeko-cancro:~$ 

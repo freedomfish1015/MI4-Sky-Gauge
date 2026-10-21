@@ -1,0 +1,10 @@
+
+BACKUP /home/umeko/desktop-offline/backups/charge-mode-before-4ggs3wx5
+
+Created symlink /etc/systemd/system/multi-user.target.wants/mi4-charge-mode.service → /etc/systemd/system/mi4-charge-mode.service.
+
+
+CHARGE_MODE_INSTALLED_NORMAL; UI_RESTARTED_ONLY; BOOT_HARDWARE_POWER_POLICY_UNCHANGED
+
+
+umeko@umeko-cancro:~$ 

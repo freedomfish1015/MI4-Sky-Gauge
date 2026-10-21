@@ -1,0 +1,6 @@
+
+crw-rw---- 1 root video 13, 65 10月 18 22:03 /dev/input/event1
+lr-x------ 1 umeko umeko 64 10月 18 22:03 7 -> /dev/input/event1
+active
+
+umeko@umeko-cancro:~$ 

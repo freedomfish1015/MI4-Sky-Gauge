@@ -1,0 +1,11 @@
+
+Running timer as unit: obd-video-test-recover.timer
+
+
+Will run service as unit: obd-video-test-recover.service
+
+
+BOOT_VIDEO_FIRST_FRAME startup=1.57s native=1080x1920 audio=1
+BOOT_VIDEO_FINISHED frames=65 elapsed=16.48s fps=3.9 last_pts=5.966666666 copy=111.6ms
+
+umeko@umeko-cancro:~$ 

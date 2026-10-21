@@ -1,0 +1,10 @@
+
+BLE connected [BT-ADDRESS] profile=standard
+PID_OK standard {'rpm': 1191.25, 'coolant': 90.0, 'oil': 86.0, 'speed': 5.0, 'battery': 13.811}
+BLE connected [BT-ADDRESS] profile=bmw-g-sim
+PID_OK bmw-g-sim {'rpm': 782.75, 'coolant': 90.0, 'oil': 84.75, 'speed': 0.0, 'battery': 12.577}
+SCAN_RESULT 附近 19 台 · 已保留保存的设备 [('OBDII', '[BT-ADDRESS]'), ('04-51-7C-39-74-85', '[BT-ADDRESS]'), ('25-54-92-B3-94-C9', '[BT-ADDRESS]'), ('3A-CA-84-91-F3-4C', '[BT-ADDRESS]'), ('3F-CC-E3-AB-D1-1D', '[BT-ADDRESS]'), ('42-AE-CA-21-15-BF', '[BT-ADDRESS]'), ('4D-5A-55-04-EB-DF', '[BT-ADDRESS]'), ('5E-79-73-C4-BF-BC', '[BT-ADDRESS]'), ('71-3F-6E-81-D6-26', '[BT-ADDRESS]'), ('74-A4-75-AA-0D-C1', '[BT-ADDRESS]'), ('7A-13-AB-0F-16-BE', '[BT-ADDRESS]'), ('AFU-WL-TZ-A1', '[BT-ADDRESS]'), ('C6-81-9F-34-3A-76', '[BT-ADDRESS]'), ('EF-FD-AE-4E-1D-A4', '[BT-ADDRESS]'), ('LYWSD03MMC', '[BT-ADDRESS]'), ('LYWSD03MMC', '[BT-ADDRESS]'), ('SICN-HEATER-9BC', '[BT-ADDRESS]'), ('xxj的小米电视 S Pro 65 Mini LED 2025款', '[BT-ADDRESS]'), ('试试就试试的电视', '[BT-ADDRESS]')]
+BRIGHTNESS_WRITE_OK 57 58
+SETTINGS_SMOKE_OK
+
+umeko@umeko-cancro:~$ 

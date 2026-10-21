@@ -1,0 +1,12 @@
+
+543.76 {'capacity': '56', 'voltage_now': '3816762', 'voltage_ocv': '3881196', 'charge_counter': '14602', 'status': 'Charging'}
+545.77 {'capacity': '56', 'voltage_now': '3827952', 'voltage_ocv': '3881196', 'charge_counter': '14664', 'status': 'Charging'}
+547.77 {'capacity': '56', 'voltage_now': '3818244', 'voltage_ocv': '3881196', 'charge_counter': '14758', 'status': 'Charging'}
+549.78 {'capacity': '56', 'voltage_now': '3823269', 'voltage_ocv': '3881196', 'charge_counter': '14844', 'status': 'Charging'}
+551.79 {'capacity': '56', 'voltage_now': '3823551', 'voltage_ocv': '3881196', 'charge_counter': '14911', 'status': 'Charging'}
+553.8 {'capacity': '56', 'voltage_now': '3826482', 'voltage_ocv': '3881196', 'charge_counter': '14977', 'status': 'Charging'}
+[   32.237540] Bluetooth: RFCOMM ver 1.11
+[   42.252856] wcd9320 217:a0:1:0: sampling complete: 45 samples, pad high in 0, live source in 0, parent irqs 0 (spurious 0, acked 0)
+[  511.356433] mi4-bms-fixed fc4cf000.spmi:pm8941@0:battery@4000: mi4-bms-fixed: OCV raw=37899 calibrated=3881196 uV; nominal 25C LUT; 10mOhm sense assumption
+
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,12 @@
+
+=== sink 音量 ===
+Volume: 1.00
+=== PipeWire 播放 12 秒 ===
+supply_owned=1 clock_owned=1 supply_hw_enabled=1
+reg[0x1df]=ef rc=0
+reg[0x1e0]=04 rc=0
+reg[0x2e7]=00 rc=0
+=== 播放错误 ===
+
+DONE_aedc3636067b47dbbc28d56aa2c5799d
+umeko@umeko-cancro:~$ 

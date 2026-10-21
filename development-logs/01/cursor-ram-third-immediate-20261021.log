@@ -1,0 +1,15 @@
+
+73.21 198.10
+d2a754d1-28ad-47a6-9f1f-b48c761beeb3
+earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=0 vt.global_cursor_default=0
+{"pid": 460, "uptime": 19.78, "elapsed": 6.9}Result=success
+NRestarts=0
+Id=obd-gauge-kiosk.service
+ActiveState=active
+
+Result=success
+NRestarts=0
+Id=mi4-bms-fixed.service
+ActiveState=active
+
+umeko@umeko-cancro:~$ 

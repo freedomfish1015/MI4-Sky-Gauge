@@ -1,0 +1,21 @@
+[Unit]
+Description=Mi4 IIO motion and local GPS track recorder
+After=mi4-rmtfs.service obd-gauge-kiosk.service
+Requires=mi4-rmtfs.service
+
+[Service]
+Type=simple
+ExecStartPre=/usr/local/lib/obd-motion/mi4-sensors-init.sh
+ExecStartPre=/usr/local/lib/obd-motion/mi4-modem-start.sh
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-motion/mi4_motiond.py
+Restart=on-failure
+RestartSec=10
+RuntimeDirectory=obd-motion
+RuntimeDirectoryMode=0755
+UMask=0027
+Group=umeko
+TimeoutStartSec=90
+TimeoutStopSec=8
+
+[Install]
+WantedBy=multi-user.target

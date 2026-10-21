@@ -1,0 +1,36 @@
+
+CODE gauge_sdl.py 1239
+                raw, signals, status, context = self.source.telemetry_snapshot()
+            else:
+                raw = self.source.read()
+                signals = self.source.read_signals() if hasattr(self.source, 'read_signals') else {}
+                status, context = getattr(self.source, 'name', ''), {}
+            self.telemetry.sample(now, raw, signals, self.motion.read(), status, context)
+        power_state = self.power.poll() if self.power is not None else None
+        if power_state and self.power_backdrop is None:
+            if self.prev_arc is None:
+                self.draw_frame(self.values, full=True, upload=False)
+            self.power_backdrop = cairo.ImageSurface(cairo.FORMAT_ARGB32, RW, RH)
+            backdrop_cr = cairo.Context(self.power_backdrop)
+            backdrop_cr.set_source_surface(self.surface, 0, 0)
+CODE gauge_settings.py 545
+                                        self.motion.command(record=False)
+                                        self.message = '正在停止 GPS 与行程 LOG'
+                                    except OSError:
+                                        self.message = '行程停止失败，请重试'
+                                else:
+                                    self.telemetry.set_recording(not self.telemetry.recording)
+                            elif self.telemetry is not None and x >= 390:
+                                self.telemetry.toggle_pause()
+                    elif now - started < 1.8 and abs(dx) > 75 and abs(dy) < 60:
+                        self.page = 'settings' if dx < 0 else 'gauge'
+                        self.message = ''
+                    elif abs(dx) < 18 and abs(dy) < 18 and self.page == 'settings':
+                        self.tap(x, y)
+TRACK_RECENT 20261020T153003Z-16399394107.csv 151 2026-10-20T15:30:03.290245+00:00
+TRACK_RECENT 20261020T153003Z-16842365513.csv 151 2026-10-20T15:30:03.623977+00:00
+TRACK_RECENT 20261020T153852Z-16639991762.csv 151 2026-10-20T15:38:52.750489+00:00
+LAST_LOG_SAMPLE {"utc": "2026-10-21T03:07:14.799+00:00", "trip": null, "connection": "\u5df2\u8fde\u63a5 [BT-ADDRESS]", "context": {"address": "[BT-ADDRESS]", "profile": "standard", "mode": "direct", "sky_forward": false, "simulated_source": true}, "channels": {"rpm": 1547.5, "speed": 7.0, "throttle": null, "gear": null, "coolant": 65.0, "oil": 57.0, "gx": -0.0, "gy": -0.0}}
+RECORDED_RPM_TIME_SPAN 2026-10-21T03:06:36.420+00:00 2026-10-21T03:07:14.799+00:00
+
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,25 @@
+
+{
+
+  "before_sha256": "5715032761b50157ea495d5dfb3d71b2b6de300f00ce7681f48f154dd9f67653",
+
+  "after_sha256": "cea1bb654293a228d1df3729a6971c26e64bc5d69f6a07632d61f296e2fb4271",
+
+  "loader_sha256": "45a16cdeda912e255695b5491207b4fbb4740e28da3f11eb1d0d856e3d435767",
+
+  "payload_sha256": "22cbb31c6e8915ef1849cc2452be48f5ef619feb2e031cfb202dd1bd80d47deb",
+
+  "cmdline_offset": 524352,
+
+  "cmdline_length": 512,
+
+  "old_cmdline": "earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait",
+
+  "new_cmdline": "earlycon console=ttyMSM0,115200 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=3 systemd.show_status=false rd.systemd.show_status=false vt.global_cursor_default=0 logo.nologo"
+
+}
+
+QUIET_BOOT_PREPARED_NO_DEVICE_WRITE
+
+
+umeko@umeko-cancro:~$ 

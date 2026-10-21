@@ -1,0 +1,21 @@
+
+ 23:39:53 up 1 min,  1 user,  load average: 2.23, 0.85, 0.31
+MainPID=523
+NRestarts=0
+ActiveState=active
+
+MainPID=563
+NRestarts=0
+ActiveState=active
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+10月 20 23:39:45 umeko-cancro python3[523]: FPS 58.8  paint=1.3ms upload=0.0ms present=16.9ms wait=0.1ms pipeline=1
+10月 20 23:39:47 umeko-cancro python3[523]: FPS 59.3  paint=1.3ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+10月 20 23:39:49 umeko-cancro python3[523]: FPS 59.3  paint=1.2ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+10月 20 23:39:51 umeko-cancro python3[523]: FPS 58.8  paint=1.2ms upload=0.0ms present=16.9ms wait=0.1ms pipeline=1
+
+umeko@umeko-cancro:~$ 

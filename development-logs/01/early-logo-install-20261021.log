@@ -1,0 +1,17 @@
+
+EARLY_GAUGE_START uptime=1077.39
+EARLY_GAUGE_LOGO_PRESENTED uptime=1077.48
+.EARLY_GAUGE_START uptime=1077.48
+..EARLY_GAUGE_START uptime=1077.5
+EARLY_GAUGE_LOGO_PRESENTED uptime=1077.59
+EARLY_GAUGE_BMS_READY uptime=1077.59
+EARLY_GAUGE_FIRST_FRAME {"pid": 1544, "uptime": 1077.59, "elapsed": 0.097}
+...
+----------------------------------------------------------------------
+Ran 6 tests in 0.230s
+
+OK
+EARLY_LOGO_BACKUP /home/umeko/desktop-offline/backups/early-logo-before-kqy0jejk
+EARLY_LOGO_INSTALLED {"backup": "/home/umeko/desktop-offline/backups/early-logo-before-kqy0jejk", "ready": {"pid": 1600, "uptime": 1091.81, "elapsed": 4.034}, "installed": {"/usr/local/lib/obd-gauge/early_sdl_screen.py": "5debfdf2efb6466c57c5c64e68d123f20acd30bb09d04ebc1c56f70f4c48fbe2", "/usr/local/lib/obd-gauge/launch_gauge_early.py": "ddb8a09524cdcd4aa6227dcd9acc45f1fe58f94d0148e84ea0797cd528572be2", "/usr/local/lib/obd-gauge/sky_boot_curtain": "39ae72236e22bcb3cef85462234130f1b5b7ed5e800c83d34f5eb0694da82514", "/etc/systemd/system/obd-gauge-kiosk.service.d/99-early-logo.conf": "d1db424d0cfe571bf0e3962d7f6d6d0a11c99e4a66f67be84301e6ac25622ea9", "/etc/systemd/system/obd-boot-curtain.service.d/99-sky-curtain.conf": "02488575f526eb4e92c24f4fb565f80a2bd26a4ecb1777b661baacd72d58ed42", "/etc/systemd/system/obd-gauge-kiosk.service": "7930d993f1ba4a22f4af3a119203d88f9ed3de825b23aee681dec51bff34bbb8", "/etc/systemd/system/mi4-bms-fixed.service": "7383f10dd1dd2dd804472faeba078c7e3f01a15bb9ca2108c0242e7baed159d2"}, "partition_written": false}
+
+umeko@umeko-cancro:~$ 

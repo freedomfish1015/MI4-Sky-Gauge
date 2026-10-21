@@ -1,0 +1,14 @@
+
+  : values=on
+  : values=on
+=== 播放 8 秒满量程 1kHz ===
+正在播放 WAVE '/tmp/full-scale.wav' : Signed 16 bit Little Endian, 频率48000Hz， Mono
+=== 播放后寄存器 ===
+reg[0x1df]=6f rc=0
+reg[0x1e0]=3c rc=0
+reg[0x1eb]=00 rc=0
+reg[0x1ec]=70 rc=0
+reg[0x2e7]=f4 rc=0
+
+DONE_3dc5b2d4d28843a297682056b9276acc
+umeko@umeko-cancro:~$ 

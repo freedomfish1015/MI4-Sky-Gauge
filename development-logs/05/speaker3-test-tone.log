@@ -1,0 +1,36 @@
+
+interface function: no chip id (laddr 0xca up 1 down 0)
+applied=1 base=0x5b00
+div_ctl1=02 factor=2
+en_ctl=80 enabled=1
+gpio15_mode_ctl=25 dir=2 function=2
+正在播放 WAVE '/home/umeko/desktop-offline/mi4-quiet-test.wav' : Signed 16 bit Little Endian, 频率48000Hz， Mono
+LOW_VOLUME_PCM_COMPLETED
+AUDIO_TEST_CLEANUP_DONE
+[ 1905.263601] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: APPLIED
+[ 1905.351237] wcd9320 217:a0:1:0: slim-stream: ASoC startup (dai wcd9320-slim-rx1) -> 0
+[ 1905.352608] wcd9320-lumia-q6 sound: BE hw_params: cpu=SLIMBUS_0_RX codec=wcd9320-slim-rx1 rate=48000 ch=1 ch_map={144} (reported by the codec)
+[ 1905.352639] wcd9320 217:a0:1:0: RX path invocation: ASoC hw_params (dai wcd9320-slim-rx1, rate 48000, ch 1, fmt 2)
+[ 1905.398484] wcd9320 217:a0:1:0: rx-port 16: multi-channel 0x180 want 01 -> read 01
+[ 1905.399028] wcd9320 217:a0:1:0: rx-port 16: config 0x040 want 05 -> read 05
+[ 1905.444049] wcd9320 217:a0:1:0: rx-port 16: PROGRAMMED, 2 write(s) total
+[ 1905.444074] wcd9320 217:a0:1:0: slim-stream: config port 16 (mask 0x10000) channel 144 rate 48000 bps 16
+[ 1905.461206] wcd9320 217:a0:1:0: Mi4 speaker: RX1->RX7, fixed minimum gain, PA ON
+[ 1905.475608] wcd9320 217:a0:1:0: slim-stream: ASoC trigger START (dai wcd9320-slim-rx1)
+[ 1905.476237] wcd9320 217:a0:1:0: slim-stream: prepare -> 0 (CONNECT_SINK to the manager)
+[ 1905.481279] wcd9320 217:a0:1:0: slim-stream: enable -> 0 (SLIM_USR_MC_DEF_ACT_CHAN)
+[ 1905.481300] wcd9320 217:a0:1:0: slim-stream: UP port 16 channel 144
+[ 1907.088718] wcd9320 217:a0:1:0: slim-stream: ASoC trigger STOP (dai wcd9320-slim-rx1)
+[ 1907.091248] wcd9320 217:a0:1:0: slim-stream: disable -> 0 (no-op here: the NGD drops every reconfiguration message)
+[ 1907.091857] wcd9320 217:a0:1:0: slim-stream: unprepare -> 0 (DISCONNECT_PORT -- the real teardown)
+[ 1907.091877] wcd9320 217:a0:1:0: slim-stream: DOWN port 16
+[ 1907.092184] wcd9320 217:a0:1:0: RX path invocation: ASoC hw_free (dai wcd9320-slim-rx1)
+[ 1907.092612] wcd9320 217:a0:1:0: rx-port 16: config 0x040 want 00 -> read 00
+[ 1907.093114] wcd9320 217:a0:1:0: rx-port 16: multi-channel 0x180 want 00 -> read 00
+[ 1907.129777] wcd9320 217:a0:1:0: rx-port 16: TORN DOWN, 4 write(s) total
+[ 1907.129839] wcd9320 217:a0:1:0: slim-stream: ASoC shutdown (dai wcd9320-slim-rx1)
+[ 1907.149438] wcd9320 217:a0:1:0: Mi4 speaker: PA, RX7, bias, MCLK and boost OFF
+[ 1907.274911] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: DIV_CTL1 restored to factor 0
+[ 1907.274941] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: RESTORED
+
+umeko@umeko-cancro:~$ 

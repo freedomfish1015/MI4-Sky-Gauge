@@ -1,0 +1,12 @@
+
+gauge_sdl.py: 成功
+gauge_sdl.hex-candidate.py: 成功
+Running timer as unit: obd-hex-install-guard.timer
+
+
+Will run service as unit: obd-hex-install-guard.service
+
+
+HEX_HUD_INSTALLED_GUARD_ARMED
+
+umeko@umeko-cancro:~$ 

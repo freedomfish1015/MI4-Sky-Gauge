@@ -1,0 +1,15 @@
+
+Vacuuming done, freed 0B of archived journals from /var/log/journal.
+Vacuuming done, freed 0B of archived journals from /run/log/journal.
+Failed to disable unit: Unit file man-db.timer does not exist.
+=== kiosk ===
+active
+=== disk ===
+/dev/mmcblk0p25   13G  1.9G   10G  17% /
+=== mem ===
+               total        used        free      shared  buff/cache   available
+Mem:            2898         448        2263           1         285        2449
+=== services ===
+accounts-daemon.service bluetooth.service dbus.service ncm-serial.service NetworkManager.service obd-gauge-kiosk.service polkit.service serial-getty@ttyMSM0.service ssh.service systemd-journald.service systemd-logind.service systemd-resolved.service systemd-timesyncd.service systemd-udevd.service user@1000.service wpa_supplicant.service 
+DONE_9de12045d2fc40b4a17d192f0a5a5db6
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,23 @@
+
+=== 内核/运行时长 ===
+6.15.11-mi4-audio1
+ 17:56:52 up 1 min,  2 users,  load average: 2.99, 1.06, 0.38
+=== 服务 ===
+active
+success
+=== 声卡 ===
+ 0 [Mi4Taiko       ]: Mi4-Taiko - Mi4-Taiko
+                      Mi4-Taiko
+=== codec 参数 ===
+Y
+=== 路由 ===
+  : values=on
+  : values=on
+=== divider ===
+applied=1 base=0x5b00
+div_ctl1=02 factor=2
+=== 叠加 ===
+OVERLAY_LOADED
+
+DONE_2b2f8ff5cbbc4815a74b5f733181a0e5
+umeko@umeko-cancro:~$ 

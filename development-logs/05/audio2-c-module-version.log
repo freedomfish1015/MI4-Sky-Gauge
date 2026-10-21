@@ -1,0 +1,26 @@
+
+=== 当前 codec 模块 ===
+filename:       /lib/modules/6.15.11-mi4-audio1/kernel/drivers/slimbus/wcd9320.ko
+srcversion:     2006387B79814D0907622AF
+vermagic:       6.15.11-mi4-audio1 SMP preempt mod_unload modversions ARMv7 p2v8 
+=== 文件 sha ===
+/lib/modules/6.15.11-mi4-audio1/kernel/drivers/slimbus/wcd9320.ko
+e319e39cc2de3e78e03a1b52480356e07010b32cc14dc8bf2d5b72102e7e4688  /lib/modules/6.15.11-mi4-audio1/kernel/drivers/slimbus/wcd9320.ko
+=== rc7 期望 sha ===
+e319e39cc2de3e78e03a1b52480356e07010b32cc14dc8bf2d5b72102e7e4688
+=== 机器上已有产物 ===
+-rw------- 1 umeko umeko   1588 10月 18 11:29 /home/umeko/desktop-offline/deploy-login-pinyin.sh
+-rw------- 1 umeko umeko   1119 10月 18 11:05 /home/umeko/desktop-offline/deploy-miku.sh
+-rw------- 1 umeko umeko   1374 10月 18 11:16 /home/umeko/desktop-offline/deploy-music.sh
+-rw------- 1 umeko umeko 174324 10月 18 15:06 /home/umeko/desktop-offline/mi4_adsp_probe.ko
+-rw------- 1 umeko umeko 174480 10月 18 15:07 /home/umeko/desktop-offline/mi4_adsp_probe_v2.ko
+-rw------- 1 umeko umeko 132544 10月 18 15:36 /home/umeko/desktop-offline/mi4_audio_overlay.ko
+-rw------- 1 umeko umeko   1384 10月 18 16:59 /home/umeko/desktop-offline/replace_mi4_codec.sh
+-rw------- 1 umeko umeko   9868 10月 18 15:54 /home/umeko/desktop-offline/snd-soc-lumia1520-q6-linkfix.ko
+-rw------- 1 umeko umeko   9868 10月 18 16:04 /home/umeko/desktop-offline/snd-soc-mi4-q6-link-order1.ko
+-rw------- 1 umeko umeko   1045 10月 18 16:59 /home/umeko/desktop-offline/test_mi4_max_volume.sh
+-rw------- 1 umeko umeko   1583 10月 18 16:59 /home/umeko/desktop-offline/test_mi4_speaker.sh
+-rw-r--r-- 1 root  root  140628 10月 18 16:04 /home/umeko/desktop-offline/wcd9320-before-speaker.ko
+
+DONE_b2fafc2092294a0fb18e2602a33cf300
+umeko@umeko-cancro:~$ 

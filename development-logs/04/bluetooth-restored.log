@@ -1,0 +1,80 @@
+
+Failed to set power on: org.bluez.Error.Busy
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+Controller [BT-ADDRESS] (public)
+	Manufacturer: 0x001d (29)
+	Version: 0x07 (7)
+	Name: umeko-cancro
+	Alias: umeko-cancro
+	Class: 0x006c020c (7078412)
+	Powered: yes
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+	Pairable: no
+	UUID: A/V Remote Control        (0000110e-0000-1000-8000-00805f9b34fb)
+	UUID: Handsfree Audio Gateway   (0000111f-0000-1000-8000-00805f9b34fb)
+	UUID: PnP Information           (00001200-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Sink                (0000110b-0000-1000-8000-00805f9b34fb)
+	UUID: Audio Source              (0000110a-0000-1000-8000-00805f9b34fb)
+/sys/devices/platform/soc/fb204000.remoteproc/remoteproc/remoteproc0/remoteproc0:smd-edge/remoteproc0:smd-edge.WCNSS_CTRL.-1.-1/fb204000.remoteproc:smd-edge:wcnss:bluetooth/bluetooth/hci0/rfkill0
+/sys/devices/platform/soc/fb204000.remoteproc/remoteproc/remoteproc0/remoteproc0:smd-edge/remoteproc0:smd-edge.WCNSS_CTRL.-1.-1/fb204000.remoteproc:smd-edge:wcnss:bluetooth/bluetooth/hci0
+10月 21 13:32:14 umeko-cancro systemd[1]: Starting systemd-rfkill.service - Load/Save RF Kill Switch Status...
+
+10月 21 13:32:14 umeko-cancro bluetoothd[508]: Battery Provider Manager created
+
+10月 21 13:32:14 umeko-cancro systemd[1]: Started systemd-rfkill.service - Load/Save RF Kill Switch Status.
+
+10月 21 13:32:14 umeko-cancro bluetoothd[508]: profiles/sap/server.c:sap_server_register() Sap driver initialization failed.
+
+10月 21 13:32:14 umeko-cancro bluetoothd[508]: sap-server: Operation not permitted (1)
+
+10月 21 13:32:14 umeko-cancro bluetoothd[508]: Failed to set mode: Failed (0x03)
+
+10月 21 13:32:19 umeko-cancro systemd[1]: systemd-rfkill.service: Deactivated successfully.
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSource/ldac
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSink/aptx_hd
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSource/aptx_hd
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSink/aptx
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSource/aptx
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSink/sbc
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSource/sbc
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSink/sbc_xq
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSource/sbc_xq
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSource/aptx_ll_1
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSource/aptx_ll_0
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_1
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSource/aptx_ll_duplex_0
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSource/faststream
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSource/faststream_duplex
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSink/opus_05
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSource/opus_05
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSink/opus_05_duplex
+
+10月 21 13:33:16 umeko-cancro bluetoothd[508]: Endpoint registered: sender=:1.20 path=/MediaEndpoint/A2DPSource/opus_05_duplex
+
+10月 21 13:38:15 umeko-cancro systemd[1]: Starting systemd-rfkill.service - Load/Save RF Kill Switch Status...
+
+10月 21 13:38:15 umeko-cancro systemd[1]: Started systemd-rfkill.service - Load/Save RF Kill Switch Status.
+
+
+umeko@umeko-cancro:~$ 

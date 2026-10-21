@@ -1,0 +1,33 @@
+
+ 09:57:00 up 1 min,  1 user,  load average: 2.42, 0.92, 0.33
+{"status": "complete", "complete": true, "frames": 361, "last_pts": 12.0}Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+[   19.469180] umeko-cancro python3[437]: Mouse cursor hidden (SDL cursor state=0)
+[   19.980620] umeko-cancro python3[437]: Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+[   21.346607] umeko-cancro python3[437]: BOOT_VIDEO_FIRST_FRAME startup=0.60s native=1080x1920 audio=1 volume=0.50 GPU=YUV strides=[1080, 540, 540]
+[   42.936130] umeko-cancro python3[437]: BOOT_VIDEO_EOS_COMPLETE frames=361 elapsed=21.59s fps=16.7 last_pts=12.0 render=4.9ms
+[   43.200601] umeko-cancro python3[437]: BOOT_HANDOFF_TO_GAUGE same_window=1
+[   43.327369] umeko-cancro python3[437]: KMS mode 1080x1920 @60Hz vsync=True
+[   46.090810] umeko-cancro python3[437]: BLE connected [BT-ADDRESS] profile=standard
+[   47.312341] umeko-cancro python3[437]: FPS 41.7  paint=12.2ms upload=1.1ms present=12.6ms wait=10.3ms pipeline=1
+[   49.316335] umeko-cancro python3[437]: FPS 41.4  paint=14.9ms upload=1.0ms present=11.6ms wait=11.5ms pipeline=1
+[   51.321411] umeko-cancro python3[437]: FPS 59.3  paint=4.3ms upload=0.2ms present=15.3ms wait=1.3ms pipeline=1
+[   53.326242] umeko-cancro python3[437]: FPS 59.4  paint=3.8ms upload=0.2ms present=15.5ms wait=1.2ms pipeline=1
+[   55.331840] umeko-cancro python3[437]: FPS 58.8  paint=4.0ms upload=0.2ms present=15.6ms wait=1.2ms pipeline=1
+[   57.337248] umeko-cancro python3[437]: FPS 58.3  paint=2.9ms upload=0.2ms present=16.5ms wait=0.4ms pipeline=1
+[   59.342286] umeko-cancro python3[437]: FPS 59.3  paint=3.2ms upload=0.2ms present=15.9ms wait=0.8ms pipeline=1
+Id=mi4-audio-init.service
+After=system.slice systemd-udev-trigger.service systemd-journald.socket systemd-remount-fs.service
+ActiveEnterTimestampMonotonic=16130235
+
+Id=obd-gauge-kiosk.service
+After=system.slice systemd-remount-fs.service -.mount mi4-audio-init.service systemd-udev-trigger.service obd-boot-curtain.service systemd-journald.socket
+ActiveEnterTimestampMonotonic=16171074
+1720
+active
+
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,13 @@
+
+=== Qualcomm/ARM 相关 ===
+sm8250
+=== 一个简单示例的目录内容 ===
+/usr/share/alsa/ucm2/conf.d/acp/
+acp.conf
+=== 主 conf ===
+Syntax 3
+
+Include.linked.File "/common/linked.conf"
+
+DONE_1622d7dcc21248ae8df58ed13a3aa484
+umeko@umeko-cancro:~$ 

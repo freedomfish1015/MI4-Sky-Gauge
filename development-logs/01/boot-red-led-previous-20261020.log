@@ -1,0 +1,164 @@
+
+10月 20 16:24:02 umeko-cancro python3[448]: FPS 33.8  paint=23.5ms upload=0.3ms present=12.5ms wait=16.8ms pipeline=1
+
+10月 20 16:24:04 umeko-cancro python3[448]: FPS 30.6  paint=27.7ms upload=0.4ms present=11.4ms wait=20.9ms pipeline=1
+
+10月 20 16:24:05 umeko-cancro python3[448]: BLE error: BleakDeviceNotFoundError('Device with address [BT-ADDRESS] was not found.')
+
+10月 20 16:24:06 umeko-cancro python3[448]: FPS 31.3  paint=26.1ms upload=0.3ms present=11.9ms wait=19.7ms pipeline=1
+
+10月 20 16:24:08 umeko-cancro python3[448]: FPS 27.4  paint=32.8ms upload=0.4ms present=10.0ms wait=26.0ms pipeline=1
+
+10月 20 16:24:10 umeko-cancro python3[448]: FPS 32.3  paint=25.0ms upload=0.3ms present=12.3ms wait=18.3ms pipeline=1
+
+10月 20 16:24:12 umeko-cancro python3[448]: FPS 35.8  paint=21.0ms upload=0.3ms present=13.3ms wait=14.3ms pipeline=1
+
+10月 20 16:24:14 umeko-cancro python3[448]: FPS 36.9  paint=19.7ms upload=0.3ms present=13.4ms wait=13.5ms pipeline=1
+
+10月 20 16:24:16 umeko-cancro python3[448]: FPS 29.7  paint=28.9ms upload=0.4ms present=11.2ms wait=22.0ms pipeline=1
+
+10月 20 16:24:17 umeko-cancro python3[448]: BLE error: BleakDeviceNotFoundError('Device with address [BT-ADDRESS] was not found.')
+
+10月 20 16:24:18 umeko-cancro python3[448]: FPS 32.1  paint=24.8ms upload=0.3ms present=12.6ms wait=18.2ms pipeline=1
+
+10月 20 16:24:20 umeko-cancro python3[448]: FPS 30.1  paint=28.5ms upload=0.4ms present=11.2ms wait=21.7ms pipeline=1
+
+10月 20 16:24:22 umeko-cancro python3[448]: FPS 33.2  paint=23.9ms upload=0.3ms present=12.4ms wait=17.4ms pipeline=1
+
+10月 20 16:24:24 umeko-cancro python3[448]: FPS 30.9  paint=27.2ms upload=0.4ms present=11.8ms wait=20.1ms pipeline=1
+
+10月 20 16:24:26 umeko-cancro python3[448]: FPS 28.8  paint=30.6ms upload=0.4ms present=10.2ms wait=24.0ms pipeline=1
+
+10月 20 16:24:28 umeko-cancro python3[448]: FPS 31.6  paint=26.1ms upload=0.4ms present=11.7ms wait=19.6ms pipeline=1
+
+10月 20 16:24:29 umeko-cancro python3[448]: BLE error: BleakDeviceNotFoundError('Device with address [BT-ADDRESS] was not found.')
+
+10月 20 16:24:30 umeko-cancro python3[448]: FPS 28.3  paint=31.7ms upload=0.4ms present=10.2ms wait=24.6ms pipeline=1
+
+10月 20 16:24:32 umeko-cancro python3[448]: FPS 26.7  paint=34.5ms upload=0.5ms present=9.7ms wait=27.3ms pipeline=1
+
+10月 20 16:24:34 umeko-cancro python3[448]: FPS 33.2  paint=24.0ms upload=0.3ms present=11.8ms wait=17.9ms pipeline=1
+
+10月 20 16:24:36 umeko-cancro python3[448]: FPS 31.8  paint=26.2ms upload=0.4ms present=11.6ms wait=19.4ms pipeline=1
+
+10月 20 16:24:38 umeko-cancro python3[448]: FPS 31.8  paint=25.8ms upload=0.3ms present=12.4ms wait=18.7ms pipeline=1
+
+10月 20 16:24:40 umeko-cancro python3[448]: FPS 32.0  paint=25.5ms upload=0.3ms present=12.0ms wait=18.8ms pipeline=1
+
+10月 20 16:24:42 umeko-cancro python3[448]: BLE error: BleakDeviceNotFoundError('Device with address [BT-ADDRESS] was not found.')
+
+10月 20 16:24:42 umeko-cancro python3[448]: FPS 27.7  paint=32.4ms upload=0.4ms present=10.4ms wait=25.2ms pipeline=1
+
+10月 20 16:24:44 umeko-cancro python3[448]: FPS 27.8  paint=32.1ms upload=0.4ms present=10.1ms wait=25.4ms pipeline=1
+
+10月 20 16:24:46 umeko-cancro python3[448]: FPS 27.2  paint=32.6ms upload=0.4ms present=11.2ms wait=25.1ms pipeline=1
+
+10月 20 16:24:48 umeko-cancro python3[448]: FPS 30.3  paint=27.7ms upload=0.4ms present=11.8ms wait=20.8ms pipeline=1
+
+10月 20 16:24:50 umeko-cancro python3[448]: FPS 30.1  paint=28.5ms upload=0.4ms present=11.5ms wait=21.4ms pipeline=1
+
+10月 20 16:24:52 umeko-cancro python3[448]: FPS 25.9  paint=36.6ms upload=0.5ms present=9.2ms wait=28.9ms pipeline=1
+
+10月 20 16:24:54 umeko-cancro python3[448]: BLE error: BleakDeviceNotFoundError('Device with address [BT-ADDRESS] was not found.')
+
+10月 20 16:24:54 umeko-cancro python3[448]: FPS 23.6  paint=41.3ms upload=0.6ms present=8.2ms wait=33.5ms pipeline=1
+
+10月 20 16:24:56 umeko-cancro python3[448]: FPS 28.3  paint=33.6ms upload=0.5ms present=10.0ms wait=24.9ms pipeline=1
+
+10月 20 16:24:58 umeko-cancro python3[448]: FPS 29.3  paint=30.2ms upload=0.4ms present=10.5ms wait=23.1ms pipeline=1
+
+10月 20 16:25:00 umeko-cancro python3[448]: FPS 26.2  paint=36.4ms upload=0.5ms present=9.2ms wait=28.4ms pipeline=1
+
+10月 20 16:25:02 umeko-cancro python3[448]: FPS 25.0  paint=37.8ms upload=0.5ms present=7.7ms wait=31.8ms pipeline=1
+
+10月 20 16:25:04 umeko-cancro python3[448]: FPS 26.4  paint=35.4ms upload=0.5ms present=9.6ms wait=27.8ms pipeline=1
+
+10月 20 16:25:06 umeko-cancro python3[448]: BLE error: BleakDeviceNotFoundError('Device with address [BT-ADDRESS] was not found.')
+
+10月 20 16:25:06 umeko-cancro python3[448]: FPS 30.8  paint=26.9ms upload=0.4ms present=11.3ms wait=20.7ms pipeline=1
+
+10月 20 16:25:08 umeko-cancro python3[448]: FPS 24.4  paint=39.1ms upload=0.5ms present=8.0ms wait=32.4ms pipeline=1
+
+10月 20 16:25:10 umeko-cancro python3[448]: FPS 24.6  paint=39.4ms upload=0.5ms present=8.2ms wait=31.7ms pipeline=1
+
+10月 20 16:25:12 umeko-cancro python3[448]: FPS 27.3  paint=34.4ms upload=0.5ms present=9.1ms wait=27.0ms pipeline=1
+
+10月 20 16:25:14 umeko-cancro python3[448]: FPS 28.9  paint=31.2ms upload=0.4ms present=9.9ms wait=24.2ms pipeline=1
+
+10月 20 16:25:16 umeko-cancro python3[448]: FPS 27.6  paint=32.6ms upload=0.4ms present=10.7ms wait=25.1ms pipeline=1
+
+10月 20 16:25:18 umeko-cancro python3[448]: BLE error: BleakDeviceNotFoundError('Device with address [BT-ADDRESS] was not found.')
+
+10月 20 16:25:19 umeko-cancro python3[448]: FPS 28.0  paint=31.3ms upload=0.4ms present=10.7ms wait=24.5ms pipeline=1
+
+10月 20 16:25:21 umeko-cancro python3[448]: FPS 35.3  paint=21.7ms upload=0.3ms present=12.8ms wait=15.2ms pipeline=1
+
+10月 20 16:25:23 umeko-cancro python3[448]: FPS 31.5  paint=26.5ms upload=0.4ms present=11.7ms wait=19.6ms pipeline=1
+
+10月 20 16:25:25 umeko-cancro python3[448]: FPS 33.2  paint=23.2ms upload=0.3ms present=12.9ms wait=16.8ms pipeline=1
+
+10月 20 16:25:27 umeko-cancro python3[448]: FPS 28.6  paint=31.2ms upload=0.4ms present=10.8ms wait=23.7ms pipeline=1
+
+10月 20 16:25:29 umeko-cancro python3[448]: FPS 30.3  paint=29.0ms upload=0.4ms present=11.0ms wait=21.6ms pipeline=1
+
+10月 20 16:25:30 umeko-cancro python3[448]: BLE error: BleakDeviceNotFoundError('Device with address [BT-ADDRESS] was not found.')
+
+10月 20 16:25:31 umeko-cancro python3[448]: FPS 27.9  paint=32.2ms upload=0.4ms present=10.3ms wait=25.0ms pipeline=1
+
+10月 20 16:25:33 umeko-cancro python3[448]: FPS 25.5  paint=37.7ms upload=0.5ms present=9.1ms wait=29.6ms pipeline=1
+
+10月 20 16:25:35 umeko-cancro python3[448]: FPS 24.1  paint=40.5ms upload=0.6ms present=8.4ms wait=32.5ms pipeline=1
+
+10月 20 15:51:08 umeko-cancro systemd[1]: Stopped systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully.
+
+10月 20 15:51:09 umeko-cancro systemd[1]: obd-gauge-kiosk.service: Deactivated successfully.
+
+10月 20 15:51:09 umeko-cancro systemd[1]: Stopped obd-gauge-kiosk.service - OBD Gauge with early native boot movie.
+
+10月 20 15:51:09 umeko-cancro systemd[1]: obd-gauge-kiosk.service: Consumed 15min 44.096s CPU time.
+
+10月 20 15:51:09 umeko-cancro systemd[1]: obd-boot-curtain.service: Deactivated successfully.
+
+10月 20 15:51:09 umeko-cancro systemd[1]: Stopped obd-boot-curtain.service - Early native NERV boot curtain (rootfs only).
+
+10月 20 15:51:09 umeko-cancro systemd[1]: systemd-remount-fs.service: Deactivated successfully.
+
+10月 20 15:51:09 umeko-cancro systemd[1]: Stopped systemd-remount-fs.service - Remount Root and Kernel File Systems.
+
+10月 20 15:51:09 umeko-cancro systemd[1]: Reached target shutdown.target - System Shutdown.
+
+10月 20 15:51:09 umeko-cancro systemd[1]: Reached target final.target - Late Shutdown Services.
+
+10月 20 15:51:09 umeko-cancro systemd[1]: systemd-poweroff.service: Deactivated successfully.
+
+10月 20 15:51:09 umeko-cancro systemd[1]: Finished systemd-poweroff.service - System Power Off.
+
+10月 20 15:51:09 umeko-cancro systemd[1]: Reached target poweroff.target - System Power Off.
+
+10月 20 15:51:09 umeko-cancro systemd[1]: Shutting down.
+
+10月 20 15:51:09 umeko-cancro systemd-shutdown[1]: Syncing filesystems and block devices.
+
+10月 20 15:51:09 umeko-cancro systemd-shutdown[1]: Sending SIGTERM to remaining processes...
+
+10月 20 15:51:09 umeko-cancro systemd-journald[235]: Received SIGTERM from PID 1 (systemd-shutdow).
+
+10月 20 15:51:09 umeko-cancro systemd-journald[235]: Journal stopped
+
+in_temp8_input	    in_voltage14_label	in_voltage6_label  power
+in_temp8_label	    in_voltage14_raw	in_voltage6_raw    subsystem
+in_temp8_raw	    in_voltage15_input	in_voltage9_input  uevent
+in_voltage10_input  in_voltage15_label	in_voltage9_label  waiting_for_supplier
+in_voltage10_label  in_voltage15_raw	in_voltage9_raw
+in_voltage10_raw    in_voltage48_label	name
+in_voltage14_input  in_voltage48_raw	of_node
+in_current0_raw    in_current1_raw    name     power	  uevent
+in_current0_scale  in_current1_scale  of_node  subsystem  waiting_for_supplier
+cat: '/sys/bus/iio/devices/iio:device0/in_voltage6_input': 没有那个文件或目录
+
+cat: '/sys/bus/iio/devices/iio:device0/in_voltage48_input': 没有那个文件或目录
+
+  obd-power.service                             loaded    active   running OBD external power countdown policy
+  systemd-battery-check.service                 loaded    inactive dead    Check battery level during early boot
+
+umeko@umeko-cancro:~$ 

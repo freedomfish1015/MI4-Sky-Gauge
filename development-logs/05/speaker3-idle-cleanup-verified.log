@@ -1,0 +1,29 @@
+
+rdac_probes=0 rdac_latched=-1
+chip_status_0x001=00 chip_ctl_latched=-1 chip_ctl_expected=00
+unver_writes=0 unver_clears=0 unver_314=00 unver_30d=00
+dsm_0x3b0=00 dac_0x1b1=00 rdac_0x30d=00 bias_0x1a2=00
+lgain_0x1ae=00 rgain_0x1b4=00 b4_0x373=37
+compb2_0x371=b5 compb3_0x372=28 compfs_0x377=03
+guard pa_0x1ab=80 hphr_0x1b7=00 ear_0x1bc=00
+guard line1_0x1cf=00 spkren_0x1df=6f spkrgain_0x1e0=44
+up=0 port=16 channel=144 ups=1 downs=1
+origin=asoc-trigger
+rc_prepare=0 rc_enable=0 rc_disable=0 rc_unprepare=0
+allocated=0
+applied=0 base=0x5b00
+div_ctl1=00 factor=0
+en_ctl=00 enabled=0
+gpio15_mode_ctl=21 dir=2 function=0
+ s4                               0    3      0 unknown  5000mV     0mA  5000mV  5000mV 
+    217:a0:1:0-vdd-spkdrv         0                                 0mA     0mV     0mV
+    5vs1                          0    1      0  normal  5000mV     0mA     0mV     0mV 
+       otg-vbus                   0    1      0 unknown  5000mV     0mA     0mV     0mV 
+active
+99
+5715032761b50157ea495d5dfb3d71b2b6de300f00ce7681f48f154dd9f67653  /dev/disk/by-partlabel/boot
+
+1071d6eb43c2dc87cd84b2048fedbd7ddd05db583e17a94da8bfe086231160f8  /home/umeko/desktop-offline/boot-before-audio1-full.img
+
+
+umeko@umeko-cancro:~$ 

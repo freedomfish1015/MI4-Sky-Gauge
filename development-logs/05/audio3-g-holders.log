@@ -1,0 +1,17 @@
+
+=== 模块引用 ===
+snd_soc_lumia1520_q6    12288  4
+snd_soc_qcom_common    12288  1 snd_soc_lumia1520_q6
+wcd9320               118784  1
+regmap_slimbus         12288  1 wcd9320
+slimbus                24576  3 wcd9320,slim_qcom_ngd_ctrl,regmap_slimbus
+=== 打开 /dev/snd 的进程 ===
+pipewire pid=1889
+wireplumber pid=1890
+=== 残留音频进程 ===
+1889 /usr/bin/pipewire
+1890 /usr/bin/wireplumber
+1891 /usr/bin/pipewire-pulse
+
+DONE_f9afe6e53a72497695cad790bc1ce503
+umeko@umeko-cancro:~$ 

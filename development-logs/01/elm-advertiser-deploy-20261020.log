@@ -1,0 +1,15 @@
+
+BACKUP /home/umeko/desktop-offline/backups/elm-advertiser-before-20261020-011153
+
+Created symlink /etc/systemd/system/multi-user.target.wants/mi4-elm-advertiser.service → /etc/systemd/system/mi4-elm-advertiser.service.
+
+
+ADVERTISER_DEPLOYED_DISCOVERY_ONLY
+
+enabled
+active
+Started mi4-elm-advertiser.service - Mi4 OBDII BLE discovery (no simulated or forwarded vehicle data).
+
+PERSISTENT_JOURNAL_DIRECTORY
+
+umeko@umeko-cancro:~$ 

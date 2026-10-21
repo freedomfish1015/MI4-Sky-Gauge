@@ -1,0 +1,12 @@
+
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+10月 20 22:42:46 umeko-cancro python3[5021]: BLE error: BleakDeviceNotFoundError('Device with address [BT-ADDRESS] was not found.')
+10月 20 22:42:46 umeko-cancro python3[5021]: FPS 28.2  paint=25.0ms upload=3.1ms present=13.8ms wait=18.6ms pipeline=1
+10月 20 22:42:48 umeko-cancro python3[5021]: FPS 26.2  paint=26.0ms upload=3.1ms present=15.4ms wait=19.6ms pipeline=1
+
+umeko@umeko-cancro:~$ 

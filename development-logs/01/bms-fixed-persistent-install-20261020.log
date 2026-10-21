@@ -1,0 +1,45 @@
+
+BACKUP /home/umeko/desktop-offline/backups/bms-report-before-95ocqqk_
+
+NATIVE_BMS_RESTORED
+
+Created symlink /etc/systemd/system/multi-user.target.wants/mi4-bms-fixed.service → /etc/systemd/system/mi4-bms-fixed.service.
+
+
+PERSISTENT_BMS_FIX_INSTALLED b0739e78c4450cf753df805d93aee7dc320a591699bc4c140548363bf8a1632a
+
+active
+enabled
+DEVTYPE=power_supply
+POWER_SUPPLY_NAME=bms
+POWER_SUPPLY_TYPE=Battery
+POWER_SUPPLY_STATUS=Charging
+POWER_SUPPLY_VOLTAGE_NOW=3823575
+POWER_SUPPLY_VOLTAGE_OCV=3882750
+POWER_SUPPLY_CHARGE_COUNTER=24795
+POWER_SUPPLY_CAPACITY=56
+POWER_SUPPLY_TYPE=Battery
+10月 20 20:33:51 umeko-cancro systemd[1]: Starting mi4-bms-fixed.service - Mi4 corrected BMS ADC conversion and capacity reporting...
+
+10月 20 20:33:52 umeko-cancro python3[1237]: BMS_FIXED_READY DEVTYPE=power_supply
+
+10月 20 20:33:52 umeko-cancro python3[1237]: POWER_SUPPLY_NAME=bms
+
+10月 20 20:33:52 umeko-cancro python3[1237]: POWER_SUPPLY_TYPE=Battery
+
+10月 20 20:33:52 umeko-cancro python3[1237]: POWER_SUPPLY_STATUS=Charging
+
+10月 20 20:33:52 umeko-cancro python3[1237]: POWER_SUPPLY_VOLTAGE_NOW=3813558
+
+10月 20 20:33:52 umeko-cancro python3[1237]: POWER_SUPPLY_VOLTAGE_OCV=3882750
+
+10月 20 20:33:52 umeko-cancro python3[1237]: POWER_SUPPLY_CHARGE_COUNTER=24482
+
+10月 20 20:33:52 umeko-cancro python3[1237]: POWER_SUPPLY_CAPACITY=56
+
+10月 20 20:33:52 umeko-cancro python3[1237]: POWER_SUPPLY_TYPE=Battery
+
+10月 20 20:33:52 umeko-cancro systemd[1]: Finished mi4-bms-fixed.service - Mi4 corrected BMS ADC conversion and capacity reporting.
+
+
+umeko@umeko-cancro:~$ 

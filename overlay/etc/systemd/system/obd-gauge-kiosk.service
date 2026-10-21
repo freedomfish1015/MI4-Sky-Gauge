@@ -1,0 +1,31 @@
+[Unit]
+Description=OBD Gauge with early native boot movie
+DefaultDependencies=no
+After=systemd-remount-fs.service systemd-udev-trigger.service obd-boot-curtain.service
+Wants=bluetooth.target user@1000.service mi4-audio-init.service obd-boot-curtain.service
+Before=shutdown.target
+Conflicts=phosh.service shutdown.target
+
+[Service]
+Type=simple
+User=umeko
+Group=umeko
+WorkingDirectory=/home/umeko/desktop-offline
+RuntimeDirectory=obd-gauge
+RuntimeDirectoryMode=0700
+RuntimeDirectoryPreserve=restart
+Environment=XDG_RUNTIME_DIR=/run/obd-gauge
+Environment=SDL_VIDEODRIVER=kmsdrm
+Environment=SDL_RENDER_DRIVER=opengles2
+Environment=SDL_VIDEO_KMSDRM_DEVICE=/dev/dri/card0
+Environment=OBD_BOOT_AUDIO=alsa
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-gauge/launch_boot_video.py --ble
+ExecStopPost=/usr/bin/python3 /usr/local/lib/obd-gauge/boot_video.py --restore-backlight
+Restart=always
+RestartSec=2
+TimeoutStartSec=30
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

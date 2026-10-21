@@ -1,0 +1,17 @@
+
+Running timer as unit: obd-early-v2-install-guard.timer
+
+
+Will run service as unit: obd-early-v2-install-guard.service
+
+
+Id=obd-gauge-kiosk.service
+After=system.slice systemd-remount-fs.service systemd-udev-trigger.service obd-boot-curtain.service systemd-journald.socket -.mount mi4-audio-init.service
+DefaultDependencies=no
+
+Id=mi4-audio-init.service
+After=systemd-journald.socket systemd-remount-fs.service systemd-udev-trigger.service system.slice
+DefaultDependencies=no
+EARLY_FULL_UNIT_REPLAY_STARTED
+
+umeko@umeko-cancro:~$ 

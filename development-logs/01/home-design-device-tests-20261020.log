@@ -1,0 +1,14 @@
+
+BACKUP /home/umeko/desktop-offline/backups/home-design-before-q4sjuqub
+
+HOME_DESIGN_INSTALLED main_sha256=a541e6c531255652d42a9f49c8bb255b6b34e2df5d1e1e0d04074ae1acfe1dfc
+
+MOTION_PID before=3712 after=3712
+
+...........................................
+----------------------------------------------------------------------
+Ran 43 tests in 34.178s
+
+OK
+
+umeko@umeko-cancro:~$ 

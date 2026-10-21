@@ -1,0 +1,15 @@
+
+总计 4
+-rw-rw-r-- 1 umeko umeko 830 10月 18 18:12 51-mi4-format.lua
+=== 新 sink ===
+ ├─ Sinks:
+ │  *   41. Built-in Audio Internal speaker     [vol: 1.00]
+ │  
+=== 格式属性 ===
+sink=41
+    audio.channels = "1"
+    audio.format = "S16LE"
+    audio.rate = "48000"
+
+DONE_27d512e94dc7462689b0309fd3014414
+umeko@umeko-cancro:~$ 

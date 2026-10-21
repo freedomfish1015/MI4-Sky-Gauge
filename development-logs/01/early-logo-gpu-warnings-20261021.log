@@ -1,0 +1,82 @@
+
+[    7.100429] umeko-cancro systemd-journald[237]: /var/log/journal/2f47f1c173f346c3958d9e897828e1b9/user-1000.journal: Realtime clock jumped backwards relative to last journal entry, rotating.
+[    8.502146] umeko-cancro kernel: rcu: INFO: rcu_preempt detected expedited stalls on CPUs/tasks: { P425 } 3 jiffies s: 173 root: 0x0/T
+[    8.502198] umeko-cancro kernel: rcu: blocking rcu_node structures (internal RCU debug):
+[    8.602114] umeko-cancro kernel: rcu: INFO: rcu_preempt detected expedited stalls on CPUs/tasks: { P404 } 3 jiffies s: 185 root: 0x0/T
+[    8.602166] umeko-cancro kernel: rcu: blocking rcu_node structures (internal RCU debug):
+[    8.702221] umeko-cancro kernel: rcu: INFO: rcu_preempt detected expedited stalls on CPUs/tasks: { P404 } 13 jiffies s: 185 root: 0x0/T
+[    8.702268] umeko-cancro kernel: rcu: blocking rcu_node structures (internal RCU debug):
+[    8.742116] umeko-cancro kernel: rcu: INFO: rcu_preempt detected expedited stalls on CPUs/tasks: { P423 } 3 jiffies s: 189 root: 0x0/T
+[    8.742172] umeko-cancro kernel: rcu: blocking rcu_node structures (internal RCU debug):
+[    8.782114] umeko-cancro kernel: rcu: INFO: rcu_preempt detected expedited stalls on CPUs/tasks: { P307 P431 } 3 jiffies s: 193 root: 0x0/T
+[    8.782172] umeko-cancro kernel: rcu: blocking rcu_node structures (internal RCU debug):
+[    9.168106] umeko-cancro kernel: configfs-gadget.g1 gadget.0: HOST MAC [BT-ADDRESS]
+[    9.168134] umeko-cancro kernel: configfs-gadget.g1 gadget.0: MAC [BT-ADDRESS]
+[    9.170772] umeko-cancro kernel: l24: voltage operation not allowed
+[    9.522634] umeko-cancro kernel: NET: Registered PF_QIPCRTR protocol family
+[   10.777697] umeko-cancro kernel: s1: unsupportable voltage range: 1287500-1050000uV
+[   10.844676] umeko-cancro kernel: remoteproc remoteproc0: fb204000.remoteproc is available
+[   10.845505] umeko-cancro kernel: remoteproc remoteproc0: powering up fb204000.remoteproc
+[   10.845568] umeko-cancro kernel: remoteproc remoteproc0: Booting fw image wcnss.mdt, size 732
+[   11.059742] umeko-cancro kernel: remoteproc remoteproc1: adsp is available
+[   11.060651] umeko-cancro kernel: remoteproc remoteproc1: powering up adsp
+[   11.060729] umeko-cancro kernel: remoteproc remoteproc1: Booting fw image adsp.mdt, size 1052
+[   11.198413] umeko-cancro kernel: input: pm8941_pwrkey as /devices/platform/soc/fc4cf000.spmi/spmi-0/0-00/fc4cf000.spmi:pm8941@0:pon@800/fc4cf000.spmi:pm8941@0:pon@800:pwrkey/input/input2
+[   11.435186] umeko-cancro kernel: remoteproc remoteproc2: fc880000.remoteproc is available
+[   11.626154] umeko-cancro kernel: remoteproc remoteproc0: remote processor fb204000.remoteproc is now up
+[   11.662899] umeko-cancro kernel: mi4-bms-fixed fc4cf000.spmi:pm8941@0:battery@4000: mi4-bms-fixed: OCV raw=38518 calibrated=4062645 uV; nominal 25C LUT; 10mOhm sense assumption
+[   11.664940] umeko-cancro kernel: qcom,slim-ngd-ctrl fe12f000.slim-ngd: SLIM NGD: trigger = live SSR AFTER_POWERUP
+[   11.664969] umeko-cancro kernel: remoteproc remoteproc1: remote processor adsp is now up
+[   11.670048] umeko-cancro kernel: qcom,slim-ngd-ctrl fe12f000.slim-ngd: SLIM NGD: QMI service 0x0301 discovered (version 1 instance 0) at node 5 port 3
+[   11.706499] umeko-cancro kernel: qcom,slim-ngd-ctrl fe12f000.slim-ngd: SLIM SAT: Rcvd master capability
+[   11.732560] umeko-cancro kernel: qcom_wcnss_ctrl remoteproc0:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+[   11.759146] umeko-cancro kernel: qcom_smgr 5-6: 0x00,0: STMicroelectronics Accelerometer
+[   11.800376] umeko-cancro kernel: wcd9320 217:a0:1:0: CTL probe #1: sdev=fcfdb29d dev=fcfdb29d name=217:a0:1:0 laddr=0x00 laddr_valid=0 status=0
+[   11.800413] umeko-cancro kernel: wcd9320 217:a0:1:0: CTL probe #1: driver=befc5001 name=wcd9320 task=kworker/0:3 pid=82 drvdata_before=00000000
+[   11.816572] umeko-cancro kernel: wcd9320 217:a0:1:0: No cache used with register defaults set!
+[   11.816678] umeko-cancro kernel: wcd9320 217:a0:1:0: ASoC component registered: wcd9320-codec, 1 DAI(s): wcd9320-slim-rx1
+[   11.819143] umeko-cancro kernel: qcom_smgr 5-6: 0x0a,0: STMicroelectronics Gyroscope
+[   11.872117] umeko-cancro kernel: wcd9320 217:a0:1:0: fresh bring-up: 7 supplies enabled, reset released
+[   11.872146] umeko-cancro kernel: wcd9320 217:a0:1:0: fresh bring-up: waiting for enumeration
+[   11.872164] umeko-cancro kernel: wcd9320 217:a0:1:0: CTL probe #1: exit after 72 ms: laddr=0x00 laddr_valid=0 status=0 path=fresh -- slim_get_logical_addr() decides next
+[   11.872813] umeko-cancro kernel: wcd9320 217:a0:1:0: id_major 0x0102 id_minor 0x0001 version 0x00 (raw 01 00 02 01 00)
+[   11.874388] umeko-cancro kernel: wcd9320 217:a0:1:0: irq snapshot: raw_level=0 mode=00 status=00 00 00 00 mask=ff ff 3f 3f level=01 00 00
+[   11.875209] umeko-cancro kernel: wcd9320 217:a0:1:0: masks written ff ff 3f 7f, read back ff ff 3f 7f
+[   11.877697] umeko-cancro kernel: wcd9320 217:a0:1:0: nested irq chip registered: 29 sources, all masked, domain on parent irq 90
+[   11.877725] umeko-cancro kernel: wcd9320 217:a0:1:0: parent irq 90 requested, kernel reports trigger type 0x4 (level high)
+[   11.877747] umeko-cancro kernel: wcd9320 217:a0:1:0: bounded sampling started: 45 samples over ~30 s, then stop
+[   11.900776] umeko-cancro kernel: qcom_smgr 5-6: 0x14,0: AKM Magnetometer
+[   11.993982] umeko-cancro kernel: qcom_smgr 5-6: 0x28,0: TAOS Proximity Sensor
+[   11.994014] umeko-cancro kernel: qcom_smgr 5-6: 0x28,1: TAOS Ambient Light Sensor
+[   12.007475] umeko-cancro kernel: qcom_smgr 5-6: 0x1e,0: BOSCH Barometer Sensor
+[   12.007505] umeko-cancro kernel: qcom_smgr 5-6: 0x1e,1: BOSCH Temperature Sensor
+[   12.041041] umeko-cancro kernel: wcd9320 217:a0:1:0: core init: 0/448 non-zero -- initialising
+[   12.041676] umeko-cancro kernel: wcd9320 217:a0:1:0: bring-up step  1/4: reg 0x088 (VE 0x0888) old=04 mask=ff want=04 -> read=04  delay=0us  unverifiable  [bring_up: LEAKAGE_CTL = 0x04]
+[   12.048428] umeko-cancro kernel: wcd9320 217:a0:1:0: bring-up step  2/4: reg 0x080 (VE 0x0880) old=00 mask=ff want=00 -> read=00  delay=5000us  unverifiable  [bring_up: CDC_CTL = 0 (assert digital-core reset), 5 ms]
+[   12.049047] umeko-cancro kernel: wcd9320 217:a0:1:0: bring-up step  3/4: reg 0x080 (VE 0x0880) old=00 mask=ff want=03 -> read=03  delay=0us  unverifiable  [bring_up: CDC_CTL = 3 (release digital core)]
+[   12.049681] umeko-cancro kernel: wcd9320 217:a0:1:0: bring-up step  4/4: reg 0x088 (VE 0x0888) old=04 mask=ff want=03 -> read=03  delay=0us  unverifiable  [bring_up: LEAKAGE_CTL = 0x03]
+[   12.049710] umeko-cancro kernel: wcd9320 217:a0:1:0: bring-up: all 4 steps applied cleanly
+[   12.129883] umeko-cancro kernel: wcd9320 217:a0:1:0: core init: after release, 94/448 non-zero
+[   12.143319] umeko-cancro kernel: wcd9320 217:a0:1:0: sample 1/45: raw_level=0 status=00 00 00 00 pending=no irqs=0
+[   12.206707] umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  1/15: reg 0x101 (VE 0x0901) old=50 mask=80 want=80 -> read=d0  delay=0us  OK  [BG: slow mode on]
+[   12.207600] umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  2/15: reg 0x101 (VE 0x0901) old=d0 mask=04 want=04 -> read=d4  delay=0us  OK  [BG: precharge]
+[   12.209752] umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  3/15: reg 0x101 (VE 0x0901) old=d4 mask=01 want=01 -> read=d5  delay=1000us  OK  [BG: enable, then 1 ms settle]
+[   12.210613] umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  4/15: reg 0x101 (VE 0x0901) old=d5 mask=80 want=00 -> read=55  delay=0us  OK  [BG: slow mode off]
+[   12.211368] umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  5/15: reg 0x1fa (VE 0x09fa) old=46 mask=10 want=00 -> read=46  delay=0us  OK  [RC_OSC_FREQ: clear bit 4]
+[   12.212092] umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  6/15: reg 0x105 (VE 0x0905) old=16 mask=ff want=17 -> read=17  delay=5us  OK  [BIAS_OSC_BG_CTL = 0x17 (inherited magic: 'bandgap mode to fast')]
+[   12.212928] umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  7/15: reg 0x1fa (VE 0x09fa) old=46 mask=80 want=80 -> read=c6  delay=0us  OK  [RC_OSC_FREQ: enable the RC oscillator]
+[   12.222864] umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  8/15: reg 0x1fb (VE 0x09fb) old=0a mask=80 want=80 -> read=8a  delay=10us  OK  [RC_OSC_TEST: start pulse, rising]
+[   12.235774] umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  9/15: reg 0x1fb (VE 0x09fb) old=8a mask=80 want=00 -> read=0a  delay=10000us  OK  [RC_OSC_TEST: start pulse, falling, then 10 ms settle]
+[   12.236611] umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step 10/15: reg 0x108 (VE 0x0908) old=04 mask=08 want=08 -> read=0c  delay=0us  OK  [CLK_BUFF_EN1: select RCO as the buffer source]
+[   12.238450] umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step 11/15: reg 0x109 (VE 0x0909) old=02 mask=ff want=02 -> read=02  delay=1000us  OK  [CLK_BUFF_EN2 = 0x02]
+[   12.240734] umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step 12/15: reg 0x108 (VE 0x0908) old=0c mask=01 want=01 -> read=0d  delay=1200us  OK  [CLK_BUFF_EN1: enable clock buffer (hardware-required delay)]
+[   12.241375] umeko-cancro kernel: Bluetooth: Core ver 2.22
+No journal boot entry found from the specified boot offset (-1).
+
+
+drm_vblank_event	    drm_vblank_event_queued  filter
+
+drm_vblank_event_delivered  enable
+
+
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,49 @@
+
+applied=1 base=0x5b00
+div_ctl1=02 factor=2
+en_ctl=00 enabled=0
+gpio15_mode_ctl=25 dir=2 function=2
+正在播放 WAVE '/home/umeko/desktop-offline/mi4-quiet-test.wav' : Signed 16 bit Little Endian, 频率48000Hz， Mono
+supply_owned=1 clock_owned=1 supply_hw_enabled=1
+reg[0x000]=0a rc=0
+reg[0x101]=55 rc=0
+reg[0x105]=17 rc=0
+reg[0x108]=05 rc=0
+reg[0x109]=04 rc=0
+reg[0x1a2]=80 rc=0
+reg[0x1df]=ef rc=0
+reg[0x1e0]=3c rc=0
+reg[0x1e2]=97 rc=0
+reg[0x1e3]=01 rc=0
+reg[0x1e4]=00 rc=0
+reg[0x2e0]=00 rc=0
+reg[0x2e1]=00 rc=0
+reg[0x2e2]=00 rc=0
+reg[0x2e3]=08 rc=0
+reg[0x2e4]=78 rc=0
+reg[0x2e5]=88 rc=0
+reg[0x2e6]=00 rc=0
+reg[0x2e7]=f4 rc=0
+reg[0x301]=00 rc=0
+reg[0x30f]=40 rc=0
+reg[0x311]=01 rc=0
+reg[0x314]=00 rc=0
+reg[0x38e]=05 rc=0
+reg[0x38f]=00 rc=0
+reg[0x390]=00 rc=0
+applied=1 base=0x5b00
+div_ctl1=02 factor=2
+en_ctl=80 enabled=1
+gpio15_mode_ctl=25 dir=2 function=2
+LOW_VOLUME_PCM_COMPLETED
+AUDIO_TEST_CLEANUP_DONE
+[ 3196.005484] wcd9320 217:a0:1:0: RX path invocation: ASoC hw_free (dai wcd9320-slim-rx1)
+[ 3196.005948] wcd9320 217:a0:1:0: rx-port 16: config 0x040 want 00 -> read 00
+[ 3196.006408] wcd9320 217:a0:1:0: rx-port 16: multi-channel 0x180 want 00 -> read 00
+[ 3196.042637] wcd9320 217:a0:1:0: rx-port 16: TORN DOWN, 4 write(s) total
+[ 3196.042699] wcd9320 217:a0:1:0: slim-stream: ASoC shutdown (dai wcd9320-slim-rx1)
+[ 3196.065198] wcd9320 217:a0:1:0: Mi4 speaker: PA, RX7, bias, MCLK and boost OFF
+[ 3196.200305] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: DIV_CTL1 restored to factor 0
+[ 3196.200336] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: RESTORED
+
+umeko@umeko-cancro:~$ 

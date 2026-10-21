@@ -1,0 +1,10 @@
+
+=== sink 音量/静音 ===
+Volume: 1.00
+    audio.channels = "1"
+=== 停止 PipeWire ===
+0
+no pipewire
+
+DONE_65885673fd2b468ea489a35c117e5e37
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,16 @@
+
+=== codec 增益档 ===
+Y
+=== 当前 sink ===
+ ├─ Sinks:
+ │  *   44. Built-in Audio Internal speaker     [vol: 0.81]
+ │  
+ ├─ Sink endpoints:
+ │  
+--
+=== 提取默认 sink id ===
+sink_id=44
+Volume: 1.00
+
+DONE_b0b92182af1f4d2a8c493eca57b24646
+umeko@umeko-cancro:~$ 

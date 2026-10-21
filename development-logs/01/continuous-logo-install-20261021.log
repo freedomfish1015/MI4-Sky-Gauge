@@ -1,0 +1,5 @@
+
+CONTINUOUS_LOGO_BACKUP /home/umeko/desktop-offline/backups/continuous-logo-before-d5aa7qfc
+CONTINUOUS_LOGO_INSTALLED {"backup": "/home/umeko/desktop-offline/backups/continuous-logo-before-d5aa7qfc", "ready": {"pid": 1437, "uptime": 1224.05, "elapsed": 4.082}, "partition_written": false, "files": {"/usr/local/lib/obd-gauge/sky_boot_curtain": "820b76b5f5dc4456ccf1dd66d23eb380cab65035e00e1a28aa5e40d9e58017b4", "/usr/local/lib/obd-gauge/launch_gauge_direct.py": "684e910aecf32f533c4522eee1b1cc02902696a9e45401ae47bbf30f02a109b3", "/etc/systemd/system/obd-boot-curtain.service": "bec7073d53ca7cdecd1c7810c3280331ed2a4735a8abd9996936a2112f213752", "/etc/systemd/system/obd-boot-curtain.service.d/99-sky-curtain.conf": "4415036b16f7a584ce43c2973438894ccb1536c402a96e1611620f8458758ed5"}}
+
+umeko@umeko-cancro:~$ 

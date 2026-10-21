@@ -1,0 +1,26 @@
+[Unit]
+Description=OBD external power countdown policy
+After=local-fs.target
+
+[Service]
+Type=simple
+User=root
+Group=umeko
+UMask=0027
+RuntimeDirectory=obd-power
+RuntimeDirectoryMode=0750
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-power/gauge_power_service.py
+Restart=on-failure
+RestartSec=2
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_UNIX
+
+[Install]
+WantedBy=multi-user.target

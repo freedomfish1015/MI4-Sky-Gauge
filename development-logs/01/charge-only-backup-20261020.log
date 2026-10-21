@@ -1,0 +1,25 @@
+
+boot 33554432 1852dd1bda97b9bee008ccf46165db11c17e9b35dd40d18255a0c665157e8a1a
+
+aboot 4194304 ff7bd7e050e5e91a6f50e8e31025c911f4c2f8b2ec73d2e2b3ccbc247b1c1212
+
+ABOOT_STRING Charger screen enabled: %s
+
+ABOOT_STRING  androidboot.mode=charger
+
+ABOOT_STRING Enabling charger screen check
+
+ABOOT_STRING Disabling charger screen check
+
+ABOOT_STRING charger-screen-enabled
+
+ABOOT_STRING oem enable-charger-screen
+
+ABOOT_STRING oem disable-charger-screen
+
+ABOOT_STRING id-aca-chargingIdentity
+
+BACKUP /home/umeko/desktop-offline/backups/before-charge-only-j0zgv4zo
+
+
+umeko@umeko-cancro:~$ 

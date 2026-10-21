@@ -1,0 +1,26 @@
+
+/sys/bus/platform/drivers/mi4-bms-fixed
+1.0
+DEVTYPE=power_supply
+POWER_SUPPLY_NAME=bms
+POWER_SUPPLY_TYPE=Battery
+POWER_SUPPLY_STATUS=Charging
+POWER_SUPPLY_VOLTAGE_NOW=3834705
+POWER_SUPPLY_VOLTAGE_OCV=3882750
+POWER_SUPPLY_CHARGE_COUNTER=26426
+POWER_SUPPLY_CAPACITY=56
+POWER_SUPPLY_TYPE=Battery
+active
+active
+active
+active
+1852dd1bda97b9bee008ccf46165db11c17e9b35dd40d18255a0c665157e8a1a  /dev/disk/by-partlabel/boot
+
+b0739e78c4450cf753df805d93aee7dc320a591699bc4c140548363bf8a1632a  /usr/local/lib/mi4-bms-fixed/mi4_bms_fixed.ko
+
+[   32.237540] Bluetooth: RFCOMM ver 1.11
+[   42.252856] wcd9320 217:a0:1:0: sampling complete: 45 samples, pad high in 0, live source in 0, parent irqs 0 (spurious 0, acked 0)
+[  511.356433] mi4-bms-fixed fc4cf000.spmi:pm8941@0:battery@4000: mi4-bms-fixed: OCV raw=37899 calibrated=3881196 uV; nominal 25C LUT; 10mOhm sense assumption
+[  885.055544] mi4-bms-fixed fc4cf000.spmi:pm8941@0:battery@4000: mi4-bms-fixed: OCV raw=37899 calibrated=3882750 uV; nominal 25C LUT; 10mOhm sense assumption
+
+umeko@umeko-cancro:~$ 

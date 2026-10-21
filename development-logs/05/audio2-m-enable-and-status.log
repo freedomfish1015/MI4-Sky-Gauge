@@ -1,0 +1,37 @@
+
+=== divider 状态 ===
+applied=1 base=0x5b00
+div_ctl1=02 factor=2
+en_ctl=80 enabled=1
+gpio15_mode_ctl=25 dir=2 function=2
+=== 重启音频服务 ===
+=== wpctl status ===
+PipeWire 'pipewire-0' [1.0.5, umeko@umeko-cancro, cookie:3676711211]
+ └─ Clients:
+        34. pipewire                            [1.0.5, umeko@umeko-cancro, pid:2679]
+        36. WirePlumber                         [1.0.5, umeko@umeko-cancro, pid:2678]
+        37. WirePlumber [export]                [1.0.5, umeko@umeko-cancro, pid:2678]
+        46. PipeWire ALSA [gsd-power]           [1.0.5, umeko@umeko-cancro, pid:777]
+        48. GNOME Volume Control Media Keys     [1.0.5, umeko@umeko-cancro, pid:720]
+        49. wpctl                               [1.0.5, umeko@umeko-cancro, pid:2896]
+        51. PipeWire ALSA [gsd-power]           [1.0.5, umeko@umeko-cancro, pid:777]
+        59. PipeWire ALSA [gsd-power]           [1.0.5, umeko@umeko-cancro, pid:777]
+        63. Phone Shell Volume Control          [1.0.5, umeko@umeko-cancro, pid:636]
+
+Audio
+ ├─ Devices:
+ │      41. Built-in Audio                      [alsa]
+ │  
+ ├─ Sinks:
+ │  *   35. 虚拟输出                        [vol: 0.95]
+ │  
+ ├─ Sink endpoints:
+ │  
+ ├─ Sources:
+ │  
+ ├─ Source endpoints:
+ │  
+ └─ Streams:
+
+DONE_1e4de59a612e4edd925773d0c9aefb0a
+umeko@umeko-cancro:~$ 

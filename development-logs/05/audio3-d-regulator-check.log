@@ -1,0 +1,80 @@
+
+=== regulator 总数 ===
+70
+=== 含 boost/spk/s4 的 ===
+vreg-boost|enabled|voltage
+s4|disabled|voltage
+=== 全部名称 ===
+regulator-dummy 
+vreg_tp_power_3p2 enabled
+l3 enabled
+l4 disabled
+l5 disabled
+l6 enabled
+l7 disabled
+l8 enabled
+l9 disabled
+l10 disabled
+l11 disabled
+l12 enabled
+vreg_tp_power_1p8 enabled
+l13 enabled
+l14 disabled
+l15 disabled
+l16 disabled
+l17 disabled
+l18 enabled
+l19 disabled
+l20 enabled
+l21 enabled
+l22 enabled
+vph-pwr 
+l23 disabled
+l24 enabled
+lvs1 disabled
+lvs2 disabled
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+bash: 第 1 行： echo: 写入错误：断开的管道
+
+DONE_88c6e1df9e8a47a986e7e5c6ca88b609
+umeko@umeko-cancro:~$ 

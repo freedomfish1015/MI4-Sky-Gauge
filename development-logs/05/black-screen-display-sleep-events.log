@@ -1,0 +1,154 @@
+
+
+DISPLAY_AND_SLEEP_EVENTS
+10月 18 17:02:51 umeko-cancro kernel: msm_mdp fd900100.display-controller: pp done time out, lm=0
+
+10月 18 16:59:00 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:59:00 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:59:00 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:58:03 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:58:03 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:58:03 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:58:03 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:58:03 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:58:03 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:58:03 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:58:03 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:58:03 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:58:02 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:58:02 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:58:02 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:58:02 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:58:02 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:58:02 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:58:02 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:58:02 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:58:02 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:58:02 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:58:02 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:58:02 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:58:02 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:58:02 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:58:02 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:58:02 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:58:02 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:58:02 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:58:01 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:58:01 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:58:01 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:58:01 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:58:01 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:58:01 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:58:01 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:58:01 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:58:01 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:58:01 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:58:01 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:58:01 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:58:01 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:58:01 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:58:01 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:58:01 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:58:01 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:58:01 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:58:01 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:58:01 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:58:01 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:57:56 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:57:56 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:57:56 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:57:51 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:57:51 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:57:51 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:57:51 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:57:51 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:57:51 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:57:51 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:57:51 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:57:51 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:57:51 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+
+DISPLAY_MANAGERS
+  504 phoc
+  636 phosh
+  979 phosh-osk-stub
+
+CURRENT_AUDIO
+--- no soundcards ---
+OVERLAY_NOT_LOADED
+
+USER_SESSION_TAIL
+10月 18 16:57:04 umeko-cancro capsh[504]: Running compositor on wayland display 'wayland-0'
+
+10月 18 16:57:04 umeko-cancro phoc[504]: [backend/drm/util.c:66] Failed to parse EDID
+
+10月 18 16:57:04 umeko-cancro phoc[504]: Output 'DSI-1' added ('(null)'/'(null)'/'(null)'), 61mm x 109mm
+
+10月 18 16:57:06 umeko-cancro phoc[504]: Enabling shell mode
+
+
+umeko@umeko-cancro:~$ 

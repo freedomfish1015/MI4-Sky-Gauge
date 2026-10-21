@@ -1,0 +1,39 @@
+
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+10月 18 20:25:06 umeko-cancro python3[1400]: FPS 18.2
+10月 18 20:25:08 umeko-cancro python3[1400]: FPS 15.9
+10月 18 20:25:10 umeko-cancro python3[1400]: FPS 17.5
+10月 18 20:25:12 umeko-cancro python3[1400]: FPS 17.5
+10月 18 20:25:14 umeko-cancro python3[1432]: <frozen importlib._bootstrap>:488: RuntimeWarning: Your system is neon capable but pygame was not built with support for it. The performance of some of your blits could be adversely affected. Consider enabling compile time detection with environment variables like PYGAME_DETECT_AVX2=1 if you are compiling without cross compilation.
+10月 18 20:25:15 umeko-cancro python3[1432]: /home/umeko/desktop-offline/gauge_sdl.py:35: PyGIWarning: Pango was imported without specifying a version first. Use gi.require_version('Pango', '1.0') before import to ensure that the right version gets loaded.
+10月 18 20:25:15 umeko-cancro python3[1432]:   from gi.repository import Pango, PangoCairo  # noqa: E402
+10月 18 20:25:15 umeko-cancro python3[1432]: pygame 2.5.2 (SDL 2.30.0, Python 3.12.3)
+10月 18 20:25:15 umeko-cancro python3[1432]: Hello from the pygame community. [URL REDACTED]
+10月 18 20:25:15 umeko-cancro python3[1432]: KMS mode 1080x1920
+10月 18 20:25:17 umeko-cancro python3[1432]: BLE connected [BT-ADDRESS]
+10月 18 20:25:17 umeko-cancro python3[1432]: BLE first read rpm=514.0 coolant=90.0
+10月 18 20:25:19 umeko-cancro python3[1432]: FPS 8.9
+10月 18 20:25:21 umeko-cancro python3[1432]: FPS 9.6
+10月 18 20:25:23 umeko-cancro python3[1432]: FPS 19.9
+10月 18 20:25:25 umeko-cancro python3[1432]: FPS 31.2
+10月 18 20:25:27 umeko-cancro python3[1432]: FPS 30.1
+10月 18 20:25:29 umeko-cancro python3[1432]: FPS 32.2
+10月 18 20:25:31 umeko-cancro python3[1432]: FPS 32.4
+10月 18 20:25:33 umeko-cancro python3[1432]: FPS 30.4
+10月 18 20:25:35 umeko-cancro python3[1432]: FPS 31.0
+10月 18 20:25:37 umeko-cancro python3[1432]: FPS 31.5
+10月 18 20:25:39 umeko-cancro python3[1432]: FPS 31.6
+10月 18 20:25:41 umeko-cancro python3[1432]: FPS 27.2
+10月 18 20:25:43 umeko-cancro python3[1432]: FPS 33.0
+10月 18 20:25:45 umeko-cancro python3[1432]: FPS 31.2
+10月 18 20:25:47 umeko-cancro python3[1432]: FPS 32.5
+grep: 写入错误: 断开的管道
+=== env ===
+SDL_VIDEODRIVER=kmsdrm
+SDL_RENDER_DRIVER=opengles2
+SDL_VIDEO_KMSDRM_DEVICE=/dev/dri/card0
+
+DONE_3256f6f24da646d6a389a17c086a9ee1
+umeko@umeko-cancro:~$ 

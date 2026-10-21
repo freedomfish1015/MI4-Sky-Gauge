@@ -1,0 +1,89 @@
+
+[  855.064618] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MultiMedia1 Mixer -> MM_UL1(*)
+[  855.072602] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MultiMedia2 Mixer -> MM_UL2(*)
+[  855.084410] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MultiMedia3 Mixer -> MM_UL3(*)
+[  855.096126] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MultiMedia4 Mixer -> MM_UL4(*)
+[  855.107841] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MultiMedia5 Mixer -> MM_UL5(*)
+[  855.119555] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MultiMedia6 Mixer -> MM_UL6(*)
+[  855.131280] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MultiMedia7 Mixer -> MM_UL7(*)
+[  855.143004] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MultiMedia8 Mixer -> MM_UL8(*)
+[  855.155229] wcd9320-lumia-q6 sound: ASoC: failed to instantiate card -19
+[  855.167586] wcd9320-lumia-q6 sound: error -ENODEV: failed to register the card
+[  847.941041] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL1(*) -> [MultiMedia1] -> HDMI Mixer
+[  847.941133] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL2(*) -> [MultiMedia2] -> HDMI Mixer
+[  847.952896] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL3(*) -> [MultiMedia3] -> HDMI Mixer
+[  847.965405] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL4(*) -> [MultiMedia4] -> HDMI Mixer
+[  847.978001] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL5(*) -> [MultiMedia5] -> HDMI Mixer
+[  847.990575] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL6(*) -> [MultiMedia6] -> HDMI Mixer
+[  848.003176] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL7(*) -> [MultiMedia7] -> HDMI Mixer
+[  848.015756] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL8(*) -> [MultiMedia8] -> HDMI Mixer
+[  848.028376] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL1(*) -> [MultiMedia1] -> DISPLAY_PORT_RX Audio Mixer
+[  848.041144] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL2(*) -> [MultiMedia2] -> DISPLAY_PORT_RX Audio Mixer
+[  848.055071] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL3(*) -> [MultiMedia3] -> DISPLAY_PORT_RX Audio Mixer
+[  848.070783] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL4(*) -> [MultiMedia4] -> DISPLAY_PORT_RX Audio Mixer
+[  848.083049] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL5(*) -> [MultiMedia5] -> DISPLAY_PORT_RX Audio Mixer
+[  848.097144] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL6(*) -> [MultiMedia6] -> DISPLAY_PORT_RX Audio Mixer
+[  848.111149] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL7(*) -> [MultiMedia7] -> DISPLAY_PORT_RX Audio Mixer
+[  848.126921] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL8(*) -> [MultiMedia8] -> DISPLAY_PORT_RX Audio Mixer
+[  848.139315] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL1(*) -> [MultiMedia1] -> SLIMBUS_0_RX Audio Mixer
+[  848.153355] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL2(*) -> [MultiMedia2] -> SLIMBUS_0_RX Audio Mixer
+grep: 写入错误: 断开的管道
+dmesg: 写出错
+
+[    1.263263] l23: Bringing 0uV into 3000000-3000000uV
+[    1.264615] l24: Bringing 0uV into 3075000-3075000uV
+[    3.575445] [drm] using 192m VRAM carveout
+[    3.590726] msm_mdp fd900100.display-controller: [drm:msm_drm_bind] VRAM: b0100000->bc100000
+[    3.612860] adreno fdb00000.gpu: [drm:msm_devfreq_init] *ERROR* Couldn't initialize GPU devfreq
+[    3.619855] msm_mdp fd900100.display-controller: [drm:msm_gpu_init] [IP-ADDRESS]: no IOMMU, fallback to VRAM carveout!
+[    3.629523] msm_mdp fd900100.display-controller: [drm:a3xx_gpu_init] *ERROR* No memory protection without IOMMU
+[    3.750049] msm_mdp fd900100.display-controller: [drm:mdp5_kms_init] MDP5 version v1.2
+[    3.775645] msm_mdp fd900100.display-controller: [drm] no IOMMU, fallback to phys contig buffers for scanout
+[    3.775728] msm_mdp fd900100.display-controller: [drm:mdp5_kms_init] Skipping eDP interface 0
+[    3.804635] [drm] Initialized msm 1.12.0 for fd900100.display-controller on minor 0
+[    3.811605] msm_mdp fd900100.display-controller: [drm:adreno_request_fw] loaded qcom/a330_pm4.fw from new location
+[    3.818866] msm_mdp fd900100.display-controller: [drm:adreno_request_fw] loaded qcom/a330_pfp.fw from new location
+[    4.581070] msm_mdp fd900100.display-controller: [drm] fb0: msmdrmfb frame buffer device
+[    6.441389] systemd[1]: Starting modprobe@drm.service - Load Kernel Module drm...
+[   10.236942] remoteproc remoteproc0: powering up fb204000.remoteproc
+[   10.710456] remoteproc remoteproc2: powering up adsp
+[   11.565689] wcd9320 217:a0:1:0: fresh bring-up: 7 supplies enabled, reset released
+[   11.571957] wcd9320 217:a0:1:0: fresh bring-up: waiting for enumeration
+[   11.769358] wcd9320 217:a0:1:0: bring-up step  1/4: reg 0x088 (VE 0x0888) old=04 mask=ff want=04 -> read=04  delay=0us  unverifiable  [bring_up: LEAKAGE_CTL = 0x04]
+[   11.787849] wcd9320 217:a0:1:0: bring-up step  2/4: reg 0x080 (VE 0x0880) old=00 mask=ff want=00 -> read=00  delay=5000us  unverifiable  [bring_up: CDC_CTL = 0 (assert digital-core reset), 5 ms]
+[   11.800416] wcd9320 217:a0:1:0: bring-up step  3/4: reg 0x080 (VE 0x0880) old=00 mask=ff want=03 -> read=03  delay=0us  unverifiable  [bring_up: CDC_CTL = 3 (release digital core)]
+[   11.816767] wcd9320 217:a0:1:0: bring-up step  4/4: reg 0x088 (VE 0x0888) old=04 mask=ff want=03 -> read=03  delay=0us  unverifiable  [bring_up: LEAKAGE_CTL = 0x03]
+[   11.832258] wcd9320 217:a0:1:0: bring-up: all 4 steps applied cleanly
+[  847.908172] OF: overlay: WARNING: memory leak will occur if overlay removed, property: /sound/status
+fe200000.remoteproc:smd-edge:apr:service@7:dais
+HDMI
+SLIMBUS_0_RX
+SLIMBUS_0_TX
+SLIMBUS_1_RX
+SLIMBUS_1_TX
+SLIMBUS_2_RX
+SLIMBUS_2_TX
+SLIMBUS_3_RX
+SLIMBUS_3_TX
+SLIMBUS_4_RX
+SLIMBUS_4_TX
+SLIMBUS_5_RX
+SLIMBUS_5_TX
+SLIMBUS_6_RX
+SLIMBUS_6_TX
+PRI_MI2S_RX
+PRI_MI2S_TX
+SEC_MI2S_RX
+SEC_MI2S_TX
+TERT_MI2S_RX
+TERT_MI2S_TX
+QUAT_MI2S_RX
+QUAT_MI2S_TX
+QUIN_MI2S_RX
+QUIN_MI2S_TX
+PRIMARY_TDM_RX_0
+PRIMARY_TDM_RX_1
+PRIMARY_TDM_RX_2
+PRIMARY_TDM_RX_3
+
+umeko@umeko-cancro:~$ 

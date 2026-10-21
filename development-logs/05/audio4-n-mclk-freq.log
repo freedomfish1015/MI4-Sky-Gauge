@@ -1,0 +1,18 @@
+
+=== clk_summary (mclk/div) ===
+    mclk3_clk_src                    0       0        0        19200000    0          0     50000      N      deviceless                      no_connection_id         
+       camss_mclk3_clk               0       0        0        19200000    0          0     50000      N         deviceless                      no_connection_id         
+    mclk2_clk_src                    0       0        0        19200000    0          0     50000      N      deviceless                      no_connection_id         
+       camss_mclk2_clk               0       0        0        19200000    0          0     50000      N         deviceless                      no_connection_id         
+    mclk1_clk_src                    0       0        0        19200000    0          0     50000      N      deviceless                      no_connection_id         
+       camss_mclk1_clk               0       0        0        19200000    0          0     50000      N         deviceless                      no_connection_id         
+    mclk0_clk_src                    0       0        0        19200000    0          0     50000      N      deviceless                      no_connection_id         
+       camss_mclk0_clk               0       0        0        19200000    0          0     50000      N         deviceless                      no_connection_id         
+=== divider 状态 ===
+applied=1 base=0x5b00
+div_ctl1=02 factor=2
+en_ctl=80 enabled=1
+gpio15_mode_ctl=25 dir=2 function=2
+
+DONE_81d8d0664d8a49fdb45e4de9dfaad082
+umeko@umeko-cancro:~$ 

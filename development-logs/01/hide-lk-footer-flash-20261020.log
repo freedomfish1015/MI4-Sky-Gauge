@@ -1,0 +1,11 @@
+
+BACKUP /home/umeko/desktop-offline/backups/hide-lk-footer-before-8i_dkxgq
+
+HIDDEN_FOOTER_BOOT_FULL_READBACK_VERIFIED edf91d38f7cd87b5a59480ac5b0f00acb79a71aaa5f16577047959e47e4b035d
+
+LINUX_KERNEL_DTB_INITRD_AND_TAIL_UNCHANGED 167f412425dbdace3703bbdf4d05aa956af8622f31c78ecb4a1af33126866c1e
+
+ABOOT_AND_SKY_LOGO_UNCHANGED; NO_REBOOT
+
+
+umeko@umeko-cancro:~$ 

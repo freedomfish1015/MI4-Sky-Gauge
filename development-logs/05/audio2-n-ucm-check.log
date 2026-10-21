@@ -1,0 +1,16 @@
+
+=== alsaucm listcards ===
+ALSA lib main.c:1554:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+  list is empty
+=== card 信息 ===
+Mi4Taiko
+
+**** PLAYBACK 硬體裝置清單 ****
+card 0: Mi4Taiko [Mi4-Taiko], device 0: MultiMedia1 Playback (*) []
+  子设备: 1/1
+  子设备 #0: subdevice #0
+=== 尝试 -c Mi4Taiko ===
+alsaucm: expected 1 arguments (got 0)
+
+DONE_02fc1bc8ddc646749a130b99d0af1663
+umeko@umeko-cancro:~$ 

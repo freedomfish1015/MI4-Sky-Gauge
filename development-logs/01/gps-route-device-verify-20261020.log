@@ -1,0 +1,15 @@
+
+{"selected": "20261019T100242Z-1549578884668.csv", "files": 2, "valid_points": 2, "display_points": 2, "connected_segments": 1, "length_m": 0.0, "error": ""}
+----------------------------------------------------------------------
+Ran 7 tests in 6.102s
+
+OK
+NRestarts=0
+Id=obd-gauge-kiosk.service
+ActiveState=active
+
+NRestarts=1
+Id=mi4-elm-advertiser.service
+ActiveState=active
+
+umeko@umeko-cancro:~$ 

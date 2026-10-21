@@ -1,0 +1,60 @@
+2026-10-19T20:32:38+08:00 umeko-cancro systemd[1]: Started mi4-wcn-readonly-regs.service - /bin/sh /home/umeko/desktop-offline/test_sky_wifi_readonly_regs.sh.
+2026-10-19T20:32:40+08:00 umeko-cancro sh[1879]: MONITOR_CREATED
+2026-10-19T20:32:40+08:00 umeko-cancro sh[1879]: LISTEN channel=1 duration=15.0s
+2026-10-19T20:32:55+08:00 umeko-cancro sh[1879]: SKY_PACKETS_TOTAL 0
+2026-10-19T20:32:55+08:00 umeko-cancro sh[1879]: FRAME_COUNTS {"all_frames": 702, "frame_type_80": 702}
+2026-10-19T20:32:55+08:00 umeko-cancro sh[1879]: SKY_SIGNATURES {}
+2026-10-19T20:32:55+08:00 umeko-cancro sh[1879]: MONITOR_REMOVED
+2026-10-19T20:32:55+08:00 umeko-cancro sh[1859]: rx_total=
+2026-10-19T20:32:55+08:00 umeko-cancro sh[1901]: 707
+2026-10-19T20:32:55+08:00 umeko-cancro sh[1859]: rx_action=
+2026-10-19T20:32:55+08:00 umeko-cancro sh[1902]: 0
+2026-10-19T20:32:55+08:00 umeko-cancro sh[1859]: rx_beacon=
+2026-10-19T20:32:55+08:00 umeko-cancro sh[1903]: 707
+2026-10-19T20:32:55+08:00 umeko-cancro sh[1859]: rx_drop=
+2026-10-19T20:32:55+08:00 umeko-cancro sh[1904]: 0
+2026-10-19T20:32:55+08:00 umeko-cancro sh[1905]: RESTORE_BEGIN
+2026-10-19T20:32:56+08:00 umeko-cancro sh[1905]: RESTORED wcnss.mdt running
+2026-10-19T20:32:56+08:00 umeko-cancro systemd[1]: mi4-wcn-readonly-regs.service: Deactivated successfully.
+2026-10-19T20:33:19+08:00 umeko-cancro systemd[1]: Started mi4-wcn-route-regs.service - /bin/sh /home/umeko/desktop-offline/trial_wireless_action_fw.sh trial.
+2026-10-19T20:33:19+08:00 umeko-cancro sh[1977]: wcnss.b00: 成功
+2026-10-19T20:33:19+08:00 umeko-cancro sh[1977]: wcnss.b01: 成功
+2026-10-19T20:33:19+08:00 umeko-cancro sh[1977]: wcnss.b02: 成功
+2026-10-19T20:33:19+08:00 umeko-cancro sh[1977]: wcnss.b04: 成功
+2026-10-19T20:33:19+08:00 umeko-cancro sh[1977]: wcnss.b06: 成功
+2026-10-19T20:33:19+08:00 umeko-cancro sh[1977]: wcnss.b07: 成功
+2026-10-19T20:33:19+08:00 umeko-cancro sh[1977]: wcnss.b08: 成功
+2026-10-19T20:33:19+08:00 umeko-cancro sh[1977]: wcnss.b09: 成功
+2026-10-19T20:33:19+08:00 umeko-cancro sh[1977]: wcnss.mdt: 成功
+2026-10-19T20:33:21+08:00 umeko-cancro sh[1968]: CANDIDATE_STATE running
+2026-10-19T20:33:28+08:00 umeko-cancro sh[2015]: MONITOR_CREATED
+2026-10-19T20:33:29+08:00 umeko-cancro sh[2015]: LISTEN channel=1 duration=20.0s
+2026-10-19T20:33:49+08:00 umeko-cancro sh[2015]: SKY_PACKETS_TOTAL 0
+2026-10-19T20:33:49+08:00 umeko-cancro sh[2015]: FRAME_COUNTS {"all_frames": 920, "frame_type_80": 920}
+2026-10-19T20:33:49+08:00 umeko-cancro sh[2015]: SKY_SIGNATURES {}
+2026-10-19T20:33:49+08:00 umeko-cancro sh[2015]: MONITOR_REMOVED
+2026-10-19T20:33:49+08:00 umeko-cancro sh[1968]: rx_total=
+2026-10-19T20:33:49+08:00 umeko-cancro sh[2028]: 931
+2026-10-19T20:33:49+08:00 umeko-cancro sh[1968]: rx_action=
+2026-10-19T20:33:49+08:00 umeko-cancro sh[2029]: 0
+2026-10-19T20:33:49+08:00 umeko-cancro sh[1968]: rx_beacon=
+2026-10-19T20:33:49+08:00 umeko-cancro sh[2030]: 931
+2026-10-19T20:33:49+08:00 umeko-cancro sh[1968]: rx_drop=
+2026-10-19T20:33:49+08:00 umeko-cancro sh[2031]: 0
+2026-10-19T20:33:49+08:00 umeko-cancro sh[1968]: TRIAL_COMPLETED
+2026-10-19T20:33:49+08:00 umeko-cancro sh[2032]: RESTORE_BEGIN
+2026-10-19T20:33:51+08:00 umeko-cancro sh[2032]: RESTORED wcnss.mdt running
+2026-10-19T20:33:51+08:00 umeko-cancro systemd[1]: mi4-wcn-route-regs.service: Deactivated successfully.
+2026-10-19T20:33:51+08:00 umeko-cancro systemd[1]: mi4-wcn-route-regs.service: Consumed 1.375s CPU time.
+[ 3952.697392] wcn36xx: experimental REG_READ address=fb080800 bytes=0f 03 00 09 length=4
+[ 3952.697926] wcn36xx: experimental REG_READ address=fb0808f0 bytes=ff ff ff ff length=4
+[ 3952.698464] wcn36xx: experimental REG_READ address=fb0808f4 bytes=df fe 7f c7 length=4
+[ 3952.698974] wcn36xx: experimental REG_READ address=fb080914 bytes=00 f2 08 00 length=4
+[ 3952.700826] wcn36xx: experimental REG_READ address=fb080920 bytes=00 f2 08 00 length=4
+[ 3952.701357] wcn36xx: experimental REG_READ address=fb080934 bytes=00 36 02 00 length=4
+[ 4001.504025] wcn36xx: experimental REG_READ address=fb080800 bytes=0f 03 00 09 length=4
+[ 4001.504621] wcn36xx: experimental REG_READ address=fb0808f0 bytes=ff ff ff ff length=4
+[ 4001.505150] wcn36xx: experimental REG_READ address=fb0808f4 bytes=df de 7f c7 length=4
+[ 4001.505645] wcn36xx: experimental REG_READ address=fb080914 bytes=00 0e 00 00 length=4
+[ 4001.506193] wcn36xx: experimental REG_READ address=fb080920 bytes=00 f2 08 00 length=4
+[ 4001.506703] wcn36xx: experimental REG_READ address=fb080934 bytes=00 f2 08 00 length=4

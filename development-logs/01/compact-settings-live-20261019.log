@@ -1,0 +1,17 @@
+
+NRestarts=0
+ActiveState=active
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+[ 2679.761214] umeko-cancro python3[897]: FPS 59.3  paint=2.8ms upload=0.2ms present=16.2ms wait=0.4ms pipeline=1
+[ 2681.767191] umeko-cancro python3[897]: FPS 58.3  paint=2.9ms upload=0.2ms present=16.4ms wait=0.5ms pipeline=1
+[ 2683.773097] umeko-cancro python3[897]: FPS 58.8  paint=4.0ms upload=0.2ms present=15.7ms wait=1.1ms pipeline=1
+[ 2687.175484] umeko-cancro python3[968]: BOOT_HANDOFF_TO_GAUGE same_window=0
+[ 2688.252338] umeko-cancro python3[968]: BLE connected [BT-ADDRESS] profile=bmw-g-sim
+[ 2688.267699] umeko-cancro python3[968]: Mouse cursor hidden (SDL cursor state=0)
+
+umeko@umeko-cancro:~$ 

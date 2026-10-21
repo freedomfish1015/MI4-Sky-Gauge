@@ -1,0 +1,31 @@
+
+2026年 10月 20日 星期二 00:17:43 CST
+2026-10-19 18:02 35640 /var/lib/obd-motion/tracks/20261019T095509Z-1096759548122.gpx
+2026-10-19 16:06 55 /var/lib/obd-motion/tracks/20261019T080645Z-3947332060264.csv
+2026-10-19 16:06 174 /var/lib/obd-motion/tracks/20261019T080645Z-3947332060264.gpx
+2026-10-19 18:02 378 /var/lib/obd-motion/tracks/20261019T100242Z-1549578884668.gpx
+2026-10-19 18:02 24068 /var/lib/obd-motion/tracks/20261019T095509Z-1096759548122.csv
+2026-10-19 18:02 175 /var/lib/obd-motion/tracks/20261019T100242Z-1549578884668.csv
+[LOCATION-BEARING LINE REMOVED]
+[LOCATION-BEARING LINE REMOVED]
+[LOCATION-BEARING LINE REMOVED]
+20261019T080645Z-3947332060264.gpx tags {'gpx': 1, 'trk': 1, 'name': 1, 'trkseg': 1}
+20261019T095509Z-1096759548122.gpx tags {'gpx': 1, 'trk': 1, 'name': 1, 'trkseg': 1, 'trkpt': 348, 'ele': 348, 'time': 348}
+20261019T100242Z-1549578884668.gpx tags {'gpx': 1, 'trk': 1, 'name': 1, 'trkseg': 1, 'trkpt': 2, 'ele': 2, 'time': 2}
+10月 19 16:58:53 umeko-cancro python3[2401]: GNSS continuous LOC session started
+10月 19 17:25:35 umeko-cancro python3[561]: GNSS continuous LOC session started
+10月 19 17:29:04 umeko-cancro python3[553]: GNSS continuous LOC session started
+10月 19 17:37:09 umeko-cancro python3[548]: GNSS continuous LOC session started
+10月 19 18:41:31 umeko-cancro python3[554]: GNSS continuous LOC session started
+10月 19 18:47:55 umeko-cancro python3[551]: GNSS continuous LOC session started
+10月 19 18:54:56 umeko-cancro python3[550]: GNSS continuous LOC session started
+10月 19 19:27:04 umeko-cancro python3[550]: GNSS continuous LOC session started
+10月 19 23:28:56 umeko-cancro python3[4981]: GNSS continuous LOC session started
+10月 19 23:51:10 umeko-cancro python3[554]: GNSS continuous LOC session started
+10月 19 23:58:25 umeko-cancro python3[828]: GNSS continuous LOC session started
+10月 20 00:00:03 umeko-cancro python3[933]: GNSS continuous LOC session started
+10月 20 00:01:35 umeko-cancro python3[981]: GNSS continuous LOC session started
+10月 20 00:02:07 umeko-cancro python3[1025]: GNSS continuous LOC session started
+10月 20 00:16:37 umeko-cancro python3[1208]: GNSS continuous LOC session started
+
+umeko@umeko-cancro:~$ 

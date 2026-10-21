@@ -1,0 +1,17 @@
+
+{"status": "complete", "complete": true, "frames": 361, "last_pts": 12.0}1720
+NRestarts=0
+ActiveState=active
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+[   41.659673] umeko-cancro python3[444]: BOOT_VIDEO_EOS_COMPLETE frames=361 elapsed=21.46s fps=16.8 last_pts=12.0 render=4.6ms
+[   41.940446] umeko-cancro python3[444]: BOOT_HANDOFF_TO_GAUGE same_window=1
+[  421.526083] umeko-cancro python3[845]: BOOT_VIDEO_FIRST_FRAME startup=0.47s native=1080x1920 audio=1 volume=0.50 GPU=YUV strides=[1080, 540, 540]
+[  442.275880] umeko-cancro python3[845]: BOOT_VIDEO_EOS_COMPLETE frames=361 elapsed=20.75s fps=17.4 last_pts=12.0 render=4.5ms
+[  442.693778] umeko-cancro python3[845]: BOOT_HANDOFF_TO_GAUGE same_window=1
+
+umeko@umeko-cancro:~$ 

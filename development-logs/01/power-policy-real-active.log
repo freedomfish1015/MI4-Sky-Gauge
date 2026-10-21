@@ -1,0 +1,7 @@
+
+gauge_power_service.py: 成功
+Failed to stop obd-power-install-guard.timer: Unit obd-power-install-guard.timer not loaded.
+
+
+
+umeko@umeko-cancro:~$ 

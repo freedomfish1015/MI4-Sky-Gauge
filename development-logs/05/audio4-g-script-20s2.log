@@ -1,0 +1,6 @@
+
+tee: '/sys/bus/platform/devices/fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00/mclk_div_test': 设备或资源忙
+AUDIO_TEST_CLEANUP_DONE
+
+DONE_8ec4b12f368a473f9fa2f118da236ae7
+umeko@umeko-cancro:~$ 

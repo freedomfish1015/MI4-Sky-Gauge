@@ -1,0 +1,27 @@
+
+test_empty_report_clears_old_systems (test_mi4_gnss.SatelliteReportTests.test_empty_report_clears_old_systems) ... ok
+test_invalid_system_mask_not_counted (test_mi4_gnss.SatelliteReportTests.test_invalid_system_mask_not_counted) ... ok
+test_nmea_preserves_gsv_and_gsa_but_not_coordinates (test_mi4_gnss.SatelliteReportTests.test_nmea_preserves_gsv_and_gsa_but_not_coordinates) ... ok
+test_report_error_visible_and_cleared_on_recovery (test_mi4_gnss.SatelliteReportTests.test_report_error_visible_and_cleared_on_recovery) ... GNSS SV decode error: 'object' object has no attribute 'get_list'
+ok
+test_struct_fields_include_compass (test_mi4_gnss.SatelliteReportTests.test_struct_fields_include_compass) ... ok
+test_layout (test_mi4_qmi_sv.NativeRecords.test_layout) ... ok
+test_masks_and_unknown_enums (test_mi4_qmi_sv.NativeRecords.test_masks_and_unknown_enums) ... ok
+test_nonfinite_and_bounds (test_mi4_qmi_sv.NativeRecords.test_nonfinite_and_bounds) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.021s
+
+OK
+OUTPUT <Qmi.IndicationLocGnssSvInfoOutput object at 0xb5ceb990 (QmiIndicationLocGnssSvInfoOutput at 0x1c26678)> HASH 29517432
+SAFE_EXIT=124
+LOC node=0 port=21; read-only whitelist
+
+GET 0x0036 predicted orbits source (read only)
+
+ reply flags=2 trans=1 tlvs=[(2, '0000e8b1')]
+
+ reply flags=4 trans=1 tlvs=[(1, '00000000'), (17, '032b687474703a2f2f7874726170617468332e697a6174636c6f75642e6e65742f78747261336772632e62696e2b687474703a2f2f7874726170617468312e697a6174636c6f75642e6e65742f78747261336772632e62696e2b687474703a2f2f7874726170617468322e697a6174636c6f75642e6e65742f78747261336772632e62696e')]
+
+
+umeko@umeko-cancro:~$ 

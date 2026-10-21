@@ -1,0 +1,49 @@
+
+OWNER_RUNNING 0
+
+Supported flags: connectable general-discoverable limited-discoverable managed-flags tx-power scan-rsp-appearance scan-rsp-local-name 
+
+Max advertising data len: 31
+
+Max scan response data len: 31
+
+Max instances: 5
+
+Instances list with 0 items
+
+
+
+OWNER_HELD 0
+
+Supported flags: connectable general-discoverable limited-discoverable managed-flags tx-power scan-rsp-appearance scan-rsp-local-name 
+
+Max advertising data len: 31
+
+Max scan response data len: 31
+
+Max instances: 5
+
+Instances list with 0 items
+
+
+
+OWNER_OUTPUT Instance added: 2
+
+
+
+AFTER_OWNER_EXIT
+
+Supported flags: connectable general-discoverable limited-discoverable managed-flags tx-power scan-rsp-appearance scan-rsp-local-name 
+
+Max advertising data len: 31
+
+Max scan response data len: 31
+
+Max instances: 5
+
+Instances list with 0 items
+
+
+
+
+umeko@umeko-cancro:~$ 

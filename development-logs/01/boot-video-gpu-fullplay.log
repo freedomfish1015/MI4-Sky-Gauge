@@ -1,0 +1,13 @@
+
+Running timer as unit: obd-video-gpu-recover.timer
+
+
+Will run service as unit: obd-video-gpu-recover.service
+
+
+Mouse cursor hidden (SDL cursor state=0)
+Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+BOOT_VIDEO_FIRST_FRAME startup=1.35s native=1080x1920 audio=1 volume=0.50 GPU=YUV strides=[1080, 540, 540]
+BOOT_VIDEO_EOS_COMPLETE frames=361 elapsed=21.37s fps=16.9 last_pts=12.0 render=4.6ms
+
+umeko@umeko-cancro:~$ 

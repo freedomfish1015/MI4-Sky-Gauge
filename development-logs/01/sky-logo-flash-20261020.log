@@ -1,0 +1,29 @@
+
+Traceback (most recent call last):
+
+  File "/home/umeko/desktop-offline/flash_sky_logo_guarded.py", line 179, in <module>
+
+    if __name__=='__main__':main()
+
+                            ^^^^^^
+
+  File "/home/umeko/desktop-offline/flash_sky_logo_guarded.py", line 110, in main
+
+    run_locked()
+
+  File "/home/umeko/desktop-offline/flash_sky_logo_guarded.py", line 119, in run_locked
+
+    for name in ('aboot','logo','boot'):fds[name]=open_device(name,name!='boot')
+
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  File "/home/umeko/desktop-offline/flash_sky_logo_guarded.py", line 67, in open_device
+
+    fcntl.ioctl(fd,0x80081272,size,True) # BLKGETSIZE64
+
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+OSError: [Errno 22] Invalid argument
+
+
+umeko@umeko-cancro:~$ 

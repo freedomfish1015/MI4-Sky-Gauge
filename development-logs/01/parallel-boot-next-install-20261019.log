@@ -1,0 +1,7 @@
+
+Wants=bluetooth.target user@1000.service obd-boot-curtain.service mi4-audio-init.service
+After=systemd-remount-fs.service systemd-journald.socket system.slice -.mount systemd-udev-trigger.service obd-boot-curtain.service
+ActiveState=active
+PARALLEL_BOOT_NEXT_START_ONLY_NO_RESTART_NO_PARTITION_WRITES
+
+umeko@umeko-cancro:~$ 

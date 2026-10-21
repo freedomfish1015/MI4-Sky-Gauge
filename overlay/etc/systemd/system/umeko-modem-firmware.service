@@ -1,0 +1,14 @@
+[Unit]
+Description=Extract WiFi/modem firmware from the modem partition
+DefaultDependencies=no
+After=local-fs.target systemd-udev-settle.service
+Before=network-pre.target systemd-modules-load.service
+Wants=systemd-udev-settle.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/lib/umeko/modem-firmware-extract.sh
+
+[Install]
+WantedBy=sysinit.target

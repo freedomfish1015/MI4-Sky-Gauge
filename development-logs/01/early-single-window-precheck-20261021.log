@@ -1,0 +1,12 @@
+
+SCREEN_AST a23facf344a52702bf34b4f0b55974e03b6a9707037bc5f8da1b55503e7b99f5
+2de324d0f3d3efd1f3a048de3ca25a2ea5b9caa982617a5b3f65df8aabb404ed  /etc/systemd/system/obd-gauge-kiosk.service
+6604420868ef3f3c7136a7f8650ecf0ce914605fe6b4311d3549b12833069a59  /etc/systemd/system/mi4-bms-fixed.service
+66a08e7cdfe9a72b8860029b13251d197c3880c72c8b94ee6ce287fae32bd0a6  /usr/local/lib/mi4-bms-fixed/bms_fixed_init.py
+b0739e78c4450cf753df805d93aee7dc320a591699bc4c140548363bf8a1632a  /usr/local/lib/mi4-bms-fixed/mi4_bms_fixed.ko
+901
+crw-rw---- 1 root video  226,   0 10月 21 08:01 /dev/dri/card0
+crw-rw---- 1 root render 226, 128 10月 21 08:01 /dev/dri/renderD128
+-rw-rw-r-- 1 root video      4096 10月 21 08:01 /sys/class/backlight/backlight/brightness
+{"phase": "normal"}
+umeko@umeko-cancro:~$ 

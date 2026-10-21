@@ -1,0 +1,213 @@
+
+ 0 [Mi4Taiko       ]: Mi4-Taiko - Mi4-Taiko
+                      Mi4-Taiko
+mi4-spk-rc6-clock-handoff
+supply_owned=0 clock_owned=0 supply_hw_enabled=0
+reg[0x000]=08 rc=0
+reg[0x101]=55 rc=0
+reg[0x105]=17 rc=0
+reg[0x108]=0d rc=0
+reg[0x109]=04 rc=0
+reg[0x1a2]=00 rc=0
+reg[0x1fa]=c6 rc=0
+reg[0x1df]=6f rc=0
+reg[0x1e0]=00 rc=0
+reg[0x1e2]=97 rc=0
+reg[0x1e3]=01 rc=0
+reg[0x1e4]=00 rc=0
+reg[0x1eb]=00 rc=0
+reg[0x1ec]=00 rc=0
+reg[0x2e0]=00 rc=0
+reg[0x2e1]=00 rc=0
+reg[0x2e2]=00 rc=0
+reg[0x2e3]=08 rc=0
+reg[0x2e4]=78 rc=0
+reg[0x2e5]=80 rc=0
+reg[0x2e6]=00 rc=0
+reg[0x2e7]=00 rc=0
+reg[0x301]=00 rc=0
+reg[0x30f]=00 rc=0
+reg[0x311]=01 rc=0
+reg[0x314]=00 rc=0
+reg[0x38e]=00 rc=0
+reg[0x38f]=00 rc=0
+reg[0x390]=00 rc=0
+ifd[0x030]=00 rc=0
+ifd[0x031]=00 rc=0
+ifd[0x034]=00 rc=0
+ifd[0x035]=00 rc=0
+ifd[0x040]=00 rc=0
+ifd[0x060]=00 rc=0
+ifd[0x180]=00 rc=0
+applied=1 base=0x5b00
+div_ctl1=02 factor=2
+en_ctl=00 enabled=0
+gpio15_mode_ctl=25 dir=2 function=2
+正在播放 WAVE '/home/umeko/desktop-offline/mi4-quiet-test.wav' : Signed 16 bit Little Endian, 频率48000Hz， Mono
+supply_owned=1 clock_owned=1 supply_hw_enabled=1
+reg[0x000]=0a rc=0
+reg[0x101]=55 rc=0
+reg[0x105]=16 rc=0
+reg[0x108]=05 rc=0
+reg[0x109]=04 rc=0
+reg[0x1a2]=80 rc=0
+reg[0x1fa]=46 rc=0
+reg[0x1df]=ef rc=0
+reg[0x1e0]=3c rc=0
+reg[0x1e2]=97 rc=0
+reg[0x1e3]=01 rc=0
+reg[0x1e4]=00 rc=0
+reg[0x1eb]=00 rc=0
+reg[0x1ec]=70 rc=0
+reg[0x2e0]=00 rc=0
+reg[0x2e1]=00 rc=0
+reg[0x2e2]=00 rc=0
+reg[0x2e3]=08 rc=0
+reg[0x2e4]=78 rc=0
+reg[0x2e5]=88 rc=0
+reg[0x2e6]=00 rc=0
+reg[0x2e7]=f4 rc=0
+reg[0x301]=00 rc=0
+reg[0x30f]=40 rc=0
+reg[0x311]=01 rc=0
+reg[0x314]=00 rc=0
+reg[0x38e]=05 rc=0
+reg[0x38f]=00 rc=0
+reg[0x390]=00 rc=0
+ifd[0x030]=00 rc=0
+ifd[0x031]=00 rc=0
+ifd[0x034]=00 rc=0
+ifd[0x035]=00 rc=0
+ifd[0x040]=05 rc=0
+ifd[0x060]=00 rc=0
+ifd[0x180]=01 rc=0
+applied=1 base=0x5b00
+div_ctl1=02 factor=2
+en_ctl=80 enabled=1
+gpio15_mode_ctl=25 dir=2 function=2
+LOW_VOLUME_PCM_COMPLETED
+AUDIO_TEST_CLEANUP_DONE
+supply_owned=0 clock_owned=0 supply_hw_enabled=0
+reg[0x000]=0a rc=0
+reg[0x101]=55 rc=0
+reg[0x105]=17 rc=0
+reg[0x108]=09 rc=0
+reg[0x109]=04 rc=0
+reg[0x1a2]=00 rc=0
+reg[0x1fa]=c6 rc=0
+reg[0x1df]=6f rc=0
+reg[0x1e0]=3c rc=0
+reg[0x1e2]=97 rc=0
+reg[0x1e3]=01 rc=0
+reg[0x1e4]=00 rc=0
+reg[0x1eb]=00 rc=0
+reg[0x1ec]=70 rc=0
+reg[0x2e0]=00 rc=0
+reg[0x2e1]=00 rc=0
+reg[0x2e2]=00 rc=0
+reg[0x2e3]=08 rc=0
+reg[0x2e4]=78 rc=0
+reg[0x2e5]=88 rc=0
+reg[0x2e6]=00 rc=0
+reg[0x2e7]=f4 rc=0
+reg[0x301]=00 rc=0
+reg[0x30f]=00 rc=0
+reg[0x311]=01 rc=0
+reg[0x314]=00 rc=0
+reg[0x38e]=05 rc=0
+reg[0x38f]=00 rc=0
+reg[0x390]=00 rc=0
+ifd[0x030]=00 rc=0
+ifd[0x031]=00 rc=0
+ifd[0x034]=01 rc=0
+ifd[0x035]=00 rc=0
+ifd[0x040]=00 rc=0
+ifd[0x060]=04 rc=0
+ifd[0x180]=00 rc=0
+[ 3618.897242] wcd9320 217:a0:1:0: rco-wake step  9/15: reg 0x1fb (VE 0x09fb) old=8a mask=80 want=00 -> read=0a  delay=10000us  OK  [RC_OSC_TEST: start pulse, falling, then 10 ms settle]
+[ 3618.898530] wcd9320 217:a0:1:0: rco-wake step 10/15: reg 0x108 (VE 0x0908) old=04 mask=08 want=08 -> read=0c  delay=0us  OK  [CLK_BUFF_EN1: select RCO as the buffer source]
+[ 3618.900679] wcd9320 217:a0:1:0: rco-wake step 11/15: reg 0x109 (VE 0x0909) old=02 mask=ff want=02 -> read=02  delay=1000us  OK  [CLK_BUFF_EN2 = 0x02]
+[ 3618.903452] wcd9320 217:a0:1:0: rco-wake step 12/15: reg 0x108 (VE 0x0908) old=0c mask=01 want=01 -> read=0d  delay=1200us  OK  [CLK_BUFF_EN1: enable clock buffer (hardware-required delay)]
+[ 3618.904762] wcd9320 217:a0:1:0: rco-wake step 13/15: reg 0x109 (VE 0x0909) old=02 mask=02 want=00 -> read=00  delay=0us  OK  [CLK_BUFF_EN2: clear bit 1]
+[ 3618.906051] wcd9320 217:a0:1:0: rco-wake step 14/15: reg 0x109 (VE 0x0909) old=00 mask=04 want=04 -> read=04  delay=0us  OK  [CLK_BUFF_EN2: clock on]
+[ 3618.907472] wcd9320 217:a0:1:0: rco-wake step 15/15: reg 0x311 (VE 0x0b11) old=00 mask=01 want=01 -> read=01  delay=50us  unverifiable  [CDC_CLK_MCLK_CTL: gate the clock into the CDC block (unverifiable)]
+[ 3618.907503] wcd9320 217:a0:1:0: rco-wake: all 15 steps applied cleanly
+[ 3619.141616] wcd9320 217:a0:1:0: core verify: 95/448 non-zero (min 48), canary 0x320 = e4 (want e4)
+[ 3619.141649] wcd9320 217:a0:1:0: core init: complete, core_ready (0 -> 94 -> 95 non-zero)
+[ 3619.141673] wcd9320 217:a0:1:0: recovered after fresh bring-up
+[ 3619.141692] wcd9320 217:a0:1:0: CTL probe #1: exit after 1259 ms: laddr=0xcb laddr_valid=1 status=1 path=adopt -- slim_get_logical_addr() decides next
+[ 3619.142184] wcd9320 217:a0:0:0: IFD probe #1: sdev=68acd81a dev=68acd81a name=217:a0:0:0 laddr=0xca laddr_valid=1 status=1
+[ 3619.142215] wcd9320 217:a0:0:0: IFD probe #1: driver=deef160e name=wcd9320 task=modprobe pid=2270
+[ 3619.142239] wcd9320 217:a0:0:0: IFD probe #1: before: ifd_instance=00000000 drvdata=00000000 this_wcd=53474eb4
+[ 3619.142375] wcd9320 217:a0:0:0: interface function: no power or reset taken, waiting for enumeration
+[ 3619.142395] wcd9320 217:a0:0:0: interface regmap: own config, max_register 0x1b0, uncached
+[ 3619.142414] wcd9320 217:a0:0:0: IFD probe #1: after:  ifd_instance=53474eb4 drvdata=53474eb4 replaced=0
+[ 3619.142438] wcd9320 217:a0:0:0: IFD probe #1: exit after 0 ms: laddr=0xca laddr_valid=1 status=1 path=ifd -- slim_get_logical_addr() decides next
+[ 3619.142463] wcd9320 217:a0:0:0: interface function UP (#1), logical address 0xca
+[ 3619.142482] wcd9320 217:a0:0:0: IFD probe #1: returning 0 (bound)
+[ 3619.143517] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: Lumia MCLK experiment ready: base 0x5b00, DIV_CTL1 00, divclk state present
+[ 3619.223903] wcd9320-lumia-q6 sound: front end: MultiMedia1 Playback (id 0), trigger POST
+[ 3619.223935] wcd9320-lumia-q6 sound: back end: SLIMBUS_0_RX (id 2)
+[ 3619.330143] wcd9320-lumia-q6 sound: QDSP6 card registered: 2 link(s)
+[ 3619.710156] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: DIV_CTL1 measured 00 before any write
+[ 3619.710227] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: DIV_CTL1 = 02, factor 2 -> XO/2
+[ 3619.710351] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: gpio15 MODE_CTL = 25 (dir 2, function 2)
+[ 3619.710376] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: APPLIED
+[ 3619.796800] wcd9320 217:a0:1:0: slim-stream: ASoC startup (dai wcd9320-slim-rx1) -> 0
+[ 3619.798179] wcd9320-lumia-q6 sound: BE hw_params: cpu=SLIMBUS_0_RX codec=wcd9320-slim-rx1 rate=48000 ch=1 ch_map={144} (reported by the codec)
+[ 3619.798211] wcd9320 217:a0:1:0: RX path invocation: ASoC hw_params (dai wcd9320-slim-rx1, rate 48000, ch 1, fmt 2)
+[ 3619.843741] wcd9320 217:a0:1:0: rx-port 16: multi-channel 0x180 want 01 -> read 01
+[ 3619.844281] wcd9320 217:a0:1:0: rx-port 16: config 0x040 want 05 -> read 05
+[ 3619.889184] wcd9320 217:a0:1:0: rx-port 16: PROGRAMMED, 2 write(s) total
+[ 3619.889211] wcd9320 217:a0:1:0: slim-stream: config port 16 (mask 0x10000) channel 144 rate 48000 bps 16
+[ 3619.906680] wcd9320 217:a0:1:0: Mi4 RCO off step  1/3: reg 0x109 (VE 0x0909) old=04 mask=04 want=00 -> read=00  delay=50us  OK  [CLK_BUFF_EN2: clock off]
+[ 3619.907744] wcd9320 217:a0:1:0: Mi4 RCO off step  2/3: reg 0x109 (VE 0x0909) old=00 mask=02 want=02 -> read=02  delay=0us  OK  [CLK_BUFF_EN2: set bit 1]
+[ 3619.908871] wcd9320 217:a0:1:0: Mi4 RCO off step  3/3: reg 0x108 (VE 0x0908) old=0d mask=05 want=00 -> read=08  delay=50us  OK  [CLK_BUFF_EN1: disable buffer and source select]
+[ 3619.908903] wcd9320 217:a0:1:0: Mi4 RCO off: all 3 steps applied cleanly
+[ 3619.909971] wcd9320 217:a0:1:0: Mi4 select MCLK step  1/1: reg 0x108 (VE 0x0908) old=08 mask=08 want=00 -> read=00  delay=0us  OK  [CLK_BUFF_EN1: stop selecting the RC oscillator]
+[ 3619.910004] wcd9320 217:a0:1:0: Mi4 select MCLK: all 1 steps applied cleanly
+[ 3619.910742] wcd9320 217:a0:1:0: Mi4 RCO shutdown step  1/3: reg 0x109 (VE 0x0909) old=02 mask=ff want=02 -> read=02  delay=0us  OK  [CLK_BUFF_EN2 = 0x02 (a full write downstream, not a masked one)]
+[ 3619.911827] wcd9320 217:a0:1:0: Mi4 RCO shutdown step  2/3: reg 0x105 (VE 0x0905) old=17 mask=01 want=00 -> read=16  delay=0us  OK  [BIAS_OSC_BG_CTL: clear bit 0]
+[ 3619.912926] wcd9320 217:a0:1:0: Mi4 RCO shutdown step  3/3: reg 0x1fa (VE 0x09fa) old=c6 mask=80 want=00 -> read=46  delay=0us  OK  [RC_OSC_FREQ: RC oscillator OFF -- no warm fallback past this row]
+[ 3619.912958] wcd9320 217:a0:1:0: Mi4 RCO shutdown: all 3 steps applied cleanly
+[ 3619.914011] wcd9320 217:a0:1:0: Mi4 MCLK on step  1/5: reg 0x108 (VE 0x0908) old=00 mask=0c want=04 -> read=04  delay=0us  OK  [CLK_BUFF_EN1: source = external, reference = VBG]
+[ 3619.916510] wcd9320 217:a0:1:0: Mi4 MCLK on step  2/5: reg 0x108 (VE 0x0908) old=04 mask=01 want=01 -> read=05  delay=1200us  OK  [CLK_BUFF_EN1: enable clock buffer (hardware-required delay)]
+[ 3619.917596] wcd9320 217:a0:1:0: Mi4 MCLK on step  3/5: reg 0x109 (VE 0x0909) old=02 mask=02 want=00 -> read=00  delay=0us  OK  [CLK_BUFF_EN2: clear bit 1]
+[ 3619.918637] wcd9320 217:a0:1:0: Mi4 MCLK on step  4/5: reg 0x109 (VE 0x0909) old=00 mask=04 want=04 -> read=04  delay=0us  OK  [CLK_BUFF_EN2: clock on]
+[ 3619.919807] wcd9320 217:a0:1:0: Mi4 MCLK on step  5/5: reg 0x311 (VE 0x0b11) old=01 mask=01 want=01 -> read=01  delay=50us  unverifiable  [CDC_CLK_MCLK_CTL: gate the clock into the CDC block (unverifiable)]
+[ 3619.919839] wcd9320 217:a0:1:0: Mi4 MCLK on: all 5 steps applied cleanly
+[ 3619.923493] wcd9320 217:a0:1:0: Mi4 speaker: RX1->RX7, first non-mute gain, PA ON
+[ 3619.937941] wcd9320 217:a0:1:0: slim-stream: ASoC trigger START (dai wcd9320-slim-rx1)
+[ 3619.938580] wcd9320 217:a0:1:0: slim-stream: prepare -> 0 (CONNECT_SINK to the manager)
+[ 3619.941293] wcd9320 217:a0:1:0: slim-stream: enable -> 0 (SLIM_USR_MC_DEF_ACT_CHAN)
+[ 3619.941317] wcd9320 217:a0:1:0: slim-stream: UP port 16 channel 144
+[ 3621.550723] wcd9320 217:a0:1:0: slim-stream: ASoC trigger STOP (dai wcd9320-slim-rx1)
+[ 3621.550764] wcd9320 217:a0:1:0: slim-stream: disable -> 0 (no-op here: the NGD drops every reconfiguration message)
+[ 3621.551363] wcd9320 217:a0:1:0: slim-stream: unprepare -> 0 (DISCONNECT_PORT -- the real teardown)
+[ 3621.551383] wcd9320 217:a0:1:0: slim-stream: DOWN port 16
+[ 3621.551690] wcd9320 217:a0:1:0: RX path invocation: ASoC hw_free (dai wcd9320-slim-rx1)
+[ 3621.552303] wcd9320 217:a0:1:0: rx-port 16: config 0x040 want 00 -> read 00
+[ 3621.552801] wcd9320 217:a0:1:0: rx-port 16: multi-channel 0x180 want 00 -> read 00
+[ 3621.589069] wcd9320 217:a0:1:0: rx-port 16: TORN DOWN, 4 write(s) total
+[ 3621.589175] wcd9320 217:a0:1:0: slim-stream: ASoC shutdown (dai wcd9320-slim-rx1)
+[ 3621.609869] wcd9320 217:a0:1:0: Mi4 clock off step  1/3: reg 0x109 (VE 0x0909) old=04 mask=04 want=00 -> read=00  delay=50us  OK  [CLK_BUFF_EN2: clock off]
+[ 3621.611172] wcd9320 217:a0:1:0: Mi4 clock off step  2/3: reg 0x109 (VE 0x0909) old=00 mask=02 want=02 -> read=02  delay=0us  OK  [CLK_BUFF_EN2: set bit 1]
+[ 3621.612550] wcd9320 217:a0:1:0: Mi4 clock off step  3/3: reg 0x108 (VE 0x0908) old=05 mask=05 want=00 -> read=00  delay=50us  OK  [CLK_BUFF_EN1: disable buffer and source select]
+[ 3621.612582] wcd9320 217:a0:1:0: Mi4 clock off: all 3 steps applied cleanly
+[ 3621.613762] wcd9320 217:a0:1:0: Mi4 restore RCO step  1/11: reg 0x1fa (VE 0x09fa) old=46 mask=10 want=00 -> read=46  delay=0us  OK  [RC_OSC_FREQ: clear bit 4]
+[ 3621.614740] wcd9320 217:a0:1:0: Mi4 restore RCO step  2/11: reg 0x105 (VE 0x0905) old=16 mask=ff want=17 -> read=17  delay=5us  OK  [BIAS_OSC_BG_CTL = 0x17 (inherited magic: 'bandgap mode to fast')]
+[ 3621.616033] wcd9320 217:a0:1:0: Mi4 restore RCO step  3/11: reg 0x1fa (VE 0x09fa) old=46 mask=80 want=80 -> read=c6  delay=0us  OK  [RC_OSC_FREQ: enable the RC oscillator]
+[ 3621.617388] wcd9320 217:a0:1:0: Mi4 restore RCO step  4/11: reg 0x1fb (VE 0x09fb) old=0a mask=80 want=80 -> read=8a  delay=10us  OK  [RC_OSC_TEST: start pulse, rising]
+[ 3621.629561] wcd9320 217:a0:1:0: Mi4 restore RCO step  5/11: reg 0x1fb (VE 0x09fb) old=8a mask=80 want=00 -> read=0a  delay=10000us  OK  [RC_OSC_TEST: start pulse, falling, then 10 ms settle]
+[ 3621.630890] wcd9320 217:a0:1:0: Mi4 restore RCO step  6/11: reg 0x108 (VE 0x0908) old=00 mask=08 want=08 -> read=08  delay=0us  OK  [CLK_BUFF_EN1: select RCO as the buffer source]
+[ 3621.633050] wcd9320 217:a0:1:0: Mi4 restore RCO step  7/11: reg 0x109 (VE 0x0909) old=02 mask=ff want=02 -> read=02  delay=1000us  OK  [CLK_BUFF_EN2 = 0x02]
+[ 3621.635851] wcd9320 217:a0:1:0: Mi4 restore RCO step  8/11: reg 0x108 (VE 0x0908) old=08 mask=01 want=01 -> read=09  delay=1200us  OK  [CLK_BUFF_EN1: enable clock buffer (hardware-required delay)]
+[ 3621.637179] wcd9320 217:a0:1:0: Mi4 restore RCO step  9/11: reg 0x109 (VE 0x0909) old=02 mask=02 want=00 -> read=00  delay=0us  OK  [CLK_BUFF_EN2: clear bit 1]
+[ 3621.638467] wcd9320 217:a0:1:0: Mi4 restore RCO step 10/11: reg 0x109 (VE 0x0909) old=00 mask=04 want=04 -> read=04  delay=0us  OK  [CLK_BUFF_EN2: clock on]
+[ 3621.639767] wcd9320 217:a0:1:0: Mi4 restore RCO step 11/11: reg 0x311 (VE 0x0b11) old=01 mask=01 want=01 -> read=01  delay=50us  unverifiable  [CDC_CLK_MCLK_CTL: gate the clock into the CDC block (unverifiable)]
+[ 3621.639799] wcd9320 217:a0:1:0: Mi4 restore RCO: all 11 steps applied cleanly
+[ 3621.640158] wcd9320 217:a0:1:0: Mi4 speaker: PA, RX7, bias, MCLK and boost OFF
+[ 3621.772829] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: DIV_CTL1 restored to factor 0
+[ 3621.772860] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: RESTORED
+
+umeko@umeko-cancro:~$ 

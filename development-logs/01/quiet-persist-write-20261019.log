@@ -1,0 +1,23 @@
+
+{
+
+  "source_sha256": "5715032761b50157ea495d5dfb3d71b2b6de300f00ce7681f48f154dd9f67653",
+
+  "target_sha256": "bd8c176facaf7508b7cc106242705b04792d882c9f83e6b58336b203672e523e",
+
+  "trial_sha256": "04f496fd4a673b6d5eaa1c7c57f27b88366183cb3e7626d2bb3799e8826b5a8e",
+
+  "cmdline": "earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait loglevel=0 quiet",
+
+  "write_offset": 524352,
+
+  "write_bytes": 512,
+
+  "backup": "/root/mi4-boot-before-quiet-approved-20261019.img"
+
+}
+
+APPROVED_QUIET_PERSISTED_AND_WHOLE_PARTITION_VERIFIED sha256=bd8c176facaf7508b7cc106242705b04792d882c9f83e6b58336b203672e523e
+
+
+umeko@umeko-cancro:~$ 

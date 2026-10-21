@@ -1,0 +1,9 @@
+
+LOGO_HOLD_BACKUP /home/umeko/desktop-offline/backups/logo-hold-before-acn4jlnm
+
+SKY_FB_OK 1080x1920 bpp=32 stride=4352 bytes=8355840 ABI=160/68
+
+LOGO_HOLD_INSTALLED {"backup": "/home/umeko/desktop-offline/backups/logo-hold-before-acn4jlnm", "ready": {"pid": 1011, "uptime": 537.37, "elapsed": 4.01}, "files": {"/usr/local/lib/obd-gauge/sky_boot_curtain": "ee4deddac1e366ca705ad852f97e0ef86232d372d3f0558e01115acc5c7e9693", "/usr/local/share/obd-gauge/sky-logo-1080.argb": "b15992da307b118f0f58340d1e11a0f46c8ab5939025b0a6792830015538c201", "/etc/systemd/system/obd-boot-curtain.service.d/99-sky-curtain.conf": "0f76674072d77534ed37923764c19260d81a7ea558e8a8ff11001b8075da7b87", "/usr/local/lib/obd-gauge/launch_gauge_direct.py": "98b696f77b164f7d45fc4374e4148dafe198af059a6962e54dace4279795c6ae", "/etc/systemd/system/obd-boot-curtain.service": "31af5ddc3ef41e148ab84e15c19493b41d4adc6d9f7d8203c66fd02e189da81c"}, "partition_written": false}
+
+
+umeko@umeko-cancro:~$ 

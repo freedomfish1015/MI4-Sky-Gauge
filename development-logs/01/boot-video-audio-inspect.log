@@ -1,0 +1,34 @@
+
+UNIT FILE              STATE   PRESET 
+mi4-audio-init.service enabled enabled
+
+1 unit files listed.
+/etc/systemd/system/mi4-audio-init.service
+# ]8;;file://umeko-cancro/etc/systemd/system/mi4-audio-init.service/etc/systemd/system/mi4-audio-init.service]8;;
+[Unit]
+Description=Mi4 internal speaker audio bring-up
+After=systemd-modules-load.service
+Before=sound.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/bin/mi4-audio-init.sh
+
+[Install]
+WantedBy=multi-user.target
+RuntimePath=/run/user/1000
+State=active
+Linger=no
+umeko      658 /usr/bin/pipewire
+umeko      659 /usr/bin/pipewire -c filter-chain.conf
+umeko      660 /usr/bin/wireplumber
+umeko      662 /usr/bin/pipewire-pulse
+srw-rw-rw- 1 umeko umeko 0 10月 18 22:36 /run/user/1000/pipewire-0
+srw-rw-rw- 1 umeko umeko 0 10月 18 22:36 /run/user/1000/pulse/native
+bash: 行 7: pactl: 未找到命令
+bash: 行 8: pactl: 未找到命令
+bash: 行 9: pactl: 未找到命令
+[('pulsesink', True), ('avdec_aac', True), ('audioconvert', True), ('audioresample', True), ('volume', True)]
+
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,62 @@
+
+a541e6c531255652d42a9f49c8bb255b6b34e2df5d1e1e0d04074ae1acfe1dfc  /home/umeko/desktop-offline/gauge_sdl.py
+8495a4852154fddbddfb64463e3162b73d2affcab031aeca577a9de96c0b347d  /home/umeko/desktop-offline/gauge_settings.py
+05543f3ffe769a219b4f5993a59efbcfba7ba50fd2a0e8f7fe71d7f112756533  /usr/local/lib/obd-power/gauge_power_service.py
+/usr/local/lib/obd-gauge:
+before-early-20261019
+before-warmup-20261019
+boot_curtain.py
+boot_video.before-avsync-20261019.py
+boot_video.before-prevideo-20261019.py
+boot_video.py
+girepository
+gstreamer
+kiosk.before-parallel-boot-20261019.service
+launch_boot_video.before-prevideo-20261019.py
+launch_boot_video.py
+mi4-audio-init.before-prevideo-20261019.service
+
+/usr/local/lib/obd-power:
+gauge_power_service.before-manual-off-20261019.py
+gauge_power_service.py
+gauge_power_service.py.bak-20261019
+gauge_power_service.py.bak-20261020
+# ]8;;file://umeko-cancro/etc/systemd/system/obd-gauge-kiosk.service/etc/systemd/system/obd-gauge-kiosk.service]8;;
+[Unit]
+Description=OBD Gauge with early native boot movie
+DefaultDependencies=no
+After=systemd-remount-fs.service systemd-udev-trigger.service obd-boot-curtain.service
+Wants=bluetooth.target user@1000.service mi4-audio-init.service obd-boot-curtain.service
+Before=shutdown.target
+Conflicts=phosh.service shutdown.target
+
+[Service]
+Type=simple
+User=umeko
+Group=umeko
+WorkingDirectory=/home/umeko/desktop-offline
+RuntimeDirectory=obd-gauge
+RuntimeDirectoryMode=0700
+RuntimeDirectoryPreserve=restart
+Environment=XDG_RUNTIME_DIR=/run/obd-gauge
+Environment=SDL_VIDEODRIVER=kmsdrm
+Environment=SDL_RENDER_DRIVER=opengles2
+Environment=SDL_VIDEO_KMSDRM_DEVICE=/dev/dri/card0
+Environment=OBD_BOOT_AUDIO=alsa
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-gauge/launch_boot_video.py --ble [BT-ADDRESS]
+ExecStopPost=/usr/bin/python3 /usr/local/lib/obd-gauge/boot_video.py --restore-backlight
+Restart=always
+RestartSec=2
+TimeoutStartSec=30
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
+17
+3698478
+platform-f9924000.i2c-event
+platform-fc4cf000.spmi-platform-fc4cf000.spmi:pm8941@0:pon@800:pwrkey-event
+platform-fc4cf000.spmi-platform-fc4cf000.spmi:pm8941@1:vibrator@c000-event
+
+umeko@umeko-cancro:~$ 

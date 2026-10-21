@@ -1,0 +1,62 @@
+
+{"event": "forward_to_sky", "monotonic": 6309.807316081, "bytes": 12, "packets": 49, "total_bytes": 579}
+
+{"event": "sky_write", "monotonic": 6311.718939935, "size": 5, "upstream_ready": true, "at": null, "packets": 44, "total_bytes": 222}
+
+{"event": "sky_write", "monotonic": 6312.119032695, "size": 8, "upstream_ready": true, "at": "ATSH6F1\r"}
+
+{"event": "sky_write", "monotonic": 6312.522275924, "size": 8, "upstream_ready": true, "at": "ATSH7DF\r"}
+
+{"event": "forward_to_obd", "monotonic": 6314.919586652, "bytes": 5, "packets": 69, "total_bytes": 367}
+
+{"event": "forward_to_sky", "monotonic": 6315.01902384, "bytes": 15, "packets": 72, "total_bytes": 884}
+
+{"event": "sky_write", "monotonic": 6316.819012172, "size": 5, "upstream_ready": true, "at": null, "packets": 65, "total_bytes": 329}
+
+{"event": "sky_write", "monotonic": 6317.519239776, "size": 8, "upstream_ready": true, "at": "ATSH6F1\r"}
+
+{"event": "sky_write", "monotonic": 6317.918834828, "size": 8, "upstream_ready": true, "at": "ATSH7DF\r"}
+
+{"event": "forward_to_obd", "monotonic": 6320.119540088, "bytes": 5, "packets": 93, "total_bytes": 495}
+
+{"event": "forward_to_sky", "monotonic": 6320.23515816, "bytes": 15, "packets": 96, "total_bytes": 1201}
+
+{"event": "sky_write", "monotonic": 6321.918771337, "size": 5, "upstream_ready": true, "at": null, "packets": 85, "total_bytes": 431}
+
+{"event": "sky_write", "monotonic": 6323.119198159, "size": 8, "upstream_ready": true, "at": "ATSH6F1\r"}
+
+{"event": "sky_write", "monotonic": 6323.520260347, "size": 8, "upstream_ready": true, "at": "ATSH7DF\r"}
+
+{"event": "forward_to_obd", "monotonic": 6325.319811961, "bytes": 5, "packets": 115, "total_bytes": 613}
+
+{"event": "forward_to_sky", "monotonic": 6325.402015138, "bytes": 15, "packets": 118, "total_bytes": 1491}
+
+{"event": "sky_write", "monotonic": 6326.918843523, "size": 5, "upstream_ready": true, "at": null, "packets": 107, "total_bytes": 543}
+
+{"event": "sky_write", "monotonic": 6327.718870606, "size": 8, "upstream_ready": true, "at": "ATSH6F1\r"}
+
+{"event": "sky_write", "monotonic": 6328.070889824, "size": 8, "upstream_ready": true, "at": "ATSH7DF\r"}
+
+{"event": "forward_to_obd", "monotonic": 6330.419715032, "bytes": 5, "packets": 145, "total_bytes": 771}
+
+{"event": "forward_to_sky", "monotonic": 6330.52077399, "bytes": 15, "packets": 148, "total_bytes": 1889}
+
+{"event": "sky_write", "monotonic": 6331.868939927, "size": 8, "upstream_ready": true, "at": "ATSH6F1\r"}
+
+{"event": "sky_write", "monotonic": 6332.018752271, "size": 7, "upstream_ready": true, "at": null, "packets": 134, "total_bytes": 682}
+
+{"event": "sky_write", "monotonic": 6332.219078521, "size": 8, "upstream_ready": true, "at": "ATSH7DF\r"}
+
+{"time_utc": "2026-10-19T17:36:13Z", "monotonic_s": 6319.779, "pid": 3321, "event": "elm_forward_stats", "address": "[BT-ADDRESS]", "simulated": true, "sky": true, "commands": 91, "rx_bytes": 1159, "tx_bytes": 485}
+{"time_utc": "2026-10-19T17:36:18Z", "monotonic_s": 6324.8, "pid": 3321, "event": "elm_forward_stats", "address": "[BT-ADDRESS]", "simulated": true, "sky": true, "commands": 112, "rx_bytes": 1449, "tx_bytes": 598}
+{"time_utc": "2026-10-19T17:36:23Z", "monotonic_s": 6329.824, "pid": 3321, "event": "elm_forward_stats", "address": "[BT-ADDRESS]", "simulated": true, "sky": true, "commands": 141, "rx_bytes": 1835, "tx_bytes": 751}
+{"time_utc": "2026-10-19T17:36:28Z", "monotonic_s": 6334.923, "pid": 3321, "event": "elm_forward_stats", "address": "[BT-ADDRESS]", "simulated": true, "sky": true, "commands": 170, "rx_bytes": 2206, "tx_bytes": 904}
+NRestarts=0
+Id=mi4-elm-advertiser.service
+ActiveState=active
+
+NRestarts=0
+Id=obd-gauge-kiosk.service
+ActiveState=active
+
+umeko@umeko-cancro:~$ 

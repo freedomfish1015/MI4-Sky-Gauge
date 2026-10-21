@@ -1,0 +1,20 @@
+
+=== 第二次播放 ===
+supply_owned=0 clock_owned=0 supply_hw_enabled=-19
+reg[0x1df]=6f rc=0
+reg[0x1e0]=00 rc=0
+=== regulator 相关日志 ===
+[    0.839599] qcom-rpm-proc remoteproc: Failed to create device link (0x180) with supplier vreg-boost for /remoteproc/smd-edge/rpm-requests/regulators-1
+[    3.488522] adreno fdb00000.gpu: supply vdd not found, using dummy regulator
+[    3.494965] adreno fdb00000.gpu: supply vddcx not found, using dummy regulator
+[    4.775361] systemd[1]: Inserted module 'autofs4'
+[   16.640494] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[   18.463191] OF: overlay: WARNING: memory leak will occur if overlay removed, property: /soc/slim-ngd@fe12f000/ngd@1/codec@1,0/vdd-spkdrv-supply
+[   31.204767] regulator: Not disabling unused regulators
+[   34.696727] wcd9320 217:a0:1:0: Mi4 speaker: PA, RX7, bias, MCLK and boost OFF
+[   34.836262] wcd9320 217:a0:1:0: Mi4 speaker: PA, RX7, bias, MCLK and boost OFF
+[   87.998471] wcd9320 217:a0:1:0: Mi4 speaker: PA, RX7, bias, MCLK and boost OFF
+=== 播放错误 ===
+
+DONE_a8c5eb65a93d43b3a22a5b0c2f3ef121
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,14 @@
+
+10月 18 20:29:17 umeko-cancro python3[1533]: KMS mode 1080x1920
+10月 18 20:29:19 umeko-cancro python3[1533]: FPS 33.0  paint=16.9ms upload=0.3ms present=12.9ms
+10月 18 20:29:21 umeko-cancro python3[1533]: FPS 36.9  paint=12.5ms upload=0.2ms present=14.3ms
+10月 18 20:29:23 umeko-cancro python3[1533]: FPS 34.4  paint=8.4ms upload=0.1ms present=20.3ms
+10月 18 20:29:25 umeko-cancro python3[1533]: FPS 34.1  paint=8.9ms upload=0.1ms present=19.8ms
+10月 18 20:29:27 umeko-cancro python3[1533]: FPS 34.9  paint=9.2ms upload=0.1ms present=19.4ms
+10月 18 20:29:29 umeko-cancro python3[1533]: FPS 33.4  paint=8.9ms upload=0.1ms present=20.7ms
+10月 18 20:29:31 umeko-cancro python3[1533]: FPS 35.8  paint=7.7ms upload=0.1ms present=19.8ms
+ 进程 USER      PR  NI    虚拟   驻留   共享    %CPU  %MEM     时间+ COMMAND
+ 1533 umeko     20   0  393664 105840  71052 S  36.0   3.6   0:10.41 python3
+
+DONE_fbec909797bf459aa948714bcd9d48e4
+umeko@umeko-cancro:~$ 

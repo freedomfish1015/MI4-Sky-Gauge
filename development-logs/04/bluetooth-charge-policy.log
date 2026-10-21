@@ -1,0 +1,77 @@
+
+[Unit]
+Description=Mi4 explicit low-load charging mode and power-key restore
+After=systemd-udev-trigger.service
+Before=shutdown.target
+Conflicts=shutdown.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-charge/gauge_charge_mode_service.py
+Restart=on-failure
+RestartSec=1
+RuntimeDirectory=mi4-charge-mode
+RuntimeDirectoryMode=0755
+RuntimeDirectoryPreserve=restart
+TimeoutStopSec=5
+UMask=0022
+
+[Install]
+WantedBy=multi-user.target
+/usr/local/lib/obd-charge:
+总计 12
+-rw-r--r-- 1 root root 12221 10月 21 00:05 gauge_charge_mode_service.py
+
+/var/lib/systemd/rfkill:
+总计 8
+-rw-r--r-- 1 root root 2 10月 21 13:32 platform-fb204000.remoteproc-platform-fb204000.remoteproc:smd-edge:wcnss:bluetooth:bluetooth
+-rw-r--r-- 1 root root 2 10月 18 02:14 platform-fb204000.remoteproc-platform-fb204000.remoteproc:smd-edge:wcnss:wifi:wlan
+1:"""Fixed root charging workflow. No suspend, poweroff, PMIC or boot writes.
+4:Short power-key release or unplug restores only previously active services.
+5:The power key is exclusively grabbed ONLY while in this mode, preventing
+26:UNITS=('obd-gauge-kiosk.service','mi4-motion.service','mi4-elm-advertiser.service','bluetooth.service')
+37:        self.state={'phase':'normal'}
+40:        if self.state['phase']!='normal':raise ValueError('充电模式正在切换，请稍后')
+45:            self.state=dict(phase='entering',**self.backend.snapshot())
+48:            self.backend.release_key();self.state={'phase':'normal'}
+52:        assert self.state['phase']=='entering'
+58:            self.backend.brightness(0) # after kiosk ExecStopPost restores light
+59:            self.state['phase']='charging'
+62:            self.restore('进入失败，已恢复')
+65:    def restore(self,reason='power-key'):
+66:        if self.state['phase']=='normal':return
+67:        self.state['phase']='restoring';self.persist(self.state)
+68:        # Un-grab only after the power key's release was consumed.
+69:        self.backend.restore(self.state)
+71:        self.state={'phase':'normal','reason':reason}
+75:        if self.state['phase']!='charging':return False
+80:                self.restore('power-key')
+85:        if self.state['phase']=='charging':
+87:                self.restore('unplug') # original 20s unplug dialog runs again
+104:            try:known.append(int(Path('/sys/class/power_supply',name,'online').read_text())==1)
+128:        for p in Path('/sys/class/rfkill').glob('rfkill*'):
+130:                if (p/'type').read_text().strip()=='bluetooth':
+138:            bluetooth_runtime_masked=Path('/run/systemd/system/bluetooth.service').is_symlink()
+139:                and Path('/run/systemd/system/bluetooth.service').resolve()==Path('/dev/null'))
+171:        if not state.get('bluetooth_runtime_masked',False):
+172:            self.command('mask','--runtime','--now','bluetooth.service')
+177:        assert name.startswith('rfkill') and name[6:].isdigit()
+178:        node=Path('/sys/class/rfkill')/name
+179:        if not node.exists():return # firmware may remove HCI on rfkill
+180:        assert (node/'type').read_text().strip()=='bluetooth'
+186:    def restore(self,state):
+187:        if not state.get('bluetooth_runtime_masked',False):
+188:            self.command('unmask','--runtime','bluetooth.service')
+211:    print('CHARGE_MODE',state['phase'],state.get('reason',''),flush=True)
+219:        if state.get('phase')!='normal':
+221:            if state.get('phase')=='charging':
+223:                except OSError:mode.restore('power-key-unavailable')
+224:            else:mode.restore('service-recovery')
+248:                            if operation=='status':stream.sendall(json.dumps(dict(ok=True,phase=mode.state['phase'])).encode());continue
+250:                            elif operation!='restore':raise ValueError('不支持的操作')
+257:                        else:mode.restore('usb-command')
+53:#ControllerMode = dual
+319:# AutoEnable defines option to enable all controllers when they are found.
+322:AutoEnable=true
+
+umeko@umeko-cancro:~$ 

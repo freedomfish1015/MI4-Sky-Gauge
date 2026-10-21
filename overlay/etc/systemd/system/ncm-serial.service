@@ -1,0 +1,13 @@
+[Unit]
+Description=Set NCM IP and start agetty on serial gadget
+After=usb-gadget.service
+Requires=usb-gadget.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/ncm-serial-setup.sh
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

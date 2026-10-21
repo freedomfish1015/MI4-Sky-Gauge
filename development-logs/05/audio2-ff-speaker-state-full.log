@@ -1,0 +1,50 @@
+
+=== 参数 ===
+Y
+=== 完整 speaker 状态 ===
+supply_owned=0 clock_owned=0 supply_hw_enabled=0
+reg[0x000]=0a rc=0
+reg[0x101]=55 rc=0
+reg[0x105]=17 rc=0
+reg[0x108]=09 rc=0
+reg[0x109]=04 rc=0
+reg[0x1a2]=00 rc=0
+reg[0x1fa]=c6 rc=0
+reg[0x1df]=6f rc=0
+reg[0x1e0]=3c rc=0
+reg[0x1e2]=97 rc=0
+reg[0x1e3]=01 rc=0
+reg[0x1e4]=00 rc=0
+reg[0x1eb]=00 rc=0
+reg[0x1ec]=70 rc=0
+reg[0x2e0]=00 rc=0
+reg[0x2e1]=00 rc=0
+reg[0x2e2]=00 rc=0
+reg[0x2e3]=08 rc=0
+reg[0x2e4]=78 rc=0
+reg[0x2e5]=88 rc=0
+reg[0x2e6]=00 rc=0
+reg[0x2e7]=f4 rc=0
+reg[0x301]=00 rc=0
+reg[0x30f]=00 rc=0
+reg[0x311]=01 rc=0
+reg[0x314]=00 rc=0
+reg[0x38e]=05 rc=0
+reg[0x38f]=00 rc=0
+reg[0x390]=00 rc=0
+ifd[0x030]=00 rc=0
+ifd[0x031]=00 rc=0
+ifd[0x034]=01 rc=0
+ifd[0x035]=00 rc=0
+ifd[0x040]=00 rc=0
+ifd[0x060]=05 rc=0
+ifd[0x180]=00 rc=0
+=== 关键寄存器 grep ===
+reg[0x1df]=6f rc=0
+reg[0x1e0]=3c rc=0
+reg[0x1e2]=97 rc=0
+reg[0x1e3]=01 rc=0
+reg[0x2e7]=f4 rc=0
+
+DONE_b75c7e3670ec4369bf6efb90ea608053
+umeko@umeko-cancro:~$ 

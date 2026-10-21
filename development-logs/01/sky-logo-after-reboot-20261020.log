@@ -1,0 +1,28 @@
+
+ 23:30:20 up 0 min,  1 user,  load average: 2.70, 0.69, 0.23
+MainPID=526
+NRestarts=0
+ActiveState=active
+
+MainPID=556
+NRestarts=0
+ActiveState=active
+
+MainPID=641
+NRestarts=1
+ActiveState=active
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+10月 20 23:30:17 umeko-cancro python3[526]: BOOT_HANDOFF_TO_GAUGE same_window=1 warm=1 static=1
+10月 20 23:30:17 umeko-cancro python3[526]: BLE preset reused from boot warmup
+10月 20 23:30:17 umeko-cancro python3[526]: KMS mode 1080x1920 @60Hz vsync=True
+10月 20 23:30:19 umeko-cancro python3[526]: BLE error: BleakError('No Bluetooth adapters found.')
+10月 20 23:30:20 umeko-cancro python3[526]: FPS 56.1  paint=1.5ms upload=0.1ms present=17.6ms wait=0.2ms pipeline=1
+18
+3707346
+
+umeko@umeko-cancro:~$ 

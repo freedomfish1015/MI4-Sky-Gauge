@@ -1,0 +1,33 @@
+
+DIRECT_GAUGE_LOGO_FALLBACK ValueError('Unexpected native logo/texture geometry')
+DIRECT_GAUGE_FIRST_FRAME {"pid": 1055, "uptime": 584.73, "elapsed": 0.007}
+DIRECT_GAUGE_LOGO_PRESENTED uptime=585.11
+DIRECT_GAUGE_FIRST_FRAME {"pid": 1055, "uptime": 585.12, "elapsed": 0.184}
+DIRECT_GAUGE_LOGO_PRESENTED uptime=585.48
+DIRECT_GAUGE_LOGO_FALLBACK AttributeError("'DirectScreen' object has no attribute 'texture_width'")
+DIRECT_GAUGE_FIRST_FRAME {"pid": 1055, "uptime": 586.05, "elapsed": 0.154}
+DIRECT_GAUGE_LOGO_FALLBACK AttributeError("'DirectScreen' object has no attribute 'texture_width'")
+DIRECT_GAUGE_START uptime=586.56
+----------------------------------------------------------------------
+Ran 13 tests in 1.858s
+
+OK
+[  531.832750] umeko-cancro systemd[1]: Starting obd-boot-curtain.service - Native Sky Gauge static logo until dashboard handoff...
+
+[  531.941096] umeko-cancro sky_boot_curtain[1005]: SKY_CURTAIN_PAINTED uptime=531.936 elapsed=0.100 stride=4352
+
+[  531.943575] umeko-cancro systemd[1]: Finished obd-boot-curtain.service - Native Sky Gauge static logo until dashboard handoff.
+
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+[   12.739456] umeko-cancro python3[450]: DIRECT_GAUGE_START uptime=12.73
+[   19.637386] umeko-cancro python3[450]: DIRECT_GAUGE_FIRST_FRAME {"pid": 450, "uptime": 19.63, "elapsed": 6.898}
+[  533.363244] umeko-cancro python3[1011]: DIRECT_GAUGE_START uptime=533.36
+[  535.595310] umeko-cancro python3[1011]: DIRECT_GAUGE_LOGO_PRESENTED uptime=535.59
+[  537.373536] umeko-cancro python3[1011]: DIRECT_GAUGE_FIRST_FRAME {"pid": 1011, "uptime": 537.37, "elapsed": 4.01}
+{"pid": 1011, "uptime": 537.37, "elapsed": 4.01}
+umeko@umeko-cancro:~$ 

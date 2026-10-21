@@ -1,0 +1,21 @@
+
+NRestarts=0
+ActiveState=active
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+10月 18 22:01:54 umeko-cancro python3[2767]: FPS 54.8  paint=4.8ms upload=0.2ms present=16.0ms wait=2.1ms pipeline=1
+10月 18 22:01:56 umeko-cancro python3[2767]: FPS 59.2  paint=3.2ms upload=0.1ms present=15.7ms wait=1.0ms pipeline=1
+10月 18 22:01:58 umeko-cancro python3[2767]: FPS 59.2  paint=3.9ms upload=0.2ms present=15.5ms wait=1.2ms pipeline=1
+10月 18 22:02:00 umeko-cancro python3[2767]: FPS 59.2  paint=3.6ms upload=0.2ms present=15.6ms wait=1.1ms pipeline=1
+10月 18 22:02:02 umeko-cancro python3[2767]: FPS 59.2  paint=3.9ms upload=0.2ms present=15.4ms wait=1.3ms pipeline=1
+10月 18 22:02:04 umeko-cancro python3[2767]: FPS 51.3  paint=5.9ms upload=0.2ms present=16.7ms wait=2.6ms pipeline=1
+10月 18 22:02:06 umeko-cancro python3[2767]: FPS 52.3  paint=5.7ms upload=0.2ms present=16.3ms wait=2.6ms pipeline=1
+10月 18 22:02:08 umeko-cancro python3[2767]: FPS 54.8  paint=5.4ms upload=0.2ms present=15.9ms wait=2.1ms pipeline=1
+d794dce1aa7909c7218012b3e14806fbbe494678e1b52b23de29ceea09674eb0  /home/umeko/desktop-offline/gauge_settings.py
+2351
+
+umeko@umeko-cancro:~$ 

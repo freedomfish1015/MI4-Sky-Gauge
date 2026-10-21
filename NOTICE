@@ -1,0 +1,23 @@
+mi4-sky / MI4 Sky Gauge
+Copyright (C) 2026 mi4-sky contributors.
+
+Project-authored application, services, installer, scripts and documentation
+are distributed under GNU GPL version 3 (GPL-3.0-only), unless a file carries
+a different existing license. No warranty is provided. See LICENSE.
+
+Vendored obd_brz_gauge PID/rule sources remain copyright their original authors
+and retain the upstream GPLv3 license. cJSON remains MIT licensed. Kernel source
+retains Linux's GPL-2.0 and per-file SPDX exceptions/licenses. lk2nd/LK retains
+its original BSD and per-file licenses. Noto CJK generated glyph provenance is
+documented with the font copyright/OFL notice. These are not relicensed by the
+project-wide GPL notice.
+
+No ownership of Qualcomm/Xiaomi firmware, EVA character art, SkyGauge/Sky Garage
+trademarks, or RaceChrono is asserted. Such artwork, proprietary boot images and
+vendor binary firmware are not included in this source repository.
+
+Changes from the prior private working tree: source-only layout, synthetic
+device addresses in examples/tests, portable build/test paths, corrected stale
+test expectations (250 ms telemetry subscription and removed GPS settings tab),
+sanitized technical history, build scripts and documentation. These changes
+have not been flashed over the user's working instrument.

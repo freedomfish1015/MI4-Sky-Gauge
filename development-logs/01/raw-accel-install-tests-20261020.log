@@ -1,0 +1,99 @@
+
+BACKUP /home/umeko/desktop-offline/backups/raw-accel-before-5552zz91
+
+RAW_ACCEL_INSTALLED
+
+/usr/local/lib/obd-motion/mi4_motiond.py 2625c252aa10c00717c1d11222105ec5478ee32c5e2b06ee2e89a0825a7a4e3e
+
+/home/umeko/desktop-offline/gauge_motion.py c6bc39554c946665cf8204f395008cedb4f2bc3db1669af237a1eb7148b0eba9
+
+/home/umeko/desktop-offline/gauge_telemetry.py d249c5b4562a623bd12f9bddeda6435b78238eb8a2bf3d58f32aa6b593b095de
+
+/home/umeko/desktop-offline/gauge_settings.py 2d90c5a3441b4a4d2ea491177ebb47c0cd63d36264743b10c739c1824e576c6d
+
+test_both_bars_are_bottom_to_top_on_opposite_sides (test_mi4_motion.MotionTests.test_both_bars_are_bottom_to_top_on_opposite_sides) ... ok
+test_control_merge_preserves_recording_when_zeroing (test_mi4_motion.MotionTests.test_control_merge_preserves_recording_when_zeroing) ... ok
+test_display_range_is_two_point_two_without_changing_raw_peaks (test_mi4_motion.MotionTests.test_display_range_is_two_point_two_without_changing_raw_peaks) ... ERROR
+test_envelope_includes_diagonal_extrema_not_just_axis_peaks (test_mi4_motion.MotionTests.test_envelope_includes_diagonal_extrema_not_just_axis_peaks) ... ERROR
+test_four_directional_peaks_keep_extrema_until_reset (test_mi4_motion.MotionTests.test_four_directional_peaks_keep_extrema_until_reset) ... ERROR
+test_g_meter_incremental_pixels_match_static_telemetry (test_mi4_motion.MotionTests.test_g_meter_incremental_pixels_match_static_telemetry) ... FAIL
+test_raw_acceleration_uses_first_sample_and_keeps_gravity (test_mi4_motion.MotionTests.test_raw_acceleration_uses_first_sample_and_keeps_gravity) ... ERROR
+test_raw_visual_output_has_no_calibration_or_interpolation (test_mi4_motion.MotionTests.test_raw_visual_output_has_no_calibration_or_interpolation) ... ERROR
+test_stale_state_never_becomes_a_live_reading (test_mi4_motion.MotionTests.test_stale_state_never_becomes_a_live_reading) ... ok
+test_track_rejects_no_fix_and_duplicate_points_and_writes_valid_gpx (test_mi4_motion.MotionTests.test_track_rejects_no_fix_and_duplicate_points_and_writes_valid_gpx) ... ok
+test_trail_expires_after_five_seconds (test_mi4_motion.MotionTests.test_trail_expires_after_five_seconds) ... ok
+test_visual_smoothing_approaches_target_without_changing_peak_data (test_mi4_motion.MotionTests.test_visual_smoothing_approaches_target_without_changing_peak_data) ... ok
+test_freeze_is_independent_of_recording_and_history (test_gauge_telemetry.TelemetryTests.test_freeze_is_independent_of_recording_and_history) ... ok
+test_legacy_sky_migrates_only_saved_direct (test_gauge_telemetry.TelemetryTests.test_legacy_sky_migrates_only_saved_direct) ... ok
+test_native_page_draw_and_full_gauge_restore (test_gauge_telemetry.TelemetryTests.test_native_page_draw_and_full_gauge_restore) ... ok
+test_raw_acceleration_logged_without_calibration (test_gauge_telemetry.TelemetryTests.test_raw_acceleration_logged_without_calibration) ... ok
+test_raw_missing_throttle_g_and_strict_json (test_gauge_telemetry.TelemetryTests.test_raw_missing_throttle_g_and_strict_json) ... ok
+test_rotation_does_not_touch_other_files (test_gauge_telemetry.TelemetryTests.test_rotation_does_not_touch_other_files) ... ok
+test_storage_error_is_reported (test_gauge_telemetry.TelemetryTests.test_storage_error_is_reported) ... ok
+test_track_channels_keep_unavailable_pedals_unknown (test_gauge_telemetry.TelemetryTests.test_track_channels_keep_unavailable_pedals_unknown) ... ok
+test_vertical_navigation_and_buttons_do_not_toggle_settings (test_gauge_telemetry.TelemetryTests.test_vertical_navigation_and_buttons_do_not_toggle_settings) ... ok
+test_each_trip_separate_and_no_fix_has_no_coordinates (test_trip_recording.TripTests.test_each_trip_separate_and_no_fix_has_no_coordinates) ... ok
+test_log_stop_button_stops_gps_when_linked (test_trip_recording.TripTests.test_log_stop_button_stops_gps_when_linked) ... ok
+test_resume_existing_trip_after_app_restart (test_trip_recording.TripTests.test_resume_existing_trip_after_app_restart) ... ok
+test_settings_gps_button_and_route_button_share_daemon (test_trip_recording.TripTests.test_settings_gps_button_and_route_button_share_daemon) ... ok
+test_trip_rotates_independent_log_and_stops_both (test_trip_recording.TripTests.test_trip_rotates_independent_log_and_stops_both) ... ok
+
+======================================================================
+ERROR: test_display_range_is_two_point_two_without_changing_raw_peaks (test_mi4_motion.MotionTests.test_display_range_is_two_point_two_without_changing_raw_peaks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/umeko/desktop-offline/test_mi4_motion.py", line 54, in test_display_range_is_two_point_two_without_changing_raw_peaks
+    self.assertEqual(mi4_motiond.directional_peaks([0]*4,3.5,0)[3],3.5)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'mi4_motiond' has no attribute 'directional_peaks'
+
+======================================================================
+ERROR: test_envelope_includes_diagonal_extrema_not_just_axis_peaks (test_mi4_motion.MotionTests.test_envelope_includes_diagonal_extrema_not_just_axis_peaks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/umeko/desktop-offline/test_mi4_motion.py", line 59, in test_envelope_includes_diagonal_extrema_not_just_axis_peaks
+    mi4_motiond.accumulate_envelope(bins,*p)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'mi4_motiond' has no attribute 'accumulate_envelope'
+
+======================================================================
+ERROR: test_four_directional_peaks_keep_extrema_until_reset (test_mi4_motion.MotionTests.test_four_directional_peaks_keep_extrema_until_reset)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/umeko/desktop-offline/test_mi4_motion.py", line 68, in test_four_directional_peaks_keep_extrema_until_reset
+    peaks = mi4_motiond.directional_peaks(peaks,x,y)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'mi4_motiond' has no attribute 'directional_peaks'
+
+======================================================================
+ERROR: test_raw_acceleration_uses_first_sample_and_keeps_gravity (test_mi4_motion.MotionTests.test_raw_acceleration_uses_first_sample_and_keeps_gravity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/umeko/desktop-offline/test_mi4_motion.py", line 17, in test_raw_acceleration_uses_first_sample_and_keeps_gravity
+    state = mi4_motiond.acceleration_state([0,0,mi4_motiond.G],100,100.01)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'mi4_motiond' has no attribute 'acceleration_state'
+
+======================================================================
+ERROR: test_raw_visual_output_has_no_calibration_or_interpolation (test_mi4_motion.MotionTests.test_raw_visual_output_has_no_calibration_or_interpolation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/umeko/desktop-offline/test_mi4_motion.py", line 32, in test_raw_visual_output_has_no_calibration_or_interpolation
+    state = {'imu': mi4_motiond.acceleration_state([mi4_motiond.G,0,0],100,100.01)}
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'mi4_motiond' has no attribute 'acceleration_state'
+
+======================================================================
+FAIL: test_g_meter_incremental_pixels_match_static_telemetry (test_mi4_motion.MotionTests.test_g_meter_incremental_pixels_match_static_telemetry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/umeko/desktop-offline/test_mi4_motion.py", line 138, in test_g_meter_incremental_pixels_match_static_telemetry
+    self.assertLess(sum(abs(a-b)>5 for a,b in zip(actual, expected)), 40)
+AssertionError: 657 not less than 40
+
+----------------------------------------------------------------------
+Ran 26 tests in 13.058s
+
+FAILED (failures=1, errors=5)
+
+umeko@umeko-cancro:~$ 

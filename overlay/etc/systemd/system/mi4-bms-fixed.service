@@ -1,0 +1,13 @@
+[Unit]
+Description=Mi4 corrected BMS ADC conversion and capacity reporting
+After=systemd-modules-load.service local-fs.target
+Before=obd-gauge-kiosk.service upower.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /usr/local/lib/mi4-bms-fixed/bms_fixed_init.py
+RemainAfterExit=yes
+TimeoutStartSec=30
+
+[Install]
+WantedBy=multi-user.target

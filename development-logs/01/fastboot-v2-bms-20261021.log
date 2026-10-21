@@ -1,0 +1,122 @@
+
+"""Root-owned live binding of the fixed module, with native-driver fallback."""
+from pathlib import Path
+import subprocess
+import sys
+import time
+
+DEVICE='fc4cf000.spmi:pm8941@0:battery@4000'
+BUS=Path('/sys/bus/platform')
+NODE=BUS/'devices'/DEVICE
+NATIVE=BUS/'drivers/qcom-bms'
+FIXED=BUS/'drivers/mi4-bms-fixed'
+MODULE=Path('/usr/local/lib/mi4-bms-fixed/mi4_bms_fixed.ko')
+
+
+def rollback():
+    if (NODE/'driver').exists() and (NODE/'driver').resolve()==FIXED:
+        (FIXED/'unbind').write_text(DEVICE)
+    if Path('/sys/module/mi4_bms_fixed').exists():
+        subprocess.run(['rmmod','mi4_bms_fixed'],check=True,timeout=5)
+    (NODE/'driver_override').write_text('qcom-bms')
+    if not (NODE/'driver').exists():
+        (NATIVE/'bind').write_text(DEVICE)
+    (NODE/'driver_override').write_text('\n')
+    print('NATIVE_BMS_RESTORED',flush=True)
+
+
+def main():
+    if '--rollback' in sys.argv:
+        rollback()
+        return
+    kernel=subprocess.check_output(['uname','-r'],text=True).strip()
+    if kernel!='6.15.11-mi4-audio1':
+        print('BMS fix skipped for unsupported kernel',kernel,flush=True)
+        return
+    for _ in range(100):
+        if (NODE/'driver').exists():
+            break
+        time.sleep(.1)
+    if (NODE/'driver').resolve()==FIXED:
+        print('BMS_FIXED_ALREADY_ACTIVE',flush=True)
+        return
+    assert (NODE/'driver').resolve()==NATIVE,'Unexpected BMS binding'
+    try:
+        (NODE/'driver_override').write_text('mi4-bms-fixed')
+        (NATIVE/'unbind').write_text(DEVICE)
+        subprocess.run(['insmod',str(MODULE)],check=True,timeout=10)
+        if not (NODE/'driver').exists():
+            (FIXED/'bind').write_text(DEVICE)
+        assert (NODE/'driver').resolve()==FIXED
+        supply=Path('/sys/class/power_supply/bms')
+        assert 0<=int((supply/'capacity').read_text())<=100
+        assert 2500000<=int((supply/'voltage_ocv').read_text())<=4600000
+        print('BMS_FIXED_READY', (supply/'uevent').read_text(),flush=True)
+    except BaseException:
+        rollback()
+        raise
+
+
+if __name__=='__main__': main()
+Id=mi4-bms-fixed.service
+After=systemd-journald.socket system.slice local-fs.target systemd-modules-load.service basic.target sysinit.target
+InactiveExitTimestampMonotonic=12370877
+ActiveEnterTimestampMonotonic=13649695
+
+Id=systemd-udev-trigger.service
+After=systemd-udevd-control.socket system.slice systemd-journald.socket systemd-udevd-kernel.socket
+InactiveExitTimestampMonotonic=5560770
+ActiveEnterTimestampMonotonic=8163851
+
+Id=local-fs.target
+After=systemd-remount-fs.service run-user-1000.mount systemd-fsck-root.service local-fs-pre.target
+InactiveExitTimestampMonotonic=6081300
+ActiveEnterTimestampMonotonic=6081300
+
+Id=systemd-modules-load.service
+After=systemd-journald.socket umeko-modem-firmware.service system.slice
+InactiveExitTimestampMonotonic=6337435
+ActiveEnterTimestampMonotonic=6467224
+
+Id=basic.target
+After=tmp.mount sockets.target sysinit.target slices.target systemd-pcrphase-sysinit.service paths.target -.mount
+InactiveExitTimestampMonotonic=12292225
+ActiveEnterTimestampMonotonic=12292225
+vtcon0	vtcon1
+(S) dummy device
+(M) frame buffer device
+c6a85d6923df84102db8b89db7ada7f18ae23638bb6d3f86efe787a2a087de37  /usr/local/lib/obd-gauge/launch_gauge_direct.py
+412ccefce9410a17c75d330937c3abcf185b266e84f0fb692bad4e0917a1ba52  /usr/local/lib/obd-gauge/quiet_boot_direct.py
+6604420868ef3f3c7136a7f8650ecf0ce914605fe6b4311d3549b12833069a59  /etc/systemd/system/mi4-bms-fixed.service
+gauge_power_service.before-manual-off-20261019.py
+gauge_power_service.py
+gauge_power_service.py.bak-20261019
+gauge_power_service.py.bak-20261020
+[Unit]
+Description=OBD external power countdown policy
+After=local-fs.target
+
+[Service]
+Type=simple
+User=root
+Group=umeko
+UMask=0027
+RuntimeDirectory=obd-power
+RuntimeDirectoryMode=0750
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-power/gauge_power_service.py
+Restart=on-failure
+RestartSec=2
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_UNIX
+
+[Install]
+WantedBy=multi-user.target
+
+umeko@umeko-cancro:~$ 

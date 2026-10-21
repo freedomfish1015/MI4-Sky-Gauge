@@ -1,0 +1,19 @@
+
+NRestarts=0
+ActiveState=active
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+[ 2256.310479] umeko-cancro python3[897]: FPS 56.8  paint=0.9ms upload=0.1ms present=16.9ms wait=0.5ms pipeline=1
+[ 2258.316224] umeko-cancro python3[897]: FPS 59.3  paint=0.3ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[ 2260.322345] umeko-cancro python3[897]: FPS 59.3  paint=0.3ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[ 2262.329032] umeko-cancro python3[897]: FPS 57.3  paint=1.1ms upload=0.1ms present=16.6ms wait=0.7ms pipeline=1
+[ 2264.334743] umeko-cancro python3[897]: FPS 42.4  paint=7.8ms upload=1.0ms present=15.7ms wait=6.9ms pipeline=1
+[ 2266.340637] umeko-cancro python3[897]: FPS 59.3  paint=0.3ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[ 2268.347453] umeko-cancro python3[897]: FPS 59.3  paint=0.3ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[ 2270.354021] umeko-cancro python3[897]: FPS 59.3  paint=0.3ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+
+umeko@umeko-cancro:~$ 

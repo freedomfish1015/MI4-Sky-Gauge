@@ -1,0 +1,9 @@
+
+wp_stopped
+  : values=off
+  : values=off
+=== divider ===
+/sys/bus/platform/devices/fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: applied=0 base=0x5b00 div_ctl1=00 factor=0 en_ctl=80 enabled=1 gpio15_mode_ctl=00 dir=0 function=0 
+
+DONE_13114c94bd1b458d9728e270ea792e07
+umeko@umeko-cancro:~$ 

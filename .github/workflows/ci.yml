@@ -1,0 +1,26 @@
+name: source-checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  linux:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install host test dependencies
+        run: sudo apt-get update && sudo apt-get install -y build-essential python3-cairo python3-gi gir1.2-pango-1.0 python3-pygame python3-bleak python3-dbus-fast python3-qrcode
+      - run: python3 tools/audit_public_tree.py
+      - run: python3 tools/build_native.py --target host
+      - run: python3 tools/run_tests.py --full
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - shell: pwsh
+        run: ./installer/test.ps1
+      - shell: pwsh
+        run: ./installer/build.ps1

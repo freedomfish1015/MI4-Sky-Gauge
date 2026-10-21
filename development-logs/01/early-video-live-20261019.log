@@ -1,0 +1,16 @@
+
+{"status": "complete", "complete": true, "frames": 361, "last_pts": 12.0}NRestarts=0
+After=obd-power.service systemd-udev-trigger.service system.slice user@1000.service systemd-remount-fs.service bluetooth.target mi4-audio-init.service -.mount systemd-user-sessions.service obd-boot-curtain.service systemd-journald.socket
+ActiveState=active
+SubState=running
+FPS 58.8  paint=2.3ms upload=0.2ms present=16.7ms wait=0.1ms pipeline=1
+FPS 56.9  paint=2.4ms upload=0.2ms present=17.3ms wait=0.1ms pipeline=1
+FPS 56.4  paint=2.4ms upload=0.2ms present=17.4ms wait=0.1ms pipeline=1
+FPS 58.8  paint=2.3ms upload=0.2ms present=16.7ms wait=0.1ms pipeline=1
+FPS 58.8  paint=4.1ms upload=0.2ms present=15.7ms wait=1.0ms pipeline=1
+FPS 59.4  paint=4.1ms upload=0.2ms present=15.6ms wait=1.0ms pipeline=1
+FPS 59.3  paint=4.0ms upload=0.2ms present=15.6ms wait=1.0ms pipeline=1
+FPS 59.3  paint=4.1ms upload=0.2ms present=15.6ms wait=1.0ms pipeline=1
+1720
+
+umeko@umeko-cancro:~$ 

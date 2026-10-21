@@ -1,0 +1,28 @@
+
+2026-10-18T17:02:51+08:00 umeko-cancro kernel: msm_mdp fd900100.display-controller: pp done time out, lm=0
+2026-10-18T17:03:05+08:00 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+2026-10-18T17:03:11+08:00 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+2026-10-18T17:03:17+08:00 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+2026-10-18T17:03:23+08:00 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+2026-10-18T17:03:35+08:00 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+2026-10-18T17:03:47+08:00 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+2026-10-18T17:05:11+08:00 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+2026-10-18T17:05:11+08:00 umeko-cancro systemd[1]: ncm-serial.service: Deactivated successfully.
+2026-10-18T17:05:11+08:00 umeko-cancro systemd[1]: session-3.scope: Deactivated successfully.
+2026-10-18T17:05:11+08:00 umeko-cancro systemd[1]: session-3.scope: Consumed 7.161s CPU time.
+2026-10-18T17:05:11+08:00 umeko-cancro systemd-logind[384]: Session 3 logged out. Waiting for processes to exit.
+2026-10-18T17:05:11+08:00 umeko-cancro systemd-logind[384]: Removed session 3.
+2026-10-18T17:05:11+08:00 umeko-cancro NetworkManager[397]: <info>  [1792314311.9410] device (usb0): carrier: link connected
+2026-10-18T17:05:14+08:00 umeko-cancro systemd[1]: ncm-serial.service: Scheduled restart job, restart counter is at 3.
+2026-10-18T17:05:15+08:00 umeko-cancro systemd[1]: Started ncm-serial.service - Set NCM IP and start agetty on serial gadget.
+2026-10-18T17:05:20+08:00 umeko-cancro systemd-logind[384]: Power key pressed short.
+2026-10-18T17:05:22+08:00 umeko-cancro systemd-logind[384]: Power key pressed short.
+2026-10-18T17:05:23+08:00 umeko-cancro systemd-logind[384]: Power key pressed short.
+2026-10-18T17:05:23+08:00 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+2026-10-18T17:05:25+08:00 umeko-cancro systemd-logind[384]: Power key pressed short.
+2026-10-18T17:05:27+08:00 umeko-cancro systemd-logind[384]: Power key pressed short.
+'nothing'
+900
+uint32 300
+
+umeko@umeko-cancro:~$ 

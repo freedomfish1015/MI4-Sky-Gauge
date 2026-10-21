@@ -1,0 +1,12 @@
+
+gauge_settings.py: 成功
+407ae3648dacf034a04d631a12fe2febae27467803aca99b3ee8318fcd61a6f4  gauge_settings.py
+COMPACT_SETTINGS_INSTALLED_SELECTION_UNCHANGED
+BLE connected [BT-ADDRESS] profile=standard
+BLE connected [BT-ADDRESS] profile=standard
+----------------------------------------------------------------------
+Ran 15 tests in 6.115s
+
+OK (skipped=1)
+
+umeko@umeko-cancro:~$ 

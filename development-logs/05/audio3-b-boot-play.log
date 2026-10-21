@@ -1,0 +1,16 @@
+
+=== PipeWire sink ===
+ ├─ Sinks:
+ │  *   44. Built-in Audio Internal speaker     [vol: 1.00]
+ │  
+ ├─ Sink endpoints:
+Volume: 1.00
+=== 播放 10 秒 ===
+supply_owned=0 clock_owned=0 supply_hw_enabled=-19
+reg[0x1df]=6f rc=0
+reg[0x1e0]=00 rc=0
+reg[0x2e7]=00 rc=0
+=== 播放错误 ===
+
+DONE_31a5d45d4eeb4c56b44216aa2e720b59
+umeko@umeko-cancro:~$ 

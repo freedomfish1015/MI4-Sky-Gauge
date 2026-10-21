@@ -1,0 +1,25 @@
+{
+  "kernel_upstream": "https://github.com/bzy-080408/linux-msm8974",
+  "kernel_commit": "cc180c1fa4d924977a8e0239162c81bb370e1b9b",
+  "kernel_source_archive": {
+    "name": "mi4-sky-kernel-source-20261022.tar.gz",
+    "bytes": 255581029,
+    "sha256": "80dddea59de52940793b0f04c83cb985d0d4d820d86de4d8c25aff1ffc1d75ea",
+    "files": 88949
+  },
+  "lk2nd_source_archive": {
+    "name": "mi4-sky-lk2nd-source-20261022.tar.gz",
+    "bytes": 5484156,
+    "sha256": "01dba2705cef9f8d39bb0b7a70db1ddfd971e6a46924167e6cc5e92014c3ab1e",
+    "files": 2822
+  },
+  "lk2nd_commit": "not-present-in-local-snapshot; archive SHA is the source identifier",
+  "kernel_payload_prefix_matches_current_build": true,
+  "final_device_trees": [
+    {
+      "name": "current-device-tree-1.dts",
+      "source_sha256": "fe0e67c7598e27b257791798420becd88e43d6c86c40c99acfef769becb50ad4"
+    }
+  ],
+  "note": "Source snapshots and descriptions; not a claim of byte-reproducible historical images."
+}

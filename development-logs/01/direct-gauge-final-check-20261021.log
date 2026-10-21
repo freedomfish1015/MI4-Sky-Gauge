@@ -1,0 +1,22 @@
+
+  PID %CPU   RSS COMMAND
+  523 20.5 130228 /usr/bin/python3 /usr/local/lib/obd-gauge/launch_gauge_direct.
+0
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+-- No entries --
+inactive
+Id=mi4-motion.service
+ActiveState=active
+
+Id=mi4-elm-advertiser.service
+ActiveState=active
+
+Id=bluetooth.service
+ActiveState=active
+{"phase": "normal"}
+umeko@umeko-cancro:~$ 

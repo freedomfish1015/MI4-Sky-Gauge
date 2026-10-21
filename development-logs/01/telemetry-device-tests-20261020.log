@@ -1,0 +1,11 @@
+
+----------------------------------------------------------------------
+Ran 7 tests in 2.754s
+
+OK
+active
+40c0ee13de73023dbbc632547eefa0db4b39702628224319fb6fb9a98911e04f  gauge_settings.py
+de2981736a26aacccdcae822b98d505ad5b5f59455911fdf2a7200442352ba64  gauge_sdl.py
+6dcdb5de73ef6726485205bdb1a9a6a12027ae0500daae5eef7ab1421c79b19a  gauge_telemetry.py
+
+umeko@umeko-cancro:~$ 

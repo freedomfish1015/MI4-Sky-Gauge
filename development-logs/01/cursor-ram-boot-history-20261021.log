@@ -1,0 +1,16 @@
+
+68.34 194.11
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+ -3 91bed40cdd91493d875833766012567f Wed 2026-10-21 06:52:11 CST Wed 2026-10-21 06:53:54 CST
+ -2 c28a3466795a42c3a015955304c89aa3 Wed 2026-10-21 06:54:01 CST Wed 2026-10-21 06:54:51 CST
+ -1 a4fc486a379542aa96c5a515c50f76b2 Wed 2026-10-21 06:54:00 CST Wed 2026-10-21 07:24:15 CST
+  0 bc2e9aecbc99482fb9d07224600ab534 Wed 2026-10-21 07:24:21 CST Wed 2026-10-21 07:25:17 CST
+bc2e9aec-bc99-482f-b9d0-7224600ab534
+ls: 无法访问 '/sys/fs/pstore': 没有那个文件或目录
+earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=0
+umeko@umeko-cancro:~$ 

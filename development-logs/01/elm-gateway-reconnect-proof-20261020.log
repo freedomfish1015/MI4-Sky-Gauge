@@ -1,0 +1,38 @@
+
+{"event": "forward_to_obd", "monotonic": 6438.770655667, "bytes": 5, "packets": 598, "total_bytes": 3186}
+
+{"event": "forward_to_sky", "monotonic": 6438.843948115, "bytes": 15, "packets": 603, "total_bytes": 7832}
+
+{"event": "sky_write", "monotonic": 6439.169071605, "size": 8, "upstream_ready": true, "at": "ATSH6F1\r"}
+
+{"event": "sky_write", "monotonic": 6439.669424052, "size": 8, "upstream_ready": true, "at": "ATSH7DF\r"}
+
+{"event": "sky_write", "monotonic": 6441.168880302, "size": 5, "upstream_ready": true, "at": null, "packets": 543, "total_bytes": 2763}
+
+{"event": "forward_to_obd", "monotonic": 6443.971002176, "bytes": 5, "packets": 621, "total_bytes": 3309}
+
+{"event": "forward_to_sky", "monotonic": 6444.060474259, "bytes": 11, "packets": 626, "total_bytes": 8134}
+
+{"event": "sky_write", "monotonic": 6444.569177332, "size": 8, "upstream_ready": true, "at": "ATSH6F1\r"}
+
+{"event": "sky_write", "monotonic": 6444.969186238, "size": 8, "upstream_ready": true, "at": "ATSH7DF\r"}
+
+{"event": "sky_write", "monotonic": 6446.269126446, "size": 5, "upstream_ready": true, "at": null, "packets": 563, "total_bytes": 2865}
+
+{"event": "forward_to_obd", "monotonic": 6449.069678007, "bytes": 5, "packets": 643, "total_bytes": 3427}
+
+{"event": "forward_to_sky", "monotonic": 6449.179463788, "bytes": 12, "packets": 648, "total_bytes": 8425}
+
+{"event": "sky_write", "monotonic": 6450.269013892, "size": 8, "upstream_ready": true, "at": "ATSH6F1\r"}
+
+{"event": "sky_write", "monotonic": 6450.769043736, "size": 8, "upstream_ready": true, "at": "ATSH7DF\r"}
+
+{"event": "sky_write", "monotonic": 6451.469061079, "size": 5, "upstream_ready": true, "at": null, "packets": 583, "total_bytes": 2967}
+
+{"event": "forward_to_obd", "monotonic": 6454.069808526, "bytes": 5, "packets": 665, "total_bytes": 3545}
+
+{"time_utc": "2026-10-19T17:38:14Z", "monotonic_s": 6440.97, "pid": 3321, "event": "elm_forward_stats", "address": "[BT-ADDRESS]", "simulated": true, "sky": true, "commands": 208, "rx_bytes": 2717, "tx_bytes": 1110}
+{"time_utc": "2026-10-19T17:38:19Z", "monotonic_s": 6446.008, "pid": 3321, "event": "elm_forward_stats", "address": "[BT-ADDRESS]", "simulated": true, "sky": true, "commands": 230, "rx_bytes": 3007, "tx_bytes": 1228}
+{"time_utc": "2026-10-19T17:38:24Z", "monotonic_s": 6451.053, "pid": 3321, "event": "elm_forward_stats", "address": "[BT-ADDRESS]", "simulated": true, "sky": true, "commands": 252, "rx_bytes": 3297, "tx_bytes": 1346}
+
+umeko@umeko-cancro:~$ 

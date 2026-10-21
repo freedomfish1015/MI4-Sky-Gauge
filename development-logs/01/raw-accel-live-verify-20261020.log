@@ -1,0 +1,22 @@
+
+NRestarts=0
+Id=mi4-motion.service
+ActiveState=active
+
+NRestarts=0
+Id=obd-gauge-kiosk.service
+ActiveState=active
+{"ready": true, "calibrated": false, "calibration_required": false, "measurement_mode": "accelerometer_raw", "includes_gravity": true, "gyro_enabled": false, "accel_ms2": [0.141762078, 0.276947958, -9.27648255], "accel_g": [0.01445570893220417, 0.028240832292373032, -0.9459379655641836], "total_g": 0.946469834080836}
+LIVE_RAW_ACCEL_OK age= 0.027
+10月 20 21:45:55 umeko-cancro systemd[1]: Stopped mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+
+10月 20 21:45:55 umeko-cancro systemd[1]: mi4-motion.service: Consumed 1min 36.865s CPU time, 10.4M memory peak, 0B memory swap peak.
+
+10月 20 21:45:56 umeko-cancro systemd[1]: Starting mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+
+10月 20 21:45:56 umeko-cancro systemd[1]: Started mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+
+10月 20 21:45:57 umeko-cancro python3[2572]: GNSS continuous LOC session started
+
+
+umeko@umeko-cancro:~$ 

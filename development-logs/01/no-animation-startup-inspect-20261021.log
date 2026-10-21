@@ -1,0 +1,110 @@
+
+{"phase": "normal"} 06:18:09 up 9 min,  1 user,  load average: 1.89, 1.58, 0.92
+Startup finished in 5.202s (kernel) + 16.772s (userspace) = 21.974s 
+graphical.target reached after 11.767s in userspace.
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+obd-gauge-kiosk.service @9.969s
+└─mi4-bms-fixed.service @8.608s +1.298s
+  └─basic.target @8.461s
+    └─sysinit.target @8.450s
+      └─systemd-backlight@backlight:backlight.service @8.350s +96ms
+        └─system-systemd\x2dbacklight.slice @8.210s
+          └─system.slice @451ms
+            └─-.slice @451ms
+# ]8;;file://umeko-cancro/etc/systemd/system/obd-gauge-kiosk.service/etc/systemd/system/obd-gauge-kiosk.service]8;;
+[Unit]
+Description=OBD Gauge with early native boot movie
+DefaultDependencies=no
+After=systemd-remount-fs.service systemd-udev-trigger.service obd-boot-curtain.service
+Wants=bluetooth.target user@1000.service mi4-audio-init.service obd-boot-curtain.service
+Before=shutdown.target
+Conflicts=phosh.service shutdown.target
+
+[Service]
+Type=simple
+User=umeko
+Group=umeko
+WorkingDirectory=/home/umeko/desktop-offline
+RuntimeDirectory=obd-gauge
+RuntimeDirectoryMode=0700
+RuntimeDirectoryPreserve=restart
+Environment=XDG_RUNTIME_DIR=/run/obd-gauge
+Environment=SDL_VIDEODRIVER=kmsdrm
+Environment=SDL_RENDER_DRIVER=opengles2
+Environment=SDL_VIDEO_KMSDRM_DEVICE=/dev/dri/card0
+Environment=OBD_BOOT_AUDIO=alsa
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-gauge/launch_boot_video.py --ble [BT-ADDRESS]
+ExecStopPost=/usr/bin/python3 /usr/local/lib/obd-gauge/boot_video.py --restore-backlight
+Restart=always
+RestartSec=2
+TimeoutStartSec=30
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
+
+# ]8;;file://umeko-cancro/etc/systemd/system/obd-boot-curtain.service/etc/systemd/system/obd-boot-curtain.service]8;;
+[Unit]
+Description=Early native NERV boot curtain (rootfs only)
+DefaultDependencies=no
+After=systemd-remount-fs.service
+Before=sysinit.target obd-gauge-kiosk.service shutdown.target
+Conflicts=shutdown.target
+ConditionPathExists=/usr/local/share/obd-gauge/startup-1080.argb
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-gauge/boot_curtain.py /usr/local/share/obd-gauge/startup-1080.argb
+RemainAfterExit=yes
+TimeoutStartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=sysinit.target
+
+# ]8;;file://umeko-cancro/etc/systemd/system/obd-early-video-check.service/etc/systemd/system/obd-early-video-check.service]8;;
+[Unit]
+Description=Verify early boot movie completed, otherwise restore rootfs startup
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/check-obd-early-video
+-                                  - Wed 2026-10-21 06:10:58 CST     7min ago obd-early-video-check.timer  obd-early-video-check.service
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+[   19.077376] umeko-cancro python3[522]: BOOT_WARMUP_ASSETS 3.43s
+[   19.115233] umeko-cancro python3[522]: BOOT_WARMUP_BLUETOOTH_READY 1 after=3.48s
+[   19.412508] umeko-cancro python3[522]: BOOT_WARMUP_BLE_STARTED [BT-ADDRESS] profile=standard
+[   20.115390] umeko-cancro python3[522]: BOOT_VIDEO_FIRST_FRAME startup=0.52s native=1080x1920 audio=1 volume=0.50 GPU=YUV strides=[1080, 540, 540]
+[   20.846961] umeko-cancro python3[522]: BOOT_WARMUP_STATIC 1.43s portrait=True
+[   32.145999] umeko-cancro python3[522]: BOOT_VIDEO_EOS_COMPLETE frames=195 elapsed=12.03s fps=16.2 last_pts=12.0 render=5.1ms
+[   32.148527] umeko-cancro python3[522]: BOOT_VIDEO_CLOCK_STATS duration=12.138666666 elapsed=12.03s dropped=0
+[   32.403010] umeko-cancro python3[522]: BOOT_WARMUP_JOINED alive=False
+[   32.403010] umeko-cancro python3[522]: BOOT_HANDOFF_TO_GAUGE same_window=1 warm=1 static=1
+[   32.521092] umeko-cancro python3[522]: KMS mode 1080x1920 @60Hz vsync=True
+[   35.200589] umeko-cancro python3[522]: FPS 58.0  paint=1.4ms upload=0.1ms present=17.0ms wait=0.1ms pipeline=1
+[   37.203612] umeko-cancro python3[522]: FPS 59.4  paint=1.1ms upload=0.1ms present=16.7ms wait=0.1ms pipeline=1
+[   39.206517] umeko-cancro python3[522]: FPS 59.4  paint=1.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   41.210146] umeko-cancro python3[522]: FPS 59.4  paint=1.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   43.212822] umeko-cancro python3[522]: FPS 59.4  paint=1.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   45.216038] umeko-cancro python3[522]: FPS 59.4  paint=1.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   47.219094] umeko-cancro python3[522]: FPS 59.4  paint=1.2ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   49.222938] umeko-cancro python3[522]: FPS 59.4  paint=1.2ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   51.225617] umeko-cancro python3[522]: FPS 59.4  paint=1.2ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   53.228853] umeko-cancro python3[522]: FPS 59.4  paint=1.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   55.232345] umeko-cancro python3[522]: FPS 59.4  paint=1.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   57.235657] umeko-cancro python3[522]: FPS 59.4  paint=1.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   59.239319] umeko-cancro python3[522]: FPS 59.4  paint=1.2ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   61.243032] umeko-cancro python3[522]: FPS 59.4  paint=1.2ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+grep: 写入错误: 断开的管道
+94
+4243452
+
+umeko@umeko-cancro:~$ 

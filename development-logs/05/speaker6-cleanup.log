@@ -1,0 +1,12 @@
+
+active
+up=0 port=16 channel=144 ups=1 downs=1
+origin=asoc-trigger
+rc_prepare=0 rc_enable=0 rc_disable=0 rc_unprepare=0
+allocated=0
+applied=0 base=0x5b00
+div_ctl1=00 factor=0
+en_ctl=00 enabled=0
+gpio15_mode_ctl=21 dir=2 function=0
+
+umeko@umeko-cancro:~$ 

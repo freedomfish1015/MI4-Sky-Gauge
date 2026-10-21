@@ -1,0 +1,37 @@
+
+=== 服务状态 ===
+enabled
+# /etc/systemd/system/mi4-audio-init.service
+[Unit]
+Description=Mi4 internal speaker audio bring-up
+After=systemd-modules-load.service
+Before=sound.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/bin/mi4-audio-init.sh
+
+[Install]
+WantedBy=multi-user.target
+=== 脚本 ===
+-rwxr-xr-x 1 root root 1789 10月 18 17:53 /usr/local/bin/mi4-audio-init.sh
+22:	insmod "$OVERLAY" firmware="$DTBO" || exit 1
+27:# /etc/modprobe.d/mi4-audio.conf.
+28:modprobe snd_soc_lumia1520_q6 || exit 1
+39:amixer -c 0 cset name='SLIMBUS_0_RX Audio Mixer MultiMedia1' 1 >/dev/null 2>&1
+40:amixer -c 0 cset name='Mi4 Speaker Gate Switch' 1 >/dev/null 2>&1
+43:	[ -e "$d/mclk_div_test" ] || continue
+44:	if ! grep -q 'applied=1' "$d/mclk_div_state"; then
+45:		echo on > "$d/mclk_div_test"
+=== modprobe.d ===
+# Mi4 internal speaker: keep the verified audible gain pair
+# (analog step 0x04 + 0 dB digital). Daily volume is handled by PipeWire.
+options wcd9320 mi4_speaker_test_max=1
+=== UCM ===
+/usr/share/alsa/ucm2/conf.d/Mi4-Taiko
+=== ALSA state ===
+-rw-r--r-- 1 root root 160496 10月 18 17:52 /var/lib/alsa/asound.state
+
+DONE_582e50b9d3c34d98997340e98717f3a9
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,21 @@
+
+总计 12
+drwxr-xr-x  2 root root 4096 10月 18 17:29 .
+drwxr-xr-x 59 root root 4096 10月 18 17:29 ..
+lrwxrwxrwx  1 root root   62  8月 24 13:32 Qualcomm-RB5-WSA8815-Speakers-DMIC0.conf -> ../../Qualcomm/sm8250/Qualcomm-RB5-WSA8815-Speakers-DMIC0.conf
+=== 全部内容 ===
+----- /usr/share/alsa/ucm2/conf.d/sm8250/Qualcomm-RB5-WSA8815-Speakers-DMIC0.conf
+Syntax 3
+
+SectionUseCase."HiFi" {
+	File "/Qualcomm/sm8250/HiFi.conf"
+	Comment "HiFi quality Music."
+}
+
+SectionUseCase."HDMI" {
+	File "/Qualcomm/sm8250/HDMI.conf"
+	Comment "HDMI output."
+}
+
+DONE_22ad0592529a468da60a3635a586cfb0
+umeko@umeko-cancro:~$ 

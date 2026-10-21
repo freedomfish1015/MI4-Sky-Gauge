@@ -1,0 +1,13 @@
+
+modprobe: FATAL: Module snd_soc_lumia1520_q6 is in use.
+
+modprobe: FATAL: Module wcd9320 is in use.
+
+=== 声卡 ===
+ 0 [Mi4Taiko       ]: Mi4-Taiko - Mi4-Taiko
+                      Mi4-Taiko
+=== 参数 ===
+Y
+
+DONE_84f03e2680fa440bb8238c28059a766e
+umeko@umeko-cancro:~$ 

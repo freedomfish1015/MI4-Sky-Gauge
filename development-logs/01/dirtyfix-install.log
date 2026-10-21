@@ -1,0 +1,21 @@
+
+924d7d6a2e9a140f913e3765a5683c1ad2dfeaee3d705433ead1ac6dc9cae88f  /home/umeko/desktop-offline/gauge_sdl.py
+baa7ef41fc0a029c2a08f19dbc2f563692a7d9b40c5062a81c1ed3d7b8dc2388  /home/umeko/desktop-offline/gauge_sdl.before-dirtyfix-20261018.py
+MainPID=2179
+NRestarts=0
+ActiveState=active
+DIRTYFIX_INSTALLED
+10月 18 21:21:22 umeko-cancro python3[1958]: FPS 52.3  paint=1.3ms upload=0.1ms present=17.5ms
+10月 18 21:21:24 umeko-cancro python3[1958]: FPS 52.3  paint=1.3ms upload=0.1ms present=17.7ms
+10月 18 21:21:26 umeko-cancro python3[1958]: FPS 51.3  paint=1.2ms upload=0.1ms present=17.8ms
+10月 18 21:21:28 umeko-cancro python3[1958]: FPS 53.3  paint=1.1ms upload=0.1ms present=17.4ms
+10月 18 21:21:30 umeko-cancro python3[1958]: FPS 52.3  paint=1.1ms upload=0.1ms present=17.7ms
+10月 18 21:21:32 umeko-cancro python3[1958]: FPS 52.3  paint=1.0ms upload=0.1ms present=17.8ms
+10月 18 21:21:34 umeko-cancro python3[1958]: FPS 53.3  paint=0.9ms upload=0.0ms present=17.7ms
+10月 18 21:21:36 umeko-cancro python3[1958]: FPS 53.3  paint=0.8ms upload=0.0ms present=17.5ms
+10月 18 21:21:40 umeko-cancro python3[2179]: KMS mode 1080x1920 @60Hz vsync=True
+10月 18 21:21:40 umeko-cancro python3[2179]: BLE connected [BT-ADDRESS]
+10月 18 21:21:41 umeko-cancro python3[2179]: BLE first read rpm=1152.75 coolant=90.0
+10月 18 21:21:43 umeko-cancro python3[2179]: FPS 35.6  paint=14.6ms upload=1.4ms present=11.6ms
+
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,37 @@
+
+PROC:/sys/class/remoteproc/remoteproc0
+fb204000.remoteproc
+running
+/sys/devices/platform/soc/fb204000.remoteproc
+PROC:/sys/class/remoteproc/remoteproc1
+fc880000.remoteproc
+running
+/sys/devices/platform/soc/fc880000.remoteproc
+PROC:/sys/class/remoteproc/remoteproc2
+adsp
+running
+/sys/devices/platform/soc/fe200000.remoteproc
+  mi4-motion.service                            loaded    active   running Mi4 IIO motion and local GPS track recorder
+  mi4-rmtfs.service                             loaded    active   running Mi4 modem remote filesystem (read-only partitions)
+  obd-power.service                             loaded    active   running OBD external power countdown policy
+  umeko-modem-firmware.service                  loaded    active   exited  Extract WiFi/modem firmware from the modem partition
+10月 20 15:33:12 umeko-cancro kernel: remoteproc remoteproc0: powering up fb204000.remoteproc
+10月 20 15:33:12 umeko-cancro kernel: remoteproc remoteproc0: Booting fw image wcnss.mdt, size 732
+10月 20 15:33:12 umeko-cancro kernel: remoteproc remoteproc1: fc880000.remoteproc is available
+10月 20 15:33:12 umeko-cancro kernel: remoteproc remoteproc2: adsp is available
+10月 20 15:33:12 umeko-cancro kernel: remoteproc remoteproc2: powering up adsp
+10月 20 15:33:12 umeko-cancro kernel: remoteproc remoteproc2: Booting fw image adsp.mdt, size 1052
+10月 20 15:33:12 umeko-cancro kernel: remoteproc remoteproc0: remote processor fb204000.remoteproc is now up
+10月 20 15:33:13 umeko-cancro kernel: qcom_wcnss_ctrl remoteproc0:smd-edge.WCNSS_CTRL.-1.-1: WCNSS Version 1.5 1.2
+10月 20 15:33:13 umeko-cancro kernel: remoteproc remoteproc2: remote processor adsp is now up
+10月 20 15:33:13 umeko-cancro kernel: qcom,apr remoteproc2:smd-edge.apr_audio_svc.-1.-1: Adding APR/GPR dev: aprsvc:service:4:8
+10月 20 15:33:13 umeko-cancro kernel: qcom,apr remoteproc2:smd-edge.apr_audio_svc.-1.-1: Adding APR/GPR dev: aprsvc:service:4:7
+10月 20 15:33:13 umeko-cancro kernel: qcom,apr remoteproc2:smd-edge.apr_audio_svc.-1.-1: Adding APR/GPR dev: aprsvc:service:4:4
+10月 20 15:33:13 umeko-cancro kernel: qcom,apr remoteproc2:smd-edge.apr_audio_svc.-1.-1: Adding APR/GPR dev: aprsvc:service:4:3
+10月 20 15:33:14 umeko-cancro kernel: remoteproc remoteproc1: powering up fc880000.remoteproc
+10月 20 15:33:14 umeko-cancro kernel: remoteproc remoteproc1: Booting fw image mba.b00, size 295696
+10月 20 15:33:14 umeko-cancro kernel: qcom-q6v5-mss fc880000.remoteproc: MBA booted without debug policy, loading mpss
+10月 20 15:33:17 umeko-cancro kernel: remoteproc remoteproc1: remote processor fc880000.remoteproc is now up
+10月 20 15:33:18 umeko-cancro kernel: qcom_wcnss_ctrl remoteproc0:smd-edge.WCNSS_CTRL.-1.-1: expected cold boot completion
+
+umeko@umeko-cancro:~$ 

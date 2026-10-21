@@ -1,0 +1,27 @@
+
+10月 20 00:57:23 umeko-cancro python3[2606]: {"event": "forward_to_sky", "monotonic": 3989.707041185, "bytes": 4}
+10月 20 00:57:24 umeko-cancro python3[2606]: {"event": "sky_write", "monotonic": 3990.653291497, "size": 7, "upstream_ready": true, "at": null}
+10月 20 00:57:24 umeko-cancro python3[2606]: {"event": "SIMULATED_VALUES_NOT_REAL", "monotonic": 3990.653939414, "rpm": 1849, "speed": 33, "coolant": 87, "oil": 97, "voltage": 13.7, "throttle": 27}
+10月 20 00:57:24 umeko-cancro python3[2606]: {"event": "forward_to_sky", "monotonic": 3990.65851957, "bytes": 9}
+10月 20 00:57:24 umeko-cancro python3[2606]: {"event": "sky_write", "monotonic": 3990.802893372, "size": 8, "upstream_ready": true, "at": "ATSH7DF\r"}
+10月 20 00:57:24 umeko-cancro python3[2606]: {"event": "forward_to_sky", "monotonic": 3990.806924101, "bytes": 4}
+10月 20 00:57:25 umeko-cancro python3[2606]: {"event": "sky_write", "monotonic": 3991.803215195, "size": 5, "upstream_ready": true, "at": null}
+10月 20 00:57:25 umeko-cancro python3[2606]: {"event": "forward_to_sky", "monotonic": 3991.807179205, "bytes": 13}
+10月 20 00:57:25 umeko-cancro python3[2606]: {"event": "sky_write", "monotonic": 3992.00352733, "size": 5, "upstream_ready": true, "at": null}
+10月 20 00:57:25 umeko-cancro python3[2606]: {"event": "forward_to_sky", "monotonic": 3992.007773059, "bytes": 13}
+10月 20 00:57:26 umeko-cancro python3[2606]: {"event": "sky_write", "monotonic": 3992.203206913, "size": 5, "upstream_ready": true, "at": null}
+10月 20 00:57:26 umeko-cancro python3[2606]: {"event": "forward_to_sky", "monotonic": 3992.207081861, "bytes": 10}
+inactive
+active
+10月 20 00:57:26 umeko-cancro python3[2606]: {"event": "legacy_advertisement_removed", "monotonic": 3992.494541757, "result": "Instance removed: 2"}
+
+10月 20 00:57:26 umeko-cancro python3[2606]: {"event": "bridge_stopped", "monotonic": 3992.507690715}
+
+10月 20 00:57:26 umeko-cancro systemd[1]: mi4-elm-demo.service: Deactivated successfully.
+
+10月 20 00:57:26 umeko-cancro systemd[1]: Stopped mi4-elm-demo.service - /usr/bin/python3 -u /home/umeko/desktop-offline/elm327_ble_bridge.py --simulate --sky-address [BT-ADDRESS] --legacy-advertising --seconds 300.
+
+10月 20 00:57:26 umeko-cancro systemd[1]: mi4-elm-demo.service: Consumed 1.522s CPU time.
+
+
+umeko@umeko-cancro:~$ 

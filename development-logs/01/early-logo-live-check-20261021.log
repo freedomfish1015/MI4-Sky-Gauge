@@ -1,0 +1,29 @@
+
+MainPID=1431
+NRestarts=0
+ActiveState=active
+SubState=running
+FPS 50.9  paint=6.5ms upload=1.3ms present=15.4ms wait=2.9ms pipeline=1
+FPS 52.9  paint=5.7ms upload=1.1ms present=15.4ms wait=2.3ms pipeline=1
+FPS 50.9  paint=6.6ms upload=1.5ms present=15.5ms wait=2.6ms pipeline=1
+FPS 52.4  paint=5.6ms upload=1.2ms present=15.5ms wait=2.4ms pipeline=1
+FPS 51.4  paint=6.2ms upload=1.5ms present=15.4ms wait=2.5ms pipeline=1
+FPS 51.2  paint=6.6ms upload=1.5ms present=15.3ms wait=2.7ms pipeline=1
+FPS 52.2  paint=5.6ms upload=1.2ms present=15.6ms wait=2.3ms pipeline=1
+FPS 51.4  paint=6.5ms upload=1.4ms present=15.3ms wait=2.7ms pipeline=1
+FPS 47.0  paint=8.1ms upload=1.6ms present=15.6ms wait=4.0ms pipeline=1
+FPS 49.9  paint=6.9ms upload=1.4ms present=15.6ms wait=3.1ms pipeline=1
+FPS 50.9  paint=7.1ms upload=1.4ms present=14.9ms wait=3.3ms pipeline=1
+FPS 49.9  paint=7.7ms upload=1.6ms present=14.6ms wait=3.8ms pipeline=1
+FPS 49.9  paint=7.4ms upload=1.5ms present=15.0ms wait=3.5ms pipeline=1
+FPS 49.9  paint=7.3ms upload=1.4ms present=15.2ms wait=3.4ms pipeline=1
+FPS 47.5  paint=8.8ms upload=1.8ms present=14.9ms wait=4.3ms pipeline=1
+FPS 50.4  paint=6.7ms upload=1.3ms present=15.4ms wait=3.1ms pipeline=1
+FPS 50.9  paint=6.7ms upload=1.5ms present=15.4ms wait=2.8ms pipeline=1
+FPS 49.4  paint=7.3ms upload=1.7ms present=15.3ms wait=3.3ms pipeline=1
+before.json  file-2  file-4  file-5  file-6
+
+{"pid": 1431, "uptime": 951.88, "elapsed": 4.0}cat: /etc/systemd/system/obd-gauge-kiosk.service.d/99-early-logo.conf: 没有那个文件或目录
+ 1487 grep install_early_logo
+
+umeko@umeko-cancro:~$ 

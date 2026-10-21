@@ -1,0 +1,52 @@
+
+SOURCE {1: '00000000', 17: '032b687474703a2f2f7874726170617468322e697a6174636c6f75642e6e65742f78747261336772632e62696e2b687474703a2f2f7874726170617468332e697a6174636c6f75642e6e65742f78747261336772632e62696e2b687474703a2f2f7874726170617468312e697a6174636c6f75642e6e65742f78747261336772632e62696e'}
+
+VALIDITY_BEFORE {1: '00000000', 16: 'd065d76a000000000000'}
+
+NRestarts=0
+ActiveState=active
+10月 20 15:51:07 umeko-cancro systemd[1]: Stopping mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+
+10月 20 15:51:08 umeko-cancro systemd[1]: mi4-motion.service: Deactivated successfully.
+
+10月 20 15:51:08 umeko-cancro systemd[1]: Stopped mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+
+10月 20 15:51:08 umeko-cancro systemd[1]: mi4-motion.service: Consumed 1min 17.993s CPU time.
+
+-- Boot fb2f2ce04ab14851b7c23bbc34a94033 --
+
+10月 20 15:59:30 umeko-cancro systemd[1]: Starting mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+
+10月 20 15:59:33 umeko-cancro systemd[1]: Started mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+
+10月 20 15:59:34 umeko-cancro python3[554]: GNSS continuous LOC session started
+
+-- Boot 199d2ab64efd45bcbc096da99fc29209 --
+
+10月 20 16:41:26 umeko-cancro systemd[1]: Starting mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+
+10月 20 16:41:29 umeko-cancro systemd[1]: Started mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+
+10月 20 16:41:30 umeko-cancro python3[550]: GNSS continuous LOC session started
+
+-- Boot d7b9d91811e44a43af4ee7b3df8d5290 --
+
+10月 20 21:00:50 umeko-cancro python3[566]: GNSS continuous LOC session started
+
+10月 20 21:23:58 umeko-cancro systemd[1]: Stopping mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+
+10月 20 21:23:58 umeko-cancro systemd[1]: mi4-motion.service: Deactivated successfully.
+
+10月 20 21:23:58 umeko-cancro systemd[1]: Stopped mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+
+10月 20 21:23:58 umeko-cancro systemd[1]: mi4-motion.service: Consumed 1min 40.752s CPU time, 14.3M memory peak, 0B memory swap peak.
+
+10月 20 21:23:58 umeko-cancro systemd[1]: Starting mi4-motion.service - Mi4 IIO motion and local GPS track recorder...
+
+10月 20 21:23:58 umeko-cancro systemd[1]: Started mi4-motion.service - Mi4 IIO motion and local GPS track recorder.
+
+10月 20 21:23:59 umeko-cancro python3[1583]: GNSS continuous LOC session started
+
+{'status': 'searching', 'fix': False, 'satellites': 0, 'session_started': True, 'nmea_at': 1558.127842008, 'nmea_count': 608, 'used_satellites': {'at': 1558.127353153, 'reported': False, 'ids': []}, 'session_status': 'in-progress'}
+
+umeko@umeko-cancro:~$ 

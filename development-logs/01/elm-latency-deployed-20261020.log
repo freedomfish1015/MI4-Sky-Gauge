@@ -1,0 +1,103 @@
+
+{"event": "sky_write", "monotonic": 6897.059597003, "size": 5, "upstream_ready": true, "at": null, "packets": 56, "total_bytes": 284}
+
+{"event": "sky_write", "monotonic": 6897.914637367, "size": 8, "upstream_ready": true, "at": "ATSH6F1\r"}
+
+{"event": "sky_write", "monotonic": 6898.049403565, "size": 8, "upstream_ready": true, "at": "ATSH7DF\r"}
+
+{"event": "sky_write", "monotonic": 6899.459388929, "size": 8, "upstream_ready": true, "at": "ATSH6F1\r"}
+
+{"event": "sky_write", "monotonic": 6899.594652523, "size": 8, "upstream_ready": true, "at": "ATSH7DF\r"}
+
+{"event": "sky_write", "monotonic": 6901.109409293, "size": 8, "upstream_ready": true, "at": "ATSH6F1\r"}
+
+{"event": "sky_write", "monotonic": 6901.259703772, "size": 8, "upstream_ready": true, "at": "ATSH7DF\r"}
+
+{"event": "forward_to_obd", "monotonic": 6901.320207887, "bytes": 5, "packets": 132, "total_bytes": 706}
+
+{"event": "forward_to_sky", "monotonic": 6901.343990439, "bytes": 15, "packets": 135, "total_bytes": 1712}
+
+{"event": "sky_write", "monotonic": 6902.114551532, "size": 5, "upstream_ready": true, "at": null, "packets": 125, "total_bytes": 635}
+
+{"event": "sky_write", "monotonic": 6902.718959917, "size": 8, "upstream_ready": true, "at": "ATSH6F1\r"}
+
+{"event": "sky_write", "monotonic": 6902.849306428, "size": 8, "upstream_ready": true, "at": "ATSH7DF\r"}
+
+{"event": "sky_write", "monotonic": 6904.424462729, "size": 8, "upstream_ready": true, "at": "ATSH6F1\r"}
+
+{"event": "sky_write", "monotonic": 6904.604556583, "size": 8, "upstream_ready": true, "at": "ATSH7DF\r"}
+
+{
+
+  "label": "deployed-fast-20261020",
+
+  "seconds": 12,
+
+  "links": {
+
+    "13": {
+
+      "requests": 170,
+
+      "host_rtt_ms": {
+
+        "n": 170,
+
+        "mean": 35.28,
+
+        "median": 30.43,
+
+        "maximum": 64.83
+
+      },
+
+      "rpm_interval_ms": {
+
+        "n": 84,
+
+        "mean": 140.71,
+
+        "median": 134.99,
+
+        "maximum": 315.0
+
+      }
+
+    },
+
+    "12": {
+
+      "requests": 170,
+
+      "host_rtt_ms": {
+
+        "n": 170,
+
+        "mean": 21.82,
+
+        "median": 17.68,
+
+        "maximum": 44.06
+
+      },
+
+      "rpm_interval_ms": {
+
+        "n": 84,
+
+        "mean": 140.75,
+
+        "median": 132.03,
+
+        "maximum": 318.31
+
+      }
+
+    }
+
+  }
+
+}
+
+
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,34 @@
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.064s
+
+OK
+25aeed4b2c206fbe65c1d8fdd329ee80a017e4e00d8c6547757690652f05ab38  gauge_settings.py
+05442c4b17601bedbed39ed7d779638d9cc30626e10b29aaf042c61ed25e58ea  gauge_telemetry.py
+NRestarts=0
+Id=obd-gauge-kiosk.service
+ActiveState=active
+
+NRestarts=1
+Id=mi4-elm-advertiser.service
+ActiveState=active
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+10月 20 02:06:01 umeko-cancro python3[825]: FPS 22.6  paint=40.5ms upload=0.6ms present=10.7ms wait=32.9ms pipeline=1
+10月 20 02:06:03 umeko-cancro python3[825]: FPS 24.4  paint=36.4ms upload=0.5ms present=11.8ms wait=28.7ms pipeline=1
+10月 20 02:06:05 umeko-cancro python3[825]: FPS 25.7  paint=33.1ms upload=0.5ms present=12.3ms wait=26.1ms pipeline=1
+10月 20 02:06:07 umeko-cancro python3[825]: FPS 24.2  paint=37.2ms upload=0.5ms present=11.1ms wait=29.8ms pipeline=1
+10月 20 02:06:09 umeko-cancro python3[825]: FPS 27.7  paint=30.9ms upload=0.5ms present=11.7ms wait=24.0ms pipeline=1
+10月 20 02:06:12 umeko-cancro python3[1255]: Mouse cursor hidden (SDL cursor state=0)
+10月 20 02:06:13 umeko-cancro python3[1255]: Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+10月 20 02:06:13 umeko-cancro python3[1255]: BOOT_WARMUP_ASSETS 2.03s
+10月 20 02:06:13 umeko-cancro python3[1255]: BOOT_WARMUP_BLUETOOTH_READY 1 after=2.03s
+10月 20 02:06:14 umeko-cancro python3[1255]: BOOT_WARMUP_BLE_STARTED [BT-ADDRESS] profile=bmw.fg
+10月 20 02:06:14 umeko-cancro python3[1255]: BOOT_VIDEO_FIRST_FRAME startup=0.49s native=1080x1920 audio=1 volume=0.50 GPU=YUV strides=[1080, 540, 540]
+10月 20 02:06:15 umeko-cancro python3[1255]: BOOT_WARMUP_STATIC 1.23s portrait=True
+
+umeko@umeko-cancro:~$ 

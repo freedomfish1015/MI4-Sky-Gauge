@@ -1,0 +1,37 @@
+
+45.43 98.20
+63896a70-3149-4774-a1d6-496cf4ad9fa3
+MainPID=252
+NRestarts=0
+ExecMainStartTimestampMonotonic=5457768
+ActiveState=active
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+[    7.028290] umeko-cancro python3[252]: EARLY_GAUGE_START uptime=7.02
+[   14.209821] umeko-cancro python3[252]: Mouse cursor hidden (SDL cursor state=0)
+[   14.792935] umeko-cancro python3[252]: Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+[   14.990427] umeko-cancro python3[252]: EARLY_GAUGE_LOGO_PRESENTED uptime=14.98
+[   15.066341] umeko-cancro python3[252]: EARLY_GAUGE_BMS_READY uptime=15.06
+[   16.213416] umeko-cancro python3[252]: KMS mode 1080x1920 @60Hz vsync=True
+[   16.469580] umeko-cancro python3[252]: BLE error: BleakError('No Bluetooth adapters found.')
+[   18.697854] umeko-cancro python3[252]: EARLY_GAUGE_FIRST_FRAME {"pid": 252, "uptime": 18.69, "elapsed": 11.67}
+[   20.713544] umeko-cancro python3[252]: FPS 56.6  paint=1.4ms upload=0.0ms present=17.4ms wait=0.2ms pipeline=1
+[   21.148734] umeko-cancro python3[252]: BLE connected [BT-ADDRESS] profile=standard
+[   22.735165] umeko-cancro python3[252]: FPS 47.5  paint=7.0ms upload=1.1ms present=16.8ms wait=3.2ms pipeline=1
+[   24.758211] umeko-cancro python3[252]: FPS 51.4  paint=6.3ms upload=1.3ms present=15.3ms wait=2.8ms pipeline=1
+[   26.759789] umeko-cancro python3[252]: FPS 45.0  paint=9.1ms upload=1.9ms present=15.6ms wait=4.7ms pipeline=1
+[   28.765500] umeko-cancro python3[252]: FPS 44.4  paint=8.5ms upload=1.7ms present=16.5ms wait=4.4ms pipeline=1
+[   30.770534] umeko-cancro python3[252]: FPS 43.9  paint=8.9ms upload=1.8ms present=15.9ms wait=5.1ms pipeline=1
+[   32.775422] umeko-cancro python3[252]: FPS 44.4  paint=9.0ms upload=1.7ms present=16.1ms wait=4.7ms pipeline=1
+[   34.797318] umeko-cancro python3[252]: FPS 43.0  paint=10.2ms upload=2.1ms present=15.5ms wait=5.6ms pipeline=1
+[   36.801695] umeko-cancro python3[252]: FPS 49.9  paint=6.8ms upload=1.6ms present=15.3ms wait=3.2ms pipeline=1
+[   38.801980] umeko-cancro python3[252]: FPS 51.5  paint=6.3ms upload=1.4ms present=15.4ms wait=2.5ms pipeline=1
+[   40.812052] umeko-cancro python3[252]: FPS 51.7  paint=5.9ms upload=1.3ms present=15.7ms wait=2.3ms pipeline=1
+[   42.816155] umeko-cancro python3[252]: FPS 51.9  paint=6.1ms upload=1.3ms present=15.4ms wait=2.5ms pipeline=1
+[   44.825445] umeko-cancro python3[252]: FPS 49.8  paint=7.1ms upload=1.6ms present=15.3ms wait=3.1ms pipeline=1
+{"pid": 252, "uptime": 18.69, "elapsed": 11.67}
+umeko@umeko-cancro:~$ 

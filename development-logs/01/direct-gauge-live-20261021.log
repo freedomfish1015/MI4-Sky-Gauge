@@ -1,0 +1,29 @@
+
+MainPID=1377
+NRestarts=0
+ExecStart={ path=/usr/bin/python3 ; argv[]=/usr/bin/python3 /usr/local/lib/obd-gauge/launch_gauge_direct.py --ble [BT-ADDRESS] ; ignore_errors=no ; start_time=[Wed 2026-10-21 06:24:53 CST] ; stop_time=[n/a] ; pid=1377 ; code=(null) ; status=0/0 }
+ActiveState=active
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+10月 21 06:25:15 umeko-cancro python3[1377]: FPS 59.4  paint=2.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+10月 21 06:25:17 umeko-cancro python3[1377]: FPS 59.4  paint=2.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+10月 21 06:25:17 umeko-cancro python3[1377]: BLE error: BleakDeviceNotFoundError('Device with address [BT-ADDRESS] was not found.')
+10月 21 06:25:19 umeko-cancro python3[1377]: FPS 58.4  paint=2.1ms upload=0.0ms present=17.0ms wait=0.1ms pipeline=1
+10月 21 06:25:21 umeko-cancro python3[1377]: FPS 58.9  paint=2.1ms upload=0.0ms present=16.9ms wait=0.1ms pipeline=1
+10月 21 06:25:23 umeko-cancro python3[1377]: FPS 58.4  paint=2.2ms upload=0.0ms present=17.0ms wait=0.1ms pipeline=1
+10月 21 06:25:25 umeko-cancro python3[1377]: FPS 58.9  paint=2.1ms upload=0.0ms present=16.9ms wait=0.1ms pipeline=1
+10月 21 06:25:27 umeko-cancro python3[1377]: FPS 58.9  paint=2.1ms upload=0.0ms present=16.9ms wait=0.1ms pipeline=1
+10月 21 06:25:29 umeko-cancro python3[1377]: FPS 59.4  paint=2.0ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+10月 21 06:25:29 umeko-cancro python3[1377]: BLE error: BleakDeviceNotFoundError('Device with address [BT-ADDRESS] was not found.')
+10月 21 06:25:31 umeko-cancro python3[1377]: FPS 59.4  paint=2.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+10月 21 06:25:33 umeko-cancro python3[1377]: FPS 59.4  paint=2.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+94
+4233300
+disabled
+ls: 无法访问 '/run/mi4-motion': 没有那个文件或目录
+{"phase": "normal"}
+umeko@umeko-cancro:~$ 

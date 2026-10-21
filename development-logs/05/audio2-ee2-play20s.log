@@ -1,0 +1,16 @@
+
+ifd[0x030]=00 rc=0
+ifd[0x031]=00 rc=0
+ifd[0x034]=01 rc=0
+ifd[0x035]=00 rc=0
+ifd[0x040]=05 rc=0
+ifd[0x060]=05 rc=0
+ifd[0x180]=01 rc=0
+applied=1 base=0x5b00
+div_ctl1=02 factor=2
+en_ctl=80 enabled=1
+gpio15_mode_ctl=25 dir=2 function=2
+AUDIO_TEST_CLEANUP_DONE
+
+DONE_7ef974a92e5b47d3bf2c3946513cdd60
+umeko@umeko-cancro:~$ 

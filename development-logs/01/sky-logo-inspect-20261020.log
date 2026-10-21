@@ -1,0 +1,52 @@
+
+logo {"device": "/dev/mmcblk0p10", "size": 8388608, "sha256": "2daeb1f36095b44b318410b3f4e8b5d989dcc7bb023d1426c492dab0a3053e74"} header 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+MAGIC 424d [] count 0
+
+MAGIC 4c4f474f21212121 [] count 0
+
+MAGIC 53504c4153482121 [] count 0
+
+MAGIC 89504e47 [] count 0
+
+MAGIC ffd8ff [] count 0
+
+MAGIC 1f8b08 [] count 0
+
+aboot {"device": "/dev/mmcblk0p7", "size": 4194304, "sha256": "ff7bd7e050e5e91a6f50e8e31025c911f4c2f8b2ec73d2e2b3ccbc247b1c1212"} header 0500000003000000000000000000000f54be200054be200054be200f0000000054be200f00000000060000ea3b0100ea410100ea470100ea4d0100ea530100ea530100ea6a0100ea100f11ee0b0ac0e30500c0e3020080e3100f01ee0f00a0e13c0040e220109fe5010050e10900000a18209fe5043090e4043081e4020051e1
+
+ABOOT_STRING Target_cont_splash=1
+
+ABOOT_STRING Target_cont_splash=0
+
+ABOOT_STRING Continuous splash enabled, keeping panel alive.
+
+ABOOT_STRING SPLASH!!
+
+ABOOT_STRING splash
+
+ABOOT_STRING ERROR: splash Partition not found
+
+ABOOT_STRING Logo config doesn't match with fb config. Fall back to default logo
+
+ABOOT_STRING ERROR: Cannot read splash image from partition
+
+ABOOT_STRING ERROR: splash Partition table not found
+
+ABOOT_STRING ERROR: splash Partition invalid
+
+ABOOT_STRING ERROR: Cannot read splash image header
+
+ABOOT_STRING ERROR: Splash image header invalid
+
+ABOOT_STRING Logo config doesn't match with fb config. Fall back default logo
+
+BACKUP /home/umeko/desktop-offline/backups/sky-logo-before-9jewwy36
+
+3720885
+24
+1
+ls: 无法访问 '/tmp/usb-send.py': 没有那个文件或目录
+/home/umeko/desktop-offline/usb-send.py
+
+umeko@umeko-cancro:~$ 

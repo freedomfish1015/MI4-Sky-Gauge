@@ -1,0 +1,21 @@
+
+ 0 [Mi4Taiko       ]: Mi4-Taiko - Mi4-Taiko
+                      Mi4-Taiko
+applied=0 base=0x5b00
+div_ctl1=00 factor=0
+en_ctl=80 enabled=1
+gpio15_mode_ctl=00 dir=0 function=0
+[ 1772.293949] wcd9320 217:a0:0:0: IFD probe #1: sdev=68acd81a dev=68acd81a name=217:a0:0:0 laddr=0xca laddr_valid=1 status=1
+[ 1772.293977] wcd9320 217:a0:0:0: IFD probe #1: driver=deef160e name=wcd9320 task=modprobe pid=1386
+[ 1772.293999] wcd9320 217:a0:0:0: IFD probe #1: before: ifd_instance=00000000 drvdata=00000000 this_wcd=3bd8ece2
+[ 1772.294121] wcd9320 217:a0:0:0: interface function: no power or reset taken, waiting for enumeration
+[ 1772.294138] wcd9320 217:a0:0:0: interface regmap: own config, max_register 0x1b0, uncached
+[ 1772.294155] wcd9320 217:a0:0:0: IFD probe #1: after:  ifd_instance=3bd8ece2 drvdata=3bd8ece2 replaced=0
+[ 1772.294177] wcd9320 217:a0:0:0: IFD probe #1: exit after 0 ms: laddr=0xca laddr_valid=1 status=1 path=ifd -- slim_get_logical_addr() decides next
+[ 1772.294199] wcd9320 217:a0:0:0: IFD probe #1: returning 0 (bound)
+[ 1772.295221] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: Lumia MCLK experiment ready: base 0x5b00, DIV_CTL1 00, divclk state present
+[ 1772.378588] wcd9320-lumia-q6 sound: front end: MultiMedia1 Playback (id 0), trigger POST
+[ 1772.378618] wcd9320-lumia-q6 sound: back end: SLIMBUS_0_RX (id 2)
+[ 1772.476521] wcd9320-lumia-q6 sound: QDSP6 card registered: 2 link(s)
+
+umeko@umeko-cancro:~$ 

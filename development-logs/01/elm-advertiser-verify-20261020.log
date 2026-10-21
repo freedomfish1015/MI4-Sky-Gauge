@@ -1,0 +1,25 @@
+
+MainPID=2971
+NRestarts=0
+ActiveState=active
+SubState=running
+Started mi4-elm-advertiser.service - Mi4 OBDII BLE discovery (no simulated or forwarded vehicle data).
+
+{"event": "legacy_main_packet_name_enabled", "monotonic": 4872.963861786, "result": "Instance added: 2"}
+
+{"event": "bridge_advertising", "monotonic": 4872.964123765, "name": "OBDII Mi4", "upstream_ready": false, "mode": "discovery_only_no_fake_replies"}
+
+active
+sha256sum: /home/umeko/desktop-offline/elm327_ble_bridge.py: 权限不够
+Device [BT-ADDRESS] (public)
+	Name: SkyGauge-7730
+	Alias: SkyGauge-7730
+	Paired: no
+	Bonded: no
+	Trusted: no
+	Blocked: no
+	Connected: no
+	LegacyPairing: no
+	UUID: Unknown                   (00001ffa-0000-1000-8000-00805f9b34fb)
+
+umeko@umeko-cancro:~$ 

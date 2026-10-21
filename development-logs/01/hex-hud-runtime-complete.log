@@ -1,0 +1,15 @@
+
+{"status": "complete", "complete": true, "frames": 361, "last_pts": 12.0}MainPID=1809
+NRestarts=0
+ActiveState=active
+SubState=running
+FPS 57.7  paint=2.6ms upload=0.2ms present=16.6ms wait=0.5ms pipeline=1
+FPS 58.7  paint=2.4ms upload=0.2ms present=16.6ms wait=0.2ms pipeline=1
+FPS 59.2  paint=3.9ms upload=0.2ms present=15.6ms wait=1.1ms pipeline=1
+FPS 58.7  paint=2.1ms upload=0.2ms present=16.6ms wait=0.2ms pipeline=1
+FPS 58.2  paint=1.9ms upload=0.2ms present=16.9ms wait=0.1ms pipeline=1
+FPS 58.7  paint=2.3ms upload=0.2ms present=16.7ms wait=0.1ms pipeline=1
+FPS 58.7  paint=2.1ms upload=0.2ms present=16.8ms wait=0.1ms pipeline=1
+FPS 57.7  paint=2.0ms upload=0.2ms present=17.0ms wait=0.1ms pipeline=1
+
+umeko@umeko-cancro:~$ 

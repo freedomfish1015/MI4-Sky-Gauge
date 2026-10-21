@@ -1,0 +1,19 @@
+
+--- no soundcards ---
+[    0.000000] Linux version 6.15.11-mi4-audio1 (root@localhost) (arm-linux-gnueabi-gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #1 SMP PREEMPT Sun Oct 18 15:34:19 CST 2026
+[   44.948362] CPU: 1 UID: 0 PID: 174 Comm: gpu-worker Not tainted 6.15.11-mi4-audio1 #1 PREEMPT 
+[   46.132509] CPU: 1 UID: 0 PID: 174 Comm: gpu-worker Not tainted 6.15.11-mi4-audio1 #1 PREEMPT 
+[   46.247912] CPU: 1 UID: 0 PID: 174 Comm: gpu-worker Not tainted 6.15.11-mi4-audio1 #1 PREEMPT 
+[   46.314223] CPU: 1 UID: 0 PID: 174 Comm: gpu-worker Not tainted 6.15.11-mi4-audio1 #1 PREEMPT 
+[   46.904700] CPU: 1 UID: 0 PID: 174 Comm: gpu-worker Not tainted 6.15.11-mi4-audio1 #1 PREEMPT 
+[  274.035512] CPU: 1 UID: 0 PID: 174 Comm: gpu-worker Not tainted 6.15.11-mi4-audio1 #1 PREEMPT 
+[  280.035712] CPU: 1 UID: 0 PID: 174 Comm: gpu-worker Not tainted 6.15.11-mi4-audio1 #1 PREEMPT 
+[  847.909230] mi4-audio: applied mi4-audio-route-enable.dtbo, overlay id 1
+[  847.938866] wcd9320-lumia-q6 sound: back end: SLIMBUS_0_RX (id 2)
+[  847.938896] wcd9320-lumia-q6 sound: front end: MultiMedia1 Playback (id 0), trigger POST
+[  855.155229] wcd9320-lumia-q6 sound: ASoC: failed to instantiate card -19
+[  855.167586] wcd9320-lumia-q6 sound: error -ENODEV: failed to register the card
+major 0x0102 minor 0x0001 version 0x00 laddr 0xcb up 1 down 0
+function=pgd path=fresh online=1 adopted=0 power_owned=1 reset_transitions=2 supply_enables=1 supply_disables=0 identity_reads=1 identity_failures=0 stale_bus_state=0
+
+umeko@umeko-cancro:~$ 

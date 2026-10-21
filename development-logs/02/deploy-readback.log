@@ -1,0 +1,25 @@
+
+CHARGE_RADIO_R2_DEPLOYED /home/umeko/desktop-offline/backups/bt-charge-recovery-before-j4atr_0z
+
+charge_radio_guard.py bf45aa4c9a3ef63b0a49ac8dbd292bf1b0cc6053d2c72ae99ae10aa4c6c2c46a
+
+gauge_charge_mode_service.py b51fd95ffb2a613bf33156a423af8f56df491064938fd7534508f05d70e325c9
+
+50-rfkill-recovery.conf 4f629c4fa78713b4071fa06f1b190aca8f863cc691e3d4cb2ac64c59af892508
+
+0: hci0: Bluetooth
+	Soft blocked: no
+	Hard blocked: no
+Controller [BT-ADDRESS] (public)
+	Manufacturer: 0x001d (29)
+	Version: 0x07 (7)
+	Name: umeko-cancro
+	Alias: umeko-cancro
+	Class: 0x006c020c (7078412)
+	Powered: yes
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+active
+active
+
+umeko@umeko-cancro:~$ 

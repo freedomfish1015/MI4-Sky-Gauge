@@ -1,0 +1,66 @@
+
+[   11.324010] qcom,slim-ngd-ctrl fe12f000.slim-ngd: SLIM NGD: trigger = live SSR AFTER_POWERUP
+[   11.373312] qcom,slim-ngd-ctrl fe12f000.slim-ngd: SLIM NGD: QMI service 0x0301 discovered (version 1 instance 0) at node 5 port 3
+[   11.375907] qcom,apr remoteproc2:smd-edge.apr_audio_svc.-1.-1: Adding APR/GPR dev: aprsvc:service:4:8
+[   11.415147] qcom,apr remoteproc2:smd-edge.apr_audio_svc.-1.-1: Adding APR/GPR dev: aprsvc:service:4:7
+[   11.421988] qcom,slim-ngd-ctrl fe12f000.slim-ngd: SLIM SAT: Rcvd master capability
+[   11.429682] qcom,apr remoteproc2:smd-edge.apr_audio_svc.-1.-1: Adding APR/GPR dev: aprsvc:service:4:4
+[   11.438475] qcom,slim-ngd-ctrl fe12f000.slim-ngd: SLIM controller Registered
+[   11.446859] qcom,apr remoteproc2:smd-edge.apr_audio_svc.-1.-1: Adding APR/GPR dev: aprsvc:service:4:3
+[   11.462881] wcd9320 217:a0:1:0: CTL probe #1: sdev=d25b30ac dev=d25b30ac name=217:a0:1:0 laddr=0x00 laddr_valid=0 status=0
+[   11.469169] wcd9320 217:a0:1:0: CTL probe #1: driver=51036012 name=wcd9320 task=(udev-worker) pid=307 drvdata_before=00000000
+[   11.491348] wcd9320 217:a0:1:0: No cache used with register defaults set!
+[   11.499123] wcd9320 217:a0:1:0: ASoC component registered: wcd9320-codec, 1 DAI(s): wcd9320-slim-rx1
+[   11.565689] wcd9320 217:a0:1:0: fresh bring-up: 7 supplies enabled, reset released
+[   11.571957] wcd9320 217:a0:1:0: fresh bring-up: waiting for enumeration
+[   11.581116] wcd9320 217:a0:1:0: CTL probe #1: exit after 118 ms: laddr=0x00 laddr_valid=0 status=0 path=fresh -- slim_get_logical_addr() decides next
+[   11.594607] wcd9320 217:a0:1:0: id_major 0x0102 id_minor 0x0001 version 0x00 (raw 01 00 02 01 00)
+[   11.606673] wcd9320 217:a0:1:0: irq snapshot: raw_level=0 mode=00 status=00 00 00 00 mask=ff ff 3f 3f level=01 00 00
+[   11.614042] wcd9320 217:a0:1:0: masks written ff ff 3f 7f, read back ff ff 3f 7f
+[   11.626277] wcd9320 217:a0:1:0: nested irq chip registered: 29 sources, all masked, domain on parent irq 92
+[   11.632257] wcd9320 217:a0:1:0: parent irq 92 requested, kernel reports trigger type 0x4 (level high)
+[   11.641147] wcd9320 217:a0:1:0: bounded sampling started: 45 samples over ~30 s, then stop
+[   11.762632] wcd9320 217:a0:1:0: core init: 0/448 non-zero -- initialising
+[   11.769358] wcd9320 217:a0:1:0: bring-up step  1/4: reg 0x088 (VE 0x0888) old=04 mask=ff want=04 -> read=04  delay=0us  unverifiable  [bring_up: LEAKAGE_CTL = 0x04]
+[   11.787849] wcd9320 217:a0:1:0: bring-up step  2/4: reg 0x080 (VE 0x0880) old=00 mask=ff want=00 -> read=00  delay=5000us  unverifiable  [bring_up: CDC_CTL = 0 (assert digital-core reset), 5 ms]
+[   11.800416] wcd9320 217:a0:1:0: bring-up step  3/4: reg 0x080 (VE 0x0880) old=00 mask=ff want=03 -> read=03  delay=0us  unverifiable  [bring_up: CDC_CTL = 3 (release digital core)]
+[   11.816767] wcd9320 217:a0:1:0: bring-up step  4/4: reg 0x088 (VE 0x0888) old=04 mask=ff want=03 -> read=03  delay=0us  unverifiable  [bring_up: LEAKAGE_CTL = 0x03]
+[   11.832258] wcd9320 217:a0:1:0: bring-up: all 4 steps applied cleanly
+[   11.896592] wcd9320 217:a0:1:0: sample 1/45: raw_level=0 status=00 00 00 00 pending=no irqs=0
+[   11.913128] wcd9320 217:a0:1:0: core init: after release, 94/448 non-zero
+[   11.972724] wcd9320 217:a0:1:0: rco-wake step  1/15: reg 0x101 (VE 0x0901) old=50 mask=80 want=80 -> read=d0  delay=0us  OK  [BG: slow mode on]
+[   11.985931] wcd9320 217:a0:1:0: rco-wake step  2/15: reg 0x101 (VE 0x0901) old=d0 mask=04 want=04 -> read=d4  delay=0us  OK  [BG: precharge]
+[   12.000276] wcd9320 217:a0:1:0: rco-wake step  3/15: reg 0x101 (VE 0x0901) old=d4 mask=01 want=01 -> read=d5  delay=1000us  OK  [BG: enable, then 1 ms settle]
+[   12.013496] wcd9320 217:a0:1:0: rco-wake step  4/15: reg 0x101 (VE 0x0901) old=d5 mask=80 want=00 -> read=55  delay=0us  OK  [BG: slow mode off]
+[   12.026653] wcd9320 217:a0:1:0: rco-wake step  5/15: reg 0x1fa (VE 0x09fa) old=46 mask=10 want=00 -> read=46  delay=0us  OK  [RC_OSC_FREQ: clear bit 4]
+[   12.040008] wcd9320 217:a0:1:0: rco-wake step  6/15: reg 0x105 (VE 0x0905) old=16 mask=ff want=17 -> read=17  delay=5us  OK  [BIAS_OSC_BG_CTL = 0x17 (inherited magic: 'bandgap mode to fast')]
+[   12.053330] wcd9320 217:a0:1:0: rco-wake step  7/15: reg 0x1fa (VE 0x09fa) old=46 mask=80 want=80 -> read=c6  delay=0us  OK  [RC_OSC_FREQ: enable the RC oscillator]
+[   12.069959] wcd9320 217:a0:1:0: rco-wake step  8/15: reg 0x1fb (VE 0x09fb) old=0a mask=80 want=80 -> read=8a  delay=10us  OK  [RC_OSC_TEST: start pulse, rising]
+[   12.095846] wcd9320 217:a0:1:0: rco-wake step  9/15: reg 0x1fb (VE 0x09fb) old=8a mask=80 want=00 -> read=0a  delay=10000us  OK  [RC_OSC_TEST: start pulse, falling, then 10 ms settle]
+[   12.109785] wcd9320 217:a0:1:0: rco-wake step 10/15: reg 0x108 (VE 0x0908) old=04 mask=08 want=08 -> read=0c  delay=0us  OK  [CLK_BUFF_EN1: select RCO as the buffer source]
+[   12.125718] wcd9320 217:a0:1:0: rco-wake step 11/15: reg 0x109 (VE 0x0909) old=02 mask=ff want=02 -> read=02  delay=1000us  OK  [CLK_BUFF_EN2 = 0x02]
+[   12.141970] wcd9320 217:a0:1:0: rco-wake step 12/15: reg 0x108 (VE 0x0908) old=0c mask=01 want=01 -> read=0d  delay=1200us  OK  [CLK_BUFF_EN1: enable clock buffer (hardware-required delay)]
+[   12.156318] wcd9320 217:a0:1:0: rco-wake step 13/15: reg 0x109 (VE 0x0909) old=02 mask=02 want=00 -> read=00  delay=0us  OK  [CLK_BUFF_EN2: clear bit 1]
+[   12.171939] wcd9320 217:a0:1:0: rco-wake step 14/15: reg 0x109 (VE 0x0909) old=00 mask=04 want=04 -> read=04  delay=0us  OK  [CLK_BUFF_EN2: clock on]
+[   12.186324] wcd9320 217:a0:1:0: rco-wake step 15/15: reg 0x311 (VE 0x0b11) old=00 mask=01 want=01 -> read=01  delay=50us  unverifiable  [CDC_CLK_MCLK_CTL: gate the clock into the CDC block (unverifiable)]
+[   12.200305] wcd9320 217:a0:1:0: rco-wake: all 15 steps applied cleanly
+[   12.329737] wcd9320 217:a0:1:0: core verify: 95/448 non-zero (min 48), canary 0x320 = e4 (want e4)
+[   12.336890] wcd9320 217:a0:1:0: core init: complete, core_ready (0 -> 94 -> 95 non-zero)
+[   12.344848] wcd9320 217:a0:1:0: control function UP (#1), logical address 0xcb
+[   12.353565] wcd9320 217:a0:0:0: IFD probe #1: sdev=68acd81a dev=68acd81a name=217:a0:0:0 laddr=0x00 laddr_valid=0 status=0
+[   12.360614] wcd9320 217:a0:0:0: IFD probe #1: driver=51036012 name=wcd9320 task=(udev-worker) pid=307
+[   12.370982] wcd9320 217:a0:0:0: IFD probe #1: before: ifd_instance=00000000 drvdata=00000000 this_wcd=d29e1a82
+[   12.380569] wcd9320 217:a0:0:0: interface function: no power or reset taken, waiting for enumeration
+[   12.390197] wcd9320 217:a0:0:0: interface regmap: own config, max_register 0x1b0, uncached
+[   12.399452] wcd9320 217:a0:0:0: IFD probe #1: after:  ifd_instance=d29e1a82 drvdata=d29e1a82 replaced=0
+[   12.407527] wcd9320 217:a0:0:0: IFD probe #1: exit after 53 ms: laddr=0x00 laddr_valid=0 status=0 path=ifd -- slim_get_logical_addr() decides next
+[   12.421430] wcd9320 217:a0:0:0: IFD probe #1: returning 0 (bound)
+[   12.433826] wcd9320 217:a0:0:0: interface function UP (#1), logical address 0xca
+[   17.952063] wcd9320 217:a0:1:0: sample 21/45: raw_level=0 status=00 00 00 00 pending=no irqs=0
+[   42.910372] wcd9320 217:a0:1:0: sampling complete: 45 samples, pad high in 0, live source in 0, parent irqs 0 (spurious 0, acked 0)
+DEVICE=/sys/bus/slimbus/devices/217:a0:0:0
+../../../../../../bus/slimbus/drivers/wcd9320
+DEVICE=/sys/bus/slimbus/devices/217:a0:1:0
+../../../../../../bus/slimbus/drivers/wcd9320
+
+umeko@umeko-cancro:~$ 

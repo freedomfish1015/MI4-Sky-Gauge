@@ -1,0 +1,24 @@
+
+{"status": "already-repaired", "aboot_sha256": "d9ed7759fd8ed89cdd4351d582e45428316ab7ac6788bca4a45444c8b3dd5d49", "wrote": false}
+
+{
+
+  "status": "already-repaired",
+
+  "aboot_sha256": "d9ed7759fd8ed89cdd4351d582e45428316ab7ac6788bca4a45444c8b3dd5d49",
+
+  "wrote": false
+
+}active
+active
+Controller [BT-ADDRESS] (public)
+	Manufacturer: 0x001d (29)
+	Version: 0x07 (7)
+	Name: umeko-cancro
+	Alias: umeko-cancro
+	Class: 0x006c020c (7078412)
+	Powered: yes
+	Discoverable: no
+	DiscoverableTimeout: 0x000000b4 (180)
+
+umeko@umeko-cancro:~$ 

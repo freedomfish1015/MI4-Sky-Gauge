@@ -1,0 +1,88 @@
+test_incremental_matches_fresh_full_frame (test_gauge_sdl.IncrementalTests.test_incremental_matches_fresh_full_frame) ... FAIL
+test_merged_regions_are_disjoint (test_gauge_sdl.IncrementalTests.test_merged_regions_are_disjoint) ... ERROR
+test_real_sdl_partial_texture_matches_source (test_gauge_sdl.NativeSDLTests.test_real_sdl_partial_texture_matches_source) ... skipped 'opt-in real SDL2'
+test_empty_rectangles_are_skipped (test_gauge_sdl.UploadTests.test_empty_rectangles_are_skipped) ... FAIL
+test_fractional_bounds_are_outward_rounded_and_clipped (test_gauge_sdl.UploadTests.test_fractional_bounds_are_outward_rounded_and_clipped) ... FAIL
+test_native_error_is_not_silenced (test_gauge_sdl.UploadTests.test_native_error_is_not_silenced) ... FAIL
+test_partial_upload_uses_rectangle_origin (test_gauge_sdl.UploadTests.test_partial_upload_uses_rectangle_origin) ... FAIL
+test_sdl2_rectangle_abi (test_gauge_sdl.UploadTests.test_sdl2_rectangle_abi) ... FAIL
+
+======================================================================
+ERROR: test_merged_regions_are_disjoint (test_gauge_sdl.IncrementalTests.test_merged_regions_are_disjoint)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/小智-明日香/obd-linux/test_gauge_sdl.py", line 112, in test_merged_regions_are_disjoint
+    merged = gauge.Gauge.merge_regions(regions)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'Gauge' has no attribute 'merge_regions'
+
+======================================================================
+FAIL: test_incremental_matches_fresh_full_frame (test_gauge_sdl.IncrementalTests.test_incremental_matches_fresh_full_frame)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/小智-明日香/obd-linux/test_gauge_sdl.py", line 105, in test_incremental_matches_fresh_full_frame
+    self.assertEqual(mismatches, 0, "frame %d / RPM %s: %d differing bytes"
+AssertionError: 322 != 0 : frame 1 / RPM 30: 322 differing bytes
+
+======================================================================
+FAIL: test_empty_rectangles_are_skipped (test_gauge_sdl.UploadTests.test_empty_rectangles_are_skipped)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/小智-明日香/obd-linux/test_gauge_sdl.py", line 73, in test_empty_rectangles_are_skipped
+    self.assertEqual(screen.sdl.calls, [])
+AssertionError: Lists differ: [(40, 40, 2, 2), (3, 4, 0, 5)] != []
+
+First list contains 2 additional elements.
+First extra element 0:
+(40, 40, 2, 2)
+
+- [(40, 40, 2, 2), (3, 4, 0, 5)]
++ []
+
+======================================================================
+FAIL: test_fractional_bounds_are_outward_rounded_and_clipped (test_gauge_sdl.UploadTests.test_fractional_bounds_are_outward_rounded_and_clipped)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/小智-明日香/obd-linux/test_gauge_sdl.py", line 68, in test_fractional_bounds_are_outward_rounded_and_clipped
+    self.assertEqual(screen.sdl.calls, [(2, 3, 5, 4), (0, 18, 7, 2)])
+AssertionError: Lists differ: [(2, 3, 4, 2), (-3, 18, 10, 9)] != [(2, 3, 5, 4), (0, 18, 7, 2)]
+
+First differing element 0:
+(2, 3, 4, 2)
+(2, 3, 5, 4)
+
+- [(2, 3, 4, 2), (-3, 18, 10, 9)]
+?          ---    ^^      ^^  ^
+
++ [(2, 3, 5, 4), (0, 18, 7, 2)]
+?         +++     ^      ^  ^
+
+
+======================================================================
+FAIL: test_native_error_is_not_silenced (test_gauge_sdl.UploadTests.test_native_error_is_not_silenced)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/小智-明日香/obd-linux/test_gauge_sdl.py", line 85, in test_native_error_is_not_silenced
+    with self.assertRaisesRegex(RuntimeError, "injected upload failure"):
+AssertionError: RuntimeError not raised
+
+======================================================================
+FAIL: test_partial_upload_uses_rectangle_origin (test_gauge_sdl.UploadTests.test_partial_upload_uses_rectangle_origin)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/小智-明日香/obd-linux/test_gauge_sdl.py", line 62, in test_partial_upload_uses_rectangle_origin
+    self.assertEqual(screen.sdl.data[start:start + 24], source[start:start + 24])
+AssertionError: bytearray(b'\x00\x00\x00\xff\x05\x00\n\xff[52 chars]xff') != b'E@J\xffK@U\xffQ@`\xffW@j\xff]@u\xffb@\x80\xff'
+
+======================================================================
+FAIL: test_sdl2_rectangle_abi (test_gauge_sdl.UploadTests.test_sdl2_rectangle_abi)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/d/小智-明日香/obd-linux/test_gauge_sdl.py", line 52, in test_sdl2_rectangle_abi
+    self.assertEqual(ctypes.sizeof(gauge.SDLRect), 4 * ctypes.sizeof(ctypes.c_int))
+AssertionError: 8 != 16
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.278s
+
+FAILED (failures=6, errors=1, skipped=1)

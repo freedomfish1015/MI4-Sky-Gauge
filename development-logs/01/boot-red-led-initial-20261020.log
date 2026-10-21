@@ -1,0 +1,47 @@
+
+ 16:44:55 up 3 min,  1 user,  load average: 1.85, 1.27, 0.55
+SUPPLY:/sys/class/power_supply/bms
+DEVTYPE=power_supply
+POWER_SUPPLY_NAME=bms
+POWER_SUPPLY_TYPE=Battery
+POWER_SUPPLY_STATUS=Discharging
+POWER_SUPPLY_CAPACITY=99
+POWER_SUPPLY_TYPE=Battery
+SUPPLY:/sys/class/power_supply/smbb-bif
+DEVTYPE=power_supply
+OF_NAME=charger
+OF_FULLNAME=/soc/spmi@fc4cf000/pm8941@0/charger@1000
+OF_COMPATIBLE_0=qcom,pm8941-charger
+OF_COMPATIBLE_N=1
+POWER_SUPPLY_NAME=smbb-bif
+POWER_SUPPLY_TYPE=Battery
+POWER_SUPPLY_STATUS=Charging
+POWER_SUPPLY_CHARGE_TYPE=Fast
+POWER_SUPPLY_HEALTH=Good
+POWER_SUPPLY_PRESENT=1
+POWER_SUPPLY_TECHNOLOGY=Li-ion
+POWER_SUPPLY_VOLTAGE_MAX=4350000
+POWER_SUPPLY_VOLTAGE_MIN_DESIGN=3000000
+POWER_SUPPLY_CURRENT_MAX=2150000
+POWER_SUPPLY_TYPE=Battery
+SUPPLY:/sys/class/power_supply/smbb-dcin
+DEVTYPE=power_supply
+POWER_SUPPLY_NAME=smbb-dcin
+POWER_SUPPLY_TYPE=Mains
+POWER_SUPPLY_ONLINE=0
+POWER_SUPPLY_CHARGE_CONTROL_LIMIT=500000
+POWER_SUPPLY_CHARGE_CONTROL_LIMIT_MAX=2500000
+POWER_SUPPLY_TYPE=Mains
+SUPPLY:/sys/class/power_supply/smbb-usbin
+DEVTYPE=power_supply
+POWER_SUPPLY_NAME=smbb-usbin
+POWER_SUPPLY_TYPE=USB
+POWER_SUPPLY_ONLINE=1
+POWER_SUPPLY_CHARGE_CONTROL_LIMIT=1500000
+POWER_SUPPLY_CHARGE_CONTROL_LIMIT_MAX=2500000
+POWER_SUPPLY_TYPE=USB
+sudo: 需要密码
+ls: 无法访问 '/sys/fs/pstore': 没有那个文件或目录
+earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=0
+
+umeko@umeko-cancro:~$ 

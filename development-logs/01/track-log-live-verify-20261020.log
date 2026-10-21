@@ -1,0 +1,28 @@
+
+NRestarts=0
+ActiveState=active
+10月 20 21:39:33 umeko-cancro python3[2149]: KMS mode 1080x1920 @60Hz vsync=True
+
+10月 20 21:39:36 umeko-cancro python3[2149]: FPS 42.1  paint=18.4ms upload=0.4ms present=12.3ms wait=11.1ms pipeline=1
+
+10月 20 21:39:38 umeko-cancro python3[2149]: FPS 33.6  paint=25.8ms upload=0.4ms present=10.8ms wait=18.6ms pipeline=1
+
+10月 20 21:39:40 umeko-cancro python3[2149]: FPS 31.2  paint=26.1ms upload=0.4ms present=12.0ms wait=19.6ms pipeline=1
+
+10月 20 21:39:42 umeko-cancro python3[2149]: FPS 23.0  paint=42.5ms upload=0.6ms present=7.4ms wait=35.6ms pipeline=1
+
+10月 20 21:39:43 umeko-cancro python3[2149]: BLE error: BleakDeviceNotFoundError('Device with address [BT-ADDRESS] was not found.')
+
+10月 20 21:39:44 umeko-cancro python3[2149]: FPS 23.1  paint=42.4ms upload=0.6ms present=6.8ms wait=35.9ms pipeline=1
+
+10月 20 21:39:46 umeko-cancro python3[2149]: FPS 25.3  paint=37.4ms upload=0.5ms present=8.9ms wait=30.1ms pipeline=1
+
+10月 20 21:39:48 umeko-cancro python3[2149]: FPS 23.9  paint=40.3ms upload=0.6ms present=8.2ms wait=33.0ms pipeline=1
+
+10月 20 21:39:50 umeko-cancro python3[2149]: FPS 23.6  paint=40.8ms upload=0.6ms present=7.2ms wait=34.5ms pipeline=1
+
+e023f51550c169d116cb5721e8404aa79a81684d04d67e5741e2491cc225e1f1  /home/umeko/desktop-offline/gauge_telemetry.py
+c6b928a915a3fb14e7eaa39283122e1e38f890f8d0303a593884bd555a272037  /home/umeko/desktop-offline/gauge_sdl.py
+25aeed4b2c206fbe65c1d8fdd329ee80a017e4e00d8c6547757690652f05ab38  /home/umeko/desktop-offline/gauge_settings.py
+
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,23 @@
+
+BOOT_HANDOFF_TO_GAUGE same_window=1
+BOOT_VIDEO_FIRST_FRAME startup=0.51s native=1080x1920 audio=1 volume=0.50 GPU=YUV strides=[1080, 540, 540]
+BOOT_VIDEO_EOS_COMPLETE frames=361 elapsed=21.14s fps=17.1 last_pts=12.0 render=4.5ms
+BOOT_HANDOFF_TO_GAUGE same_window=1
+BOOT_HANDOFF_TO_GAUGE same_window=0
+After=system.slice systemd-remount-fs.service systemd-journald.socket systemd-udev-trigger.service systemd-modules-load.service
+# /etc/systemd/system/obd-power.service
+[Unit]
+Description=OBD external power countdown policy
+After=local-fs.target
+Before=obd-gauge-kiosk.service
+
+[Service]
+Type=simple
+User=root
+Group=umeko
+UMask=0027
+RuntimeDirectory=obd-power
+RuntimeDirectoryMode=0750
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-power/gauge_power_service.py
+
+umeko@umeko-cancro:~$ 

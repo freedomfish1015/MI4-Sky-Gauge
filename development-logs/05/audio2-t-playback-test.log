@@ -1,0 +1,32 @@
+
+=== 工具 ===
+/usr/bin/pw-play
+=== 默认 sink ===
+用法：
+  wpctl [选项…] COMMAND [COMMAND_OPTIONS] - WirePlumber Control CLI
+
+Commands:
+  status 
+  get-volume ID
+  inspect ID
+  set-default ID
+  set-volume ID VOL[%][-/+]
+  set-mute ID 1|0|toggle
+  set-profile ID INDEX
+  clear-default [ID]
+
+帮助选项：
+  -h, --help       显示帮助选项
+
+Pass -h after a command to see command-specific options
+
+=== 播放测试音(走PipeWire default) ===
+-rw------- 1 umeko umeko 1920044 10月 18 16:59 /home/umeko/desktop-offline/mi4-long-test.wav
+-rw------- 1 umeko umeko  158444 10月 18 16:07 /home/umeko/desktop-offline/mi4-quiet-test.wav
+正在播放 WAVE '/home/umeko/desktop-offline/mi4-long-test.wav' : Signed 16 bit Little Endian, 频率48000Hz， Mono
+被信号 已终止...退出
+aplay: pcm_write:2146: 写入错误：被中断的系统调用
+aplay_rc=0
+
+DONE_d301d11335a74dcfa386a6e6bd9fb96b
+umeko@umeko-cancro:~$ 

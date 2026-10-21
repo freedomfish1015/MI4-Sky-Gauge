@@ -1,0 +1,13 @@
+
+80fbd9bfa4501c43c93818e4db2c7e7d09ff325c9a7c6515cef5ce7238d46ec1 gauge_sdl.py
+804d9f67e495acfc457ec4653993ef55200bc30ccdf6482ac0a7540aa3f6a8de gauge_settings.py
+e58ecef5f9a8aa76c0d1ac273f4ea0c7c9c5afbc2aa457b1bbca406f8b2f6e97 gauge_windows.py
+WINDOW_DATA_INSTALLED_NO_BOOT_HARDWARE_OR_CONFIG_WRITES
+BLE connected [BT-ADDRESS] profile=standard
+BLE connected [BT-ADDRESS] profile=standard
+----------------------------------------------------------------------
+Ran 18 tests in 16.247s
+
+OK (skipped=1)
+
+umeko@umeko-cancro:~$ 

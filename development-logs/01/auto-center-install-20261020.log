@@ -1,0 +1,17 @@
+
+BACKUP /home/umeko/desktop-offline/backups/auto-center-before-knlcyupz
+
+AUTO_CENTER_INSTALLED
+
+/usr/local/lib/obd-motion/mi4_motiond.py 12e76398e40dcdbb6374ab86eae85f0e6024dd77461c6530f72a1c3d20355ebf
+
+/usr/local/lib/obd-motion/mi4_accel_autocenter.py 1eb6a33ce7e0bcfb1f54f1c74dd6df583822becf32d479d7a4752e2b88a1f254
+
+/home/umeko/desktop-offline/gauge_motion.py 20cfb569df3bf1e82b477bbba2839a47b030195d4ef9fe6f8a57616c415d0a1e
+
+/home/umeko/desktop-offline/gauge_telemetry.py 41e03c689dc4ce02e8212d0537965cf3afbb93a2a323525a218005afaab6e497
+
+/home/umeko/desktop-offline/gauge_settings.py 8495a4852154fddbddfb64463e3162b73d2affcab031aeca577a9de96c0b347d
+
+
+umeko@umeko-cancro:~$ 

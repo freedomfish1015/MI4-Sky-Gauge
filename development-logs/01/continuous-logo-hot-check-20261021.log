@@ -1,0 +1,62 @@
+
+DIRECT_GAUGE_CURTAIN_RELEASE_SKIPPED PermissionError()
+.DIRECT_GAUGE_CURTAIN_RELEASE uptime=1249.79
+.DIRECT_GAUGE_CURTAIN_RELEASE_SKIPPED FileNotFoundError()
+..DIRECT_GAUGE_CURTAIN_RELEASE uptime=1249.82
+DIRECT_GAUGE_LOGO_FALLBACK AttributeError("'DirectScreen' object has no attribute 'texture_width'")
+DIRECT_GAUGE_FIRST_FRAME {"pid": 1492, "uptime": 1249.97, "elapsed": 0.158}
+..DIRECT_GAUGE_CURTAIN_RELEASE uptime=1250.35
+.DIRECT_GAUGE_CURTAIN_RELEASE uptime=1250.36
+DIRECT_GAUGE_LOGO_FALLBACK AttributeError("'DirectScreen' object has no attribute 'texture_width'")
+.DIRECT_GAUGE_START uptime=1250.53
+...DIRECT_GAUGE_CURTAIN_RELEASE uptime=1250.55
+DIRECT_GAUGE_LOGO_FALLBACK ValueError('Unexpected native logo/texture geometry')
+DIRECT_GAUGE_FIRST_FRAME {"pid": 1492, "uptime": 1250.55, "elapsed": 0.007}
+.DIRECT_GAUGE_CURTAIN_RELEASE uptime=1250.76
+DIRECT_GAUGE_LOGO_PRESENTED uptime=1250.94
+DIRECT_GAUGE_FIRST_FRAME {"pid": 1492, "uptime": 1250.95, "elapsed": 0.186}
+.DIRECT_GAUGE_LOGO_PRESENTED uptime=1251.32
+...
+----------------------------------------------------------------------
+Ran 16 tests in 1.946s
+
+OK
+[    7.437094] umeko-cancro systemd[1]: Finished obd-boot-curtain.service - Early native NERV boot curtain (rootfs only).
+
+-- Boot 199d2ab64efd45bcbc096da99fc29209 --
+
+[    7.996323] umeko-cancro python3[254]: BOOT_CURTAIN_PAINTED stride=4352 (no boot/kernel changes)
+
+[    8.043095] umeko-cancro systemd[1]: Finished obd-boot-curtain.service - Early native NERV boot curtain (rootfs only).
+
+-- Boot de537ad8aeef427d8ac5ef962f663818 --
+
+[ 1212.801262] umeko-cancro systemd[1]: obd-boot-curtain.service: Deactivated successfully.
+
+[ 1212.803147] umeko-cancro systemd[1]: Stopped obd-boot-curtain.service - Native Sky Gauge static logo until dashboard handoff.
+
+[ 1219.672434] umeko-cancro systemd[1]: Started obd-boot-curtain.service - Sky Gauge framebuffer logo retained until SDL handoff.
+
+[ 1219.783278] umeko-cancro sky_boot_curtain[1436]: SKY_CURTAIN_PAINTED uptime=1219.783 elapsed=0.107 stride=4352 count=1
+
+[ 1221.207051] umeko-cancro sky_boot_curtain[1436]: SKY_CURTAIN_HOLD_END uptime=1221.201 paints=1
+
+MainPID=0
+NRestarts=0
+ExecMainStatus=0
+Id=obd-boot-curtain.service
+
+MainPID=1437
+NRestarts=0
+ExecMainStatus=0
+Id=obd-gauge-kiosk.service
+FPS 52.9  paint=5.3ms upload=1.1ms present=15.8ms wait=2.0ms pipeline=1
+FPS 47.0  paint=8.5ms upload=1.6ms present=15.5ms wait=4.2ms pipeline=1
+FPS 47.0  paint=8.4ms upload=1.7ms present=15.3ms wait=4.2ms pipeline=1
+FPS 47.5  paint=7.2ms upload=1.4ms present=16.2ms wait=3.5ms pipeline=1
+FPS 43.5  paint=9.4ms upload=1.9ms present=16.0ms wait=5.2ms pipeline=1
+FPS 47.9  paint=7.8ms upload=1.5ms present=15.5ms wait=3.8ms pipeline=1
+FPS 48.9  paint=7.3ms upload=1.4ms present=15.5ms wait=3.6ms pipeline=1
+FPS 45.9  paint=8.3ms upload=1.6ms present=15.9ms wait=4.3ms pipeline=1
+
+umeko@umeko-cancro:~$ 

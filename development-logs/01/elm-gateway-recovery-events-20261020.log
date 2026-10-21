@@ -1,0 +1,16 @@
+
+{"event": "ipc_upstream_ready", "monotonic": 6226.834638977, "address": "[BT-ADDRESS]", "simulated": true}
+{"event": "ipc_upstream_closed", "monotonic": 6229.223619237, "reason": "ValueError"}
+{"event": "ipc_upstream_ready", "monotonic": 6233.067218298, "address": "[BT-ADDRESS]", "simulated": true}
+{"event": "ipc_upstream_closed", "monotonic": 6254.388538342, "reason": "ValueError"}
+{"event": "ipc_upstream_ready", "monotonic": 6259.152412871, "address": "[BT-ADDRESS]", "simulated": true}
+{"event": "sky_subscribed", "monotonic": 6299.02022421}
+{"event": "sky_write", "monotonic": 6299.519179002, "size": 4, "upstream_ready": true, "at": "ATZ\r"}
+{"event": "ipc_upstream_closed", "monotonic": 6385.913076625, "reason": "ValueError"}
+{"event": "sky_unsubscribed", "monotonic": 6388.077259645}
+{"event": "ipc_upstream_ready", "monotonic": 6390.434180686, "address": "[BT-ADDRESS]", "simulated": true}
+{"event": "sky_subscribed", "monotonic": 6397.22006386}
+{"event": "sky_write", "monotonic": 6397.919561464, "size": 4, "upstream_ready": true, "at": "ATZ\r"}
+{"type": "sample", "utc": "2026-10-19T17:38:38.329+00:00", "t": 6464.420881751, "channels": {"rpm": 2135.0, "speed": 8.0, "throttle": 23.137254901960784, "gx": -0.016421878276475656, "gy": -0.00651913420179164}, "values": {"rpm": 2135.0, "speed": 8.0, "coolant": 86.0, "oil": 80.0, "battery": 12.403}, "signals": {"obd.rpm": 2135.0, "obd.intake_temp": 25.0, "obd.speed": 8.0, "obd.coolant_temp": 86.0, "obd.load": 30.58823529411765, "obd.throttle": 23.137254901960784, "obd.oil_temp": 80.0, "obd.battery_voltage": 12.403, "obd.boost": 0.0}, "connection": "台架模拟源 → Sky 转发中", "context": {"address": "[BT-ADDRESS]", "profile": "bmw.fg", "mode": "direct", "sky_forward": true, "simulated_source": true}}
+
+umeko@umeko-cancro:~$ 

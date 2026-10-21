@@ -1,0 +1,15 @@
+
+10月 18 20:24:04 umeko-cancro python3[1294]: FPS 35.5
+10月 18 20:24:06 umeko-cancro python3[1294]: FPS 35.6
+10月 18 20:24:10 umeko-cancro python3[1400]: KMS mode 1080x1920
+10月 18 20:24:13 umeko-cancro python3[1400]: FPS 7.3
+10月 18 20:24:15 umeko-cancro python3[1400]: FPS 8.2
+10月 18 20:24:17 umeko-cancro python3[1400]: FPS 12.4
+10月 18 20:24:19 umeko-cancro python3[1400]: FPS 18.7
+10月 18 20:24:21 umeko-cancro python3[1400]: FPS 18.2
+pid=1400
+ 进程 USER      PR  NI    虚拟   驻留   共享    %CPU  %MEM     时间+ COMMAND
+ 1400 umeko     20   0  421364 121756  76704 R 100.3   4.1   0:17.66 python3
+
+DONE_8064164e67e1482ba77c0e7bd827d536
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,11 @@
+
+test_hide_cursor_only_changes_visibility (test_gauge_sdl.UploadTests.test_hide_cursor_only_changes_visibility) ... ok
+test_real_sdl_partial_texture_matches_source (test_gauge_sdl.NativeSDLTests.test_real_sdl_partial_texture_matches_source) ... Mouse cursor hidden (SDL cursor state=0)
+ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.142s
+
+OK
+
+umeko@umeko-cancro:~$ 

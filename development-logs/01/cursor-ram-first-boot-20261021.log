@@ -1,0 +1,10 @@
+
+ 07:24:39 up 0 min,  1 user,  load average: 2.19, 0.57, 0.19
+earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=0
+{"pid": 454, "uptime": 19.68, "elapsed": 6.666}0
+NRestarts=0
+ActiveState=active
+88
+4157007
+{"phase": "normal"}
+umeko@umeko-cancro:~$ 

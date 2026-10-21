@@ -1,0 +1,179 @@
+
+2026-10-20T00:43:44+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:43:54+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 1.
+2026-10-20T00:43:57+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:44:07+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 2.
+2026-10-20T00:48:13+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:48:23+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 3.
+2026-10-20T00:48:26+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:48:36+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 4.
+2026-10-20T00:50:17+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:50:27+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 5.
+2026-10-20T00:50:30+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:50:40+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 6.
+2026-10-20T00:51:08+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:51:18+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 7.
+2026-10-20T00:51:21+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:51:31+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 8.
+2026-10-20T00:51:59+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:52:09+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 9.
+2026-10-20T00:52:12+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:52:22+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 10.
+2026-10-20T00:53:37+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:53:47+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 11.
+2026-10-20T00:53:50+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:54:00+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 12.
+2026-10-20T00:54:25+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:54:35+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 13.
+2026-10-20T00:54:38+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:54:48+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 14.
+2026-10-20T00:55:01+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:55:11+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 15.
+2026-10-20T00:55:14+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:55:24+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 16.
+2026-10-20T00:57:43+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:57:53+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 17.
+2026-10-20T00:57:56+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T00:58:06+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 18.
+2026-10-20T01:52:12+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T01:54:20+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T01:54:30+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 1.
+2026-10-20T01:59:43+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T01:59:53+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 2.
+2026-10-20T01:59:56+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T02:00:06+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 3.
+2026-10-20T07:30:54+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T07:31:04+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 1.
+2026-10-20T07:33:57+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T07:34:07+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 2.
+2026-10-20T07:37:13+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T07:37:23+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 3.
+2026-10-20T07:37:26+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T07:37:36+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 4.
+2026-10-20T07:40:02+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T07:40:12+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 5.
+2026-10-20T07:40:15+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T07:40:25+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 6.
+2026-10-20T07:40:50+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T07:41:00+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 7.
+2026-10-20T07:41:03+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T07:41:13+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 8.
+2026-10-20T07:47:07+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T07:47:17+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 9.
+2026-10-20T07:49:00+08:00 umeko-cancro systemd[1]: mi4-motion.service: Main process exited, code=killed, status=11/SEGV
+2026-10-20T07:49:10+08:00 umeko-cancro systemd[1]: mi4-motion.service: Scheduled restart job, restart counter is at 10.
+CORES
+总计 0
+CRASH_FILES
+GNSS_SOURCE
+        """Record per-constellation satellite count and SNR from a GSV sentence.
+
+        Talkers: GP=GPS, GL=GLONASS, BD/GB=BeiDou, GA=Galileo, GQ=QZSS.
+        Kept small on purpose -- the gauge reads this from /run/obd-motion/state.json.
+        """
+        fields = line.split('*')[0].split(',')
+        if len(fields) < 4:
+            return
+        talker = fields[0][1:3]
+        found = {}
+        for index in range(4, len(fields) - 3, 4):
+            try:
+                prn = int(fields[index])
+                snr = int(fields[index + 3] or 0)
+            except (ValueError, IndexError):
+                continue
+            if snr > 0:
+                found[prn] = snr
+        if not found:
+            return
+        table = self.state.setdefault('constellations', {})
+        table[talker] = {'count': len(found),
+                         'snr': sorted(found.values(), reverse=True)[:8]}
+
+    def satellites(self, _client, output):
+        self.touch()
+        try:
+            items = output.get_list()
+            self.state['satellites'] = len(items)
+            systems = {}
+            details = []
+            for item in items:
+                try:
+                    # libqmi GI exposes list elements as structs with fields,
+                    # not objects with get_system() accessors.
+                    name = item.system.value_nick
+                    valid = int(item.valid_information)
+                    detail = {'valid_mask': valid}
+                    if valid & 1:
+                        detail['system'] = name
+                    if valid & 2:
+                        detail['id'] = int(item.gnss_satellite_id)
+                    if valid & 128:
+                        import math
+                        snr = float(item.signal_to_noise_ratio_bhz)
+                        if math.isfinite(snr):
+                            detail['snr_dbhz'] = snr
+                    if valid & 8:
+                        detail['status'] = item.satellite_status.value_nick
+                    details.append(detail)
+                except Exception:
+                    continue
+                if valid & 1:
+                    systems[name] = systems.get(name, 0) + 1
+            self.state['systems'] = systems
+            self.state['satellite_details'] = details
+            self.state.pop('satellite_report_error', None)
+        except Exception as exc:
+            self.state['satellite_report_error'] = str(exc)
+        self.state['satellite_report_at'] = time.monotonic()
+
+    def position(self, _client, output):
+        self.touch()
+        # Never retain an older fix's used-in-solution list if TLV is absent.
+        self.state['used_satellites'] = dict(at=time.monotonic(), reported=False, ids=[])
+        try:
+            status = output.get_session_status()
+            if status != self.Qmi.LocSessionStatus.SUCCESS:
+                self.state.update(fix=False, status='searching',
+                                  session_status=status.value_nick)
+                return
+[LOCATION-BEARING LINE REMOVED]
+            stamp = output.get_utc_timestamp() / 1000
+            accuracy = output.get_horizontal_uncertainty_circular()
+            import math
+            if not (all(math.isfinite(x) for x in (lat, lon, stamp, accuracy))
+                    and -90 <= lat <= 90 and -180 <= lon <= 180
+                    and stamp > 1577836800 and 0 < accuracy <= 100):
+                self.state.update(fix=False, status='poor_accuracy')
+                return
+[LOCATION-BEARING LINE REMOVED]
+                          utc=stamp, accuracy_m=accuracy, fix_at=time.monotonic())
+            try:
+                ids = [int(sv) for sv in output.get_satellites_used()]
+                report['used_satellites'] = dict(at=time.monotonic(), reported=True, ids=ids)
+            except Exception:
+                pass  # Optional TLV missing: unknown, not "GPS only".
+            for field, method in [('speed_ms', 'get_horizontal_speed'),
+                                  ('altitude_m', 'get_altitude_from_sealevel')]:
+                try:
+                    value = getattr(output, method)()
+                    if math.isfinite(value):
+                        report[field] = value
+                except Exception:
+                    pass
+            self.state.update(report)
+        except Exception as exc:
+            self.state.update(fix=False, status='invalid_report', error=str(exc))
+
+MODEM_START
+#!/bin/sh
+set -eu
+for node in /sys/class/remoteproc/remoteproc*; do
+    if [ "$(cat "$node/name")" = 'fc880000.remoteproc' ]; then
+        [ "$(cat "$node/state")" = running ] || printf start > "$node/state"
+        exit 0
+    fi
+done
+exit 1
+
+umeko@umeko-cancro:~$ 

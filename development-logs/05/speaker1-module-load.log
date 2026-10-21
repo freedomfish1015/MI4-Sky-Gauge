@@ -1,0 +1,29 @@
+
+active
+cp: warning: behavior of -n is non-portable and may change in future; use --update=none instead
+
+ 0 [Mi4Taiko       ]: Mi4-Taiko - Mi4-Taiko
+                      Mi4-Taiko
+major 0x0102 minor 0x0001 version 0x00 laddr 0xcb up 1 down 0
+[ 1625.855838] wcd9320 217:a0:1:0: rco-wake step 14/15: reg 0x109 (VE 0x0909) old=00 mask=04 want=04 -> read=04  delay=0us  OK  [CLK_BUFF_EN2: clock on]
+[ 1625.858002] wcd9320 217:a0:1:0: rco-wake step 15/15: reg 0x311 (VE 0x0b11) old=00 mask=01 want=01 -> read=01  delay=50us  unverifiable  [CDC_CLK_MCLK_CTL: gate the clock into the CDC block (unverifiable)]
+[ 1625.858035] wcd9320 217:a0:1:0: rco-wake: all 15 steps applied cleanly
+[ 1626.087170] wcd9320 217:a0:1:0: core verify: 95/448 non-zero (min 48), canary 0x320 = e4 (want e4)
+[ 1626.087201] wcd9320 217:a0:1:0: core init: complete, core_ready (0 -> 94 -> 95 non-zero)
+[ 1626.087224] wcd9320 217:a0:1:0: recovered after fresh bring-up
+[ 1626.087243] wcd9320 217:a0:1:0: CTL probe #1: exit after 1281 ms: laddr=0xcb laddr_valid=1 status=1 path=adopt -- slim_get_logical_addr() decides next
+[ 1626.087745] wcd9320 217:a0:0:0: IFD probe #1: sdev=68acd81a dev=68acd81a name=217:a0:0:0 laddr=0xca laddr_valid=1 status=1
+[ 1626.087775] wcd9320 217:a0:0:0: IFD probe #1: driver=7285ca90 name=wcd9320 task=(udev-worker) pid=1305
+[ 1626.087797] wcd9320 217:a0:0:0: IFD probe #1: before: ifd_instance=00000000 drvdata=00000000 this_wcd=d29e1a82
+[ 1626.087936] wcd9320 217:a0:0:0: interface function: no power or reset taken, waiting for enumeration
+[ 1626.087955] wcd9320 217:a0:0:0: interface regmap: own config, max_register 0x1b0, uncached
+[ 1626.087972] wcd9320 217:a0:0:0: IFD probe #1: after:  ifd_instance=d29e1a82 drvdata=d29e1a82 replaced=0
+[ 1626.087995] wcd9320 217:a0:0:0: IFD probe #1: exit after 0 ms: laddr=0xca laddr_valid=1 status=1 path=ifd -- slim_get_logical_addr() decides next
+[ 1626.088018] wcd9320 217:a0:0:0: IFD probe #1: returning 0 (bound)
+[ 1626.089060] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: error -EINVAL: no regmap on the parent PMIC
+[ 1626.089116] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: probe with driver lumia-mclk-experiment failed with error -22
+[ 1626.099721] wcd9320-lumia-q6 sound: front end: MultiMedia1 Playback (id 0), trigger POST
+[ 1626.099749] wcd9320-lumia-q6 sound: back end: SLIMBUS_0_RX (id 2)
+[ 1626.207084] wcd9320-lumia-q6 sound: QDSP6 card registered: 2 link(s)
+
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,10 @@
+
+=== 文件 ===
+1789 /usr/local/bin/mi4-audio-init.sh
+=== 幂等运行 ===
+rc=0
+=== 路由确认 ===
+  : values=on
+
+DONE_fd5549d5f06e434db0edeb14a2e7bef7
+umeko@umeko-cancro:~$ 

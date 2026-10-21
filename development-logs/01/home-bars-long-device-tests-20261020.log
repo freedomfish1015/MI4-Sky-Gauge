@@ -1,0 +1,19 @@
+
+......
+----------------------------------------------------------------------
+Ran 6 tests in 16.134s
+
+OK
+NRestarts=0
+ActiveState=active
+3712
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+10月 20 22:42:06 umeko-cancro python3[5021]: FPS 27.9  paint=23.7ms upload=3.0ms present=14.7ms wait=18.1ms pipeline=1
+10月 20 22:42:08 umeko-cancro python3[5021]: FPS 27.4  paint=23.6ms upload=2.7ms present=15.8ms wait=18.0ms pipeline=1
+
+umeko@umeko-cancro:~$ 

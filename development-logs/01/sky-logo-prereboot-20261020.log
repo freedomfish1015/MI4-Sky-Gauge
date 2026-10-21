@@ -1,0 +1,12 @@
+
+3723801
+21
+1
+AUTH_READY
+ 23:29:35 up 42 min,  1 user,  load average: 1.36, 1.44, 1.41
+362986d35fe58e55508615fc806483a4533e55f83fa9ab631ed1d7d9cb7c3f40  /dev/disk/by-partlabel/aboot
+
+47dbe469e9fcb84280f741161e1e76a67abe4b008d17f3f91bcea86fa7b173c5  /dev/disk/by-partlabel/logo
+
+
+umeko@umeko-cancro:~$ 

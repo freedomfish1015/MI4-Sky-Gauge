@@ -1,0 +1,34 @@
+
+145.76 425.26
+13da329b-35ca-42b0-a3c1-b59752e00a2d
+{"pid": 499, "uptime": 19.82, "elapsed": 6.208}Result=success
+ExecMainStartTimestampMonotonic=5440374
+ExecMainExitTimestampMonotonic=5842569
+ActiveState=active
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+[   13.620739] umeko-cancro python3[499]: DIRECT_GAUGE_START uptime=13.62
+[   15.377419] umeko-cancro python3[499]: BLE error: BleakError('No Bluetooth adapters found.')
+[   17.762692] umeko-cancro python3[499]: DIRECT_GAUGE_LOGO_PRESENTED uptime=17.76
+[   17.768973] umeko-cancro python3[499]: KMS mode 1080x1920 @60Hz vsync=True
+[   19.828347] umeko-cancro python3[499]: DIRECT_GAUGE_FIRST_FRAME {"pid": 499, "uptime": 19.82, "elapsed": 6.208}
+Result=success
+NRestarts=0
+Id=obd-gauge-kiosk.service
+ActiveState=active
+
+Result=success
+NRestarts=0
+Id=mi4-bms-fixed.service
+ActiveState=active
+ExecMainStartTimestampMonotonic=0
+ExecMainExitTimestampMonotonic=0
+ActiveState=inactive
+80
+4070241
+
+umeko@umeko-cancro:~$ 

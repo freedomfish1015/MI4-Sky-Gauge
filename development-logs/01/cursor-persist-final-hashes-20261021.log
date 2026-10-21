@@ -1,0 +1,20 @@
+
+724783b32b5b09dd53245ec42277df4ef3b85cd1da7560ced1c0caaa92da8d2b  /dev/disk/by-partlabel/boot
+
+362986d35fe58e55508615fc806483a4533e55f83fa9ab631ed1d7d9cb7c3f40  /dev/disk/by-partlabel/aboot
+
+47dbe469e9fcb84280f741161e1e76a67abe4b008d17f3f91bcea86fa7b173c5  /dev/disk/by-partlabel/logo
+
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+10月 21 07:44:09 umeko-cancro python3[457]: FPS 45.3  paint=8.6ms upload=1.7ms present=15.9ms wait=4.4ms pipeline=1
+10月 21 07:44:11 umeko-cancro python3[457]: FPS 47.8  paint=7.4ms upload=1.5ms present=15.6ms wait=3.8ms pipeline=1
+10月 21 07:44:13 umeko-cancro python3[457]: FPS 49.9  paint=8.0ms upload=1.6ms present=14.4ms wait=4.0ms pipeline=1
+10月 21 07:44:15 umeko-cancro python3[457]: FPS 50.4  paint=7.4ms upload=1.5ms present=14.9ms wait=3.4ms pipeline=1
+10月 21 07:44:17 umeko-cancro python3[457]: FPS 50.4  paint=6.5ms upload=1.4ms present=15.6ms wait=2.9ms pipeline=1
+
+umeko@umeko-cancro:~$ 

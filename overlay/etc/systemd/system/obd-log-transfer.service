@@ -1,0 +1,24 @@
+[Unit]
+Description=Sky Gauge on-demand isolated LOG Wi-Fi hotspot
+After=wpa_supplicant.service
+
+[Service]
+Type=simple
+User=root
+Group=umeko
+UMask=0027
+RuntimeDirectory=obd-log-transfer
+RuntimeDirectoryMode=0750
+RuntimeDirectoryPreserve=yes
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-log-transfer/log_hotspot.py
+ExecStopPost=/usr/bin/python3 /usr/local/lib/obd-log-transfer/log_hotspot.py --cleanup
+TimeoutStopSec=25
+Restart=no
+Nice=10
+CPUWeight=20
+MemoryMax=128M
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/run/obd-log-transfer /var/lib/obd-log-transfer
+PrivateTmp=yes

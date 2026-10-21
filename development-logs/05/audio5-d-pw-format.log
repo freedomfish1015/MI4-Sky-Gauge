@@ -1,0 +1,26 @@
+
+sink=48
+=== 节点属性 ===
+    api.alsa.card.longname = "Mi4-Taiko"
+    api.alsa.card.name = "Mi4-Taiko"
+    api.alsa.headroom = "512"
+    api.alsa.open.ucm = "true"
+    api.alsa.path = "hw:Mi4Taiko,0"
+    api.alsa.pcm.card = "0"
+    api.alsa.pcm.stream = "playback"
+    api.alsa.period-num = "8"
+    api.alsa.period-size = "512"
+    audio.channels = "1"
+    factory.name = "api.alsa.pcm.sink"
+  * node.name = "alsa_output.platform-sound.HiFi__hw_Mi4Taiko_0__sink"
+=== 空闲 hw_params ===
+access: MMAP_INTERLEAVED
+format: S24_LE
+subformat: STD
+channels: 1
+rate: 48000 (48000/1)
+period_size: 512
+buffer_size: 4096
+
+DONE_0ce890e5a1f54930b6565fabe5eacc28
+umeko@umeko-cancro:~$ 

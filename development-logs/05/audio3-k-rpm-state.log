@@ -1,0 +1,16 @@
+
+=== remoteproc ===
+remoteproc0 name=fc880000.remoteproc state=offline
+remoteproc1 name=fb204000.remoteproc state=running
+remoteproc2 name=adsp state=running
+=== vreg-boost 详情 ===
+/sys/class/regulator/regulator.37
+enabled
+4
+=== 服务启动时间 ===
+Sun 2026-10-18 17:57:33 CST
+=== 系统启动耗时 ===
+ 17:58:55 up 3 min,  2 users,  load average: 0.69, 0.84, 0.38
+
+DONE_dc400b8a04274e069c298affd0b47b26
+umeko@umeko-cancro:~$ 

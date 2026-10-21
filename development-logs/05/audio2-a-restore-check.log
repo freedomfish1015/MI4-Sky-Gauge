@@ -1,0 +1,22 @@
+
+=== 叠加模块状态 ===
+OVERLAY_NOT_LOADED
+=== 关键文件 ===
+-rw------- 1 umeko umeko 132544 10月 18 15:36 /home/umeko/desktop-offline/mi4_audio_overlay.ko
+-rw-r--r-- 1 root  root    1361 10月 18 16:04 /lib/firmware/mi4-audio-output-prepare.dtbo
+=== 已加载音频模块 ===
+wcd9320               118784  0
+regmap_slimbus         12288  1 wcd9320
+apr                    20480  4 q6adm,q6core,q6asm,q6afe
+slim_qcom_ngd_ctrl     24576  0
+pdr_interface          16384  2 slim_qcom_ngd_ctrl,apr
+slimbus                24576  3 wcd9320,slim_qcom_ngd_ctrl,regmap_slimbus
+qmi_helpers            20480  5 qcom_pdr_msg,qcom_sns_reg,pdr_interface,qcom_smgr,slim_qcom_ngd_ctrl
+qcom_common            16384  5 qcom_sns_reg,slim_qcom_ngd_ctrl,qcom_q6v5_pas,qcom_wcnss_pil,qcom_q6v5_mss
+=== 声卡 ===
+--- no soundcards ---
+=== codec 参数 ===
+N
+
+DONE_0ad0129dd7324870847ad7d1d5e5699b
+umeko@umeko-cancro:~$ 

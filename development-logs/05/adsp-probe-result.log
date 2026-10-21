@@ -1,0 +1,12 @@
+
+/sys/module/mi4_adsp_probe/parameters/dsp_state=67109121
+/sys/module/mi4_adsp_probe/parameters/responses=2
+/sys/module/mi4_adsp_probe/parameters/service_count=0
+../../../../../../../../bus/rpmsg/drivers/mi4_adsp_probe
+[ 1542.163038] mi4_adsp_probe: loading out-of-tree module taints kernel.
+[ 1542.420845] mi4_adsp_probe remoteproc2:smd-edge.apr_audio_svc.-1.-1: read-only ADSP state request: 0
+[ 1542.420881] mi4_adsp_probe remoteproc2:smd-edge.apr_audio_svc.-1.-1: read-only ADSP versions request: 0
+[ 1542.421562] mi4_adsp_probe remoteproc2:smd-edge.apr_audio_svc.-1.-1: ADSP state=67109121
+[ 1542.421586] mi4_adsp_probe remoteproc2:smd-edge.apr_audio_svc.-1.-1: ADSP build=0x4000201 services=0
+
+umeko@umeko-cancro:~$ 

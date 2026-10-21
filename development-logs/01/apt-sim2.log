@@ -1,0 +1,10 @@
+
+The following packages were automatically installed and are no longer required:
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+The following packages will be REMOVED:
+The following NEW packages will be installed:
+0 upgraded, 1 newly installed, 6 to remove and 2 not upgraded.
+
+DONE_06e2e4a3d1604c949c3849c5f6481078
+umeko@umeko-cancro:~$ 

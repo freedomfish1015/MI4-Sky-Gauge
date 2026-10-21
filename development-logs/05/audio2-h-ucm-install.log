@@ -1,0 +1,63 @@
+
+已下载 70.5 kB，耗时 1秒 (84.0 kB/s)
+正在选中未选择的软件包 alsa-ucm-conf。
+
+(正在读取数据库 ... 
+(正在读取数据库 ... 5%
+(正在读取数据库 ... 10%
+(正在读取数据库 ... 15%
+(正在读取数据库 ... 20%
+(正在读取数据库 ... 25%
+(正在读取数据库 ... 30%
+(正在读取数据库 ... 35%
+(正在读取数据库 ... 40%
+(正在读取数据库 ... 45%
+(正在读取数据库 ... 50%
+(正在读取数据库 ... 55%
+(正在读取数据库 ... 60%
+(正在读取数据库 ... 65%
+(正在读取数据库 ... 70%
+(正在读取数据库 ... 75%
+(正在读取数据库 ... 80%
+(正在读取数据库 ... 85%
+(正在读取数据库 ... 90%
+(正在读取数据库 ... 95%
+(正在读取数据库 ... 100%
+(正在读取数据库 ... 系统当前共安装有 36992 个文件和目录。)
+
+准备解压 .../alsa-ucm-conf_1.2.10-1ubuntu5.15_all.deb  ...
+
+正在解压 alsa-ucm-conf (1.2.10-1ubuntu5.15) ...
+
+正在设置 alsa-ucm-conf (1.2.10-1ubuntu5.15) ...
+
+=== ucm2 目录 ===
+Allwinner
+AMD
+codecs
+common
+conf.d
+conf.virt.d
+DEBUG.md
+HDA
+Intel
+lib
+=== conf.d 示例 ===
+acp
+acp3xalc5682m98
+acp5x
+acp62
+acp63
+acp6x
+acp-pdm-mach
+amd-soundwire
+bdw-rt5677
+broadwell-rt286
+broxton-rt298
+bytcht-cx2072x
+bytcht-es8316
+bytcr-rt5640
+bytcr-rt5651
+
+DONE_389006ebde694333bb213400994ace51
+umeko@umeko-cancro:~$ 

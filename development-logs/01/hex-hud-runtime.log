@@ -1,0 +1,22 @@
+
+MainPID=1809
+NRestarts=0
+ActiveState=active
+SubState=running
+FPS 59.2  paint=2.9ms upload=0.2ms present=16.4ms wait=0.3ms pipeline=1
+FPS 59.2  paint=3.0ms upload=0.2ms present=16.4ms wait=0.3ms pipeline=1
+FPS 59.2  paint=3.0ms upload=0.2ms present=16.5ms wait=0.2ms pipeline=1
+FPS 59.2  paint=3.0ms upload=0.2ms present=16.5ms wait=0.1ms pipeline=1
+FPS 59.2  paint=3.0ms upload=0.2ms present=16.3ms wait=0.4ms pipeline=1
+FPS 58.7  paint=2.6ms upload=0.2ms present=16.7ms wait=0.1ms pipeline=1
+FPS 58.7  paint=2.1ms upload=0.1ms present=16.8ms wait=0.1ms pipeline=1
+FPS 59.2  paint=2.7ms upload=0.2ms present=16.5ms wait=0.2ms pipeline=1
+FPS 59.2  paint=2.9ms upload=0.2ms present=16.5ms wait=0.2ms pipeline=1
+FPS 59.2  paint=2.4ms upload=0.2ms present=16.7ms wait=0.1ms pipeline=1
+FPS 59.2  paint=2.8ms upload=0.2ms present=16.4ms wait=0.3ms pipeline=1
+Mouse cursor hidden (SDL cursor state=0)
+Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+BOOT_VIDEO_FIRST_FRAME startup=0.47s native=1080x1920 audio=1 volume=0.50 GPU=YUV strides=[1080, 540, 540]
+d22a56e167520eb36634265ffd04038a14b3b12d152531950b3ee7eaaf448679  /home/umeko/desktop-offline/gauge_sdl.py
+{"status": "started"}
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,15 @@
+
+{"status": "complete", "complete": true, "frames": 361, "last_pts": 12.0}NRestarts=0
+ActiveState=active
+SubState=running
+FPS 59.2  paint=2.9ms upload=0.2ms present=16.4ms wait=0.3ms pipeline=1
+FPS 59.2  paint=2.3ms upload=0.1ms present=16.5ms wait=0.2ms pipeline=1
+FPS 59.2  paint=3.1ms upload=0.2ms present=16.2ms wait=0.5ms pipeline=1
+FPS 59.2  paint=2.7ms upload=0.2ms present=16.4ms wait=0.3ms pipeline=1
+FPS 59.2  paint=2.3ms upload=0.2ms present=16.7ms wait=0.1ms pipeline=1
+FPS 59.2  paint=3.0ms upload=0.2ms present=16.4ms wait=0.3ms pipeline=1
+FPS 59.2  paint=3.0ms upload=0.2ms present=16.5ms wait=0.2ms pipeline=1
+FPS 47.3  paint=5.9ms upload=0.3ms present=16.4ms wait=2.3ms pipeline=1
+FPS 59.2  paint=2.9ms upload=0.2ms present=16.5ms wait=0.2ms pipeline=1
+
+umeko@umeko-cancro:~$ 

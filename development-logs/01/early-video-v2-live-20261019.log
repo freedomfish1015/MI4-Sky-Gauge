@@ -1,0 +1,15 @@
+
+{"status": "started"}FPS 56.4  paint=2.6ms upload=0.2ms present=17.4ms wait=0.1ms pipeline=1
+FPS 57.9  paint=2.4ms upload=0.2ms present=17.0ms wait=0.1ms pipeline=1
+FPS 55.4  paint=2.5ms upload=0.2ms present=17.8ms wait=0.1ms pipeline=1
+FPS 54.9  paint=3.3ms upload=0.2ms present=17.4ms wait=0.6ms pipeline=1
+FPS 57.9  paint=3.9ms upload=0.3ms present=16.1ms wait=0.9ms pipeline=1
+FPS 58.4  paint=2.1ms upload=0.2ms present=16.9ms wait=0.1ms pipeline=1
+Mouse cursor hidden (SDL cursor state=0)
+Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+BOOT_VIDEO_FIRST_FRAME startup=0.44s native=1080x1920 audio=1 volume=0.50 GPU=YUV strides=[1080, 540, 540]
+NRestarts=0
+ActiveState=active
+1720
+
+umeko@umeko-cancro:~$ 

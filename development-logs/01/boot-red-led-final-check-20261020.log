@@ -1,0 +1,37 @@
+
+[]
+[('/proc/device-tree/soc/spmi@fc4cf000/pm8941@0/adc@3100/reg', '00003100'), ('/proc/device-tree/soc/spmi@fc4cf000/pm8941@0/adc@3100/channel@30/reg', '00000030'), ('/proc/device-tree/soc/spmi@fc4cf000/pm8941@0/adc@3100/channel@9/reg', '00000009'), ('/proc/device-tree/soc/spmi@fc4cf000/pm8941@0/adc@3100/channel@e/reg', '0000000e'), ('/proc/device-tree/soc/spmi@fc4cf000/pm8941@0/adc@3100/channel@a/reg', '0000000a'), ('/proc/device-tree/soc/spmi@fc4cf000/pm8941@0/adc@3100/channel@8/reg', '00000008'), ('/proc/device-tree/soc/spmi@fc4cf000/pm8941@0/adc@3100/channel@f/reg', '0000000f'), ('/proc/device-tree/soc/spmi@fc4cf000/pm8941@0/adc@3100/channel@6/reg', '00000006')]
+10月 20 15:59:48 umeko-cancro kernel: qcom_sns_reg.qcom-sns-reg qcom_common.sns-reg.2: got request for unmapped group id=2971
+
+10月 20 15:59:49 umeko-cancro kernel: regulator: Not disabling unused regulators
+
+10月 20 15:59:50 umeko-cancro kernel: Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+
+10月 20 15:59:50 umeko-cancro kernel: Bluetooth: BNEP filters: protocol multicast
+
+10月 20 15:59:50 umeko-cancro kernel: Bluetooth: BNEP socket layer initialized
+
+10月 20 15:59:50 umeko-cancro kernel: Bluetooth: MGMT ver 1.23
+
+10月 20 15:59:50 umeko-cancro kernel: NET: Registered PF_ALG protocol family
+
+10月 20 16:00:00 umeko-cancro kernel: wcd9320 217:a0:1:0: sampling complete: 45 samples, pad high in 0, live source in 0, parent irqs 0 (spurious 0, acked 0)
+
+10月 20 16:41:26 umeko-cancro systemd[1]: Started obd-power.service - OBD external power countdown policy.
+
+10月 20 16:41:27 umeko-cancro python3[461]: CABLE_STATE {"online": false, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 16:41:27 umeko-cancro python3[461]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+0-00	    217:a0:1:0		     fc400000.clock-controller
+
+0-01	    dummy-hwlock@0xfd484000  fc4a9000.thermal-sensor-srot
+
+0-04	    dummy-sram@0xfe805000    fc4a9000.thermal-sensor-tm
+
+0-05	    dummy-syscon@0xfd4a0000  fd484000.hwlock
+
+217:a0:0:0  f9011000.mailbox	     fd8c0000.clock-controller
+
+
+umeko@umeko-cancro:~$ 

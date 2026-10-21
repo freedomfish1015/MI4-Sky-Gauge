@@ -1,0 +1,12 @@
+
+gauge_sdl.py: 成功
+gauge_sdl.lazy-candidate.py: 成功
+Running timer as unit: obd-lazy-install-guard.timer
+
+
+Will run service as unit: obd-lazy-install-guard.service
+
+
+LAZY_BOOT_FONT_LOAD_INSTALLED_AUDIO_SCRIPT_UNCHANGED
+
+umeko@umeko-cancro:~$ 

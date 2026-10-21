@@ -1,0 +1,42 @@
+
+PROBE_BEFORE
+plane[34]: plane-0
+	crtc=crtc-0
+	fb=87
+		allocated by = python3
+		refcount=2
+		format=XR24 little-endian (0x34325258)
+		modifier=0x0
+		size=1080x1920
+		layers:
+			size[0]=1080x1920
+			pitch[0]=4352
+			offset[0]=0
+			obj[0]:
+				name=0
+				refcount=2
+				start=00010827
+				size=8388608
+SKY_CURTAIN_PAINTED uptime=629.457 elapsed=0.102 stride=4352
+
+PROBE_HOLD_8_SECONDS
+plane[34]: plane-0
+	crtc=crtc-0
+	fb=83
+		allocated by = [fbcon]
+		refcount=2
+		format=XR24 little-endian (0x34325258)
+		modifier=0x0
+		size=1080x1920
+		layers:
+			size[0]=1080x1920
+			pitch[0]=4352
+			offset[0]=0
+			obj[0]:
+				name=0
+				refcount=1
+				start=0001000a
+				size=8355840
+PROBE_GAUGE_RESTORED {"pid": 1040, "uptime": 641.86, "elapsed": 4.034}
+
+umeko@umeko-cancro:~$ 

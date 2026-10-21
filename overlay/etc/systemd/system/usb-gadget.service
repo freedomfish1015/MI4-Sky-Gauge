@@ -1,0 +1,17 @@
+[Unit]
+Description=USB NCM + Serial Gadget Setup
+After=local-fs.target
+ConditionPathExists=/sys/kernel/config
+ConditionPathExists=/etc/machine-id
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/sbin/usb-gadget-ncm-serial.sh setup
+ExecStart=/usr/local/sbin/usb-gadget-ncm-serial.sh activate
+ExecStop=/usr/local/sbin/usb-gadget-ncm-serial.sh reset
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,75 @@
+
+{
+
+  "label": "radio-fast-20261020",
+
+  "seconds": 12,
+
+  "links": {
+
+    "10": {
+
+      "requests": 183,
+
+      "host_rtt_ms": {
+
+        "n": 182,
+
+        "mean": 22.12,
+
+        "median": 16.96,
+
+        "maximum": 45.91
+
+      },
+
+      "rpm_interval_ms": {
+
+        "n": 90,
+
+        "mean": 130.68,
+
+        "median": 119.89,
+
+        "maximum": 301.56
+
+      }
+
+    },
+
+    "11": {
+
+      "requests": 182,
+
+      "host_rtt_ms": {
+
+        "n": 181,
+
+        "mean": 34.11,
+
+        "median": 28.36,
+
+        "maximum": 61.5
+
+      },
+
+      "rpm_interval_ms": {
+
+        "n": 90,
+
+        "mean": 130.67,
+
+        "median": 120.0,
+
+        "maximum": 299.99
+
+      }
+
+    }
+
+  }
+
+}
+
+
+umeko@umeko-cancro:~$ 

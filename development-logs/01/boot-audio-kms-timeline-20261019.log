@@ -1,0 +1,88 @@
+
+[    8.656612] umeko-cancro python3[257]: BOOT_CURTAIN_PAINTED stride=4352 (no boot/kernel changes)
+
+[    8.717721] umeko-cancro systemd[1]: Finished obd-boot-curtain.service - Early native NERV boot curtain (rootfs only).
+
+[   17.732095] umeko-cancro systemd[1]: Starting mi4-audio-init.service - Mi4 internal speaker audio bring-up...
+
+[   20.272283] umeko-cancro systemd[1]: Finished mi4-audio-init.service - Mi4 internal speaker audio bring-up.
+
+ExecMainStartTimestampMonotonic=17730662
+ExecMainExitTimestampMonotonic=20270595
+# UNCONFIGURED FSTAB FOR BASE SYSTEM
+#  SPDX-License-Identifier: LGPL-2.1-or-later
+#
+#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it
+#  under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 2.1 of the License, or
+#  (at your option) any later version.
+
+[Unit]
+Description=User Manager for UID %i
+Documentation=man:user@.service(5)
+After=user-runtime-dir@%i.service dbus.service systemd-oomd.service
+Requires=user-runtime-dir@%i.service
+IgnoreOnIsolate=yes
+
+[Service]
+User=%i
+PAMName=systemd-user
+Type=notify-reload
+ExecStart=/usr/lib/systemd/systemd --user
+Slice=user-%i.slice
+KillMode=mixed
+Delegate=pids memory cpu
+DelegateSubgroup=init.scope
+TasksMax=infinity
+TimeoutStopSec=120s
+KeyringMode=inherit
+OOMScoreAdjust=100
+MemoryPressureWatch=skip
+#  SPDX-License-Identifier: LGPL-2.1-or-later
+#
+#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it
+#  under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 2.1 of the License, or
+#  (at your option) any later version.
+
+[Unit]
+Description=User Runtime Directory /run/user/%i
+Documentation=man:user@.service(5)
+After=dbus.service
+StopWhenUnneeded=yes
+IgnoreOnIsolate=yes
+
+[Service]
+ExecStart=/usr/lib/systemd/systemd-user-runtime-dir start %i
+ExecStop=/usr/lib/systemd/systemd-user-runtime-dir stop %i
+Type=oneshot
+RemainAfterExit=yes
+Slice=user-%i.slice
+[    0.000000] umeko-cancro kernel: Kernel command line: earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait
+[    0.589306] umeko-cancro kernel: /soc/spmi@fc4cf000/pm8941@1/regulators: Fixed dependency cycle(s) with /soc/spmi@fc4cf000/pm8941@1/regulators/s4
+[    0.970740] umeko-cancro kernel: qcom-rpm-proc remoteproc: Failed to create device link (0x180) with supplier vreg-boost for /remoteproc/smd-edge/rpm-requests/regulators-1
+[    3.624316] umeko-cancro kernel: [drm] using 192m VRAM carveout
+[    3.641132] umeko-cancro kernel: msm_mdp fd900100.display-controller: [drm:msm_drm_bind] VRAM: b0100000->bc100000
+[    3.649882] umeko-cancro kernel: adreno fdb00000.gpu: supply vdd not found, using dummy regulator
+[    3.663693] umeko-cancro kernel: adreno fdb00000.gpu: supply vddcx not found, using dummy regulator
+[    3.670841] umeko-cancro kernel: adreno fdb00000.gpu: [drm:msm_devfreq_init] *ERROR* Couldn't initialize GPU devfreq
+[    3.677902] umeko-cancro kernel: msm_mdp fd900100.display-controller: [drm:msm_gpu_init] [IP-ADDRESS]: no IOMMU, fallback to VRAM carveout!
+[    3.688021] umeko-cancro kernel: msm_mdp fd900100.display-controller: [drm:a3xx_gpu_init] *ERROR* No memory protection without IOMMU
+[    3.800445] umeko-cancro kernel: msm_mdp fd900100.display-controller: [drm:mdp5_kms_init] MDP5 version v1.2
+[    3.825934] umeko-cancro kernel: msm_mdp fd900100.display-controller: [drm] no IOMMU, fallback to phys contig buffers for scanout
+[    3.826011] umeko-cancro kernel: msm_mdp fd900100.display-controller: [drm:mdp5_kms_init] Skipping eDP interface 0
+[    3.846123] umeko-cancro kernel: [drm] Initialized msm 1.12.0 for fd900100.display-controller on minor 0
+[    3.852642] umeko-cancro kernel: msm_mdp fd900100.display-controller: [drm:adreno_request_fw] loaded qcom/a330_pm4.fw from new location
+[    3.859778] umeko-cancro kernel: msm_mdp fd900100.display-controller: [drm:adreno_request_fw] loaded qcom/a330_pfp.fw from new location
+[    4.527275] umeko-cancro kernel: fb0: sys_imageblit: framebuffer is not in virtual address space.
+[    4.551920] umeko-cancro kernel: Console: switching to colour frame buffer device 135x120
+[    4.650631] umeko-cancro kernel: msm_mdp fd900100.display-controller: [drm] fb0: msmdrmfb frame buffer device
+[    6.472989] umeko-cancro systemd[1]: Starting modprobe@drm.service - Load Kernel Module drm...
+[    6.648719] umeko-cancro systemd[1]: modprobe@drm.service: Deactivated successfully.
+[    6.665938] umeko-cancro systemd[1]: Finished modprobe@drm.service - Load Kernel Module drm.
+
+umeko@umeko-cancro:~$ 

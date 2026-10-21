@@ -1,0 +1,12 @@
+
+MainPID=2480
+NRestarts=0
+ActiveState=active
+10月 18 21:39:37 umeko-cancro python3[2480]: FPS 58.3  paint=3.5ms upload=0.2ms present=15.6ms wait=1.3ms pipeline=1
+10月 18 21:39:39 umeko-cancro python3[2480]: FPS 59.3  paint=4.2ms upload=0.2ms present=15.3ms wait=1.4ms pipeline=1
+10月 18 21:39:41 umeko-cancro python3[2480]: FPS 58.3  paint=3.8ms upload=0.2ms present=15.8ms wait=1.2ms pipeline=1
+10月 18 21:39:43 umeko-cancro python3[2480]: FPS 58.3  paint=4.2ms upload=0.2ms present=15.4ms wait=1.6ms pipeline=1
+10月 18 21:39:45 umeko-cancro python3[2480]: FPS 57.8  paint=4.0ms upload=0.2ms present=15.4ms wait=1.7ms pipeline=1
+ecde1ed3f76972ebe36edbb3c6a3e4bfca53d7a1611d4fa142a904de2eb01f08  /home/umeko/desktop-offline/gauge_sdl.py
+
+umeko@umeko-cancro:~$ 

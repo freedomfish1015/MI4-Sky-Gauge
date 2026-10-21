@@ -1,0 +1,12 @@
+
+Running timer as unit: obd-curtain-test-recover.timer
+
+
+Will run service as unit: obd-curtain-test-recover.service
+
+
+BOOT_CURTAIN_PAINTED stride=4352 (no boot/kernel changes)
+
+CURTAIN_RUNTIME_TEST_FINISHED
+
+umeko@umeko-cancro:~$ 

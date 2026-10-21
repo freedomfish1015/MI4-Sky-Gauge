@@ -1,0 +1,16 @@
+
+=== 服务结果 ===
+active
+success
+=== 声卡仍在 ===
+ 0 [Mi4Taiko       ]: Mi4-Taiko - Mi4-Taiko
+                      Mi4-Taiko
+=== 路由 ===
+  : values=on
+=== divider ===
+applied=1 base=0x5b00
+div_ctl1=02 factor=2
+en_ctl=00 enabled=0
+
+DONE_5d1da634b71d4a0c8210a6fc96af4215
+umeko@umeko-cancro:~$ 

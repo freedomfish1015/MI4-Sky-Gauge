@@ -1,0 +1,6 @@
+
+QRTR_LOCAL (1, 16385)
+SLIM_QMI_SERVER version=1 instance=0 node=5 port=3
+SLIM_QMI_SERVER_COUNT 1
+
+umeko@umeko-cancro:~$ 

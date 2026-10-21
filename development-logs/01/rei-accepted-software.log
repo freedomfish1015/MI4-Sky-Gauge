@@ -1,0 +1,26 @@
+
+active
+inactive
+FPS 57.7  paint=4.6ms upload=0.2ms present=15.3ms wait=1.8ms pipeline=1
+FPS 59.2  paint=4.1ms upload=0.2ms present=15.4ms wait=1.3ms pipeline=1
+FPS 58.7  paint=3.9ms upload=0.2ms present=15.7ms wait=1.1ms pipeline=1
+FPS 59.2  paint=4.1ms upload=0.2ms present=15.4ms wait=1.3ms pipeline=1
+FPS 59.2  paint=3.6ms upload=0.2ms present=15.7ms wait=1.1ms pipeline=1
+FPS 57.2  paint=4.8ms upload=0.2ms present=15.5ms wait=1.8ms pipeline=1
+FPS 55.2  paint=4.8ms upload=0.2ms present=15.8ms wait=2.1ms pipeline=1
+FPS 54.7  paint=4.9ms upload=0.2ms present=15.9ms wait=2.2ms pipeline=1
+FPS 54.7  paint=5.5ms upload=0.2ms present=15.9ms wait=2.2ms pipeline=1
+FPS 53.7  paint=5.1ms upload=0.2ms present=16.4ms wait=2.0ms pipeline=1
+FPS 55.7  paint=4.9ms upload=0.2ms present=15.4ms wait=2.3ms pipeline=1
+FPS 59.2  paint=4.4ms upload=0.2ms present=15.4ms wait=1.2ms pipeline=1
+FPS 59.2  paint=3.8ms upload=0.2ms present=15.5ms wait=1.2ms pipeline=1
+FPS 58.2  paint=4.2ms upload=0.2ms present=15.6ms wait=1.4ms pipeline=1
+FPS 53.2  paint=5.2ms upload=0.2ms present=16.3ms wait=2.3ms pipeline=1
+FPS 58.7  paint=3.6ms upload=0.2ms present=15.8ms wait=1.1ms pipeline=1
+FPS 59.2  paint=4.2ms upload=0.2ms present=15.4ms wait=1.3ms pipeline=1
+FPS 59.2  paint=3.1ms upload=0.1ms present=15.8ms wait=0.9ms pipeline=1
+446f82a986491a31775cdf277b946965f60a559ebbb6c589eb661adc85df7c03  /home/umeko/desktop-offline/gauge_sdl.py
+627dea5ccb7873fb5e16c268247d90f28970d379930a27e11ca6f62802c6bee6  /home/umeko/desktop-offline/gauge_settings.py
+7ac1d793049569492083745af6dc37ec69db2a6cc6c2428c96e232584f0aeb9c  /home/umeko/desktop-offline/assets/rei-reference.png
+
+umeko@umeko-cancro:~$ 

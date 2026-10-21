@@ -1,0 +1,10 @@
+
+ ├─ Sinks:
+ │  *   48. Built-in Audio Internal speaker     [vol: 1.00]
+ │  
+=== 0x1ec PA状态 ===
+reg[0x1eb]=00 rc=0
+reg[0x1ec]=00 rc=0
+
+DONE_e8dd178fd0144987bc349b7e043a6934
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,20 @@
+
+.................................
+----------------------------------------------------------------------
+Ran 33 tests in 13.019s
+
+OK
+{"ready": true, "measurement_mode": "accelerometer_autocenter", "gyro_enabled": false, "display_g": [-0.0, 0.0], "total_g": 0.0, "raw_total_g": 0.9486491738710423, "dynamic_g": [-0.0, 0.0, -0.0]}
+{"ready": true, "measurement_mode": "accelerometer_autocenter", "gyro_enabled": false, "display_g": [-0.0, -0.0], "total_g": 0.0, "raw_total_g": 0.9407842917181113, "dynamic_g": [-0.0, -0.0, 0.0]}
+{"ready": true, "measurement_mode": "accelerometer_autocenter", "gyro_enabled": false, "display_g": [0.0, -0.0], "total_g": 0.0, "raw_total_g": 0.941363323692775, "dynamic_g": [0.0, -0.0, 0.0]}
+{"ready": true, "measurement_mode": "accelerometer_autocenter", "gyro_enabled": false, "display_g": [0.0, 0.0], "total_g": 0.0, "raw_total_g": 0.9406279172923848, "dynamic_g": [0.0, 0.0, 0.0]}
+{"ready": true, "measurement_mode": "accelerometer_autocenter", "gyro_enabled": false, "display_g": [-0.0, -0.0], "total_g": 0.0, "raw_total_g": 0.947739609880725, "dynamic_g": [-0.0, -0.0, -0.0]}
+NRestarts=0
+Id=mi4-motion.service
+ActiveState=active
+
+NRestarts=0
+Id=obd-gauge-kiosk.service
+ActiveState=active
+
+umeko@umeko-cancro:~$ 

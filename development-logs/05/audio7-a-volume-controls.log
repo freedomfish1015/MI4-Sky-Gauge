@@ -1,0 +1,17 @@
+
+=== 音量/增益控件 ===
+=== 当前 sink 音量 ===
+Volume: 1.00
+=== RX7/DAC 相关寄存器 ===
+reg[0x1e0]=04 rc=0
+reg[0x2e0]=00 rc=0
+reg[0x2e1]=00 rc=0
+reg[0x2e2]=00 rc=0
+reg[0x2e3]=08 rc=0
+reg[0x2e4]=78 rc=0
+reg[0x2e5]=88 rc=0
+reg[0x2e6]=00 rc=0
+reg[0x2e7]=00 rc=0
+
+DONE_d37936eedddb4fec808982417c40e89c
+umeko@umeko-cancro:~$ 

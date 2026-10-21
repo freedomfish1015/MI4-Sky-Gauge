@@ -1,0 +1,23 @@
+
+QUIET_BOOT_FAST_READY (VT cursor default off; no framebuffer rewrite)
+QUIET_BOOT_PARAMETER_SKIPPED /proc/sys/kernel/printk: 
+QUIET_BOOT_PARAMETER_SKIPPED /sys/module/vt/parameters/global_cursor_default: 
+QUIET_BOOT_PARAMETER_SKIPPED /sys/class/graphics/fbcon/cursor_blink: 
+QUIET_BOOT_CURSOR_SKIPPED /dev/tty1: 
+QUIET_BOOT_CURSOR_SKIPPED /dev/tty0: 
+QUIET_BOOT_FAST_READY (VT cursor default off; no framebuffer rewrite)
+QUIET_BOOT_CURSOR_SKIPPED /dev/tty1: 
+QUIET_BOOT_CURSOR_SKIPPED /dev/tty0: 
+QUIET_BOOT_FAST_READY (VT cursor default off; no framebuffer rewrite)
+DIRECT_GAUGE_FIRST_FRAME {"pid": 982, "uptime": 348.4, "elapsed": 0.005}
+DIRECT_GAUGE_START uptime=348.76
+----------------------------------------------------------------------
+Ran 13 tests in 0.425s
+
+OK
+FAST_BOOT_BACKUP /home/umeko/desktop-offline/backups/fast-boot-before-1w72yfmr
+
+FAST_BOOT_INSTALLED; CURSOR_DEFAULT_OFF; BMS_INIT_UNCHANGED; NO_PARTITION_WRITES
+
+
+umeko@umeko-cancro:~$ 

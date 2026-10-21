@@ -1,0 +1,21 @@
+[Unit]
+Description=Sky Gauge read-only LAN log download
+PartOf=obd-log-transfer.service
+After=obd-log-transfer.service
+
+[Service]
+Type=simple
+User=umeko
+Group=umeko
+ExecStart=/usr/bin/python3 /usr/local/lib/obd-log-transfer/log_download.py
+Restart=no
+TimeoutStopSec=5
+Nice=10
+CPUWeight=20
+MemoryMax=96M
+TasksMax=16
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=read-only
+PrivateTmp=yes
+RestrictAddressFamilies=AF_INET AF_UNIX

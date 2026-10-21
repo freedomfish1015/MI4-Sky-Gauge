@@ -1,0 +1,64 @@
+
+numid=1,iface=MIXER,name='Mi4 Speaker Gate Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=off
+numid=18,iface=MIXER,name='SLIMBUS_0_RX Audio Mixer MultiMedia1'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=off
+[ 1771.803212] wcd9320 217:a0:1:0: sample 1/45: raw_level=0 status=00 00 00 00 pending=no irqs=0
+[ 1771.915306] wcd9320 217:a0:1:0: core init: after release, 94/448 non-zero
+[ 1772.025949] wcd9320 217:a0:1:0: rco-wake step  1/15: reg 0x101 (VE 0x0901) old=50 mask=80 want=80 -> read=d0  delay=0us  OK  [BG: slow mode on]
+[ 1772.027257] wcd9320 217:a0:1:0: rco-wake step  2/15: reg 0x101 (VE 0x0901) old=d0 mask=04 want=04 -> read=d4  delay=0us  OK  [BG: precharge]
+[ 1772.029799] wcd9320 217:a0:1:0: rco-wake step  3/15: reg 0x101 (VE 0x0901) old=d4 mask=01 want=01 -> read=d5  delay=1000us  OK  [BG: enable, then 1 ms settle]
+[ 1772.031090] wcd9320 217:a0:1:0: rco-wake step  4/15: reg 0x101 (VE 0x0901) old=d5 mask=80 want=00 -> read=55  delay=0us  OK  [BG: slow mode off]
+[ 1772.032278] wcd9320 217:a0:1:0: rco-wake step  5/15: reg 0x1fa (VE 0x09fa) old=46 mask=10 want=00 -> read=46  delay=0us  OK  [RC_OSC_FREQ: clear bit 4]
+[ 1772.033263] wcd9320 217:a0:1:0: rco-wake step  6/15: reg 0x105 (VE 0x0905) old=16 mask=ff want=17 -> read=17  delay=5us  OK  [BIAS_OSC_BG_CTL = 0x17 (inherited magic: 'bandgap mode to fast')]
+[ 1772.034547] wcd9320 217:a0:1:0: rco-wake step  7/15: reg 0x1fa (VE 0x09fa) old=46 mask=80 want=80 -> read=c6  delay=0us  OK  [RC_OSC_FREQ: enable the RC oscillator]
+[ 1772.035909] wcd9320 217:a0:1:0: rco-wake step  8/15: reg 0x1fb (VE 0x09fb) old=0a mask=80 want=80 -> read=8a  delay=10us  OK  [RC_OSC_TEST: start pulse, rising]
+[ 1772.049278] wcd9320 217:a0:1:0: rco-wake step  9/15: reg 0x1fb (VE 0x09fb) old=8a mask=80 want=00 -> read=0a  delay=10000us  OK  [RC_OSC_TEST: start pulse, falling, then 10 ms settle]
+[ 1772.050549] wcd9320 217:a0:1:0: rco-wake step 10/15: reg 0x108 (VE 0x0908) old=04 mask=08 want=08 -> read=0c  delay=0us  OK  [CLK_BUFF_EN1: select RCO as the buffer source]
+[ 1772.052719] wcd9320 217:a0:1:0: rco-wake step 11/15: reg 0x109 (VE 0x0909) old=02 mask=ff want=02 -> read=02  delay=1000us  OK  [CLK_BUFF_EN2 = 0x02]
+[ 1772.055525] wcd9320 217:a0:1:0: rco-wake step 12/15: reg 0x108 (VE 0x0908) old=0c mask=01 want=01 -> read=0d  delay=1200us  OK  [CLK_BUFF_EN1: enable clock buffer (hardware-required delay)]
+[ 1772.056846] wcd9320 217:a0:1:0: rco-wake step 13/15: reg 0x109 (VE 0x0909) old=02 mask=02 want=00 -> read=00  delay=0us  OK  [CLK_BUFF_EN2: clear bit 1]
+[ 1772.058168] wcd9320 217:a0:1:0: rco-wake step 14/15: reg 0x109 (VE 0x0909) old=00 mask=04 want=04 -> read=04  delay=0us  OK  [CLK_BUFF_EN2: clock on]
+[ 1772.059546] wcd9320 217:a0:1:0: rco-wake step 15/15: reg 0x311 (VE 0x0b11) old=00 mask=01 want=01 -> read=01  delay=50us  unverifiable  [CDC_CLK_MCLK_CTL: gate the clock into the CDC block (unverifiable)]
+[ 1772.059575] wcd9320 217:a0:1:0: rco-wake: all 15 steps applied cleanly
+[ 1772.293407] wcd9320 217:a0:1:0: core verify: 95/448 non-zero (min 48), canary 0x320 = e4 (want e4)
+[ 1772.293436] wcd9320 217:a0:1:0: core init: complete, core_ready (0 -> 94 -> 95 non-zero)
+[ 1772.293459] wcd9320 217:a0:1:0: recovered after fresh bring-up
+[ 1772.293477] wcd9320 217:a0:1:0: CTL probe #1: exit after 1259 ms: laddr=0xcb laddr_valid=1 status=1 path=adopt -- slim_get_logical_addr() decides next
+[ 1772.293949] wcd9320 217:a0:0:0: IFD probe #1: sdev=68acd81a dev=68acd81a name=217:a0:0:0 laddr=0xca laddr_valid=1 status=1
+[ 1772.293977] wcd9320 217:a0:0:0: IFD probe #1: driver=deef160e name=wcd9320 task=modprobe pid=1386
+[ 1772.293999] wcd9320 217:a0:0:0: IFD probe #1: before: ifd_instance=00000000 drvdata=00000000 this_wcd=3bd8ece2
+[ 1772.294121] wcd9320 217:a0:0:0: interface function: no power or reset taken, waiting for enumeration
+[ 1772.294138] wcd9320 217:a0:0:0: interface regmap: own config, max_register 0x1b0, uncached
+[ 1772.294155] wcd9320 217:a0:0:0: IFD probe #1: after:  ifd_instance=3bd8ece2 drvdata=3bd8ece2 replaced=0
+[ 1772.294177] wcd9320 217:a0:0:0: IFD probe #1: exit after 0 ms: laddr=0xca laddr_valid=1 status=1 path=ifd -- slim_get_logical_addr() decides next
+[ 1772.294199] wcd9320 217:a0:0:0: IFD probe #1: returning 0 (bound)
+[ 1772.295221] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: Lumia MCLK experiment ready: base 0x5b00, DIV_CTL1 00, divclk state present
+[ 1772.378588] wcd9320-lumia-q6 sound: front end: MultiMedia1 Playback (id 0), trigger POST
+[ 1772.378618] wcd9320-lumia-q6 sound: back end: SLIMBUS_0_RX (id 2)
+[ 1772.476521] wcd9320-lumia-q6 sound: QDSP6 card registered: 2 link(s)
+[ 1777.765090] wcd9320 217:a0:1:0: sample 21/45: raw_level=0 status=00 00 00 00 pending=no irqs=0
+[ 1802.724732] wcd9320 217:a0:1:0: sampling complete: 45 samples, pad high in 0, live source in 0, parent irqs 0 (spurious 0, acked 0)
+[ 1807.088149] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: DIV_CTL1 measured 00 before any write
+[ 1807.088216] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: DIV_CTL1 = 02, factor 2 -> XO/2
+[ 1807.088369] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: gpio15 MODE_CTL = 25 (dir 2, function 2)
+[ 1807.088390] lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: APPLIED
+[ 1807.173476] wcd9320 217:a0:1:0: slim-stream: ASoC startup (dai wcd9320-slim-rx1) -> 0
+[ 1807.174889] wcd9320-lumia-q6 sound: BE hw_params: cpu=SLIMBUS_0_RX codec=wcd9320-slim-rx1 rate=48000 ch=1 ch_map={144} (reported by the codec)
+[ 1807.174919] wcd9320 217:a0:1:0: RX path invocation: ASoC hw_params (dai wcd9320-slim-rx1, rate 48000, ch 1, fmt 2)
+[ 1807.174942] wcd9320 217:a0:1:0: rx-port: the interface function is not online
+[ 1807.174985] wcd9320 217:a0:1:0: ASoC error (-19): at snd_soc_dai_hw_params() on wcd9320-slim-rx1
+[ 1807.181171]  SLIMBUS_0_RX: ASoC error (-19): at __soc_pcm_hw_params() on SLIMBUS_0_RX
+[ 1807.189982]  MultiMedia1 Playback: ASoC error (-19): at dpcm_fe_dai_hw_params() on MultiMedia1 Playback
+[ 1807.198978] wcd9320 217:a0:1:0: slim-stream: ASoC shutdown (dai wcd9320-slim-rx1)
+up=0 port=0 channel=0 ups=0 downs=0
+origin=asoc
+rc_prepare=0 rc_enable=0 rc_disable=0 rc_unprepare=0
+allocated=0
+ s4                               0    3      0 unknown  5000mV     0mA  5000mV  5000mV 
+    217:a0:1:0-vdd-spkdrv         0                                 0mA     0mV     0mV
+    5vs1                          0    1      0  normal  5000mV     0mA     0mV     0mV 
+
+umeko@umeko-cancro:~$ 

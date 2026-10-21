@@ -1,0 +1,16 @@
+
+=== desktop pkgs ===
+gnome-session-bin
+gnome-shell-common
+mutter-common
+phoc
+phosh
+phosh-osk-stub
+=== autoremove sim ===
+0
+=== apt cache ===
+286M	/var/cache/apt/archives
+240M	/var/log/journal
+
+DONE_a5f3206d8e4a485690113f896830b193
+umeko@umeko-cancro:~$ 

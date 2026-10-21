@@ -1,0 +1,29 @@
+
+MainPID=4564
+NRestarts=0
+Id=obd-gauge-kiosk.service
+ActiveState=active
+
+MainPID=3712
+NRestarts=0
+Id=mi4-motion.service
+ActiveState=active
+10月 20 22:32:28 umeko-cancro python3[4564]: FPS 59.4  paint=1.3ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+
+10月 20 22:32:30 umeko-cancro python3[4564]: FPS 58.9  paint=1.3ms upload=0.0ms present=16.9ms wait=0.1ms pipeline=1
+
+10月 20 22:32:32 umeko-cancro python3[4564]: BLE error: BleakDeviceNotFoundError('Device with address [BT-ADDRESS] was not found.')
+
+10月 20 22:32:32 umeko-cancro python3[4564]: FPS 58.9  paint=1.5ms upload=0.0ms present=16.7ms wait=0.2ms pipeline=1
+
+10月 20 22:32:34 umeko-cancro python3[4564]: FPS 58.9  paint=1.2ms upload=0.0ms present=16.9ms wait=0.1ms pipeline=1
+
+10月 20 22:32:36 umeko-cancro python3[4564]: FPS 59.4  paint=1.2ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+
+10月 20 22:32:38 umeko-cancro python3[4564]: FPS 59.3  paint=1.2ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+
+8495a4852154fddbddfb64463e3162b73d2affcab031aeca577a9de96c0b347d  /home/umeko/desktop-offline/gauge_settings.py
+86692cda53c065ea53cc8e27f4ed1d6f702a2f4e816edfa6b178af846f47ebb8  /home/umeko/desktop-offline/gauge_motion.py
+until_peak_reset accelerometer_autocenter
+
+umeko@umeko-cancro:~$ 

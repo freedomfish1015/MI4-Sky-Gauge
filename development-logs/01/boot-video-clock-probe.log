@@ -1,0 +1,4 @@
+
+AUDIO_CLOCK GstSystemClock wall=3.000 clock=3.000 ratio=1.000
+
+umeko@umeko-cancro:~$ 

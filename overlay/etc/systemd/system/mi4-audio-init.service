@@ -1,0 +1,17 @@
+[Unit]
+Description=Mi4 internal speaker audio bring-up (early)
+DefaultDependencies=no
+After=systemd-remount-fs.service
+Before=sound.target shutdown.target
+Conflicts=shutdown.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+RuntimeDirectory=mi4-audio-init
+RuntimeDirectoryMode=0755
+ExecStart=/usr/local/bin/mi4-audio-init.sh
+ExecStartPost=/usr/bin/touch /run/mi4-audio-init/ready
+
+[Install]
+WantedBy=multi-user.target

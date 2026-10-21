@@ -1,0 +1,79 @@
+
+10月 20 15:59:30 umeko-cancro systemd[1]: Started obd-power.service - OBD external power countdown policy.
+
+10月 20 15:59:31 umeko-cancro python3[463]: CABLE_STATE {"online": true, "phase": "idle", "remaining": 20, "message": "", "reason": "cable"}
+
+10月 20 16:41:19 umeko-cancro kernel: qcom,wled fc4cf000.spmi:pm8941@1:wled@d800: error -ENXIO: IRQ ovp not found
+10月 20 16:41:19 umeko-cancro kernel: qcom-rpm-proc remoteproc: Failed to create device link (0x180) with supplier vreg-boost for /remoteproc/smd-edge/rpm-requests/regulators-1
+10月 20 16:41:19 umeko-cancro kernel: atmel_mxt_ts 0-004a: Direct firmware load for maxtouch.cfg failed with error -2
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send mas 8 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send mas 8 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send slv 16 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send slv 16 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send mas 2 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send mas 2 error -6
+10月 20 16:41:19 umeko-cancro kernel: adreno fdb00000.gpu: [drm:msm_devfreq_init] *ERROR* Couldn't initialize GPU devfreq
+10月 20 16:41:19 umeko-cancro kernel: msm_mdp fd900100.display-controller: [drm:a3xx_gpu_init] *ERROR* No memory protection without IOMMU
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send mas 6 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send mas 6 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send slv 16 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send slv 16 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send mas 2 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send mas 2 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send mas 55 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send mas 55 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send mas 56 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send slv 79 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send mas 56 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send slv 79 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send mas 56 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send slv 79 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send mas 56 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send slv 79 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send slv 78 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send slv 78 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send slv 78 error -6
+10月 20 16:41:19 umeko-cancro kernel: qcom_icc_rpm_smd_send slv 78 error -6
+10月 20 16:41:19 umeko-cancro kernel: EXT4-fs (mmcblk0p25): recovery complete
+10月 20 16:41:30 umeko-cancro systemd-journald[241]: File /var/log/journal/2f47f1c173f346c3958d9e897828e1b9/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.
+/sys/bus/iio/devices/iio:device0/in_voltage6_raw
+36116
+/sys/bus/iio/devices/iio:device0/in_voltage48_raw
+32729
+/sys/bus/iio/devices/iio:device1/in_current0_raw
+40
+/sys/bus/iio/devices/iio:device1/in_current1_raw
+37
+/sys/bus/iio/devices/iio:device1/in_current0_scale
+0.001000
+/sys/bus/iio/devices/iio:device1/in_current1_scale
+0.001000
+# ]8;;file://umeko-cancro/usr/lib/systemd/system/systemd-battery-check.service/usr/lib/systemd/system/systemd-battery-check.service]8;;
+#  SPDX-License-Identifier: LGPL-2.1-or-later
+#
+#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it
+#  under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 2.1 of the License, or
+#  (at your option) any later version.
+
+[Unit]
+Description=Check battery level during early boot
+Documentation=man:systemd-battery-check.service(8)
+ConditionVirtualization=no
+ConditionDirectoryNotEmpty=/sys/class/power_supply/
+ConditionKernelCommandLine=!systemd.battery-check=0
+AssertPathExists=/etc/initrd-release
+DefaultDependencies=no
+After=plymouth-start.service
+Before=initrd-root-device.target systemd-hibernate-resume.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/lib/systemd/systemd-battery-check
+FailureAction=poweroff-force
+obd-power
+
+umeko@umeko-cancro:~$ 

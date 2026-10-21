@@ -1,0 +1,33 @@
+
+[Unit]
+Description=OBD Gauge kiosk (KMSDRM, no compositor)
+# Bluetooth is needed for the BLE adapter link; no network or desktop required.
+After=systemd-user-sessions.service bluetooth.target
+Wants=bluetooth.target
+# This service owns the display, so it must not compete with a desktop session.
+Conflicts=phosh.service
+
+[Service]
+Type=simple
+User=umeko
+Group=umeko
+WorkingDirectory=/home/umeko/desktop-offline
+# logind cleans /run/user/<uid> when no session exists, so give the process its
+# own runtime dir instead of depending on a desktop session being active.
+RuntimeDirectory=obd-gauge
+RuntimeDirectoryMode=0700
+Environment=XDG_RUNTIME_DIR=/run/obd-gauge
+Environment=SDL_VIDEODRIVER=kmsdrm
+Environment=SDL_RENDER_DRIVER=opengles2
+Environment=SDL_VIDEO_KMSDRM_DEVICE=/dev/dri/card0
+ExecStart=/usr/bin/python3 /home/umeko/desktop-offline/gauge_sdl.py --ble [BT-ADDRESS]
+Restart=always
+RestartSec=2
+# Give the GPU/BLE stack a moment during boot before the first frame.
+TimeoutStartSec=30
+
+[Install]
+WantedBy=multi-user.target
+
+DONE_26bf72de19d2441ab19662fd274eab2b
+umeko@umeko-cancro:~$ 

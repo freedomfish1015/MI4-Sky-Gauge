@@ -1,0 +1,9 @@
+
+OUTPUT <Qmi.IndicationLocGnssSvInfoOutput object at 0xb67aba50 (QmiIndicationLocGnssSvInfoOutput at 0x240f728)> HASH 37812008
+GET_LIST
+LIST_LENGTH 2
+<enum QMI_LOC_SYSTEM_GPS of type Qmi.LocSystem> 1
+<enum QMI_LOC_SYSTEM_COMPASS of type Qmi.LocSystem> 2
+DONE
+
+umeko@umeko-cancro:~$ 

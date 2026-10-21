@@ -1,0 +1,19 @@
+
+ 23:49:19 up  1:14,  1 user,  load average: 1.54, 1.54, 1.57
+NRestarts=0
+Id=obd-power.service
+ActiveState=active
+SubState=running
+
+NRestarts=0
+Id=obd-gauge-kiosk.service
+ActiveState=active
+SubState=running
+
+Id=obd-power-install-guard.timer
+ActiveState=active
+SubState=waiting
+{"online": true, "phase": "idle", "remaining": 20, "message": ""}No jobs running.
+96124e9282c947718061e271a13d5bc0e8a23f27fe33cc4214bd508fc2897dc4  /home/umeko/desktop-offline/gauge_sdl.py
+
+umeko@umeko-cancro:~$ 

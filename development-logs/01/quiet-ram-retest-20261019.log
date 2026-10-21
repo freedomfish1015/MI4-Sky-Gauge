@@ -1,0 +1,15 @@
+
+earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait loglevel=0 quiet
+{"status": "complete", "complete": true, "frames": 361, "last_pts": 12.0}NRestarts=0
+ActiveState=active
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+[   17.433765] umeko-cancro python3[439]: BOOT_VIDEO_FIRST_FRAME startup=0.68s native=1080x1920 audio=1 volume=0.50 GPU=YUV strides=[1080, 540, 540]
+[   38.887603] umeko-cancro python3[439]: BOOT_VIDEO_EOS_COMPLETE frames=361 elapsed=21.45s fps=16.8 last_pts=12.0 render=4.7ms
+[   39.153278] umeko-cancro python3[439]: BOOT_HANDOFF_TO_GAUGE same_window=1
+
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,18 @@
+
+/sys/module/mi4_adsp_probe/parameters/dsp_state=-1
+/sys/module/mi4_adsp_probe/parameters/responses=0
+/sys/module/mi4_adsp_probe/parameters/service_count=0
+[ 1044.448559] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[ 1044.448586] Bluetooth: BNEP filters: protocol multicast
+[ 1044.448613] Bluetooth: BNEP socket layer initialized
+[ 1044.467821] Bluetooth: MGMT ver 1.23
+[ 1044.491760] NET: Registered PF_ALG protocol family
+[ 1044.603908] Bluetooth: RFCOMM TTY layer initialized
+[ 1044.603945] Bluetooth: RFCOMM socket layer initialized
+[ 1044.603978] Bluetooth: RFCOMM ver 1.11
+[ 1197.637341] msm_mdp fd900100.display-controller: pp done time out, lm=0
+[ 1213.216920] msm_mdp fd900100.display-controller: pp done time out, lm=0
+[ 1370.173935] msm_mdp fd900100.display-controller: pp done time out, lm=0
+[ 1542.163038] mi4_adsp_probe: loading out-of-tree module taints kernel.
+
+umeko@umeko-cancro:~$ 

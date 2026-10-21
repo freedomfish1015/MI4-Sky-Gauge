@@ -1,0 +1,67 @@
+
+10月 20 15:59:48 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: ASoC shutdown (dai wcd9320-slim-rx1)
+
+10月 20 15:59:48 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: ASoC shutdown (dai wcd9320-slim-rx1)
+
+10月 20 15:59:48 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: ASoC shutdown (dai wcd9320-slim-rx1)
+
+10月 20 15:59:48 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: ASoC shutdown (dai wcd9320-slim-rx1)
+
+10月 20 15:59:48 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO shutdown: all 3 steps applied cleanly
+
+10月 20 15:59:48 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO shutdown step  3/3: reg 0x1fa (VE 0x09fa) old=c6 mask=80 want=00 -> read=46  delay=0us  OK  [RC_OSC_FREQ: RC oscillator OFF -- no warm fallback past this row]
+
+10月 20 15:59:48 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO shutdown step  2/3: reg 0x105 (VE 0x0905) old=17 mask=01 want=00 -> read=16  delay=0us  OK  [BIAS_OSC_BG_CTL: clear bit 0]
+
+10月 20 15:59:48 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO shutdown step  1/3: reg 0x109 (VE 0x0909) old=02 mask=ff want=02 -> read=02  delay=0us  OK  [CLK_BUFF_EN2 = 0x02 (a full write downstream, not a masked one)]
+
+10月 20 15:59:48 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: ASoC shutdown (dai wcd9320-slim-rx1)
+
+10月 20 15:59:48 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO shutdown: all 3 steps applied cleanly
+
+10月 20 15:59:48 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO shutdown step  3/3: reg 0x1fa (VE 0x09fa) old=c6 mask=80 want=00 -> read=46  delay=0us  OK  [RC_OSC_FREQ: RC oscillator OFF -- no warm fallback past this row]
+
+10月 20 15:59:48 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO shutdown step  2/3: reg 0x105 (VE 0x0905) old=17 mask=01 want=00 -> read=16  delay=0us  OK  [BIAS_OSC_BG_CTL: clear bit 0]
+
+10月 20 15:59:48 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO shutdown step  1/3: reg 0x109 (VE 0x0909) old=02 mask=ff want=02 -> read=02  delay=0us  OK  [CLK_BUFF_EN2 = 0x02 (a full write downstream, not a masked one)]
+
+10月 20 15:59:48 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: ASoC shutdown (dai wcd9320-slim-rx1)
+
+10月 20 15:59:35 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO shutdown: all 3 steps applied cleanly
+
+10月 20 15:59:35 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO shutdown step  3/3: reg 0x1fa (VE 0x09fa) old=c6 mask=80 want=00 -> read=46  delay=0us  OK  [RC_OSC_FREQ: RC oscillator OFF -- no warm fallback past this row]
+
+10月 20 15:59:35 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO shutdown step  2/3: reg 0x105 (VE 0x0905) old=17 mask=01 want=00 -> read=16  delay=0us  OK  [BIAS_OSC_BG_CTL: clear bit 0]
+
+10月 20 15:59:35 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO shutdown step  1/3: reg 0x109 (VE 0x0909) old=02 mask=ff want=02 -> read=02  delay=0us  OK  [CLK_BUFF_EN2 = 0x02 (a full write downstream, not a masked one)]
+
+10月 20 15:59:23 umeko-cancro kernel: thermal_sys: Registered thermal governor 'step_wise'
+
+○ systemd-battery-check.service - Check battery level during early boot
+     Loaded: loaded (/usr/lib/systemd/system/systemd-battery-check.service; static)
+     Active: inactive (dead)
+       Docs: man:systemd-battery-check.service(8)
+asoc
+bdi
+binder
+block
+bluetooth
+clear_warn_once
+clk
+device_component
+devices_deferred
+dma_buf
+dmaengine
+dri
+dynamic_debug
+extfrag
+fault_around_bytes
+gpio
+hid
+i2c
+/sys/kernel/debug/regmap
+
+Charging
+1
+
+umeko@umeko-cancro:~$ 

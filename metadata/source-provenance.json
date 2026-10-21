@@ -1,0 +1,2120 @@
+[
+  {
+    "path": "app/elm327_ble_bridge.py",
+    "origin": "clean-r2-runtime/app/elm327_ble_bridge.py",
+    "source_sha256": "32f8002c2b180adb40b4623fac6bad925a5da7c5fd97a29b401f8bc38353a087",
+    "sha256": "32f8002c2b180adb40b4623fac6bad925a5da7c5fd97a29b401f8bc38353a087",
+    "transforms": []
+  },
+  {
+    "path": "app/elm_bridge_core.py",
+    "origin": "clean-r2-runtime/app/elm_bridge_core.py",
+    "source_sha256": "7fbe64d47569d149ac11e71bfb8fbd81a59338019ae1c68774ae6dc03cdb8c4a",
+    "sha256": "7fbe64d47569d149ac11e71bfb8fbd81a59338019ae1c68774ae6dc03cdb8c4a",
+    "transforms": []
+  },
+  {
+    "path": "app/elm_bridge_ipc.py",
+    "origin": "clean-r2-runtime/app/elm_bridge_ipc.py",
+    "source_sha256": "f75b1b35371440c84433dfe99cbf1e5ee10821f9ad835d265cb4c7f5ce5581b6",
+    "sha256": "f75b1b35371440c84433dfe99cbf1e5ee10821f9ad835d265cb4c7f5ce5581b6",
+    "transforms": []
+  },
+  {
+    "path": "app/elm_passive.py",
+    "origin": "clean-r2-runtime/app/elm_passive.py",
+    "source_sha256": "544d8c918d6654aaf6cfc9a5591e2187ec9c52ccbe2c9e612de56d98378c961b",
+    "sha256": "544d8c918d6654aaf6cfc9a5591e2187ec9c52ccbe2c9e612de56d98378c961b",
+    "transforms": []
+  },
+  {
+    "path": "app/elm_radio.py",
+    "origin": "clean-r2-runtime/app/elm_radio.py",
+    "source_sha256": "031c2e7ac455ac1aec713e40fd7d0337ffcc82264f858f65514db4cc7ec7b5e3",
+    "sha256": "031c2e7ac455ac1aec713e40fd7d0337ffcc82264f858f65514db4cc7ec7b5e3",
+    "transforms": []
+  },
+  {
+    "path": "app/gauge_ble_diagnostics.py",
+    "origin": "clean-r2-runtime/app/gauge_ble_diagnostics.py",
+    "source_sha256": "be112b659728a50dbd50e82e00e4e4bc4e8d4a4c04df0386a23a6d2766e61fd2",
+    "sha256": "be112b659728a50dbd50e82e00e4e4bc4e8d4a4c04df0386a23a6d2766e61fd2",
+    "transforms": []
+  },
+  {
+    "path": "app/gauge_ble_protocol.py",
+    "origin": "clean-r2-runtime/app/gauge_ble_protocol.py",
+    "source_sha256": "64f7e448695e7488ce105baf78276d058b3e7f92978bd3387c15a6d0f3a3fe36",
+    "sha256": "64f7e448695e7488ce105baf78276d058b3e7f92978bd3387c15a6d0f3a3fe36",
+    "transforms": []
+  },
+  {
+    "path": "app/gauge_charge_mode.py",
+    "origin": "clean-r2-runtime/app/gauge_charge_mode.py",
+    "source_sha256": "8f9b36fe502edb8e4fae4dc9f138d47f0aeb0847bed53cb55d40953726214fa4",
+    "sha256": "8f9b36fe502edb8e4fae4dc9f138d47f0aeb0847bed53cb55d40953726214fa4",
+    "transforms": []
+  },
+  {
+    "path": "app/gauge_compat.py",
+    "origin": "clean-r2-runtime/app/gauge_compat.py",
+    "source_sha256": "7fdbf5a24ead234ac1adcf709f3142fc3b626d887d2e6148a53b994fb148e6df",
+    "sha256": "7fdbf5a24ead234ac1adcf709f3142fc3b626d887d2e6148a53b994fb148e6df",
+    "transforms": []
+  },
+  {
+    "path": "app/gauge_compat_ble.py",
+    "origin": "clean-r2-runtime/app/gauge_compat_ble.py",
+    "source_sha256": "201f1627459bfbd6c466ffc4aaa79ee5525d3742b20014c82091a0ffdad9d04b",
+    "sha256": "201f1627459bfbd6c466ffc4aaa79ee5525d3742b20014c82091a0ffdad9d04b",
+    "transforms": []
+  },
+  {
+    "path": "app/gauge_elm_forward.py",
+    "origin": "clean-r2-runtime/app/gauge_elm_forward.py",
+    "source_sha256": "c28bb52a30bb1403404209374891646c9e776ced8cdaa90aefb3f34d1bc46d8e",
+    "sha256": "c28bb52a30bb1403404209374891646c9e776ced8cdaa90aefb3f34d1bc46d8e",
+    "transforms": []
+  },
+  {
+    "path": "app/gauge_home.py",
+    "origin": "clean-r2-runtime/app/gauge_home.py",
+    "source_sha256": "f5321590f768bf89acfa44c8579d9da1a472516be0de434f5531231ba85fa536",
+    "sha256": "f5321590f768bf89acfa44c8579d9da1a472516be0de434f5531231ba85fa536",
+    "transforms": []
+  },
+  {
+    "path": "app/gauge_log_transfer.py",
+    "origin": "clean-r2-runtime/app/gauge_log_transfer.py",
+    "source_sha256": "a83b6f0ab4d39b91633c62ba63e66b89899b52710229d9589a7a4c080afa3f4a",
+    "sha256": "a83b6f0ab4d39b91633c62ba63e66b89899b52710229d9589a7a4c080afa3f4a",
+    "transforms": []
+  },
+  {
+    "path": "app/gauge_motion.py",
+    "origin": "clean-r2-runtime/app/gauge_motion.py",
+    "source_sha256": "86692cda53c065ea53cc8e27f4ed1d6f702a2f4e816edfa6b178af846f47ebb8",
+    "sha256": "86692cda53c065ea53cc8e27f4ed1d6f702a2f4e816edfa6b178af846f47ebb8",
+    "transforms": []
+  },
+  {
+    "path": "app/gauge_power.py",
+    "origin": "clean-r2-runtime/app/gauge_power.py",
+    "source_sha256": "b031cd859fc9ce83aa98c323809a8318bb1a5ba637c1b8f388561dad3eb674f0",
+    "sha256": "b031cd859fc9ce83aa98c323809a8318bb1a5ba637c1b8f388561dad3eb674f0",
+    "transforms": []
+  },
+  {
+    "path": "app/gauge_sdl.py",
+    "origin": "clean-r2-runtime/app/gauge_sdl.py",
+    "source_sha256": "7c54e40092d8e5806548f6ffbcff7040ba270bcfd70c564181ee825fbe98d667",
+    "sha256": "7c54e40092d8e5806548f6ffbcff7040ba270bcfd70c564181ee825fbe98d667",
+    "transforms": []
+  },
+  {
+    "path": "app/gauge_settings.py",
+    "origin": "clean-r2-runtime/app/gauge_settings.py",
+    "source_sha256": "2a4de0c6d491b5d62ec456bee2d1a40fda0f7fd6490c00c658ebf0813e96ed43",
+    "sha256": "2a4de0c6d491b5d62ec456bee2d1a40fda0f7fd6490c00c658ebf0813e96ed43",
+    "transforms": []
+  },
+  {
+    "path": "app/gauge_telemetry.py",
+    "origin": "clean-r2-runtime/app/gauge_telemetry.py",
+    "source_sha256": "41e03c689dc4ce02e8212d0537965cf3afbb93a2a323525a218005afaab6e497",
+    "sha256": "41e03c689dc4ce02e8212d0537965cf3afbb93a2a323525a218005afaab6e497",
+    "transforms": []
+  },
+  {
+    "path": "app/gauge_tracks.py",
+    "origin": "clean-r2-runtime/app/gauge_tracks.py",
+    "source_sha256": "c1acdc1ce8b4a60245b25340323a680b2b89522acb6f91417cc94102ec087e55",
+    "sha256": "c1acdc1ce8b4a60245b25340323a680b2b89522acb6f91417cc94102ec087e55",
+    "transforms": []
+  },
+  {
+    "path": "app/gauge_windows.py",
+    "origin": "clean-r2-runtime/app/gauge_windows.py",
+    "source_sha256": "e58ecef5f9a8aa76c0d1ac273f4ea0c7c9c5afbc2aa457b1bbca406f8b2f6e97",
+    "sha256": "e58ecef5f9a8aa76c0d1ac273f4ea0c7c9c5afbc2aa457b1bbca406f8b2f6e97",
+    "transforms": []
+  },
+  {
+    "path": "app/obd_ble.py",
+    "origin": "clean-r2-runtime/app/obd_ble.py",
+    "source_sha256": "b96ced1bc9f463e1215e5faae9f4bee316f4306169af5bea74ce47e9765e4437",
+    "sha256": "2d1ccf9731d08b3a88e86906e99bfbb0e9c35a0c2e07ed0eee8683714ce8fc5a",
+    "transforms": [
+      "replace-address-literals-with-synthetic-peers"
+    ]
+  },
+  {
+    "path": "services/motion/mi4-modem-start.sh",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-motion/mi4-modem-start.sh",
+    "source_sha256": "31143fa125a15cc66a056acdf467baf1ca3ecb9edc8ae9159d8fca61361e159f",
+    "sha256": "31143fa125a15cc66a056acdf467baf1ca3ecb9edc8ae9159d8fca61361e159f",
+    "transforms": []
+  },
+  {
+    "path": "services/motion/mi4-sensors-init.sh",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-motion/mi4-sensors-init.sh",
+    "source_sha256": "5d4d486b8f79b8ffde535d2a438e2f7838c9f10712cc9fd465273091b24b312e",
+    "sha256": "5d4d486b8f79b8ffde535d2a438e2f7838c9f10712cc9fd465273091b24b312e",
+    "transforms": []
+  },
+  {
+    "path": "services/motion/mi4_accel_autocenter.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-motion/mi4_accel_autocenter.py",
+    "source_sha256": "1eb6a33ce7e0bcfb1f54f1c74dd6df583822becf32d479d7a4752e2b88a1f254",
+    "sha256": "1eb6a33ce7e0bcfb1f54f1c74dd6df583822becf32d479d7a4752e2b88a1f254",
+    "transforms": []
+  },
+  {
+    "path": "services/motion/mi4_gnss.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-motion/mi4_gnss.py",
+    "source_sha256": "6a525d35b65c2f96901b2aa01c11ec4b5c7d6325bbc7eceee1172b004506c82a",
+    "sha256": "b8fa904dd7f794355f387b6d1ba8e12796e8a22b6753de3e9751e72586d2dd7b",
+    "transforms": [
+      "public-source-layout-or-current-test-adaptation"
+    ],
+    "export_sha256": "6a525d35b65c2f96901b2aa01c11ec4b5c7d6325bbc7eceee1172b004506c82a"
+  },
+  {
+    "path": "services/motion/mi4_motiond.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-motion/mi4_motiond.py",
+    "source_sha256": "d137b41dc41cf16b41596f793a30fe19dc4560c918c51bf5330da603bebe3054",
+    "sha256": "d137b41dc41cf16b41596f793a30fe19dc4560c918c51bf5330da603bebe3054",
+    "transforms": []
+  },
+  {
+    "path": "services/motion/mi4_qmi_sv.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-motion/mi4_qmi_sv.py",
+    "source_sha256": "93c91c5be3cbe21024c7acf8705031e577980e9ff565b34e3a2a357398c479bb",
+    "sha256": "93c91c5be3cbe21024c7acf8705031e577980e9ff565b34e3a2a357398c479bb",
+    "transforms": []
+  },
+  {
+    "path": "services/motion/mi4_satellite_log.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-motion/mi4_satellite_log.py",
+    "source_sha256": "9c55bb12df4a3920e5fb7554179abed63bc2dbff5f1f7a2e5edf6d5ce93bcc00",
+    "sha256": "9c55bb12df4a3920e5fb7554179abed63bc2dbff5f1f7a2e5edf6d5ce93bcc00",
+    "transforms": []
+  },
+  {
+    "path": "services/power/gauge_power_service.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-power/gauge_power_service.py",
+    "source_sha256": "05543f3ffe769a219b4f5993a59efbcfba7ba50fd2a0e8f7fe71d7f112756533",
+    "sha256": "05543f3ffe769a219b4f5993a59efbcfba7ba50fd2a0e8f7fe71d7f112756533",
+    "transforms": []
+  },
+  {
+    "path": "services/charge/charge_radio_guard.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-charge/charge_radio_guard.py",
+    "source_sha256": "bf45aa4c9a3ef63b0a49ac8dbd292bf1b0cc6053d2c72ae99ae10aa4c6c2c46a",
+    "sha256": "bf45aa4c9a3ef63b0a49ac8dbd292bf1b0cc6053d2c72ae99ae10aa4c6c2c46a",
+    "transforms": []
+  },
+  {
+    "path": "services/charge/gauge_charge_mode_service.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-charge/gauge_charge_mode_service.py",
+    "source_sha256": "b51fd95ffb2a613bf33156a423af8f56df491064938fd7534508f05d70e325c9",
+    "sha256": "b51fd95ffb2a613bf33156a423af8f56df491064938fd7534508f05d70e325c9",
+    "transforms": []
+  },
+  {
+    "path": "services/log_transfer/control.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-log-transfer/control.py",
+    "source_sha256": "9ee6d46584633671827cc71f1183ffb3555b207a74d52d43ba2156ee5c5eac34",
+    "sha256": "9ee6d46584633671827cc71f1183ffb3555b207a74d52d43ba2156ee5c5eac34",
+    "transforms": []
+  },
+  {
+    "path": "services/log_transfer/download.html",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-log-transfer/download.html",
+    "source_sha256": "2db526a5a23bf491710dc4d284ea76731573f6dc7d22c1683604440bd39cbffe",
+    "sha256": "2db526a5a23bf491710dc4d284ea76731573f6dc7d22c1683604440bd39cbffe",
+    "transforms": []
+  },
+  {
+    "path": "services/log_transfer/download.js",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-log-transfer/download.js",
+    "source_sha256": "1eb0c7087c3c6f76e6a468b9f56cbbdd6fb9af8dc03de387de2e230c2a4fe501",
+    "sha256": "1eb0c7087c3c6f76e6a468b9f56cbbdd6fb9af8dc03de387de2e230c2a4fe501",
+    "transforms": []
+  },
+  {
+    "path": "services/log_transfer/log_download.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-log-transfer/log_download.py",
+    "source_sha256": "d163a70b19a1753d9e0d6cd57b52d5670af89e2249c925e7d92dcd28e470cfbc",
+    "sha256": "d163a70b19a1753d9e0d6cd57b52d5670af89e2249c925e7d92dcd28e470cfbc",
+    "transforms": []
+  },
+  {
+    "path": "services/log_transfer/log_hotspot.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-log-transfer/log_hotspot.py",
+    "source_sha256": "295bf44c1139d3de73357154a4d63ecb0b5cdc81ba38962c76f20a749d2952e5",
+    "sha256": "295bf44c1139d3de73357154a4d63ecb0b5cdc81ba38962c76f20a749d2952e5",
+    "transforms": []
+  },
+  {
+    "path": "services/log_transfer/racechrono_export.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-log-transfer/racechrono_export.py",
+    "source_sha256": "5df16260ec28ea5f5e20ce47dd5526a2e41472b04320ba863b114d6b53ff8e64",
+    "sha256": "5df16260ec28ea5f5e20ce47dd5526a2e41472b04320ba863b114d6b53ff8e64",
+    "transforms": []
+  },
+  {
+    "path": "services/platform/fastboot_screen_repair.py",
+    "origin": "clean-r2-runtime/usr/local/lib/mi4-sky/fastboot_screen_repair.py",
+    "source_sha256": "d1e6c78845dfcb686fa1de62605c70c4bbecdfe4181fcd71e66bf278ad33efda",
+    "sha256": "d1e6c78845dfcb686fa1de62605c70c4bbecdfe4181fcd71e66bf278ad33efda",
+    "transforms": []
+  },
+  {
+    "path": "services/platform/firstboot.py",
+    "origin": "clean-r2-runtime/usr/local/lib/mi4-sky/firstboot.py",
+    "source_sha256": "a6e9e2f3584a2ddfb61a57a4bedebc3bba7f2837b6f04aeb832f55b0d31ef792",
+    "sha256": "a6e9e2f3584a2ddfb61a57a4bedebc3bba7f2837b6f04aeb832f55b0d31ef792",
+    "transforms": []
+  },
+  {
+    "path": "services/platform/sky_peer.py",
+    "origin": "clean-r2-runtime/usr/local/lib/mi4-sky/sky_peer.py",
+    "source_sha256": "6ccf700e18e2a4ed4a399659dcde427d7d85bb280857ade0ba0fe88ab7a39d3d",
+    "sha256": "643e1e2b3c3ec903864c5e70c375ca71db996e5681e4c08ed54e66a88fafe3bb",
+    "transforms": [
+      "replace-address-literals-with-synthetic-peers"
+    ]
+  },
+  {
+    "path": "services/bms/bms_fixed_init.py",
+    "origin": "clean-r2-runtime/usr/local/lib/mi4-bms-fixed/bms_fixed_init.py",
+    "source_sha256": "66a08e7cdfe9a72b8860029b13251d197c3880c72c8b94ee6ce287fae32bd0a6",
+    "sha256": "66a08e7cdfe9a72b8860029b13251d197c3880c72c8b94ee6ce287fae32bd0a6",
+    "transforms": []
+  },
+  {
+    "path": "services/bms/mi4_bms_fixed.c",
+    "origin": "clean-r2-runtime/usr/local/lib/mi4-bms-fixed/mi4_bms_fixed.c",
+    "source_sha256": "6fda41535f3918d4dd5cdb20eb8609ccf030480dd71c91ce3948de4039402454",
+    "sha256": "b208940610001de6959be024ec319593db90674eb56f3b826b27f26a4e826d23",
+    "transforms": [
+      "public-source-layout-or-current-test-adaptation"
+    ],
+    "export_sha256": "6fda41535f3918d4dd5cdb20eb8609ccf030480dd71c91ce3948de4039402454"
+  },
+  {
+    "path": "services/startup/boot_curtain.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-gauge/boot_curtain.py",
+    "source_sha256": "ed2b212b0309f473dc5d884adcf7c72370fac7d69df4f18f0ae37f2eab2df074",
+    "sha256": "ed2b212b0309f473dc5d884adcf7c72370fac7d69df4f18f0ae37f2eab2df074",
+    "transforms": []
+  },
+  {
+    "path": "services/startup/boot_video.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-gauge/boot_video.py",
+    "source_sha256": "e4650cb0d7589bbe52b1943858c2c59d8ee84208d8e5d5c2a4c50e38f0e28d29",
+    "sha256": "e4650cb0d7589bbe52b1943858c2c59d8ee84208d8e5d5c2a4c50e38f0e28d29",
+    "transforms": []
+  },
+  {
+    "path": "services/startup/launch_boot_video.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-gauge/launch_boot_video.py",
+    "source_sha256": "550dd6ba7d5688429273c83801fec6c34d42cc482323139f8046d711fa5b3d02",
+    "sha256": "550dd6ba7d5688429273c83801fec6c34d42cc482323139f8046d711fa5b3d02",
+    "transforms": []
+  },
+  {
+    "path": "services/startup/launch_gauge_direct.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-gauge/launch_gauge_direct.py",
+    "source_sha256": "60583c3f5e92e265e8c3a9b4f5ca69fb9b797805d8368cb6880f703d42134c71",
+    "sha256": "60583c3f5e92e265e8c3a9b4f5ca69fb9b797805d8368cb6880f703d42134c71",
+    "transforms": []
+  },
+  {
+    "path": "services/startup/quiet_boot_direct.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-gauge/quiet_boot_direct.py",
+    "source_sha256": "412ccefce9410a17c75d330937c3abcf185b266e84f0fb692bad4e0917a1ba52",
+    "sha256": "412ccefce9410a17c75d330937c3abcf185b266e84f0fb692bad4e0917a1ba52",
+    "transforms": []
+  },
+  {
+    "path": "services/startup/quiet_boot_fast.py",
+    "origin": "clean-r2-runtime/usr/local/lib/obd-gauge/quiet_boot_fast.py",
+    "source_sha256": "d247164171286c4500b0edf3710db51fcaa2acd3ffb2e2ed3798ef160e260fc4",
+    "sha256": "d247164171286c4500b0edf3710db51fcaa2acd3ffb2e2ed3798ef160e260fc4",
+    "transforms": []
+  },
+  {
+    "path": "overlay/usr/local/bin/mi4-audio-init.sh",
+    "origin": "clean-r2-runtime/bin/mi4-audio-init.sh",
+    "source_sha256": "9ccb29d09830af2a5fa525d87a4c2373a346221ada787375cdbb35492763cd4a",
+    "sha256": "9ccb29d09830af2a5fa525d87a4c2373a346221ada787375cdbb35492763cd4a",
+    "transforms": []
+  },
+  {
+    "path": "overlay/usr/local/bin/mi4-sky-bind-sky",
+    "origin": "clean-r2-runtime/bin/mi4-sky-bind-sky",
+    "source_sha256": "d6c0b9f3a9f16f92fd9b7709068d8a879440644e850b745220f9e448d282c863",
+    "sha256": "d6c0b9f3a9f16f92fd9b7709068d8a879440644e850b745220f9e448d282c863",
+    "transforms": []
+  },
+  {
+    "path": "overlay/usr/local/bin/mi4-sky-fix-fastboot",
+    "origin": "clean-r2-runtime/bin/mi4-sky-fix-fastboot",
+    "source_sha256": "87a9944dfc73c4fc62d285cdca97850946a97047629255b615c6f726aec54c29",
+    "sha256": "87a9944dfc73c4fc62d285cdca97850946a97047629255b615c6f726aec54c29",
+    "transforms": []
+  },
+  {
+    "path": "overlay/usr/local/sbin/usb-gadget-ncm-serial.sh",
+    "origin": "clean-r2-runtime/sbin/usb-gadget-ncm-serial.sh",
+    "source_sha256": "c9aa5ec44d63ce981f31ec4d1827fb74f668457c03d791c77172e5d70f8841d7",
+    "sha256": "c9aa5ec44d63ce981f31ec4d1827fb74f668457c03d791c77172e5d70f8841d7",
+    "transforms": [],
+    "excluded_from_public_tree": "inherited helper license pending; interface documented separately"
+  },
+  {
+    "path": "overlay/usr/local/sbin/ncm-serial-setup.sh",
+    "origin": "clean-r2-runtime/sbin/ncm-serial-setup.sh",
+    "source_sha256": "9265f64cb659bb2d090757b14f3bba963ee4f015016e5c80c5283c220c0cc92b",
+    "sha256": "9265f64cb659bb2d090757b14f3bba963ee4f015016e5c80c5283c220c0cc92b",
+    "transforms": [],
+    "excluded_from_public_tree": "inherited helper license pending; interface documented separately"
+  },
+  {
+    "path": "services/platform/auto_resize_script.sh",
+    "origin": "clean-r2-runtime/umeko/auto_resize_script.sh",
+    "source_sha256": "e0fc1046735587a5e6d19820a49adebb7a0518cb1413ab499c0c415ebd61b947",
+    "sha256": "e0fc1046735587a5e6d19820a49adebb7a0518cb1413ab499c0c415ebd61b947",
+    "transforms": [],
+    "excluded_from_public_tree": "inherited helper license pending; interface documented separately"
+  },
+  {
+    "path": "services/platform/modem-firmware-extract.sh",
+    "origin": "clean-r2-runtime/umeko/modem-firmware-extract.sh",
+    "source_sha256": "5eb6d95b71316734dbfffe93e92921ac7c55381c03f35e02852a3a4a9e582a74",
+    "sha256": "5eb6d95b71316734dbfffe93e92921ac7c55381c03f35e02852a3a4a9e582a74",
+    "transforms": [],
+    "excluded_from_public_tree": "inherited helper license pending; interface documented separately"
+  },
+  {
+    "path": "overlay/etc/systemd/system/mi4-audio-init.service",
+    "origin": "clean-r2-runtime/etc/systemd/system/mi4-audio-init.service",
+    "source_sha256": "201883ecf023796b2300ede912f5712078ddc9d750ce7a8995f7f085ddb449cf",
+    "sha256": "201883ecf023796b2300ede912f5712078ddc9d750ce7a8995f7f085ddb449cf",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/mi4-bms-fixed.service",
+    "origin": "clean-r2-runtime/etc/systemd/system/mi4-bms-fixed.service",
+    "source_sha256": "6604420868ef3f3c7136a7f8650ecf0ce914605fe6b4311d3549b12833069a59",
+    "sha256": "6604420868ef3f3c7136a7f8650ecf0ce914605fe6b4311d3549b12833069a59",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/mi4-bms-fixed.service.d/90-bms-early.conf",
+    "origin": "clean-r2-runtime/etc/systemd/system/mi4-bms-fixed.service.d/90-bms-early.conf",
+    "source_sha256": "16d664d8bf90c91537a5bf70fcc89ff3245b123d7cadddb011f65f957cc2a0d2",
+    "sha256": "16d664d8bf90c91537a5bf70fcc89ff3245b123d7cadddb011f65f957cc2a0d2",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/mi4-charge-mode.service",
+    "origin": "clean-r2-runtime/etc/systemd/system/mi4-charge-mode.service",
+    "source_sha256": "738475e3bc9a9ebeba8ddc61f024580a40f064e2d94c14af17fe7fc2f98a64e1",
+    "sha256": "738475e3bc9a9ebeba8ddc61f024580a40f064e2d94c14af17fe7fc2f98a64e1",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/mi4-charge-mode.service.d/50-rfkill-recovery.conf",
+    "origin": "clean-r2-runtime/etc/systemd/system/mi4-charge-mode.service.d/50-rfkill-recovery.conf",
+    "source_sha256": "4f629c4fa78713b4071fa06f1b190aca8f863cc691e3d4cb2ac64c59af892508",
+    "sha256": "4f629c4fa78713b4071fa06f1b190aca8f863cc691e3d4cb2ac64c59af892508",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/mi4-elm-advertiser.service",
+    "origin": "clean-r2-runtime/etc/systemd/system/mi4-elm-advertiser.service",
+    "source_sha256": "8ca4e6d840b07bfebd4e73177e2f0da5653de25915bd430a80d39778bce66ccb",
+    "sha256": "8ca4e6d840b07bfebd4e73177e2f0da5653de25915bd430a80d39778bce66ccb",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/mi4-fastboot-screen-fix.service",
+    "origin": "clean-r2-runtime/etc/systemd/system/mi4-fastboot-screen-fix.service",
+    "source_sha256": "26abb79625452b3986f66153b4bf3c9060cbcd4118a08aafd4fbfdd1486cb9a2",
+    "sha256": "26abb79625452b3986f66153b4bf3c9060cbcd4118a08aafd4fbfdd1486cb9a2",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/mi4-motion.service",
+    "origin": "clean-r2-runtime/etc/systemd/system/mi4-motion.service",
+    "source_sha256": "1bcec7df5af5112452adef6d1be33f22728804f3b58816923f039774bb22f570",
+    "sha256": "1bcec7df5af5112452adef6d1be33f22728804f3b58816923f039774bb22f570",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/mi4-rmtfs.service",
+    "origin": "clean-r2-runtime/etc/systemd/system/mi4-rmtfs.service",
+    "source_sha256": "34d5c4f2ef9f7a5a838ce25560f41fdd99e26dc3c064a868153f1a4177beda3f",
+    "sha256": "34d5c4f2ef9f7a5a838ce25560f41fdd99e26dc3c064a868153f1a4177beda3f",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/mi4-sky-firstboot.service",
+    "origin": "clean-r2-runtime/etc/systemd/system/mi4-sky-firstboot.service",
+    "source_sha256": "344ac98184b1114bdffbecc0060d4e7f44da0758a2783d23ee85806ebac12bc5",
+    "sha256": "344ac98184b1114bdffbecc0060d4e7f44da0758a2783d23ee85806ebac12bc5",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/ncm-serial.service",
+    "origin": "clean-r2-runtime/etc/systemd/system/ncm-serial.service",
+    "source_sha256": "931277ecf6ea2d00563ee729512c4ae696c3b8bbd8a3e5789805f966c1385780",
+    "sha256": "931277ecf6ea2d00563ee729512c4ae696c3b8bbd8a3e5789805f966c1385780",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/obd-boot-curtain.service",
+    "origin": "clean-r2-runtime/etc/systemd/system/obd-boot-curtain.service",
+    "source_sha256": "bec7073d53ca7cdecd1c7810c3280331ed2a4735a8abd9996936a2112f213752",
+    "sha256": "bec7073d53ca7cdecd1c7810c3280331ed2a4735a8abd9996936a2112f213752",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/obd-boot-curtain.service.d/90-direct-quiet.conf",
+    "origin": "clean-r2-runtime/etc/systemd/system/obd-boot-curtain.service.d/90-direct-quiet.conf",
+    "source_sha256": "71944056b72418ae2a038d858eeec12b617bcb4d65afc350897e8b9fe48ce923",
+    "sha256": "71944056b72418ae2a038d858eeec12b617bcb4d65afc350897e8b9fe48ce923",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/obd-boot-curtain.service.d/95-fast-quiet.conf",
+    "origin": "clean-r2-runtime/etc/systemd/system/obd-boot-curtain.service.d/95-fast-quiet.conf",
+    "source_sha256": "7d792b1e649dd473ce0a2e54a53e7256fa171977c7076a432cd670d11a853a6b",
+    "sha256": "7d792b1e649dd473ce0a2e54a53e7256fa171977c7076a432cd670d11a853a6b",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/obd-boot-curtain.service.d/99-sky-curtain.conf",
+    "origin": "clean-r2-runtime/etc/systemd/system/obd-boot-curtain.service.d/99-sky-curtain.conf",
+    "source_sha256": "4415036b16f7a584ce43c2973438894ccb1536c402a96e1611620f8458758ed5",
+    "sha256": "4415036b16f7a584ce43c2973438894ccb1536c402a96e1611620f8458758ed5",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/obd-gauge-kiosk.service",
+    "origin": "clean-r2-runtime/etc/systemd/system/obd-gauge-kiosk.service",
+    "source_sha256": "9ba487ceaa5e7a8d73205fbc94cf4bacceb1fd22cf5690d81ffa23cfc276f6f3",
+    "sha256": "9ba487ceaa5e7a8d73205fbc94cf4bacceb1fd22cf5690d81ffa23cfc276f6f3",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/obd-gauge-kiosk.service.d/90-direct-gauge.conf",
+    "origin": "clean-r2-runtime/etc/systemd/system/obd-gauge-kiosk.service.d/90-direct-gauge.conf",
+    "source_sha256": "56476169a4fee79f14a90438a51f56a926241dae358bfca7da74240ca628c1f3",
+    "sha256": "56476169a4fee79f14a90438a51f56a926241dae358bfca7da74240ca628c1f3",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/obd-gauge-kiosk.service.d/95-clean-firstboot.conf",
+    "origin": "clean-r2-runtime/etc/systemd/system/obd-gauge-kiosk.service.d/95-clean-firstboot.conf",
+    "source_sha256": "07a0ac5034bad29b843df1ff5c46846e0e8710f8ad24120b3b3339ad673798bc",
+    "sha256": "07a0ac5034bad29b843df1ff5c46846e0e8710f8ad24120b3b3339ad673798bc",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/obd-log-download.service",
+    "origin": "clean-r2-runtime/etc/systemd/system/obd-log-download.service",
+    "source_sha256": "2bc484a99fb124e670d61497a1c7d7bd4c9d1f2c9b3ed30418666ac2a5f75ae5",
+    "sha256": "950ef35003b1e066e5190cd78a9e49699fd0b7d31d43f46fb23e07f444b27d13",
+    "transforms": [
+      "public-source-layout-or-current-test-adaptation"
+    ],
+    "export_sha256": "2bc484a99fb124e670d61497a1c7d7bd4c9d1f2c9b3ed30418666ac2a5f75ae5"
+  },
+  {
+    "path": "overlay/etc/systemd/system/obd-log-transfer.service",
+    "origin": "clean-r2-runtime/etc/systemd/system/obd-log-transfer.service",
+    "source_sha256": "1e2964e4f60b84b2b955ac57e47a49ebef25c025fdbe8febfe9a7f3207d50752",
+    "sha256": "2f6656a0640adc4a46a04766a3b6626712a6e1f71514d772f9cfccf4b7fe476c",
+    "transforms": [
+      "public-source-layout-or-current-test-adaptation"
+    ],
+    "export_sha256": "1e2964e4f60b84b2b955ac57e47a49ebef25c025fdbe8febfe9a7f3207d50752"
+  },
+  {
+    "path": "overlay/etc/systemd/system/obd-power.service",
+    "origin": "clean-r2-runtime/etc/systemd/system/obd-power.service",
+    "source_sha256": "8bb0d227b1ffc2abb3998ca2795bc25f22a395bc1d12f62baace080f366e96db",
+    "sha256": "8bb0d227b1ffc2abb3998ca2795bc25f22a395bc1d12f62baace080f366e96db",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/umeko-modem-firmware.service",
+    "origin": "clean-r2-runtime/etc/systemd/system/umeko-modem-firmware.service",
+    "source_sha256": "96f82bc6760ffc6e73be6df3f60598a9ea36d5821fec527639378a7098a03991",
+    "sha256": "96f82bc6760ffc6e73be6df3f60598a9ea36d5821fec527639378a7098a03991",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/systemd/system/usb-gadget.service",
+    "origin": "clean-r2-runtime/etc/systemd/system/usb-gadget.service",
+    "source_sha256": "2e2c42476c14506a37a4711656b82fd1d2d5ba52192bd6dd8da12682711910ed",
+    "sha256": "2e2c42476c14506a37a4711656b82fd1d2d5ba52192bd6dd8da12682711910ed",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/udev/rules.d/90-obd-gauge-backlight.rules",
+    "origin": "clean-r2-runtime/etc/udev/rules.d/90-obd-gauge-backlight.rules",
+    "source_sha256": "7d8c56212f9fb9b3be25fdeea49cba1728f8627261d9294bb31dcfb3ac8184d1",
+    "sha256": "7d8c56212f9fb9b3be25fdeea49cba1728f8627261d9294bb31dcfb3ac8184d1",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/udev/rules.d/91-obd-gauge-touch.rules",
+    "origin": "clean-r2-runtime/etc/udev/rules.d/91-obd-gauge-touch.rules",
+    "source_sha256": "955692c67a091530ed67abe5b8cb118f4a9044301b7abb96a5dd31dae4da7d76",
+    "sha256": "955692c67a091530ed67abe5b8cb118f4a9044301b7abb96a5dd31dae4da7d76",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/modprobe.d/blacklist-ath_pci.conf",
+    "origin": "clean-r2-runtime/etc/modprobe.d/blacklist-ath_pci.conf",
+    "source_sha256": "1bca34650bd5b96b3b0a5c880f04e01e8151cae85af7d69c9a00adfaaca6c5bd",
+    "sha256": "53d8393a61251af516502a0bab55511714596209fd202b576b68ee05fecfe92e",
+    "transforms": [
+      "public-source-layout-or-current-test-adaptation"
+    ],
+    "export_sha256": "1bca34650bd5b96b3b0a5c880f04e01e8151cae85af7d69c9a00adfaaca6c5bd"
+  },
+  {
+    "path": "overlay/etc/modprobe.d/blacklist-firewire.conf",
+    "origin": "clean-r2-runtime/etc/modprobe.d/blacklist-firewire.conf",
+    "source_sha256": "37c8be8a4b292b28bf683edf18ca2ad77467d0384b6c5c030c11f8d1de4e822d",
+    "sha256": "37c8be8a4b292b28bf683edf18ca2ad77467d0384b6c5c030c11f8d1de4e822d",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/modprobe.d/blacklist-framebuffer.conf",
+    "origin": "clean-r2-runtime/etc/modprobe.d/blacklist-framebuffer.conf",
+    "source_sha256": "383278f65de289767c8c0564fa31038a3980e76223160c4c3fb70ddc6fcf403a",
+    "sha256": "383278f65de289767c8c0564fa31038a3980e76223160c4c3fb70ddc6fcf403a",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/modprobe.d/blacklist-rare-network.conf",
+    "origin": "clean-r2-runtime/etc/modprobe.d/blacklist-rare-network.conf",
+    "source_sha256": "d63190beb14c3ab0ad848d9ad17cf7eafecf3df9814fe390107ce68659d4d73c",
+    "sha256": "d63190beb14c3ab0ad848d9ad17cf7eafecf3df9814fe390107ce68659d4d73c",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/modprobe.d/blacklist.conf",
+    "origin": "clean-r2-runtime/etc/modprobe.d/blacklist.conf",
+    "source_sha256": "6854dbe3a233ab035ae6593c9bb577d1859d32a934e6fb2d60aaba99a4e45cb8",
+    "sha256": "6854dbe3a233ab035ae6593c9bb577d1859d32a934e6fb2d60aaba99a4e45cb8",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/modprobe.d/disable-algif_aead.conf",
+    "origin": "clean-r2-runtime/etc/modprobe.d/disable-algif_aead.conf",
+    "source_sha256": "3edb721c3498e104e490b3a96195fe49dc0d88846c50d48605907cbe0b7fbf7a",
+    "sha256": "3edb721c3498e104e490b3a96195fe49dc0d88846c50d48605907cbe0b7fbf7a",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/modprobe.d/iwlwifi.conf",
+    "origin": "clean-r2-runtime/etc/modprobe.d/iwlwifi.conf",
+    "source_sha256": "ff7191f16a3d71e46b980fccabae0b20cfefe9254119e84e4fd6b85ebf3e8170",
+    "sha256": "ff7191f16a3d71e46b980fccabae0b20cfefe9254119e84e4fd6b85ebf3e8170",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/modprobe.d/mi4-audio.conf",
+    "origin": "clean-r2-runtime/etc/modprobe.d/mi4-audio.conf",
+    "source_sha256": "21adc294eb468d3f46d7756d7ee3ee72ca50f5dd1c263c99b9577ecc5c4d141d",
+    "sha256": "21adc294eb468d3f46d7756d7ee3ee72ca50f5dd1c263c99b9577ecc5c4d141d",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/bluetooth/main.conf",
+    "origin": "clean-r2-runtime/etc/bluetooth/main.conf",
+    "source_sha256": "9f2db017bcafe3dfcfef84a03a2945268f7079d652059770d9d6710028579d18",
+    "sha256": "9f2db017bcafe3dfcfef84a03a2945268f7079d652059770d9d6710028579d18",
+    "transforms": []
+  },
+  {
+    "path": "overlay/etc/sudoers.d/obd-log-transfer",
+    "origin": "clean-r2-runtime/etc/sudoers.d/obd-log-transfer",
+    "source_sha256": "94c85c8a45abde6d4ac428f4df3f75ce9aa7e40c0316aa7aaccac0f1eb69f3e6",
+    "sha256": "94c85c8a45abde6d4ac428f4df3f75ce9aa7e40c0316aa7aaccac0f1eb69f3e6",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/alfa.giulia_20t.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/alfa.giulia_20t.vehicle.json",
+    "source_sha256": "f56be90512fbfb085377086f4888bb3e877a1298eb0411d0dc6df83051f887ad",
+    "sha256": "f56be90512fbfb085377086f4888bb3e877a1298eb0411d0dc6df83051f887ad",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/bmw.e.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/bmw.e.vehicle.json",
+    "source_sha256": "459b802594012ce5238eb1b6aaa310807918925a42c09862f1060cbb155f64f9",
+    "sha256": "459b802594012ce5238eb1b6aaa310807918925a42c09862f1060cbb155f64f9",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/bmw.fg.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/bmw.fg.vehicle.json",
+    "source_sha256": "c0e7d3d8c74675c47afb1a307dab656e826e71e1ba3bc18548685b8147c26668",
+    "sha256": "c0e7d3d8c74675c47afb1a307dab656e826e71e1ba3bc18548685b8147c26668",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/bmw.g.obd.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/bmw.g.obd.vehicle.json",
+    "source_sha256": "facc8ce4e1c2bceb46937bc50ed728d489cef1716b2b2a8dc08666139e8ef410",
+    "sha256": "facc8ce4e1c2bceb46937bc50ed728d489cef1716b2b2a8dc08666139e8ef410",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/honda.integra.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/honda.integra.vehicle.json",
+    "source_sha256": "40495767ee79ccfbcd3c34c7a964a989c0df89a0a2b6c9bc342f938152e32acb",
+    "sha256": "40495767ee79ccfbcd3c34c7a964a989c0df89a0a2b6c9bc342f938152e32acb",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/jeep.generic.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/jeep.generic.vehicle.json",
+    "source_sha256": "eedd99d1eda5b5a2ffcd1c63501cbdbfdab411be9a17c749e33398b4d0a6b734",
+    "sha256": "eedd99d1eda5b5a2ffcd1c63501cbdbfdab411be9a17c749e33398b4d0a6b734",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/mazda.mx5nd.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/mazda.mx5nd.vehicle.json",
+    "source_sha256": "31b63e3164e5436697ba5770faa291b895673a35db20e464882aaebd91c0d1e3",
+    "sha256": "31b63e3164e5436697ba5770faa291b895673a35db20e464882aaebd91c0d1e3",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/mini.jcw_f56.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/mini.jcw_f56.vehicle.json",
+    "source_sha256": "1add9220b9cb051a9b8e5407be508fa700dbceb6fd620ccf6c2ec9647c6f3801",
+    "sha256": "1add9220b9cb051a9b8e5407be508fa700dbceb6fd620ccf6c2ec9647c6f3801",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/mini.r55.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/mini.r55.vehicle.json",
+    "source_sha256": "9fd494df8ea8385b6d91dfd210385e2307afb48587c414d4ec6cfef45aeab8c2",
+    "sha256": "9fd494df8ea8385b6d91dfd210385e2307afb48587c414d4ec6cfef45aeab8c2",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/obd2.generic.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/obd2.generic.vehicle.json",
+    "source_sha256": "086acb7155cb7e5be9d3c2cd1e0dfbf6c0bd83011d02376d7ad3344cc682ad3e",
+    "sha256": "086acb7155cb7e5be9d3c2cd1e0dfbf6c0bd83011d02376d7ad3344cc682ad3e",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/porsche.997_1.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/porsche.997_1.vehicle.json",
+    "source_sha256": "7c6fd691df8fc9cc1579023870a4811699658a1d9736e393529bc14d84860206",
+    "sha256": "7c6fd691df8fc9cc1579023870a4811699658a1d9736e393529bc14d84860206",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/porsche.997_2.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/porsche.997_2.vehicle.json",
+    "source_sha256": "be2e59097ef98d02a24d027a3ae700df2b3cbd712031448cc9469c411c9b15cd",
+    "sha256": "be2e59097ef98d02a24d027a3ae700df2b3cbd712031448cc9469c411c9b15cd",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/subaru.zc6.can.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/subaru.zc6.can.vehicle.json",
+    "source_sha256": "a248c33a9963edcace83df2fc5f1187fc8f9afdbae1248137c227113ee75b21f",
+    "sha256": "a248c33a9963edcace83df2fc5f1187fc8f9afdbae1248137c227113ee75b21f",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/subaru.zc6.pid.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/subaru.zc6.pid.vehicle.json",
+    "source_sha256": "fb4fc8930db56e067f184b19ce61e07111cec65326918c4b7039d517afea9baf",
+    "sha256": "fb4fc8930db56e067f184b19ce61e07111cec65326918c4b7039d517afea9baf",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/subaru.zd8.obd.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/subaru.zd8.obd.vehicle.json",
+    "source_sha256": "e3b20b1814da7d45c6b69005f733f86e1b25df7840b2af30cf701a0a00a04001",
+    "sha256": "e3b20b1814da7d45c6b69005f733f86e1b25df7840b2af30cf701a0a00a04001",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/subaru.zd8.pid.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/subaru.zd8.pid.vehicle.json",
+    "source_sha256": "31091bb7f5f169e4d667a5415bcc59259baf9b600ac10d1a46e93ccaa9601f71",
+    "sha256": "31091bb7f5f169e4d667a5415bcc59259baf9b600ac10d1a46e93ccaa9601f71",
+    "transforms": []
+  },
+  {
+    "path": "vehicles/catalog/toyota.supra_a90.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/toyota.supra_a90.vehicle.json",
+    "source_sha256": "65434962d49249dc6be7848b624b29af786a4babd1d11b7ed7986f0e0bb3d003",
+    "sha256": "65434962d49249dc6be7848b624b29af786a4babd1d11b7ed7986f0e0bb3d003",
+    "transforms": []
+  },
+  {
+    "path": "native/mi4_compat.c",
+    "origin": "mi4-linux-bridge/mi4_compat.c",
+    "source_sha256": "1168fe05e00d4e90e6cdf7e812d937d0e1852b1f9afc0a0138d6f066e0b5d931",
+    "sha256": "1168fe05e00d4e90e6cdf7e812d937d0e1852b1f9afc0a0138d6f066e0b5d931",
+    "transforms": []
+  },
+  {
+    "path": "LICENSE",
+    "origin": "upstream-976106c/LICENSE",
+    "source_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "transforms": []
+  },
+  {
+    "path": "LICENSES/GPL-3.0.txt",
+    "origin": "upstream-976106c/LICENSE",
+    "source_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_builtin.h",
+    "origin": "upstream-976106c/main/vehicle/vp_builtin.h",
+    "source_sha256": "454dd9cb2c4a87fac90b183ca7733754d0af6031cfd55c940ee5d97b3b657b20",
+    "sha256": "454dd9cb2c4a87fac90b183ca7733754d0af6031cfd55c940ee5d97b3b657b20",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_builtin_generic.c",
+    "origin": "upstream-976106c/main/vehicle/vp_builtin_generic.c",
+    "source_sha256": "0120fdffa080593a06e1634ce39ae7e0815e26e9bc8d507b1edde55ea894c62a",
+    "sha256": "0120fdffa080593a06e1634ce39ae7e0815e26e9bc8d507b1edde55ea894c62a",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_common.c",
+    "origin": "upstream-976106c/main/vehicle/vp_common.c",
+    "source_sha256": "9d09c24597572cbee6f0fb8cc01ef8f31a39614be81b388b77f38bea01b0143c",
+    "sha256": "9d09c24597572cbee6f0fb8cc01ef8f31a39614be81b388b77f38bea01b0143c",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_common.h",
+    "origin": "upstream-976106c/main/vehicle/vp_common.h",
+    "source_sha256": "e809cd6a132d0b4310ab22c623fa2dd32a42bedab08cb09f99b981cf2134cfd7",
+    "sha256": "e809cd6a132d0b4310ab22c623fa2dd32a42bedab08cb09f99b981cf2134cfd7",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_compile.c",
+    "origin": "upstream-976106c/main/vehicle/vp_compile.c",
+    "source_sha256": "4122e7b330c6828fb9040622c4e278b54bfe496bb4afed006c34549d48998efd",
+    "sha256": "4122e7b330c6828fb9040622c4e278b54bfe496bb4afed006c34549d48998efd",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_defaults.c",
+    "origin": "upstream-976106c/main/vehicle/vp_defaults.c",
+    "source_sha256": "7e63ede330d6d4d32f8879c0a80907d38e8e52546c64e102630565647ee7b676",
+    "sha256": "7e63ede330d6d4d32f8879c0a80907d38e8e52546c64e102630565647ee7b676",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_engine.c",
+    "origin": "upstream-976106c/main/vehicle/vp_engine.c",
+    "source_sha256": "dfc2998a5f33dd5a7522bbd9b1eb28ccbccb674aea27eb7993c6f7ca1e269065",
+    "sha256": "dfc2998a5f33dd5a7522bbd9b1eb28ccbccb674aea27eb7993c6f7ca1e269065",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_engine.h",
+    "origin": "upstream-976106c/main/vehicle/vp_engine.h",
+    "source_sha256": "651ffb41f13bbdb0e2c528d8ec142d5566264c914406a1db6fcff3fd590716eb",
+    "sha256": "651ffb41f13bbdb0e2c528d8ec142d5566264c914406a1db6fcff3fd590716eb",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_internal.h",
+    "origin": "upstream-976106c/main/vehicle/vp_internal.h",
+    "source_sha256": "15dfe843cd0453267be31d53eb05dbd19e60fdb3ac084f2b170c470c17894dbe",
+    "sha256": "15dfe843cd0453267be31d53eb05dbd19e60fdb3ac084f2b170c470c17894dbe",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_manager.c",
+    "origin": "upstream-976106c/main/vehicle/vp_manager.c",
+    "source_sha256": "ba3d8ceee1ad13b3264cb8e20733653e93188c1631fe068edf28c904d4ba1f15",
+    "sha256": "ba3d8ceee1ad13b3264cb8e20733653e93188c1631fe068edf28c904d4ba1f15",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_manager.h",
+    "origin": "upstream-976106c/main/vehicle/vp_manager.h",
+    "source_sha256": "0ec51c6f8f3d2f60824bc581dd8cffc4d071e644383b9d2ae99bc583ffc786d7",
+    "sha256": "0ec51c6f8f3d2f60824bc581dd8cffc4d071e644383b9d2ae99bc583ffc786d7",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_profile.h",
+    "origin": "upstream-976106c/main/vehicle/vp_profile.h",
+    "source_sha256": "399e85481a0828e3f231f3ba162ea996ade7e87f5f2d01d416c94d04eea9d6dd",
+    "sha256": "399e85481a0828e3f231f3ba162ea996ade7e87f5f2d01d416c94d04eea9d6dd",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_rpn.c",
+    "origin": "upstream-976106c/main/vehicle/vp_rpn.c",
+    "source_sha256": "a3ccd7b9d4aa9fb7ff0eb6998353be17954f00d91af9d8028b9330394a6aa78c",
+    "sha256": "a3ccd7b9d4aa9fb7ff0eb6998353be17954f00d91af9d8028b9330394a6aa78c",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_rpn.h",
+    "origin": "upstream-976106c/main/vehicle/vp_rpn.h",
+    "source_sha256": "65a78c840dd9b1104787738c2316556f67ec2b788bbfef864ae961a7413eedee",
+    "sha256": "65a78c840dd9b1104787738c2316556f67ec2b788bbfef864ae961a7413eedee",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_rpn_json.c",
+    "origin": "upstream-976106c/main/vehicle/vp_rpn_json.c",
+    "source_sha256": "9b2274bf9088b1efa1fbd9c67158f2d3f9352abe2d6e915e0490a06667108206",
+    "sha256": "9b2274bf9088b1efa1fbd9c67158f2d3f9352abe2d6e915e0490a06667108206",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_validate.c",
+    "origin": "upstream-976106c/main/vehicle/vp_validate.c",
+    "source_sha256": "eadf940e8ab0e14cf282ecdbd213c8b92981154282b282614037e98880136245",
+    "sha256": "eadf940e8ab0e14cf282ecdbd213c8b92981154282b282614037e98880136245",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/vehicle/vp_validate.h",
+    "origin": "upstream-976106c/main/vehicle/vp_validate.h",
+    "source_sha256": "562f1890df9f99b60e2188370caef883808d526904353e1b475a7c2d2c9a30ca",
+    "sha256": "562f1890df9f99b60e2188370caef883808d526904353e1b475a7c2d2c9a30ca",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/theme_engine/rules/tr_eval.c",
+    "origin": "upstream-976106c/main/theme_engine/rules/tr_eval.c",
+    "source_sha256": "f74e031a7ec21f04caad07ffabb6ee23b2a0fb1419f1972c22168efffc065202",
+    "sha256": "f74e031a7ec21f04caad07ffabb6ee23b2a0fb1419f1972c22168efffc065202",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/theme_engine/rules/tr_eval.h",
+    "origin": "upstream-976106c/main/theme_engine/rules/tr_eval.h",
+    "source_sha256": "d5990ddadcf6b7c73b89ebc60bbcc8859af7164527f023f7d73a2706022df83c",
+    "sha256": "d5990ddadcf6b7c73b89ebc60bbcc8859af7164527f023f7d73a2706022df83c",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/theme_engine/rules/tr_format.c",
+    "origin": "upstream-976106c/main/theme_engine/rules/tr_format.c",
+    "source_sha256": "2e65d80e881072914f218042466016b2ed4054c7ffaa1c71bc67bd23c401b1e4",
+    "sha256": "2e65d80e881072914f218042466016b2ed4054c7ffaa1c71bc67bd23c401b1e4",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/theme_engine/rules/tr_format.h",
+    "origin": "upstream-976106c/main/theme_engine/rules/tr_format.h",
+    "source_sha256": "b2508e7535d5363164f58e6a65e549151720d6dacb0251d7fbc8d5103e3367b9",
+    "sha256": "b2508e7535d5363164f58e6a65e549151720d6dacb0251d7fbc8d5103e3367b9",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/theme_engine/rules/tr_parse.c",
+    "origin": "upstream-976106c/main/theme_engine/rules/tr_parse.c",
+    "source_sha256": "ebc41cfb5a2549fdfab4a3a0271243afd7dbf7a0181150de5f603c483ff7618f",
+    "sha256": "ebc41cfb5a2549fdfab4a3a0271243afd7dbf7a0181150de5f603c483ff7618f",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/theme_engine/rules/tr_parse.h",
+    "origin": "upstream-976106c/main/theme_engine/rules/tr_parse.h",
+    "source_sha256": "8e280d9e434eb67e6f2ec3bf6e08bb7b24fdc7eac897f9e5d68a27df556be797",
+    "sha256": "8e280d9e434eb67e6f2ec3bf6e08bb7b24fdc7eac897f9e5d68a27df556be797",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/theme_engine/rules/tr_types.h",
+    "origin": "upstream-976106c/main/theme_engine/rules/tr_types.h",
+    "source_sha256": "6124b826ce2e8a19d7adabf0a50ed8df2430860c67b52b62a3a38daa1c22016b",
+    "sha256": "6124b826ce2e8a19d7adabf0a50ed8df2430860c67b52b62a3a38daa1c22016b",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/bench_raw.c",
+    "origin": "upstream-976106c/test/host/vehicle/bench_raw.c",
+    "source_sha256": "04cf9a248be3ec4c29a5686fb01951b33a4a79dcf341e0c13b74e4cc1be1983c",
+    "sha256": "04cf9a248be3ec4c29a5686fb01951b33a4a79dcf341e0c13b74e4cc1be1983c",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/bench_rpn_integer.c",
+    "origin": "upstream-976106c/test/host/vehicle/bench_rpn_integer.c",
+    "source_sha256": "dabb5098643a14401216d1f753b4f7f96cc859cba4038b91b7951bbedb705194",
+    "sha256": "dabb5098643a14401216d1f753b4f7f96cc859cba4038b91b7951bbedb705194",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/CMakeLists.txt",
+    "origin": "upstream-976106c/test/host/vehicle/CMakeLists.txt",
+    "source_sha256": "da97ac5de2e5b538c79aef6864b6e6d84a2a6ce453b2bee5a1a3392aabfef39b",
+    "sha256": "da97ac5de2e5b538c79aef6864b6e6d84a2a6ce453b2bee5a1a3392aabfef39b",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/alfa.giulia_20t.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/alfa.giulia_20t.json",
+    "source_sha256": "8dfad8efd0789a345756fb044b37003961a5aa06840f622e11e5808544c80be9",
+    "sha256": "8dfad8efd0789a345756fb044b37003961a5aa06840f622e11e5808544c80be9",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/bmw.e.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/bmw.e.json",
+    "source_sha256": "2a4d857afc49dcdf26de704ce94c32ea67c2151a7436f7ece32ec743c71c1b2e",
+    "sha256": "2a4d857afc49dcdf26de704ce94c32ea67c2151a7436f7ece32ec743c71c1b2e",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/bmw.fg.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/bmw.fg.json",
+    "source_sha256": "8535e46d5813ff0e68cfb191be06875ea8de9a9fec2d5780c27652e11d4bdbd0",
+    "sha256": "8535e46d5813ff0e68cfb191be06875ea8de9a9fec2d5780c27652e11d4bdbd0",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/bmw.g.obd.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/bmw.g.obd.json",
+    "source_sha256": "bf1f1d0e66db273724d2630f0592c4b6af962642c3e6abfb87e88705b89c1c59",
+    "sha256": "bf1f1d0e66db273724d2630f0592c4b6af962642c3e6abfb87e88705b89c1c59",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/honda.integra.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/honda.integra.json",
+    "source_sha256": "ed6752517e35f203439e1c23e8f383cff85e0fd727a35abd277a9e71f6bc6c5a",
+    "sha256": "ed6752517e35f203439e1c23e8f383cff85e0fd727a35abd277a9e71f6bc6c5a",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/jeep.generic.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/jeep.generic.json",
+    "source_sha256": "54a9be6fea405617475b20604ad0e479db63ee36eb2b627ea0585c3ab4b34c3b",
+    "sha256": "54a9be6fea405617475b20604ad0e479db63ee36eb2b627ea0585c3ab4b34c3b",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/mazda.mx5nd.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/mazda.mx5nd.json",
+    "source_sha256": "4741b6de0d1f2ecfc14567131b707c39a4e4ad665d96fcf7f89b4a6a3dd46e5d",
+    "sha256": "4741b6de0d1f2ecfc14567131b707c39a4e4ad665d96fcf7f89b4a6a3dd46e5d",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/mini.jcw_f56.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/mini.jcw_f56.json",
+    "source_sha256": "0113dcb2d76a79947e94de993c39efa25a74a5a255b2f9c97165fe02f690e867",
+    "sha256": "0113dcb2d76a79947e94de993c39efa25a74a5a255b2f9c97165fe02f690e867",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/mini.r55.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/mini.r55.json",
+    "source_sha256": "e749be432956f67367a25a6da56bcb0f8fdd083ade9da3b713bde5eaa37f285f",
+    "sha256": "e749be432956f67367a25a6da56bcb0f8fdd083ade9da3b713bde5eaa37f285f",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/obd2.generic.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/obd2.generic.json",
+    "source_sha256": "ef3ff1ba0020340906988552db5b5eea8c7cf2b3309e004d3b7caf36c2f7989d",
+    "sha256": "ef3ff1ba0020340906988552db5b5eea8c7cf2b3309e004d3b7caf36c2f7989d",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/porsche.997_1.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/porsche.997_1.json",
+    "source_sha256": "6b7b9d87431c081ec841de627474fc9c7d002280fb0f889d4e957b7d812c2b0d",
+    "sha256": "6b7b9d87431c081ec841de627474fc9c7d002280fb0f889d4e957b7d812c2b0d",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/porsche.997_2.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/porsche.997_2.json",
+    "source_sha256": "b5b1f2833deb16a91dd476ed36ea61fa6c126cd304ddc98598d4f5fe5c741398",
+    "sha256": "b5b1f2833deb16a91dd476ed36ea61fa6c126cd304ddc98598d4f5fe5c741398",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/README.md",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/README.md",
+    "source_sha256": "0365f8773171cb443b710446f2ad43bbb15fb5bd39c7419042060bb77106f428",
+    "sha256": "0365f8773171cb443b710446f2ad43bbb15fb5bd39c7419042060bb77106f428",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/subaru.zc6.can.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/subaru.zc6.can.json",
+    "source_sha256": "365e7036b707d57aa9bc2c4f70379410952ceb05c1079df4c6303ec96a834cf5",
+    "sha256": "365e7036b707d57aa9bc2c4f70379410952ceb05c1079df4c6303ec96a834cf5",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/subaru.zc6.pid.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/subaru.zc6.pid.json",
+    "source_sha256": "25f907cf609e07f389caa551e90d21a5a576e3a5609a2bc8e2b09bd1475364da",
+    "sha256": "25f907cf609e07f389caa551e90d21a5a576e3a5609a2bc8e2b09bd1475364da",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/subaru.zd8.obd.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/subaru.zd8.obd.json",
+    "source_sha256": "01503d320e3a9c5ef44b81f16185b0e0d71617fd8c4a495ed5055e45c22f332a",
+    "sha256": "01503d320e3a9c5ef44b81f16185b0e0d71617fd8c4a495ed5055e45c22f332a",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/subaru.zd8.pid.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/subaru.zd8.pid.json",
+    "source_sha256": "0949881557f51e73994ec25625ec65615cb62293da10a819bf7fc616236371d3",
+    "sha256": "0949881557f51e73994ec25625ec65615cb62293da10a819bf7fc616236371d3",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/golden/toyota.supra_a90.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/golden/toyota.supra_a90.json",
+    "source_sha256": "8610ff9dda475d4e311180ebf765c660a4ee73744d4c08080f7c734764a0d802",
+    "sha256": "8610ff9dda475d4e311180ebf765c660a4ee73744d4c08080f7c734764a0d802",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/good_full.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/good_full.json",
+    "source_sha256": "de1c14769f72016fa8d7c549f398fedf7059f247dd86561a7e783ac7e04f544c",
+    "sha256": "de1c14769f72016fa8d7c549f398fedf7059f247dd86561a7e783ac7e04f544c",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/fixtures/good_min.json",
+    "origin": "upstream-976106c/test/host/vehicle/fixtures/good_min.json",
+    "source_sha256": "54d4c9d5f56b2f79e724e0508f6d867b5069e8311a1b5a61f14f0ca5dc8b8c2b",
+    "sha256": "54d4c9d5f56b2f79e724e0508f6d867b5069e8311a1b5a61f14f0ca5dc8b8c2b",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/rpn_integer_probe.c",
+    "origin": "upstream-976106c/test/host/vehicle/rpn_integer_probe.c",
+    "source_sha256": "c586fa45c8bc4a1178774fe325e9020658833048b53b918f9039d592ac155c61",
+    "sha256": "c586fa45c8bc4a1178774fe325e9020658833048b53b918f9039d592ac155c61",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/rpn_integer_probe.h",
+    "origin": "upstream-976106c/test/host/vehicle/rpn_integer_probe.h",
+    "source_sha256": "f903f076a77f9776b4e4b7379c32453c6eb3a1ba72f19f072481b30d9bd7b934",
+    "sha256": "f903f076a77f9776b4e4b7379c32453c6eb3a1ba72f19f072481b30d9bd7b934",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/test_compile.c",
+    "origin": "upstream-976106c/test/host/vehicle/test_compile.c",
+    "source_sha256": "56c9cb17edf932c0d07b9f2628c7a8b193c3acb2d306b4e49416584b7a5ea00f",
+    "sha256": "56c9cb17edf932c0d07b9f2628c7a8b193c3acb2d306b4e49416584b7a5ea00f",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/test_defaults.c",
+    "origin": "upstream-976106c/test/host/vehicle/test_defaults.c",
+    "source_sha256": "45ecd4477bb92083515159a70a0e8480c1935511f5f5bca1a168462bf9886761",
+    "sha256": "45ecd4477bb92083515159a70a0e8480c1935511f5f5bca1a168462bf9886761",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/test_golden.c",
+    "origin": "upstream-976106c/test/host/vehicle/test_golden.c",
+    "source_sha256": "1732679fa5c864674e1164eb20102e6fc6bd39629ed55e461708b04629bf9338",
+    "sha256": "1732679fa5c864674e1164eb20102e6fc6bd39629ed55e461708b04629bf9338",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/test_rpn.c",
+    "origin": "upstream-976106c/test/host/vehicle/test_rpn.c",
+    "source_sha256": "b24329b723a4de6844db930c075c383ff35cf7d8ee7fa0203b14ac041aab99bd",
+    "sha256": "b24329b723a4de6844db930c075c383ff35cf7d8ee7fa0203b14ac041aab99bd",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/test_rpn_integer.c",
+    "origin": "upstream-976106c/test/host/vehicle/test_rpn_integer.c",
+    "source_sha256": "492eaa5ec25e7f57d9069e7695c25c6050b879132bd0968e899718147b27cd5b",
+    "sha256": "492eaa5ec25e7f57d9069e7695c25c6050b879132bd0968e899718147b27cd5b",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/test_rpn_raw_float.c",
+    "origin": "upstream-976106c/test/host/vehicle/test_rpn_raw_float.c",
+    "source_sha256": "6c15b08a2a22990f3633a364718c076f06371c1b9dae8f1aba8adfa18d1a3bed",
+    "sha256": "6c15b08a2a22990f3633a364718c076f06371c1b9dae8f1aba8adfa18d1a3bed",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/test_validate.c",
+    "origin": "upstream-976106c/test/host/vehicle/test_validate.c",
+    "source_sha256": "3a9ebd1585e86b6c4d6a2cd85608975a07d36bcea21ce7a20db754af97910327",
+    "sha256": "3a9ebd1585e86b6c4d6a2cd85608975a07d36bcea21ce7a20db754af97910327",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/validate_catalog.c",
+    "origin": "upstream-976106c/test/host/vehicle/validate_catalog.c",
+    "source_sha256": "917893c1da7be8a4a8e8effde7ae185326457411007a9ab63c96ce448158974b",
+    "sha256": "917893c1da7be8a4a8e8effde7ae185326457411007a9ab63c96ce448158974b",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/vp_blobgen.c",
+    "origin": "upstream-976106c/test/host/vehicle/vp_blobgen.c",
+    "source_sha256": "af8863c36156a3455d3aac3abd58246113403b59e10b8d0317d9d341725a8aad",
+    "sha256": "af8863c36156a3455d3aac3abd58246113403b59e10b8d0317d9d341725a8aad",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/vt.h",
+    "origin": "upstream-976106c/test/host/vehicle/vt.h",
+    "source_sha256": "f9ae2cb75767c34e1f58fdc7f617649f0c8a463b1676eb6b0b7065ecac5a9099",
+    "sha256": "f9ae2cb75767c34e1f58fdc7f617649f0c8a463b1676eb6b0b7065ecac5a9099",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/vt_support.c",
+    "origin": "upstream-976106c/test/host/vehicle/vt_support.c",
+    "source_sha256": "0b8e4b78f2d8c3c708d378c96c0ddff43f02a0752738c6e3873de4103916e189",
+    "sha256": "0b8e4b78f2d8c3c708d378c96c0ddff43f02a0752738c6e3873de4103916e189",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/vehicle/vt_support.h",
+    "origin": "upstream-976106c/test/host/vehicle/vt_support.h",
+    "source_sha256": "b1c49be88b7e3e551616f9e5cc9c17413af69277897916fdfae6543fad8e97c6",
+    "sha256": "b1c49be88b7e3e551616f9e5cc9c17413af69277897916fdfae6543fad8e97c6",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/rules/bench_rule_cache.c",
+    "origin": "upstream-976106c/test/host/rules/bench_rule_cache.c",
+    "source_sha256": "bde141f8306e5b78795a35646a6a115cfe5ad54494ea799803d5a6f4921ef178",
+    "sha256": "bde141f8306e5b78795a35646a6a115cfe5ad54494ea799803d5a6f4921ef178",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/rules/CMakeLists.txt",
+    "origin": "upstream-976106c/test/host/rules/CMakeLists.txt",
+    "source_sha256": "6f187ca2ef77249db1dfea2a0c09b8e4c99be047bcfc28451529a068533d00f8",
+    "sha256": "6f187ca2ef77249db1dfea2a0c09b8e4c99be047bcfc28451529a068533d00f8",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/rules/fixtures/extra_vectors.json",
+    "origin": "upstream-976106c/test/host/rules/fixtures/extra_vectors.json",
+    "source_sha256": "cc42c5f682bc84eede57c90119b6574cef849dc5678fa39066f8a16d8d362222",
+    "sha256": "cc42c5f682bc84eede57c90119b6574cef849dc5678fa39066f8a16d8d362222",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/rules/fixtures/label_vectors.json",
+    "origin": "upstream-976106c/test/host/rules/fixtures/label_vectors.json",
+    "source_sha256": "9336d304e9814cb1a16d6ffe4dd52579ce8f07b237d1bd800ee023c8a4a5cfbd",
+    "sha256": "9336d304e9814cb1a16d6ffe4dd52579ce8f07b237d1bd800ee023c8a4a5cfbd",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/rules/test_label_format.c",
+    "origin": "upstream-976106c/test/host/rules/test_label_format.c",
+    "source_sha256": "ec3489d5da3e4194f03d078b8e553a8bcde20b1bbb869d75e9a97fbe507095c8",
+    "sha256": "ec3489d5da3e4194f03d078b8e553a8bcde20b1bbb869d75e9a97fbe507095c8",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/rules/test_rule_cache.c",
+    "origin": "upstream-976106c/test/host/rules/test_rule_cache.c",
+    "source_sha256": "b8de81bd1827e6fd0b6715be97e435dd0a4dc33f0b8090ad1ac05f6a88220dfe",
+    "sha256": "b8de81bd1827e6fd0b6715be97e435dd0a4dc33f0b8090ad1ac05f6a88220dfe",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/rules/test_rules_unit.c",
+    "origin": "upstream-976106c/test/host/rules/test_rules_unit.c",
+    "source_sha256": "242293f77921454a3b6213ba90f874ebe90de996933821dd7b655470892f56e6",
+    "sha256": "242293f77921454a3b6213ba90f874ebe90de996933821dd7b655470892f56e6",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/rules/test_rules_vectors.c",
+    "origin": "upstream-976106c/test/host/rules/test_rules_vectors.c",
+    "source_sha256": "d5fa78afcb2d2337cb7df453b3fe39772c9ff324ae525c79e5014e1af1d8ad99",
+    "sha256": "d5fa78afcb2d2337cb7df453b3fe39772c9ff324ae525c79e5014e1af1d8ad99",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/rules/test_util.c",
+    "origin": "upstream-976106c/test/host/rules/test_util.c",
+    "source_sha256": "fb2776beba91a5891e74de74f2809373c3ed101ccf51e2fcdf0fc349313a1bf3",
+    "sha256": "fb2776beba91a5891e74de74f2809373c3ed101ccf51e2fcdf0fc349313a1bf3",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/rules/test_util.h",
+    "origin": "upstream-976106c/test/host/rules/test_util.h",
+    "source_sha256": "51b79b080a588bb91858257fa576c3474b6086a950ef2863beedcf3eaed1bcc8",
+    "sha256": "51b79b080a588bb91858257fa576c3474b6086a950ef2863beedcf3eaed1bcc8",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/bench_can_index.c",
+    "origin": "upstream-976106c/test/host/engine/bench_can_index.c",
+    "source_sha256": "0f7e3bc66d586fa45cca0ae6004bd43c0e9a473495da8075bafc305b1d57f3ea",
+    "sha256": "0f7e3bc66d586fa45cca0ae6004bd43c0e9a473495da8075bafc305b1d57f3ea",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/bench_poll_plan.c",
+    "origin": "upstream-976106c/test/host/engine/bench_poll_plan.c",
+    "source_sha256": "3a4ba2c313bd0afe8558614a631d7c0fba3bec8f39ccfc355da2b13bcde99195",
+    "sha256": "3a4ba2c313bd0afe8558614a631d7c0fba3bec8f39ccfc355da2b13bcde99195",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/bench_queue_copy.c",
+    "origin": "upstream-976106c/test/host/engine/bench_queue_copy.c",
+    "source_sha256": "671b6fbc5608608316462c429f5b90ed3195dd33f72fcd1f7160e434352d717c",
+    "sha256": "671b6fbc5608608316462c429f5b90ed3195dd33f72fcd1f7160e434352d717c",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/bench_request_index.c",
+    "origin": "upstream-976106c/test/host/engine/bench_request_index.c",
+    "source_sha256": "5bc2cd43bd6aab3c6316ef148def44205a75f08a7215bfaa619313cadbe189ea",
+    "sha256": "5bc2cd43bd6aab3c6316ef148def44205a75f08a7215bfaa619313cadbe189ea",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/bench_rx_append.c",
+    "origin": "upstream-976106c/test/host/engine/bench_rx_append.c",
+    "source_sha256": "b9f6c7b60bbad9b4caad6400e227b865e3b940d7efe8ac183dfc4bb73dac8231",
+    "sha256": "b9f6c7b60bbad9b4caad6400e227b865e3b940d7efe8ac183dfc4bb73dac8231",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/bench_state_format.c",
+    "origin": "upstream-976106c/test/host/engine/bench_state_format.c",
+    "source_sha256": "a4639ac0dd1cd7f6b814be089067ad11c53be1f0cd1dd33e80d747eb033646fc",
+    "sha256": "a4639ac0dd1cd7f6b814be089067ad11c53be1f0cd1dd33e80d747eb033646fc",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/bench_write_rounding.c",
+    "origin": "upstream-976106c/test/host/engine/bench_write_rounding.c",
+    "source_sha256": "073ce1eccc7ddd15c789cca5ac76c1f412630f5d68b11b433eac074d17a686b6",
+    "sha256": "073ce1eccc7ddd15c789cca5ac76c1f412630f5d68b11b433eac074d17a686b6",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/can_index_probe.h",
+    "origin": "upstream-976106c/test/host/engine/can_index_probe.h",
+    "source_sha256": "acba34a86a9e78202db12e069cead14230d320005fe179e03316230aca85a7aa",
+    "sha256": "acba34a86a9e78202db12e069cead14230d320005fe179e03316230aca85a7aa",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/can_index_selection.c",
+    "origin": "upstream-976106c/test/host/engine/can_index_selection.c",
+    "source_sha256": "544598a3849350f2d6909621e081e8cffbdaea178b8861ed4fea42fd5d97d79e",
+    "sha256": "544598a3849350f2d6909621e081e8cffbdaea178b8861ed4fea42fd5d97d79e",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/CMakeLists.txt",
+    "origin": "upstream-976106c/test/host/engine/CMakeLists.txt",
+    "source_sha256": "e59d1ad573266226050478081c8d49b156435209d1a50d21d7b2be03bc79c7c6",
+    "sha256": "e59d1ad573266226050478081c8d49b156435209d1a50d21d7b2be03bc79c7c6",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/poll_plan_probe.c",
+    "origin": "upstream-976106c/test/host/engine/poll_plan_probe.c",
+    "source_sha256": "1794ed9ea7bfa833298a3ab49adb509c530b6032f374321c32f00d74cd94e460",
+    "sha256": "1794ed9ea7bfa833298a3ab49adb509c530b6032f374321c32f00d74cd94e460",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/poll_plan_probe.h",
+    "origin": "upstream-976106c/test/host/engine/poll_plan_probe.h",
+    "source_sha256": "240022e873fe96a2f1e4e60aa78d95ef4b83f29857642c50f7b8416d9fef2330",
+    "sha256": "240022e873fe96a2f1e4e60aa78d95ef4b83f29857642c50f7b8416d9fef2330",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/queue_copy_probe.c",
+    "origin": "upstream-976106c/test/host/engine/queue_copy_probe.c",
+    "source_sha256": "23386f0ff61c48529b297500c60cd9cf8667c8e59934afed639da0dd3607f13c",
+    "sha256": "23386f0ff61c48529b297500c60cd9cf8667c8e59934afed639da0dd3607f13c",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/queue_copy_probe.h",
+    "origin": "upstream-976106c/test/host/engine/queue_copy_probe.h",
+    "source_sha256": "ab199090d987f02cf52d17fc34883f24853cb2b1245c438d58dfc8a85f43323c",
+    "sha256": "ab199090d987f02cf52d17fc34883f24853cb2b1245c438d58dfc8a85f43323c",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/request_index_selection.c",
+    "origin": "upstream-976106c/test/host/engine/request_index_selection.c",
+    "source_sha256": "258f5f6ab4d52c6afb4502abe1fb19dc312c1c0466bb8cfd864b006574ec8260",
+    "sha256": "258f5f6ab4d52c6afb4502abe1fb19dc312c1c0466bb8cfd864b006574ec8260",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/request_index_selection.h",
+    "origin": "upstream-976106c/test/host/engine/request_index_selection.h",
+    "source_sha256": "6d95a0b96cd59d666ac0a62cbfeae894629f9f0ea211e8fa846911e989e96ad9",
+    "sha256": "6d95a0b96cd59d666ac0a62cbfeae894629f9f0ea211e8fa846911e989e96ad9",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/rx_append_probe.c",
+    "origin": "upstream-976106c/test/host/engine/rx_append_probe.c",
+    "source_sha256": "166b8a5ae140eba5f843e5ef079696caf88d64040e2744ca0a17caf65c11e2fb",
+    "sha256": "166b8a5ae140eba5f843e5ef079696caf88d64040e2744ca0a17caf65c11e2fb",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/rx_append_probe.h",
+    "origin": "upstream-976106c/test/host/engine/rx_append_probe.h",
+    "source_sha256": "93b80b2f67d7414d0cf276aaef25c2b0ca0fedbbb42de9b319b27f6192e4b015",
+    "sha256": "93b80b2f67d7414d0cf276aaef25c2b0ca0fedbbb42de9b319b27f6192e4b015",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/test_engine.c",
+    "origin": "upstream-976106c/test/host/engine/test_engine.c",
+    "source_sha256": "0b4d06b95473c160a171e6ef3bc1edd83f0876ac9e9d128b1630ce35f8c41371",
+    "sha256": "0b4d06b95473c160a171e6ef3bc1edd83f0876ac9e9d128b1630ce35f8c41371",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/test_poll_plan.c",
+    "origin": "upstream-976106c/test/host/engine/test_poll_plan.c",
+    "source_sha256": "a02248107305a0e52e1bcde5a354ee2b8f1c63291c69058ccfa9b0b26dbdc3c5",
+    "sha256": "a02248107305a0e52e1bcde5a354ee2b8f1c63291c69058ccfa9b0b26dbdc3c5",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/test_queue_copy.c",
+    "origin": "upstream-976106c/test/host/engine/test_queue_copy.c",
+    "source_sha256": "42db81c4be9782d870af7d4ea61ab8e130703946d8a6f85f6428e9cf4f5dcbcd",
+    "sha256": "42db81c4be9782d870af7d4ea61ab8e130703946d8a6f85f6428e9cf4f5dcbcd",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/test_rx_append.c",
+    "origin": "upstream-976106c/test/host/engine/test_rx_append.c",
+    "source_sha256": "3d79f7c1c127c0d5509e770fd4a6f86a1e2ed217fa5c76a40e0af83c879b4113",
+    "sha256": "3d79f7c1c127c0d5509e770fd4a6f86a1e2ed217fa5c76a40e0af83c879b4113",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/test_state_format.c",
+    "origin": "upstream-976106c/test/host/engine/test_state_format.c",
+    "source_sha256": "6a5e584704873687418cbae2b6d87a463698b495647c6427bb2e48d0fb478140",
+    "sha256": "6a5e584704873687418cbae2b6d87a463698b495647c6427bb2e48d0fb478140",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/test_write_rounding.c",
+    "origin": "upstream-976106c/test/host/engine/test_write_rounding.c",
+    "source_sha256": "830e5a2ccfab0687f8eb7380148b7de3fbf916c9c1646b63791808786f6cdd95",
+    "sha256": "830e5a2ccfab0687f8eb7380148b7de3fbf916c9c1646b63791808786f6cdd95",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/write_rounding_probe.c",
+    "origin": "upstream-976106c/test/host/engine/write_rounding_probe.c",
+    "source_sha256": "d9a80bc5544b9ba7ed65e56411dea04b811404b73a45ff846ea1cf92859de663",
+    "sha256": "d9a80bc5544b9ba7ed65e56411dea04b811404b73a45ff846ea1cf92859de663",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/test/host/engine/write_rounding_probe.h",
+    "origin": "upstream-976106c/test/host/engine/write_rounding_probe.h",
+    "source_sha256": "f87e7739c64d090fc3896c456ed24b4f8c2b62737b016e071dd22ec72cc9ed3c",
+    "sha256": "f87e7739c64d090fc3896c456ed24b4f8c2b62737b016e071dd22ec72cc9ed3c",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/contracts/fixtures/rules/vectors.json",
+    "origin": "upstream-976106c/contracts/fixtures/rules/vectors.json",
+    "source_sha256": "f166eaaf7a780c1c14e908101e19cdca04f4d6b37816da4993e7c506e78943eb",
+    "sha256": "f166eaaf7a780c1c14e908101e19cdca04f4d6b37816da4993e7c506e78943eb",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/alfa.giulia_20t.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/alfa.giulia_20t.vehicle.json",
+    "source_sha256": "f56be90512fbfb085377086f4888bb3e877a1298eb0411d0dc6df83051f887ad",
+    "sha256": "f56be90512fbfb085377086f4888bb3e877a1298eb0411d0dc6df83051f887ad",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/bmw.e.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/bmw.e.vehicle.json",
+    "source_sha256": "459b802594012ce5238eb1b6aaa310807918925a42c09862f1060cbb155f64f9",
+    "sha256": "459b802594012ce5238eb1b6aaa310807918925a42c09862f1060cbb155f64f9",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/bmw.fg.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/bmw.fg.vehicle.json",
+    "source_sha256": "c0e7d3d8c74675c47afb1a307dab656e826e71e1ba3bc18548685b8147c26668",
+    "sha256": "c0e7d3d8c74675c47afb1a307dab656e826e71e1ba3bc18548685b8147c26668",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/bmw.g.obd.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/bmw.g.obd.vehicle.json",
+    "source_sha256": "facc8ce4e1c2bceb46937bc50ed728d489cef1716b2b2a8dc08666139e8ef410",
+    "sha256": "facc8ce4e1c2bceb46937bc50ed728d489cef1716b2b2a8dc08666139e8ef410",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/honda.integra.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/honda.integra.vehicle.json",
+    "source_sha256": "40495767ee79ccfbcd3c34c7a964a989c0df89a0a2b6c9bc342f938152e32acb",
+    "sha256": "40495767ee79ccfbcd3c34c7a964a989c0df89a0a2b6c9bc342f938152e32acb",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/jeep.generic.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/jeep.generic.vehicle.json",
+    "source_sha256": "eedd99d1eda5b5a2ffcd1c63501cbdbfdab411be9a17c749e33398b4d0a6b734",
+    "sha256": "eedd99d1eda5b5a2ffcd1c63501cbdbfdab411be9a17c749e33398b4d0a6b734",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/mazda.mx5nd.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/mazda.mx5nd.vehicle.json",
+    "source_sha256": "31b63e3164e5436697ba5770faa291b895673a35db20e464882aaebd91c0d1e3",
+    "sha256": "31b63e3164e5436697ba5770faa291b895673a35db20e464882aaebd91c0d1e3",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/mini.jcw_f56.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/mini.jcw_f56.vehicle.json",
+    "source_sha256": "1add9220b9cb051a9b8e5407be508fa700dbceb6fd620ccf6c2ec9647c6f3801",
+    "sha256": "1add9220b9cb051a9b8e5407be508fa700dbceb6fd620ccf6c2ec9647c6f3801",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/mini.r55.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/mini.r55.vehicle.json",
+    "source_sha256": "9fd494df8ea8385b6d91dfd210385e2307afb48587c414d4ec6cfef45aeab8c2",
+    "sha256": "9fd494df8ea8385b6d91dfd210385e2307afb48587c414d4ec6cfef45aeab8c2",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/obd2.generic.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/obd2.generic.vehicle.json",
+    "source_sha256": "086acb7155cb7e5be9d3c2cd1e0dfbf6c0bd83011d02376d7ad3344cc682ad3e",
+    "sha256": "086acb7155cb7e5be9d3c2cd1e0dfbf6c0bd83011d02376d7ad3344cc682ad3e",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/porsche.997_1.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/porsche.997_1.vehicle.json",
+    "source_sha256": "7c6fd691df8fc9cc1579023870a4811699658a1d9736e393529bc14d84860206",
+    "sha256": "7c6fd691df8fc9cc1579023870a4811699658a1d9736e393529bc14d84860206",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/porsche.997_2.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/porsche.997_2.vehicle.json",
+    "source_sha256": "be2e59097ef98d02a24d027a3ae700df2b3cbd712031448cc9469c411c9b15cd",
+    "sha256": "be2e59097ef98d02a24d027a3ae700df2b3cbd712031448cc9469c411c9b15cd",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/subaru.zc6.can.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/subaru.zc6.can.vehicle.json",
+    "source_sha256": "a248c33a9963edcace83df2fc5f1187fc8f9afdbae1248137c227113ee75b21f",
+    "sha256": "a248c33a9963edcace83df2fc5f1187fc8f9afdbae1248137c227113ee75b21f",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/subaru.zc6.pid.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/subaru.zc6.pid.vehicle.json",
+    "source_sha256": "fb4fc8930db56e067f184b19ce61e07111cec65326918c4b7039d517afea9baf",
+    "sha256": "fb4fc8930db56e067f184b19ce61e07111cec65326918c4b7039d517afea9baf",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/subaru.zd8.obd.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/subaru.zd8.obd.vehicle.json",
+    "source_sha256": "e3b20b1814da7d45c6b69005f733f86e1b25df7840b2af30cf701a0a00a04001",
+    "sha256": "e3b20b1814da7d45c6b69005f733f86e1b25df7840b2af30cf701a0a00a04001",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/subaru.zd8.pid.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/subaru.zd8.pid.vehicle.json",
+    "source_sha256": "31091bb7f5f169e4d667a5415bcc59259baf9b600ac10d1a46e93ccaa9601f71",
+    "sha256": "31091bb7f5f169e4d667a5415bcc59259baf9b600ac10d1a46e93ccaa9601f71",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/catalog/toyota.supra_a90.vehicle.json",
+    "origin": "upstream-976106c/vehicles/catalog/toyota.supra_a90.vehicle.json",
+    "source_sha256": "65434962d49249dc6be7848b624b29af786a4babd1d11b7ed7986f0e0bb3d003",
+    "sha256": "65434962d49249dc6be7848b624b29af786a4babd1d11b7ed7986f0e0bb3d003",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/examples/custom.bmw.g.sparse.vehicle.json",
+    "origin": "upstream-976106c/vehicles/examples/custom.bmw.g.sparse.vehicle.json",
+    "source_sha256": "24e7135c8f302bd6c996b674c11d0da330498100af446864d97dc3e6f13bd762",
+    "sha256": "24e7135c8f302bd6c996b674c11d0da330498100af446864d97dc3e6f13bd762",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/examples/custom.obd2.sparse.vehicle.json",
+    "origin": "upstream-976106c/vehicles/examples/custom.obd2.sparse.vehicle.json",
+    "source_sha256": "6999022bddb297b448a2a4afca72608ee67a052d6b97385609d2450b9fb486a0",
+    "sha256": "6999022bddb297b448a2a4afca72608ee67a052d6b97385609d2450b9fb486a0",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/examples/README.en.md",
+    "origin": "upstream-976106c/vehicles/examples/README.en.md",
+    "source_sha256": "de7565a57b0cd7b59d0334d51aa31a7efd76739d8beacb9fe2ee8417c5e2fa1f",
+    "sha256": "de7565a57b0cd7b59d0334d51aa31a7efd76739d8beacb9fe2ee8417c5e2fa1f",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/examples/README.md",
+    "origin": "upstream-976106c/vehicles/examples/README.md",
+    "source_sha256": "5c8362566faaadab19398488ef4da485c8c05affb363168196a73e98346cc29a",
+    "sha256": "5c8362566faaadab19398488ef4da485c8c05affb363168196a73e98346cc29a",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.alfa.giulia_20t.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.alfa.giulia_20t.vehicle.json",
+    "source_sha256": "f4c1b0c3a08028f6ab125008ed230d9d3006dc5e626c7eae0a3dd6351e3bf2ba",
+    "sha256": "f4c1b0c3a08028f6ab125008ed230d9d3006dc5e626c7eae0a3dd6351e3bf2ba",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.bmw.e.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.bmw.e.vehicle.json",
+    "source_sha256": "b823dcf8e18315d5af5b21dae2757491681707700aa5175483a37f7ba46ffd08",
+    "sha256": "b823dcf8e18315d5af5b21dae2757491681707700aa5175483a37f7ba46ffd08",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.bmw.fg.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.bmw.fg.vehicle.json",
+    "source_sha256": "f3a648a2b5a12e61c07924e06ffbace97a5d08e53a38ac654e25f07983da2d17",
+    "sha256": "f3a648a2b5a12e61c07924e06ffbace97a5d08e53a38ac654e25f07983da2d17",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.bmw.g.gear.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.bmw.g.gear.vehicle.json",
+    "source_sha256": "4c36625f43d34e8f23f04e5d570556344f4e7a128bb67a6e57b87071a53fd87e",
+    "sha256": "4c36625f43d34e8f23f04e5d570556344f4e7a128bb67a6e57b87071a53fd87e",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.bmw.g.obd.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.bmw.g.obd.vehicle.json",
+    "source_sha256": "27d54bf83cbefb8eae8478a032591d9728d1e4d408de4d403f0402ee012baac5",
+    "sha256": "27d54bf83cbefb8eae8478a032591d9728d1e4d408de4d403f0402ee012baac5",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.honda.integra.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.honda.integra.vehicle.json",
+    "source_sha256": "d4fe10dc1b286cc3ebc09bc691e31dd638a720896755a6f67ed676e62d6ddcae",
+    "sha256": "d4fe10dc1b286cc3ebc09bc691e31dd638a720896755a6f67ed676e62d6ddcae",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.jeep.generic.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.jeep.generic.vehicle.json",
+    "source_sha256": "a4449ed160fc973adf10fee857517703738bbd9f9a8dc7bde8d2b7fed6f8ff2a",
+    "sha256": "a4449ed160fc973adf10fee857517703738bbd9f9a8dc7bde8d2b7fed6f8ff2a",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.mazda.mx5nd.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.mazda.mx5nd.vehicle.json",
+    "source_sha256": "02bdedb329de9a00b62d2a65480f64c8c4420e010c8ad5c43ea9d8c04999cb04",
+    "sha256": "02bdedb329de9a00b62d2a65480f64c8c4420e010c8ad5c43ea9d8c04999cb04",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.mini.jcw_f56.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.mini.jcw_f56.vehicle.json",
+    "source_sha256": "c5db842b7c7b25737802b13a8d847a6430ae05515e8d40d270e15b1ca1a56fe8",
+    "sha256": "c5db842b7c7b25737802b13a8d847a6430ae05515e8d40d270e15b1ca1a56fe8",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.mini.r55.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.mini.r55.vehicle.json",
+    "source_sha256": "af146d331c21214b091bb9666579f6d9c7ef2c2008b471ae4ff97816121514b3",
+    "sha256": "af146d331c21214b091bb9666579f6d9c7ef2c2008b471ae4ff97816121514b3",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.obd2.generic.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.obd2.generic.vehicle.json",
+    "source_sha256": "79d937aec6617933889c74fcb280ce3e2c061abce2a39c30247acb57e7a0350b",
+    "sha256": "79d937aec6617933889c74fcb280ce3e2c061abce2a39c30247acb57e7a0350b",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.porsche.997_1.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.porsche.997_1.vehicle.json",
+    "source_sha256": "c57cd57286db79f3a5e3f656e3d5f468ef2e7ba0258dda41657f75521f272ea9",
+    "sha256": "c57cd57286db79f3a5e3f656e3d5f468ef2e7ba0258dda41657f75521f272ea9",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.porsche.997_2.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.porsche.997_2.vehicle.json",
+    "source_sha256": "b3827d48378248e89cf09c88f74293f67960834a863a9d8188200fff6ff288b0",
+    "sha256": "b3827d48378248e89cf09c88f74293f67960834a863a9d8188200fff6ff288b0",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.subaru.zc6.can.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.subaru.zc6.can.vehicle.json",
+    "source_sha256": "711e381d27b1dac1eb988007d536ddbbde2c6e34250d6480e12506b7f0622737",
+    "sha256": "711e381d27b1dac1eb988007d536ddbbde2c6e34250d6480e12506b7f0622737",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.subaru.zc6.pid.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.subaru.zc6.pid.vehicle.json",
+    "source_sha256": "d96c21eb764cca200ade667c8ab10e0b50327101c669c00ba174c129886914a6",
+    "sha256": "d96c21eb764cca200ade667c8ab10e0b50327101c669c00ba174c129886914a6",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.subaru.zd8.obd.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.subaru.zd8.obd.vehicle.json",
+    "source_sha256": "e39fbcff40c2ae965863d6806bd260da4384a13bd19824f24d969c3ac3ee769c",
+    "sha256": "e39fbcff40c2ae965863d6806bd260da4384a13bd19824f24d969c3ac3ee769c",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.subaru.zd8.pid.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.subaru.zd8.pid.vehicle.json",
+    "source_sha256": "6997369d4209dabedc315b72e113f249554f7f0180fb625f7062e38fc17adf1d",
+    "sha256": "6997369d4209dabedc315b72e113f249554f7f0180fb625f7062e38fc17adf1d",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/vehicles/import/OBD/IMPORT/custom.toyota.supra_a90.vehicle.json",
+    "origin": "upstream-976106c/vehicles/import/OBD/IMPORT/custom.toyota.supra_a90.vehicle.json",
+    "source_sha256": "79aa7af57a4eb5ee6d7ff5d6dc3b2eeefc324b43d652b4fd9e68e1f0c92ce81b",
+    "sha256": "79aa7af57a4eb5ee6d7ff5d6dc3b2eeefc324b43d652b4fd9e68e1f0c92ce81b",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/app_obd_dsp/signal_registry.c",
+    "origin": "upstream-976106c/main/app_obd_dsp/signal_registry.c",
+    "source_sha256": "e5651eedb4c69baa8a85d9cd720c74f15d18502b07d1048653b71130b3a52de0",
+    "sha256": "e5651eedb4c69baa8a85d9cd720c74f15d18502b07d1048653b71130b3a52de0",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/app_obd_dsp/signal_registry.h",
+    "origin": "upstream-976106c/main/app_obd_dsp/signal_registry.h",
+    "source_sha256": "580f3791cc3b57134279d4729e07d0e5641b9689eed9a43da9d4b020419328c3",
+    "sha256": "580f3791cc3b57134279d4729e07d0e5641b9689eed9a43da9d4b020419328c3",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/app_obd_dsp/signal_store.h",
+    "origin": "upstream-976106c/main/app_obd_dsp/signal_store.h",
+    "source_sha256": "e808f5de2bc67239cabd15f1f47b100d3c5446e55084614bedfa641c71d42846",
+    "sha256": "e808f5de2bc67239cabd15f1f47b100d3c5446e55084614bedfa641c71d42846",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/bsp_obd_dsp/config_part.h",
+    "origin": "upstream-976106c/main/bsp_obd_dsp/config_part.h",
+    "source_sha256": "f9962a7d5284fed7f090ec27a1ccced40b1ca2941f144ecaf2445cf3d9d93a3d",
+    "sha256": "f9962a7d5284fed7f090ec27a1ccced40b1ca2941f144ecaf2445cf3d9d93a3d",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/bsp_obd_dsp/nvs_storage.h",
+    "origin": "upstream-976106c/main/bsp_obd_dsp/nvs_storage.h",
+    "source_sha256": "a698ff42c353fd4b3b49152e3cca25bc4af2377677d6be7bebb0cd14532f45ee",
+    "sha256": "a698ff42c353fd4b3b49152e3cca25bc4af2377677d6be7bebb0cd14532f45ee",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/bsp_obd_dsp/sd_card.h",
+    "origin": "upstream-976106c/main/bsp_obd_dsp/sd_card.h",
+    "source_sha256": "77dc13cb291ac6c6743262e0807ad685869cf450ab9842f0f4edb34d947f5e69",
+    "sha256": "77dc13cb291ac6c6743262e0807ad685869cf450ab9842f0f4edb34d947f5e69",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/main/bsp_obd_dsp/nvs_app.h",
+    "origin": "upstream-976106c/main/bsp_obd_dsp/nvs_app.h",
+    "source_sha256": "509db02f95c2c0cf4ffdc107f2644ba7d39310e695fa04a382267fc35e2c0308",
+    "sha256": "509db02f95c2c0cf4ffdc107f2644ba7d39310e695fa04a382267fc35e2c0308",
+    "transforms": []
+  },
+  {
+    "path": "vendor/obd_brz_gauge/LICENSE",
+    "origin": "upstream-976106c/LICENSE",
+    "source_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "transforms": []
+  },
+  {
+    "path": "tests/test_accel_autocenter.py",
+    "origin": "regression-tests/test_accel_autocenter.py",
+    "source_sha256": "f158d859a320c469fa2cb82d9e68cc2dd4df96a016dce2af47c70ea1fc02fefe",
+    "sha256": "f158d859a320c469fa2cb82d9e68cc2dd4df96a016dce2af47c70ea1fc02fefe",
+    "transforms": []
+  },
+  {
+    "path": "development-logs/historical-tests/test_bms_math.py",
+    "origin": "regression-tests/test_bms_math.py",
+    "source_sha256": "fa85a15b5fe74154308a51703b7438021a04a599fa9e3c4da480c80ce1eab3f7",
+    "sha256": "94f91afe96c6f7bf42fd12de90cf910dc5ffdc80a6cbbf08bbba39a641492862",
+    "transforms": [
+      "public-source-layout-or-current-test-adaptation"
+    ],
+    "export_sha256": "fa85a15b5fe74154308a51703b7438021a04a599fa9e3c4da480c80ce1eab3f7",
+    "original_export_path": "tests/test_bms_math.py"
+  },
+  {
+    "path": "development-logs/historical-tests/test_directional_envelope.py",
+    "origin": "regression-tests/test_directional_envelope.py",
+    "source_sha256": "4b1552af3c474416f317c205636351ae4eba28cfb2328ccfc90326e28b873fe6",
+    "sha256": "4b1552af3c474416f317c205636351ae4eba28cfb2328ccfc90326e28b873fe6",
+    "transforms": [],
+    "original_export_path": "tests/test_directional_envelope.py"
+  },
+  {
+    "path": "tests/test_elm_bridge_core.py",
+    "origin": "regression-tests/test_elm_bridge_core.py",
+    "source_sha256": "5c9df559c382fd5ae05bccf1afe5bd760808b7175a7057664107e9818b8c6364",
+    "sha256": "5c9df559c382fd5ae05bccf1afe5bd760808b7175a7057664107e9818b8c6364",
+    "transforms": []
+  },
+  {
+    "path": "development-logs/historical-tests/test_elm_daemon_args.py",
+    "origin": "regression-tests/test_elm_daemon_args.py",
+    "source_sha256": "05a9a1483171ac14d48e53e8015cf3c01cdda47b49f96fdc43d16dd38aaf267d",
+    "sha256": "f03460ca6155dfa2371f6a40922c4b4746795ba2310f368e36e8eb0707a2b83c",
+    "transforms": [
+      "replace-address-literals-with-synthetic-peers"
+    ],
+    "original_export_path": "tests/test_elm_daemon_args.py"
+  },
+  {
+    "path": "tests/test_elm_forward.py",
+    "origin": "regression-tests/test_elm_forward.py",
+    "source_sha256": "89ad287612afbc0ce2200cce8422bb5f6230900d695a8986a077223e36d8ec11",
+    "sha256": "f92f440f4e0440bad1e6f7d294a88b83791a7588ebbcb71d98c35f19d5afadfe",
+    "transforms": [
+      "replace-address-literals-with-synthetic-peers"
+    ]
+  },
+  {
+    "path": "tests/test_elm_latency.py",
+    "origin": "regression-tests/test_elm_latency.py",
+    "source_sha256": "9869e795f525cf9eea669ab45dcb2ef1a56b8d50541476209d9aed22e5349fe6",
+    "sha256": "69dfb1f42d1ad9d14befcc50bdcf187b637e7e68a9b9ac70316b498509aae97f",
+    "transforms": [
+      "replace-address-literals-with-synthetic-peers"
+    ]
+  },
+  {
+    "path": "development-logs/historical-tests/test_elm327_demo.py",
+    "origin": "regression-tests/test_elm327_demo.py",
+    "source_sha256": "21a25ad4f7306cf01a9971fa23e141dec6c7d98b8a5587d27f4903b9bd6a83fd",
+    "sha256": "21a25ad4f7306cf01a9971fa23e141dec6c7d98b8a5587d27f4903b9bd6a83fd",
+    "transforms": [],
+    "original_export_path": "tests/test_elm327_demo.py"
+  },
+  {
+    "path": "development-logs/historical-tests/test_gauge_ble_diagnostics.py",
+    "origin": "regression-tests/test_gauge_ble_diagnostics.py",
+    "source_sha256": "328b5191cecd3b39e542d19e0c611fc09e74cb1df7163d493aaf4e3e7ed7a744",
+    "sha256": "328b5191cecd3b39e542d19e0c611fc09e74cb1df7163d493aaf4e3e7ed7a744",
+    "transforms": [],
+    "original_export_path": "tests/test_gauge_ble_diagnostics.py"
+  },
+  {
+    "path": "tests/test_gauge_ble_protocol.py",
+    "origin": "regression-tests/test_gauge_ble_protocol.py",
+    "source_sha256": "6d47fd0477f6df214a1a26ab83b00544749dd736963adce464b0ebc89e5480d7",
+    "sha256": "a69b293219550aa125cddd4925cffda5e57ed15bba728cf4f0fee23dcf12dd36",
+    "transforms": [
+      "public-source-layout-or-current-test-adaptation"
+    ],
+    "export_sha256": "6d47fd0477f6df214a1a26ab83b00544749dd736963adce464b0ebc89e5480d7"
+  },
+  {
+    "path": "tests/test_gauge_compat.py",
+    "origin": "regression-tests/test_gauge_compat.py",
+    "source_sha256": "2c2ffb68f71125714587bd0b2766aed74820f98e020d1b34756a302ff58055fd",
+    "sha256": "3af126c4e875fff43fccc29579f8d022659d08f4eaa44ea78116ab380fd73376",
+    "transforms": [
+      "replace-address-literals-with-synthetic-peers"
+    ]
+  },
+  {
+    "path": "tests/test_gauge_power.py",
+    "origin": "regression-tests/test_gauge_power.py",
+    "source_sha256": "3850ac1becace0668b14c980f4e1e7d5ca85f38ba6220d8b49425b6b0ab21002",
+    "sha256": "3850ac1becace0668b14c980f4e1e7d5ca85f38ba6220d8b49425b6b0ab21002",
+    "transforms": []
+  },
+  {
+    "path": "development-logs/historical-tests/test_gauge_sdl.py",
+    "origin": "regression-tests/test_gauge_sdl.py",
+    "source_sha256": "9adf80d4c0fe9b503aedf4aba7e68edec92ce209f441c27c0a35984241bc62ce",
+    "sha256": "9adf80d4c0fe9b503aedf4aba7e68edec92ce209f441c27c0a35984241bc62ce",
+    "transforms": [],
+    "original_export_path": "tests/test_gauge_sdl.py"
+  },
+  {
+    "path": "tests/test_gauge_settings.py",
+    "origin": "regression-tests/test_gauge_settings.py",
+    "source_sha256": "6aad99a5a3f8496165faecf9b4db71c4f0ed9bca1856c3062c4498dbcfee1673",
+    "sha256": "eeee60d1a700c67e3101eead78e97a743aca6fd5736bbe26576d22b0771047d7",
+    "transforms": [
+      "replace-address-literals-with-synthetic-peers",
+      "public-source-layout-or-current-test-adaptation"
+    ],
+    "export_sha256": "6d3c926440ae8441b90c98a7d6b5b74c9ce3d79c815e8534801f3f943bf6933a"
+  },
+  {
+    "path": "tests/test_gauge_telemetry.py",
+    "origin": "regression-tests/test_gauge_telemetry.py",
+    "source_sha256": "a949a9343763e2e020febe0bf67a0c4b839549a4989d31c26ceaca753e14b94b",
+    "sha256": "f79b0405f5251d927942f7a461be60583c8a55887b04165e8b1065abd7d3a903",
+    "transforms": [
+      "replace-address-literals-with-synthetic-peers"
+    ]
+  },
+  {
+    "path": "tests/test_gauge_tracks.py",
+    "origin": "regression-tests/test_gauge_tracks.py",
+    "source_sha256": "71b4d587632ec8a2226517e7db083f913dd7f74c326b5eacf6ca067572aa57b8",
+    "sha256": "71b4d587632ec8a2226517e7db083f913dd7f74c326b5eacf6ca067572aa57b8",
+    "transforms": []
+  },
+  {
+    "path": "development-logs/historical-tests/test_home_design.py",
+    "origin": "regression-tests/test_home_design.py",
+    "source_sha256": "fe4d52329014e5d0462b2ad3fa4d812503b242f579750eb6ebb346074c754876",
+    "sha256": "fe4d52329014e5d0462b2ad3fa4d812503b242f579750eb6ebb346074c754876",
+    "transforms": [],
+    "original_export_path": "tests/test_home_design.py"
+  },
+  {
+    "path": "tests/test_mi4_gnss.py",
+    "origin": "regression-tests/test_mi4_gnss.py",
+    "source_sha256": "07f2b0a0471be624a3c2b4206401854e23feb3249772518b9b8591295937596b",
+    "sha256": "07f2b0a0471be624a3c2b4206401854e23feb3249772518b9b8591295937596b",
+    "transforms": []
+  },
+  {
+    "path": "tests/test_mi4_motion.py",
+    "origin": "regression-tests/test_mi4_motion.py",
+    "source_sha256": "5ea61b6715f23eab39ed0d778ca8d61369ae5f78f7e8d401cae572ebfd7ce10f",
+    "sha256": "5ea61b6715f23eab39ed0d778ca8d61369ae5f78f7e8d401cae572ebfd7ce10f",
+    "transforms": []
+  },
+  {
+    "path": "tests/test_mi4_qmi_sv.py",
+    "origin": "regression-tests/test_mi4_qmi_sv.py",
+    "source_sha256": "7266fa5d991ad0d690f46b831092db8b9ac2898d3a3b3a71d8933c0b9b27f046",
+    "sha256": "7266fa5d991ad0d690f46b831092db8b9ac2898d3a3b3a71d8933c0b9b27f046",
+    "transforms": []
+  },
+  {
+    "path": "tests/test_mi4_satellite_log.py",
+    "origin": "regression-tests/test_mi4_satellite_log.py",
+    "source_sha256": "50bd8bfb401dc874471eb7c70afe350d11e68a8755aea0a4098700c00a47796e",
+    "sha256": "50bd8bfb401dc874471eb7c70afe350d11e68a8755aea0a4098700c00a47796e",
+    "transforms": []
+  },
+  {
+    "path": "tests/test_trip_recording.py",
+    "origin": "regression-tests/test_trip_recording.py",
+    "source_sha256": "343435ad8d82ef09210f3f59d7d8ed68ff3ed735ac938f187d3eec805ce77a4a",
+    "sha256": "0c19c61205b6ef8a128802d7ba51ecc48cdf15190ac0f8ac2c0a2ae87af311dd",
+    "transforms": [
+      "public-source-layout-or-current-test-adaptation"
+    ],
+    "export_sha256": "343435ad8d82ef09210f3f59d7d8ed68ff3ed735ac938f187d3eec805ce77a4a"
+  },
+  {
+    "path": "tests/test_bundled_fastboot_repair.py",
+    "origin": "r2-regression-tests/test_bundled_fastboot_repair.py",
+    "source_sha256": "068db68ea70aa639e3431b7313e8a9451f31b2c143a454056940b45aabac77a2",
+    "sha256": "6ba363c2ae424277fce8272d271ee10bd540cb26e3bc1437ff22b5feea197521",
+    "transforms": [
+      "public-source-layout-or-current-test-adaptation"
+    ],
+    "export_sha256": "068db68ea70aa639e3431b7313e8a9451f31b2c143a454056940b45aabac77a2"
+  },
+  {
+    "path": "development-logs/historical-tests/test_charge_mode.py",
+    "origin": "r2-regression-tests/test_charge_mode.py",
+    "source_sha256": "2d1de68b275940450a2d01d37e4c68c974087fecfad9b2ec137b0a8443ff736c",
+    "sha256": "2d1de68b275940450a2d01d37e4c68c974087fecfad9b2ec137b0a8443ff736c",
+    "transforms": [],
+    "original_export_path": "tests/test_charge_mode.py"
+  },
+  {
+    "path": "tests/test_charge_radio_guard.py",
+    "origin": "r2-regression-tests/test_charge_radio_guard.py",
+    "source_sha256": "66411b1ef89437d0673f40abf1b272fb0dbe8dd3039bb9eea2b930082caf14fe",
+    "sha256": "7470d434922588757f7391964b059235e286e58dfe75f9c325c6166c4021cf6c",
+    "transforms": [
+      "public-source-layout-or-current-test-adaptation"
+    ],
+    "export_sha256": "66411b1ef89437d0673f40abf1b272fb0dbe8dd3039bb9eea2b930082caf14fe"
+  },
+  {
+    "path": "tests/test_log_download.py",
+    "origin": "log-transfer-tests/test_log_download.py",
+    "source_sha256": "6d326e0d95f8967c08f911813666a9fbb7672c7ac9247236a80886dc06ad8ed4",
+    "sha256": "6d326e0d95f8967c08f911813666a9fbb7672c7ac9247236a80886dc06ad8ed4",
+    "transforms": []
+  },
+  {
+    "path": "tests/test_pairing.py",
+    "origin": "log-transfer-tests/test_pairing.py",
+    "source_sha256": "e25e3404306bd75f81c9711ce4fe42af742fddb04fe77a59fb4c1eca69e7545d",
+    "sha256": "e25e3404306bd75f81c9711ce4fe42af742fddb04fe77a59fb4c1eca69e7545d",
+    "transforms": []
+  },
+  {
+    "path": "tests/test_racechrono_export.py",
+    "origin": "log-transfer-tests/test_racechrono_export.py",
+    "source_sha256": "35731919a6a64a850b529cda0c063775b53b3d17d42afd329700802e25505cd8",
+    "sha256": "35731919a6a64a850b529cda0c063775b53b3d17d42afd329700802e25505cd8",
+    "transforms": []
+  },
+  {
+    "path": "development-logs/historical-tests/test_transfer_ui.py",
+    "origin": "log-transfer-tests/test_transfer_ui.py",
+    "source_sha256": "ef958e29b78a54a5d4055a5d6b7566041edf11c730f9aa900591e9a11f0adea5",
+    "sha256": "9c59289a16556a9041127871828e4dbbddd6fe819ebfaa6120bc439968cf49a6",
+    "transforms": [
+      "public-source-layout-or-current-test-adaptation"
+    ],
+    "export_sha256": "ef958e29b78a54a5d4055a5d6b7566041edf11c730f9aa900591e9a11f0adea5",
+    "original_export_path": "tests/test_transfer_ui.py"
+  },
+  {
+    "path": "installer/Installer.cs",
+    "origin": "windows-installer3/Installer.cs",
+    "source_sha256": "c1803745b9da825d780848dd34710d020327ff1d711760966a4f1d75ed70a984",
+    "sha256": "c1803745b9da825d780848dd34710d020327ff1d711760966a4f1d75ed70a984",
+    "transforms": []
+  },
+  {
+    "path": "installer/InstallerTests.cs",
+    "origin": "windows-installer3/InstallerTests.cs",
+    "source_sha256": "2961b6850388596e3b9d7b6d075d761320396c21ae0d792478e9ebaffd1342bb",
+    "sha256": "2961b6850388596e3b9d7b6d075d761320396c21ae0d792478e9ebaffd1342bb",
+    "transforms": []
+  },
+  {
+    "path": "native/sky_boot_curtain.c",
+    "origin": "startup-source/sky_boot_curtain.c",
+    "source_sha256": "0679f9b46c84d25a6402ab09a0f07637e43b2673e487289846e4288a655070f9",
+    "sha256": "0679f9b46c84d25a6402ab09a0f07637e43b2673e487289846e4288a655070f9",
+    "transforms": []
+  },
+  {
+    "path": "hardware/lk2nd/generate_charge_glyphs.py",
+    "origin": "lowbat-source/generate_charge_glyphs.py",
+    "source_sha256": "08aeda6a35e324a308f4f3fc1aa2ee50b7595f96e956401ee4d7986db5291e05",
+    "sha256": "08aeda6a35e324a308f4f3fc1aa2ee50b7595f96e956401ee4d7986db5291e05",
+    "transforms": []
+  },
+  {
+    "path": "hardware/kernel/kernel.config",
+    "origin": "kernel-build-config",
+    "source_sha256": "eafa97e04c3437446f6cf67384339f1f71c9898c8401a3acfc34a3457bf3e9db",
+    "sha256": "eafa97e04c3437446f6cf67384339f1f71c9898c8401a3acfc34a3457bf3e9db",
+    "transforms": []
+  },
+  {
+    "path": "hardware/kernel/COPYING",
+    "origin": "kernel-source/COPYING",
+    "source_sha256": "fb5a425bd3b3cd6071a3a9aff9909a859e7c1158d54d32e07658398cd67eb6a0",
+    "sha256": "fb5a425bd3b3cd6071a3a9aff9909a859e7c1158d54d32e07658398cd67eb6a0",
+    "transforms": []
+  },
+  {
+    "path": "LICENSES/GPL-2.0.txt",
+    "origin": "kernel-source/LICENSES/preferred/GPL-2.0",
+    "source_sha256": "f6b78c087c3ebdf0f3c13415070dd480a3f35d8fc76f3d02180a407c1c812f79",
+    "sha256": "f6b78c087c3ebdf0f3c13415070dd480a3f35d8fc76f3d02180a407c1c812f79",
+    "transforms": []
+  },
+  {
+    "path": "hardware/lk2nd/LICENSE",
+    "origin": "lk2nd-source/LICENSE",
+    "source_sha256": "8ad52655e145f95f04b35908c8f8f1853c69f58321c587be6daccacb6a121b62",
+    "sha256": "8ad52655e145f95f04b35908c8f8f1853c69f58321c587be6daccacb6a121b62",
+    "transforms": []
+  },
+  {
+    "path": "hardware/bms/mi4_bms_fixed.c",
+    "origin": "clean-r2-runtime/bms/mi4_bms_fixed.c",
+    "source_sha256": "6fda41535f3918d4dd5cdb20eb8609ccf030480dd71c91ce3948de4039402454",
+    "sha256": "b208940610001de6959be024ec319593db90674eb56f3b826b27f26a4e826d23",
+    "transforms": [
+      "public-source-layout-or-current-test-adaptation"
+    ],
+    "export_sha256": "6fda41535f3918d4dd5cdb20eb8609ccf030480dd71c91ce3948de4039402454"
+  }
+]

@@ -1,0 +1,11 @@
+
+[   16.116534] umeko-cancro sky_boot_curtain[249]: SKY_CURTAIN_HOLD_END uptime=16.111 paints=1
+
+[   17.823141] umeko-cancro kernel: dsi_err_worker: status=c
+[   17.874733] umeko-cancro kernel: dsi_err_worker: status=c
+libsdl2-2.0-0:armhf	2.30.0+dfsg-1ubuntu3.1
+msmdrmfb
+active
+active
+
+umeko@umeko-cancro:~$ 

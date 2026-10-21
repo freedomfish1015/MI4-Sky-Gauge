@@ -1,0 +1,13 @@
+
+ 06:48:02 up 5 min,  1 user,  load average: 1.35, 1.04, 0.50
+{"pid": 460, "uptime": 19.53, "elapsed": 6.745}cat: /sys/devices/system/cpu/cpufreq/policy0/scaling_governor: 没有那个文件或目录
+cat: /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq: 没有那个文件或目录
+0-3
+ExecMainStartTimestampMonotonic=5691960
+ExecMainExitTimestampMonotonic=7281633
+92
+4196763
+{"phase": "normal"}earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=0
+ls: 无法访问 '/home/umeko/desktop-offline/backups/hide-lk-footer-before-8i_dkxgq/boot.img': 权限不够
+
+umeko@umeko-cancro:~$ 

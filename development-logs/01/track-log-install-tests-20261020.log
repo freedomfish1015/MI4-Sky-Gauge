@@ -1,0 +1,25 @@
+
+BACKUP /home/umeko/desktop-offline/backups/track-log-before-6jt6h5he
+
+TRACK_LOG_INSTALLED
+
+test_freeze_is_independent_of_recording_and_history (test_gauge_telemetry.TelemetryTests.test_freeze_is_independent_of_recording_and_history) ... ok
+test_legacy_sky_migrates_only_saved_direct (test_gauge_telemetry.TelemetryTests.test_legacy_sky_migrates_only_saved_direct) ... ok
+test_native_page_draw_and_full_gauge_restore (test_gauge_telemetry.TelemetryTests.test_native_page_draw_and_full_gauge_restore) ... ok
+test_raw_missing_throttle_g_and_strict_json (test_gauge_telemetry.TelemetryTests.test_raw_missing_throttle_g_and_strict_json) ... ok
+test_rotation_does_not_touch_other_files (test_gauge_telemetry.TelemetryTests.test_rotation_does_not_touch_other_files) ... ok
+test_storage_error_is_reported (test_gauge_telemetry.TelemetryTests.test_storage_error_is_reported) ... ok
+test_track_channels_keep_unavailable_pedals_unknown (test_gauge_telemetry.TelemetryTests.test_track_channels_keep_unavailable_pedals_unknown) ... ok
+test_vertical_navigation_and_buttons_do_not_toggle_settings (test_gauge_telemetry.TelemetryTests.test_vertical_navigation_and_buttons_do_not_toggle_settings) ... ok
+test_each_trip_separate_and_no_fix_has_no_coordinates (test_trip_recording.TripTests.test_each_trip_separate_and_no_fix_has_no_coordinates) ... ok
+test_log_stop_button_stops_gps_when_linked (test_trip_recording.TripTests.test_log_stop_button_stops_gps_when_linked) ... ok
+test_resume_existing_trip_after_app_restart (test_trip_recording.TripTests.test_resume_existing_trip_after_app_restart) ... ok
+test_settings_gps_button_and_route_button_share_daemon (test_trip_recording.TripTests.test_settings_gps_button_and_route_button_share_daemon) ... ok
+test_trip_rotates_independent_log_and_stops_both (test_trip_recording.TripTests.test_trip_rotates_independent_log_and_stops_both) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 3.170s
+
+OK
+
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,12 @@
+
+=== 播放中寄存器 ===
+supply_owned=1 clock_owned=1 supply_hw_enabled=1
+reg[0x1df]=ef rc=0
+reg[0x1e0]=04 rc=0
+reg[0x2e7]=00 rc=0
+reg[0x30f]=40 rc=0
+=== 播放输出 ===
+正在播放 WAVE '/home/umeko/desktop-offline/mi4-long-test.wav' : Signed 16 bit Little Endian, 频率48000Hz， Mono
+
+DONE_535bb20315834c688795fd7752232c59
+umeko@umeko-cancro:~$ 

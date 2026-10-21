@@ -1,0 +1,17 @@
+
+=== 播放中 divider ===
+applied=1 base=0x5b00
+div_ctl1=02 factor=2
+en_ctl=80 enabled=1
+gpio15_mode_ctl=25 dir=2 function=2
+=== 播放中 codec ===
+supply_owned=1 clock_owned=1 supply_hw_enabled=1
+reg[0x1df]=ef rc=0
+reg[0x1e0]=04 rc=0
+reg[0x30f]=40 rc=0
+reg[0x311]=01 rc=0
+reg[0x314]=00 rc=0
+=== 结束 ===
+
+DONE_35f1dbec5ea342e696180914a6dd6a96
+umeko@umeko-cancro:~$ 

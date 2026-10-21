@@ -1,0 +1,29 @@
+
+10月 18 17:48:58 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 restore RCO step 11/11: reg 0x311 (VE 0x0b11) old=01 mask=01 want=01 -> read=01  delay=50us  unverifiable  [CDC_CLK_MCLK_CTL: gate the clock into the CDC block (unverifiable)]
+10月 18 17:48:58 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 restore RCO: all 11 steps applied cleanly
+10月 18 17:48:58 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 speaker: PA, RX7, bias, MCLK and boost OFF
+10月 18 17:48:58 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: ASoC trigger START (dai wcd9320-slim-rx1)
+10月 18 17:48:58 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: prepare -> 0 (CONNECT_SINK to the manager)
+10月 18 17:48:58 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: enable -> 0 (SLIM_USR_MC_DEF_ACT_CHAN)
+10月 18 17:48:58 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: UP port 16 channel 144
+10月 18 17:48:58 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: ASoC trigger STOP (dai wcd9320-slim-rx1)
+10月 18 17:48:58 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: disable -> 0 (no-op here: the NGD drops every reconfiguration message)
+10月 18 17:48:58 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: unprepare -> 0 (DISCONNECT_PORT -- the real teardown)
+10月 18 17:48:58 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: DOWN port 16
+10月 18 17:48:58 umeko-cancro kernel: wcd9320 217:a0:1:0: RX path invocation: ASoC hw_free (dai wcd9320-slim-rx1)
+10月 18 17:48:58 umeko-cancro kernel: wcd9320 217:a0:1:0: rx-port 16: config 0x040 want 00 -> read 00
+10月 18 17:48:58 umeko-cancro kernel: wcd9320 217:a0:1:0: rx-port 16: multi-channel 0x180 want 00 -> read 00
+10月 18 17:48:58 umeko-cancro kernel: wcd9320 217:a0:1:0: rx-port 16: TORN DOWN, 72 write(s) total
+10月 18 17:48:58 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: ASoC shutdown (dai wcd9320-slim-rx1)
+=== 当前 PCM 状态 ===
+state: RUNNING
+owner_pid   : 5222
+trigger_time: 2555.262892983
+tstamp      : 2555.270503998
+delay       : 3072
+avail       : 1024
+=== UCM verb ===
+alsaucm: error failed to get _verb: No such file or directory
+
+DONE_bc0dc85b9f164c00b7afd7028d6266aa
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,4694 @@
+[
+  {
+    "package": "accountsservice",
+    "version": "23.13.9-2ubuntu6.1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "acl",
+    "version": "2.3.2-1build1.1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "adduser",
+    "version": "3.137ubuntu1",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "adwaita-icon-theme",
+    "version": "46.0-1",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "alsa-ucm-conf",
+    "version": "1.2.10-1ubuntu5.15",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "alsa-utils",
+    "version": "1.2.9-1ubuntu5",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "apg",
+    "version": "2.2.3.dfsg.1-5build3",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "apt",
+    "version": "2.8.3",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "aptdaemon",
+    "version": "1.1.1+bzr982-0ubuntu44",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "aptdaemon-data",
+    "version": "1.1.1+bzr982-0ubuntu44",
+    "architecture": "all",
+    "source": "aptdaemon"
+  },
+  {
+    "package": "at-spi2-common",
+    "version": "2.52.0-1build1",
+    "architecture": "all",
+    "source": "at-spi2-core"
+  },
+  {
+    "package": "at-spi2-core",
+    "version": "2.52.0-1build1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "base-files",
+    "version": "13ubuntu10.5",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "base-passwd",
+    "version": "3.6.3build1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "bash",
+    "version": "5.2.21-2ubuntu4",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "bluez",
+    "version": "5.72-0ubuntu5.8",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "bsdutils",
+    "version": "1:2.39.3-9ubuntu6.6",
+    "architecture": "armhf",
+    "source": "util-linux (2.39.3-9ubuntu6.6)"
+  },
+  {
+    "package": "bubblewrap",
+    "version": "0.9.0-1ubuntu0.3",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "busybox-initramfs",
+    "version": "1:1.36.1-6ubuntu3.1",
+    "architecture": "armhf",
+    "source": "busybox"
+  },
+  {
+    "package": "ca-certificates",
+    "version": "20260601~24.04.1",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "colord",
+    "version": "1.4.7-1build2",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "colord-data",
+    "version": "1.4.7-1build2",
+    "architecture": "all",
+    "source": "colord"
+  },
+  {
+    "package": "coreutils",
+    "version": "9.4-3ubuntu6.3",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "cpio",
+    "version": "2.15+dfsg-1ubuntu2.1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "dash",
+    "version": "0.5.12-6ubuntu5",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "dbus",
+    "version": "1.14.10-4ubuntu4.1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "dbus-bin",
+    "version": "1.14.10-4ubuntu4.1",
+    "architecture": "armhf",
+    "source": "dbus"
+  },
+  {
+    "package": "dbus-daemon",
+    "version": "1.14.10-4ubuntu4.1",
+    "architecture": "armhf",
+    "source": "dbus"
+  },
+  {
+    "package": "dbus-session-bus-common",
+    "version": "1.14.10-4ubuntu4.1",
+    "architecture": "all",
+    "source": "dbus"
+  },
+  {
+    "package": "dbus-system-bus-common",
+    "version": "1.14.10-4ubuntu4.1",
+    "architecture": "all",
+    "source": "dbus"
+  },
+  {
+    "package": "dbus-user-session",
+    "version": "1.14.10-4ubuntu4.1",
+    "architecture": "armhf",
+    "source": "dbus"
+  },
+  {
+    "package": "dconf-cli",
+    "version": "0.40.0-4ubuntu0.1",
+    "architecture": "armhf",
+    "source": "dconf"
+  },
+  {
+    "package": "dconf-gsettings-backend",
+    "version": "0.40.0-4ubuntu0.1",
+    "architecture": "armhf",
+    "source": "dconf"
+  },
+  {
+    "package": "dconf-service",
+    "version": "0.40.0-4ubuntu0.1",
+    "architecture": "armhf",
+    "source": "dconf"
+  },
+  {
+    "package": "debconf",
+    "version": "1.5.86ubuntu1",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "debianutils",
+    "version": "5.17build1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "desktop-file-utils",
+    "version": "0.27-2build1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "dhcpcd-base",
+    "version": "1:10.0.6-1ubuntu3.2",
+    "architecture": "armhf",
+    "source": "dhcpcd"
+  },
+  {
+    "package": "dictionaries-common",
+    "version": "1.29.7",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "diffutils",
+    "version": "1:3.10-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "dirmngr",
+    "version": "2.4.4-2ubuntu17.6",
+    "architecture": "armhf",
+    "source": "gnupg2"
+  },
+  {
+    "package": "distro-info-data",
+    "version": "0.72-0ubuntu0.24.04.1",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "dpkg",
+    "version": "1.22.6ubuntu6.6",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "dracut-install",
+    "version": "060+5-1ubuntu3.4",
+    "architecture": "armhf",
+    "source": "dracut"
+  },
+  {
+    "package": "e2fsprogs",
+    "version": "1.47.0-2.4~exp1ubuntu4.1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "eject",
+    "version": "2.39.3-9ubuntu6.6",
+    "architecture": "armhf",
+    "source": "util-linux"
+  },
+  {
+    "package": "emacsen-common",
+    "version": "3.0.5",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "ethtool",
+    "version": "1:6.7-1build1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "findutils",
+    "version": "4.9.0-5build1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "fontconfig",
+    "version": "2.15.0-1.1ubuntu2",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "fontconfig-config",
+    "version": "2.15.0-1.1ubuntu2",
+    "architecture": "armhf",
+    "source": "fontconfig"
+  },
+  {
+    "package": "fonts-arphic-ukai",
+    "version": "0.2.20080216.2-5",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "fonts-arphic-uming",
+    "version": "0.2.20080216.2-10ubuntu2",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "fonts-dejavu-core",
+    "version": "2.37-8",
+    "architecture": "all",
+    "source": "fonts-dejavu"
+  },
+  {
+    "package": "fonts-dejavu-mono",
+    "version": "2.37-8",
+    "architecture": "all",
+    "source": "fonts-dejavu"
+  },
+  {
+    "package": "fonts-freefont-ttf",
+    "version": "20211204+svn4273-2",
+    "architecture": "all",
+    "source": "fonts-freefont"
+  },
+  {
+    "package": "fonts-noto-cjk",
+    "version": "1:20230817+repack1-3",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "fonts-noto-cjk-extra",
+    "version": "1:20230817+repack1-3",
+    "architecture": "all",
+    "source": "fonts-noto-cjk"
+  },
+  {
+    "package": "fonts-noto-core",
+    "version": "20201225-2",
+    "architecture": "all",
+    "source": "fonts-noto"
+  },
+  {
+    "package": "fonts-noto-mono",
+    "version": "20201225-2",
+    "architecture": "all",
+    "source": "fonts-noto"
+  },
+  {
+    "package": "fonts-wqy-microhei",
+    "version": "0.2.0-beta-3.1",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "fuse3",
+    "version": "3.14.0-5build1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "gcc-14-base",
+    "version": "14.2.0-4ubuntu2~24.04.1",
+    "architecture": "armhf",
+    "source": "gcc-14"
+  },
+  {
+    "package": "geoclue-2.0",
+    "version": "2.7.0-3ubuntu7",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "geocode-glib-common",
+    "version": "3.26.3-6build3",
+    "architecture": "all",
+    "source": "geocode-glib"
+  },
+  {
+    "package": "gir1.2-atk-1.0",
+    "version": "2.52.0-1build1",
+    "architecture": "armhf",
+    "source": "at-spi2-core"
+  },
+  {
+    "package": "gir1.2-freedesktop",
+    "version": "1.80.1-1",
+    "architecture": "armhf",
+    "source": "gobject-introspection"
+  },
+  {
+    "package": "gir1.2-gdkpixbuf-2.0",
+    "version": "2.42.10+dfsg-3ubuntu3.3",
+    "architecture": "armhf",
+    "source": "gdk-pixbuf"
+  },
+  {
+    "package": "gir1.2-girepository-2.0",
+    "version": "1.80.1-1",
+    "architecture": "armhf",
+    "source": "gobject-introspection"
+  },
+  {
+    "package": "gir1.2-glib-2.0",
+    "version": "2.80.0-6ubuntu3.9",
+    "architecture": "armhf",
+    "source": "glib2.0"
+  },
+  {
+    "package": "gir1.2-gstreamer-1.0",
+    "version": "1.24.2-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "gstreamer1.0"
+  },
+  {
+    "package": "gir1.2-gtk-3.0",
+    "version": "3.24.41-4ubuntu1.3",
+    "architecture": "armhf",
+    "source": "gtk+3.0"
+  },
+  {
+    "package": "gir1.2-harfbuzz-0.0",
+    "version": "8.3.0-2build2",
+    "architecture": "armhf",
+    "source": "harfbuzz"
+  },
+  {
+    "package": "gir1.2-javascriptcoregtk-4.1",
+    "version": "2.52.6-0ubuntu0.24.04.1",
+    "architecture": "armhf",
+    "source": "webkit2gtk"
+  },
+  {
+    "package": "gir1.2-packagekitglib-1.0",
+    "version": "1.2.8-2ubuntu1.5",
+    "architecture": "armhf",
+    "source": "packagekit"
+  },
+  {
+    "package": "gir1.2-pango-1.0",
+    "version": "1.52.1+ds-1build1",
+    "architecture": "armhf",
+    "source": "pango1.0"
+  },
+  {
+    "package": "gir1.2-qmi-1.0",
+    "version": "1.35.2-0ubuntu2",
+    "architecture": "armhf",
+    "source": "libqmi"
+  },
+  {
+    "package": "gir1.2-qrtr-1.0",
+    "version": "1.2.2-1ubuntu4",
+    "architecture": "armhf",
+    "source": "libqrtr-glib"
+  },
+  {
+    "package": "gir1.2-soup-3.0",
+    "version": "3.4.4-5ubuntu0.9",
+    "architecture": "armhf",
+    "source": "libsoup3"
+  },
+  {
+    "package": "gir1.2-vte-2.91",
+    "version": "0.76.0-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "vte2.91"
+  },
+  {
+    "package": "gir1.2-webkit2-4.1",
+    "version": "2.52.6-0ubuntu0.24.04.1",
+    "architecture": "armhf",
+    "source": "webkit2gtk"
+  },
+  {
+    "package": "glib-networking",
+    "version": "2.80.0-1build1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "glib-networking-common",
+    "version": "2.80.0-1build1",
+    "architecture": "all",
+    "source": "glib-networking"
+  },
+  {
+    "package": "glib-networking-services",
+    "version": "2.80.0-1build1",
+    "architecture": "armhf",
+    "source": "glib-networking"
+  },
+  {
+    "package": "gnome-control-center",
+    "version": "1:46.7-0ubuntu0.24.04.6",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "gnome-control-center-data",
+    "version": "1:46.7-0ubuntu0.24.04.6",
+    "architecture": "all",
+    "source": "gnome-control-center"
+  },
+  {
+    "package": "gnome-desktop3-data",
+    "version": "44.0-5build2",
+    "architecture": "all",
+    "source": "gnome-desktop"
+  },
+  {
+    "package": "gnome-settings-daemon",
+    "version": "46.0-1ubuntu1.24.04.1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "gnome-settings-daemon-common",
+    "version": "46.0-1ubuntu1.24.04.1",
+    "architecture": "all",
+    "source": "gnome-settings-daemon"
+  },
+  {
+    "package": "gnome-terminal",
+    "version": "3.52.0-1ubuntu2",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "gnome-terminal-data",
+    "version": "3.52.0-1ubuntu2",
+    "architecture": "all",
+    "source": "gnome-terminal"
+  },
+  {
+    "package": "gnupg",
+    "version": "2.4.4-2ubuntu17.6",
+    "architecture": "all",
+    "source": "gnupg2"
+  },
+  {
+    "package": "gnupg-utils",
+    "version": "2.4.4-2ubuntu17.6",
+    "architecture": "armhf",
+    "source": "gnupg2"
+  },
+  {
+    "package": "gpg",
+    "version": "2.4.4-2ubuntu17.6",
+    "architecture": "armhf",
+    "source": "gnupg2"
+  },
+  {
+    "package": "gpg-agent",
+    "version": "2.4.4-2ubuntu17.6",
+    "architecture": "armhf",
+    "source": "gnupg2"
+  },
+  {
+    "package": "gpgconf",
+    "version": "2.4.4-2ubuntu17.6",
+    "architecture": "armhf",
+    "source": "gnupg2"
+  },
+  {
+    "package": "gpgsm",
+    "version": "2.4.4-2ubuntu17.6",
+    "architecture": "armhf",
+    "source": "gnupg2"
+  },
+  {
+    "package": "gpgv",
+    "version": "2.4.4-2ubuntu17.6",
+    "architecture": "armhf",
+    "source": "gnupg2"
+  },
+  {
+    "package": "grep",
+    "version": "3.11-4build1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "grim",
+    "version": "1.4.0+ds-2build2",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "gsettings-desktop-schemas",
+    "version": "46.1-0ubuntu1",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "gstreamer1.0-libav",
+    "version": "1.24.1-1build1",
+    "architecture": "armhf",
+    "source": "gst-libav1.0"
+  },
+  {
+    "package": "gstreamer1.0-plugins-base",
+    "version": "1.24.2-1ubuntu0.5",
+    "architecture": "armhf",
+    "source": "gst-plugins-base1.0"
+  },
+  {
+    "package": "gstreamer1.0-plugins-good",
+    "version": "1.24.2-1ubuntu1.8",
+    "architecture": "armhf",
+    "source": "gst-plugins-good1.0"
+  },
+  {
+    "package": "gstreamer1.0-pulseaudio",
+    "version": "1.24.2-1ubuntu1.8",
+    "architecture": "armhf",
+    "source": "gst-plugins-good1.0"
+  },
+  {
+    "package": "gtk-update-icon-cache",
+    "version": "3.24.41-4ubuntu1.3",
+    "architecture": "armhf",
+    "source": "gtk+3.0"
+  },
+  {
+    "package": "gvfs",
+    "version": "1.54.4-0ubuntu1~24.04.4",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "gvfs-common",
+    "version": "1.54.4-0ubuntu1~24.04.4",
+    "architecture": "all",
+    "source": "gvfs"
+  },
+  {
+    "package": "gvfs-daemons",
+    "version": "1.54.4-0ubuntu1~24.04.4",
+    "architecture": "armhf",
+    "source": "gvfs"
+  },
+  {
+    "package": "gvfs-libs",
+    "version": "1.54.4-0ubuntu1~24.04.4",
+    "architecture": "armhf",
+    "source": "gvfs"
+  },
+  {
+    "package": "gzip",
+    "version": "1.12-1ubuntu3.2",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "heif-gdk-pixbuf",
+    "version": "1.17.6-1ubuntu4.9",
+    "architecture": "armhf",
+    "source": "libheif"
+  },
+  {
+    "package": "heif-thumbnailer",
+    "version": "1.17.6-1ubuntu4.9",
+    "architecture": "armhf",
+    "source": "libheif"
+  },
+  {
+    "package": "hicolor-icon-theme",
+    "version": "0.17-2",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "hostname",
+    "version": "3.23+nmu2ubuntu2",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "htop",
+    "version": "3.3.0-4build1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "humanity-icon-theme",
+    "version": "0.6.16",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "hunspell-en-us",
+    "version": "1:2020.12.07-2",
+    "architecture": "all",
+    "source": "scowl (2020.12.07-2)"
+  },
+  {
+    "package": "init-system-helpers",
+    "version": "1.66ubuntu1",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "initramfs-tools",
+    "version": "0.142ubuntu25.8",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "initramfs-tools-bin",
+    "version": "0.142ubuntu25.8",
+    "architecture": "armhf",
+    "source": "initramfs-tools"
+  },
+  {
+    "package": "initramfs-tools-core",
+    "version": "0.142ubuntu25.8",
+    "architecture": "all",
+    "source": "initramfs-tools"
+  },
+  {
+    "package": "iproute2",
+    "version": "6.1.0-1ubuntu6.4",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "iputils-ping",
+    "version": "3:20240117-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "iputils"
+  },
+  {
+    "package": "iso-codes",
+    "version": "4.16.0-1",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "keyboxd",
+    "version": "2.4.4-2ubuntu17.6",
+    "architecture": "armhf",
+    "source": "gnupg2"
+  },
+  {
+    "package": "klibc-utils",
+    "version": "2.0.13-4ubuntu0.2",
+    "architecture": "armhf",
+    "source": "klibc"
+  },
+  {
+    "package": "kmod",
+    "version": "31+20240202-2ubuntu7.2",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "language-pack-gnome-zh-hans",
+    "version": "1:24.04+20260905",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "language-pack-gnome-zh-hans-base",
+    "version": "1:24.04+20260905",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "language-pack-zh-hans",
+    "version": "1:24.04+20260905",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "language-pack-zh-hans-base",
+    "version": "1:24.04+20260905",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "language-selector-common",
+    "version": "0.225",
+    "architecture": "all",
+    "source": "language-selector"
+  },
+  {
+    "package": "language-selector-gnome",
+    "version": "0.225",
+    "architecture": "all",
+    "source": "language-selector"
+  },
+  {
+    "package": "libaa1",
+    "version": "1.4p5-51.1",
+    "architecture": "armhf",
+    "source": "aalib"
+  },
+  {
+    "package": "libaccountsservice0",
+    "version": "23.13.9-2ubuntu6.1",
+    "architecture": "armhf",
+    "source": "accountsservice"
+  },
+  {
+    "package": "libacl1",
+    "version": "2.3.2-1build1.1",
+    "architecture": "armhf",
+    "source": "acl"
+  },
+  {
+    "package": "libadwaita-1-0",
+    "version": "1.5.0-1ubuntu2",
+    "architecture": "armhf",
+    "source": "libadwaita-1"
+  },
+  {
+    "package": "libaom3",
+    "version": "3.8.2-2ubuntu0.2",
+    "architecture": "armhf",
+    "source": "aom"
+  },
+  {
+    "package": "libapparmor1",
+    "version": "4.0.1really4.0.1-0ubuntu0.24.04.9",
+    "architecture": "armhf",
+    "source": "apparmor"
+  },
+  {
+    "package": "libappstream5",
+    "version": "1.0.2-1build6",
+    "architecture": "armhf",
+    "source": "appstream"
+  },
+  {
+    "package": "libapt-pkg6.0t64",
+    "version": "2.8.3",
+    "architecture": "armhf",
+    "source": "apt"
+  },
+  {
+    "package": "libarchive13t64",
+    "version": "3.7.2-2ubuntu0.9",
+    "architecture": "armhf",
+    "source": "libarchive"
+  },
+  {
+    "package": "libargon2-1",
+    "version": "0~20190702+dfsg-4build1",
+    "architecture": "armhf",
+    "source": "argon2"
+  },
+  {
+    "package": "libasound2-data",
+    "version": "1.2.11-1ubuntu0.3",
+    "architecture": "all",
+    "source": "alsa-lib"
+  },
+  {
+    "package": "libasound2t64",
+    "version": "1.2.11-1ubuntu0.3",
+    "architecture": "armhf",
+    "source": "alsa-lib"
+  },
+  {
+    "package": "libaspell15",
+    "version": "0.60.8.1-1build1",
+    "architecture": "armhf",
+    "source": "aspell"
+  },
+  {
+    "package": "libass9",
+    "version": "1:0.17.1-2build1",
+    "architecture": "armhf",
+    "source": "libass"
+  },
+  {
+    "package": "libassuan0",
+    "version": "2.5.6-1build1",
+    "architecture": "armhf",
+    "source": "libassuan"
+  },
+  {
+    "package": "libasyncns0",
+    "version": "0.8-6build4",
+    "architecture": "armhf",
+    "source": "libasyncns"
+  },
+  {
+    "package": "libatasmart4",
+    "version": "0.19-5build3",
+    "architecture": "armhf",
+    "source": "libatasmart"
+  },
+  {
+    "package": "libatk-bridge2.0-0t64",
+    "version": "2.52.0-1build1",
+    "architecture": "armhf",
+    "source": "at-spi2-core"
+  },
+  {
+    "package": "libatk1.0-0t64",
+    "version": "2.52.0-1build1",
+    "architecture": "armhf",
+    "source": "at-spi2-core"
+  },
+  {
+    "package": "libatomic1",
+    "version": "14.2.0-4ubuntu2~24.04.1",
+    "architecture": "armhf",
+    "source": "gcc-14"
+  },
+  {
+    "package": "libatopology2t64",
+    "version": "1.2.11-1ubuntu0.3",
+    "architecture": "armhf",
+    "source": "alsa-lib"
+  },
+  {
+    "package": "libatspi2.0-0t64",
+    "version": "2.52.0-1build1",
+    "architecture": "armhf",
+    "source": "at-spi2-core"
+  },
+  {
+    "package": "libattr1",
+    "version": "1:2.5.2-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "attr"
+  },
+  {
+    "package": "libaudit-common",
+    "version": "1:3.1.2-2.1build1.1",
+    "architecture": "all",
+    "source": "audit"
+  },
+  {
+    "package": "libaudit1",
+    "version": "1:3.1.2-2.1build1.1",
+    "architecture": "armhf",
+    "source": "audit"
+  },
+  {
+    "package": "libavahi-client3",
+    "version": "0.8-13ubuntu6.2",
+    "architecture": "armhf",
+    "source": "avahi"
+  },
+  {
+    "package": "libavahi-common-data",
+    "version": "0.8-13ubuntu6.2",
+    "architecture": "armhf",
+    "source": "avahi"
+  },
+  {
+    "package": "libavahi-common3",
+    "version": "0.8-13ubuntu6.2",
+    "architecture": "armhf",
+    "source": "avahi"
+  },
+  {
+    "package": "libavahi-glib1",
+    "version": "0.8-13ubuntu6.2",
+    "architecture": "armhf",
+    "source": "avahi"
+  },
+  {
+    "package": "libavc1394-0",
+    "version": "0.5.4-5build3",
+    "architecture": "armhf",
+    "source": "libavc1394"
+  },
+  {
+    "package": "libavcodec60",
+    "version": "7:6.1.1-3ubuntu5",
+    "architecture": "armhf",
+    "source": "ffmpeg"
+  },
+  {
+    "package": "libavfilter9",
+    "version": "7:6.1.1-3ubuntu5",
+    "architecture": "armhf",
+    "source": "ffmpeg"
+  },
+  {
+    "package": "libavformat60",
+    "version": "7:6.1.1-3ubuntu5",
+    "architecture": "armhf",
+    "source": "ffmpeg"
+  },
+  {
+    "package": "libavutil58",
+    "version": "7:6.1.1-3ubuntu5",
+    "architecture": "armhf",
+    "source": "ffmpeg"
+  },
+  {
+    "package": "libayatana-appindicator3-1",
+    "version": "0.5.93-1build3",
+    "architecture": "armhf",
+    "source": "libayatana-appindicator"
+  },
+  {
+    "package": "libayatana-ido3-0.4-0",
+    "version": "0.10.1-1build2",
+    "architecture": "armhf",
+    "source": "ayatana-ido"
+  },
+  {
+    "package": "libayatana-indicator3-7",
+    "version": "0.9.4-1build1",
+    "architecture": "armhf",
+    "source": "libayatana-indicator"
+  },
+  {
+    "package": "libblas3",
+    "version": "3.12.0-3build1.1",
+    "architecture": "armhf",
+    "source": "lapack"
+  },
+  {
+    "package": "libblkid1",
+    "version": "2.39.3-9ubuntu6.6",
+    "architecture": "armhf",
+    "source": "util-linux"
+  },
+  {
+    "package": "libblockdev-crypto3",
+    "version": "3.1.1-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "libblockdev"
+  },
+  {
+    "package": "libblockdev-fs3",
+    "version": "3.1.1-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "libblockdev"
+  },
+  {
+    "package": "libblockdev-loop3",
+    "version": "3.1.1-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "libblockdev"
+  },
+  {
+    "package": "libblockdev-mdraid3",
+    "version": "3.1.1-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "libblockdev"
+  },
+  {
+    "package": "libblockdev-nvme3",
+    "version": "3.1.1-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "libblockdev"
+  },
+  {
+    "package": "libblockdev-part3",
+    "version": "3.1.1-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "libblockdev"
+  },
+  {
+    "package": "libblockdev-swap3",
+    "version": "3.1.1-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "libblockdev"
+  },
+  {
+    "package": "libblockdev-utils3",
+    "version": "3.1.1-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "libblockdev"
+  },
+  {
+    "package": "libblockdev3",
+    "version": "3.1.1-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "libblockdev"
+  },
+  {
+    "package": "libbluetooth3",
+    "version": "5.72-0ubuntu5.8",
+    "architecture": "armhf",
+    "source": "bluez"
+  },
+  {
+    "package": "libbluray2",
+    "version": "1:1.3.4-1build1",
+    "architecture": "armhf",
+    "source": "libbluray"
+  },
+  {
+    "package": "libbpf1",
+    "version": "1:1.3.0-2build2",
+    "architecture": "armhf",
+    "source": "libbpf (1.3.0-2build2)"
+  },
+  {
+    "package": "libbrotli1",
+    "version": "1.1.0-2build2",
+    "architecture": "armhf",
+    "source": "brotli"
+  },
+  {
+    "package": "libbs2b0",
+    "version": "3.1.0+dfsg-7build1",
+    "architecture": "armhf",
+    "source": "libbs2b"
+  },
+  {
+    "package": "libbsd0",
+    "version": "0.12.1-1build1.1",
+    "architecture": "armhf",
+    "source": "libbsd"
+  },
+  {
+    "package": "libbytesize-common",
+    "version": "2.10-1ubuntu2",
+    "architecture": "all",
+    "source": "libbytesize"
+  },
+  {
+    "package": "libbytesize1",
+    "version": "2.10-1ubuntu2",
+    "architecture": "armhf",
+    "source": "libbytesize"
+  },
+  {
+    "package": "libbz2-1.0",
+    "version": "1.0.8-5.1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "bzip2"
+  },
+  {
+    "package": "libc-bin",
+    "version": "2.39-0ubuntu8.9",
+    "architecture": "armhf",
+    "source": "glibc"
+  },
+  {
+    "package": "libc6",
+    "version": "2.39-0ubuntu8.9",
+    "architecture": "armhf",
+    "source": "glibc"
+  },
+  {
+    "package": "libcaca0",
+    "version": "0.99.beta20-4ubuntu0.2",
+    "architecture": "armhf",
+    "source": "libcaca"
+  },
+  {
+    "package": "libcairo-gobject2",
+    "version": "1.18.0-3build1",
+    "architecture": "armhf",
+    "source": "cairo"
+  },
+  {
+    "package": "libcairo-script-interpreter2",
+    "version": "1.18.0-3build1",
+    "architecture": "armhf",
+    "source": "cairo"
+  },
+  {
+    "package": "libcairo2",
+    "version": "1.18.0-3build1",
+    "architecture": "armhf",
+    "source": "cairo"
+  },
+  {
+    "package": "libcanberra-gtk3-0t64",
+    "version": "0.30-10ubuntu10",
+    "architecture": "armhf",
+    "source": "libcanberra"
+  },
+  {
+    "package": "libcanberra0t64",
+    "version": "0.30-10ubuntu10",
+    "architecture": "armhf",
+    "source": "libcanberra"
+  },
+  {
+    "package": "libcap-ng0",
+    "version": "0.8.4-2build2",
+    "architecture": "armhf",
+    "source": "libcap-ng"
+  },
+  {
+    "package": "libcap2",
+    "version": "1:2.66-5ubuntu2.4",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "libcap2-bin",
+    "version": "1:2.66-5ubuntu2.4",
+    "architecture": "armhf",
+    "source": "libcap2"
+  },
+  {
+    "package": "libcbor0.10",
+    "version": "0.10.2-1.2ubuntu2",
+    "architecture": "armhf",
+    "source": "libcbor"
+  },
+  {
+    "package": "libcdparanoia0",
+    "version": "3.10.2+debian-14build3",
+    "architecture": "armhf",
+    "source": "cdparanoia"
+  },
+  {
+    "package": "libchromaprint1",
+    "version": "1.5.1-5",
+    "architecture": "armhf",
+    "source": "chromaprint"
+  },
+  {
+    "package": "libcjson1",
+    "version": "1.7.17-1",
+    "architecture": "armhf",
+    "source": "cjson"
+  },
+  {
+    "package": "libcodec2-1.2",
+    "version": "1.2.0-2build1",
+    "architecture": "armhf",
+    "source": "codec2"
+  },
+  {
+    "package": "libcolord-gtk4-1t64",
+    "version": "0.3.1-1build2",
+    "architecture": "armhf",
+    "source": "colord-gtk"
+  },
+  {
+    "package": "libcolord2",
+    "version": "1.4.7-1build2",
+    "architecture": "armhf",
+    "source": "colord"
+  },
+  {
+    "package": "libcolorhug2",
+    "version": "1.4.7-1build2",
+    "architecture": "armhf",
+    "source": "colord"
+  },
+  {
+    "package": "libcom-err2",
+    "version": "1.47.0-2.4~exp1ubuntu4.1",
+    "architecture": "armhf",
+    "source": "e2fsprogs"
+  },
+  {
+    "package": "libcrack2",
+    "version": "2.9.6-5.1build2",
+    "architecture": "armhf",
+    "source": "cracklib2"
+  },
+  {
+    "package": "libcrypt1",
+    "version": "1:4.4.36-4build1",
+    "architecture": "armhf",
+    "source": "libxcrypt"
+  },
+  {
+    "package": "libcryptsetup12",
+    "version": "2:2.7.0-1ubuntu4.2",
+    "architecture": "armhf",
+    "source": "cryptsetup"
+  },
+  {
+    "package": "libcue2",
+    "version": "2.2.1-4.1build1",
+    "architecture": "armhf",
+    "source": "libcue"
+  },
+  {
+    "package": "libcups2t64",
+    "version": "2.4.7-1.2ubuntu7.14",
+    "architecture": "armhf",
+    "source": "cups"
+  },
+  {
+    "package": "libcurl3t64-gnutls",
+    "version": "8.5.0-2ubuntu10.16",
+    "architecture": "armhf",
+    "source": "curl"
+  },
+  {
+    "package": "libcurl4t64",
+    "version": "8.5.0-2ubuntu10.16",
+    "architecture": "armhf",
+    "source": "curl"
+  },
+  {
+    "package": "libdatrie1",
+    "version": "0.2.13-3build1",
+    "architecture": "armhf",
+    "source": "libdatrie"
+  },
+  {
+    "package": "libdav1d7",
+    "version": "1.4.1-1build1",
+    "architecture": "armhf",
+    "source": "dav1d"
+  },
+  {
+    "package": "libdb5.3t64",
+    "version": "5.3.28+dfsg2-7",
+    "architecture": "armhf",
+    "source": "db5.3"
+  },
+  {
+    "package": "libdbus-1-3",
+    "version": "1.14.10-4ubuntu4.1",
+    "architecture": "armhf",
+    "source": "dbus"
+  },
+  {
+    "package": "libdbusmenu-glib4",
+    "version": "18.10.20180917~bzr492+repack1-3.1ubuntu5",
+    "architecture": "armhf",
+    "source": "libdbusmenu"
+  },
+  {
+    "package": "libdbusmenu-gtk3-4",
+    "version": "18.10.20180917~bzr492+repack1-3.1ubuntu5",
+    "architecture": "armhf",
+    "source": "libdbusmenu"
+  },
+  {
+    "package": "libdconf1",
+    "version": "0.40.0-4ubuntu0.1",
+    "architecture": "armhf",
+    "source": "dconf"
+  },
+  {
+    "package": "libdebconfclient0",
+    "version": "0.271ubuntu3",
+    "architecture": "armhf",
+    "source": "cdebconf"
+  },
+  {
+    "package": "libdecor-0-0",
+    "version": "0.2.2-1build2",
+    "architecture": "armhf",
+    "source": "libdecor-0"
+  },
+  {
+    "package": "libdee-1.0-4",
+    "version": "1.2.7+17.10.20170616-7build5",
+    "architecture": "armhf",
+    "source": "dee"
+  },
+  {
+    "package": "libdeflate0",
+    "version": "1.19-1build1.1",
+    "architecture": "armhf",
+    "source": "libdeflate"
+  },
+  {
+    "package": "libdevmapper1.02.1",
+    "version": "2:1.02.185-3ubuntu3.2",
+    "architecture": "armhf",
+    "source": "lvm2 (2.03.16-3ubuntu3.2)"
+  },
+  {
+    "package": "libdrm-amdgpu1",
+    "version": "2.4.125-1ubuntu0.1~24.04.2",
+    "architecture": "armhf",
+    "source": "libdrm"
+  },
+  {
+    "package": "libdrm-common",
+    "version": "2.4.125-1ubuntu0.1~24.04.2",
+    "architecture": "all",
+    "source": "libdrm"
+  },
+  {
+    "package": "libdrm2",
+    "version": "2.4.125-1ubuntu0.1~24.04.2",
+    "architecture": "armhf",
+    "source": "libdrm"
+  },
+  {
+    "package": "libduktape207",
+    "version": "2.7.0+tests-0ubuntu3",
+    "architecture": "armhf",
+    "source": "duktape"
+  },
+  {
+    "package": "libdv4t64",
+    "version": "1.0.0-17.1build1",
+    "architecture": "armhf",
+    "source": "libdv"
+  },
+  {
+    "package": "libdw1t64",
+    "version": "0.190-1.1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "elfutils"
+  },
+  {
+    "package": "libedit2",
+    "version": "3.1-20230828-1build1",
+    "architecture": "armhf",
+    "source": "libedit"
+  },
+  {
+    "package": "libegl-mesa0",
+    "version": "25.2.8-0ubuntu0.24.04.4",
+    "architecture": "armhf",
+    "source": "mesa"
+  },
+  {
+    "package": "libegl1",
+    "version": "1.7.0-1build1",
+    "architecture": "armhf",
+    "source": "libglvnd"
+  },
+  {
+    "package": "libelf1t64",
+    "version": "0.190-1.1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "elfutils"
+  },
+  {
+    "package": "libenchant-2-2",
+    "version": "2.3.3-2build2",
+    "architecture": "armhf",
+    "source": "enchant-2"
+  },
+  {
+    "package": "libepoxy0",
+    "version": "1.5.10-1build1",
+    "architecture": "armhf",
+    "source": "libepoxy"
+  },
+  {
+    "package": "libevdev2",
+    "version": "1.13.1+dfsg-1build1",
+    "architecture": "armhf",
+    "source": "libevdev"
+  },
+  {
+    "package": "libexempi8",
+    "version": "2.6.5-1build1",
+    "architecture": "armhf",
+    "source": "exempi"
+  },
+  {
+    "package": "libexif12",
+    "version": "0.6.24-1ubuntu0.24.04.1",
+    "architecture": "armhf",
+    "source": "libexif"
+  },
+  {
+    "package": "libexiv2-27",
+    "version": "0.27.6-1ubuntu0.3",
+    "architecture": "armhf",
+    "source": "exiv2"
+  },
+  {
+    "package": "libexpat1",
+    "version": "2.6.1-2ubuntu0.6",
+    "architecture": "armhf",
+    "source": "expat"
+  },
+  {
+    "package": "libext2fs2t64",
+    "version": "1.47.0-2.4~exp1ubuntu4.1",
+    "architecture": "armhf",
+    "source": "e2fsprogs"
+  },
+  {
+    "package": "libfdisk1",
+    "version": "2.39.3-9ubuntu6.6",
+    "architecture": "armhf",
+    "source": "util-linux"
+  },
+  {
+    "package": "libffi8",
+    "version": "3.4.6-1build1",
+    "architecture": "armhf",
+    "source": "libffi"
+  },
+  {
+    "package": "libfftw3-double3",
+    "version": "3.3.10-1ubuntu3",
+    "architecture": "armhf",
+    "source": "fftw3"
+  },
+  {
+    "package": "libfftw3-single3",
+    "version": "3.3.10-1ubuntu3",
+    "architecture": "armhf",
+    "source": "fftw3"
+  },
+  {
+    "package": "libfido2-1",
+    "version": "1.14.0-1build3",
+    "architecture": "armhf",
+    "source": "libfido2"
+  },
+  {
+    "package": "libflac12t64",
+    "version": "1.4.3+ds-2.1ubuntu2",
+    "architecture": "armhf",
+    "source": "flac"
+  },
+  {
+    "package": "libflite1",
+    "version": "2.2-6build3",
+    "architecture": "armhf",
+    "source": "flite"
+  },
+  {
+    "package": "libfluidsynth3",
+    "version": "2.3.4-1build3",
+    "architecture": "armhf",
+    "source": "fluidsynth"
+  },
+  {
+    "package": "libfontconfig1",
+    "version": "2.15.0-1.1ubuntu2",
+    "architecture": "armhf",
+    "source": "fontconfig"
+  },
+  {
+    "package": "libfontenc1",
+    "version": "1:1.1.8-1build1",
+    "architecture": "armhf",
+    "source": "libfontenc"
+  },
+  {
+    "package": "libfreeaptx0",
+    "version": "0.1.1-2build1",
+    "architecture": "armhf",
+    "source": "libfreeaptx"
+  },
+  {
+    "package": "libfreetype6",
+    "version": "2.13.2+dfsg-1ubuntu0.2",
+    "architecture": "armhf",
+    "source": "freetype"
+  },
+  {
+    "package": "libfribidi0",
+    "version": "1.0.13-3build1",
+    "architecture": "armhf",
+    "source": "fribidi"
+  },
+  {
+    "package": "libfuse3-3",
+    "version": "3.14.0-5build1",
+    "architecture": "armhf",
+    "source": "fuse3"
+  },
+  {
+    "package": "libgbm1",
+    "version": "25.2.8-0ubuntu0.24.04.4",
+    "architecture": "armhf",
+    "source": "mesa"
+  },
+  {
+    "package": "libgcc-s1",
+    "version": "14.2.0-4ubuntu2~24.04.1",
+    "architecture": "armhf",
+    "source": "gcc-14"
+  },
+  {
+    "package": "libgck-2-2",
+    "version": "4.2.0-5",
+    "architecture": "armhf",
+    "source": "gcr4"
+  },
+  {
+    "package": "libgcr-4-4",
+    "version": "4.2.0-5",
+    "architecture": "armhf",
+    "source": "gcr4"
+  },
+  {
+    "package": "libgcrypt20",
+    "version": "1.10.3-2ubuntu0.2",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "libgd3",
+    "version": "2.3.3-9ubuntu5",
+    "architecture": "armhf",
+    "source": "libgd2"
+  },
+  {
+    "package": "libgdbm-compat4t64",
+    "version": "1.23-5.1build1",
+    "architecture": "armhf",
+    "source": "gdbm"
+  },
+  {
+    "package": "libgdbm6t64",
+    "version": "1.23-5.1build1",
+    "architecture": "armhf",
+    "source": "gdbm"
+  },
+  {
+    "package": "libgdk-pixbuf-2.0-0",
+    "version": "2.42.10+dfsg-3ubuntu3.3",
+    "architecture": "armhf",
+    "source": "gdk-pixbuf"
+  },
+  {
+    "package": "libgdk-pixbuf2.0-common",
+    "version": "2.42.10+dfsg-3ubuntu3.3",
+    "architecture": "all",
+    "source": "gdk-pixbuf"
+  },
+  {
+    "package": "libgeoclue-2-0",
+    "version": "2.7.0-3ubuntu7",
+    "architecture": "armhf",
+    "source": "geoclue-2.0"
+  },
+  {
+    "package": "libgeocode-glib-2-0",
+    "version": "3.26.3-6build3",
+    "architecture": "armhf",
+    "source": "geocode-glib"
+  },
+  {
+    "package": "libgexiv2-2",
+    "version": "0.14.2-2build3",
+    "architecture": "armhf",
+    "source": "gexiv2"
+  },
+  {
+    "package": "libgfortran5",
+    "version": "14.2.0-4ubuntu2~24.04.1",
+    "architecture": "armhf",
+    "source": "gcc-14"
+  },
+  {
+    "package": "libgif7",
+    "version": "5.2.2-1ubuntu1.2",
+    "architecture": "armhf",
+    "source": "giflib"
+  },
+  {
+    "package": "libgirepository-1.0-1",
+    "version": "1.80.1-1",
+    "architecture": "armhf",
+    "source": "gobject-introspection"
+  },
+  {
+    "package": "libgl1",
+    "version": "1.7.0-1build1",
+    "architecture": "armhf",
+    "source": "libglvnd"
+  },
+  {
+    "package": "libgl1-mesa-dri",
+    "version": "25.2.8-0ubuntu0.24.04.4",
+    "architecture": "armhf",
+    "source": "mesa"
+  },
+  {
+    "package": "libgles2",
+    "version": "1.7.0-1build1",
+    "architecture": "armhf",
+    "source": "libglvnd"
+  },
+  {
+    "package": "libglib2.0-0t64",
+    "version": "2.80.0-6ubuntu3.9",
+    "architecture": "armhf",
+    "source": "glib2.0"
+  },
+  {
+    "package": "libglib2.0-bin",
+    "version": "2.80.0-6ubuntu3.9",
+    "architecture": "armhf",
+    "source": "glib2.0"
+  },
+  {
+    "package": "libglib2.0-data",
+    "version": "2.80.0-6ubuntu3.9",
+    "architecture": "all",
+    "source": "glib2.0"
+  },
+  {
+    "package": "libglu1-mesa",
+    "version": "9.0.2-1.1build1",
+    "architecture": "armhf",
+    "source": "libglu"
+  },
+  {
+    "package": "libglvnd0",
+    "version": "1.7.0-1build1",
+    "architecture": "armhf",
+    "source": "libglvnd"
+  },
+  {
+    "package": "libglx-mesa0",
+    "version": "25.2.8-0ubuntu0.24.04.4",
+    "architecture": "armhf",
+    "source": "mesa"
+  },
+  {
+    "package": "libglx0",
+    "version": "1.7.0-1build1",
+    "architecture": "armhf",
+    "source": "libglvnd"
+  },
+  {
+    "package": "libgme0",
+    "version": "0.6.3-7build1",
+    "architecture": "armhf",
+    "source": "game-music-emu"
+  },
+  {
+    "package": "libgmp10",
+    "version": "2:6.3.0+dfsg-2ubuntu6.1",
+    "architecture": "armhf",
+    "source": "gmp"
+  },
+  {
+    "package": "libgnome-autoar-0-0",
+    "version": "0.4.4-2build4",
+    "architecture": "armhf",
+    "source": "gnome-autoar"
+  },
+  {
+    "package": "libgnome-bg-4-2t64",
+    "version": "44.0-5build2",
+    "architecture": "armhf",
+    "source": "gnome-desktop"
+  },
+  {
+    "package": "libgnome-bluetooth-ui-3.0-13",
+    "version": "46.0-1ubuntu1",
+    "architecture": "armhf",
+    "source": "gnome-bluetooth3"
+  },
+  {
+    "package": "libgnome-desktop-3-20t64",
+    "version": "44.0-5build2",
+    "architecture": "armhf",
+    "source": "gnome-desktop"
+  },
+  {
+    "package": "libgnome-desktop-4-2t64",
+    "version": "44.0-5build2",
+    "architecture": "armhf",
+    "source": "gnome-desktop"
+  },
+  {
+    "package": "libgnome-rr-4-2t64",
+    "version": "44.0-5build2",
+    "architecture": "armhf",
+    "source": "gnome-desktop"
+  },
+  {
+    "package": "libgnutls30t64",
+    "version": "3.8.3-1.1ubuntu3.6",
+    "architecture": "armhf",
+    "source": "gnutls28"
+  },
+  {
+    "package": "libgoa-1.0-0b",
+    "version": "3.50.4-0ubuntu2",
+    "architecture": "armhf",
+    "source": "gnome-online-accounts"
+  },
+  {
+    "package": "libgoa-1.0-common",
+    "version": "3.50.4-0ubuntu2",
+    "architecture": "all",
+    "source": "gnome-online-accounts"
+  },
+  {
+    "package": "libgoa-backend-1.0-2",
+    "version": "3.50.4-0ubuntu2",
+    "architecture": "armhf",
+    "source": "gnome-online-accounts"
+  },
+  {
+    "package": "libgomp1",
+    "version": "14.2.0-4ubuntu2~24.04.1",
+    "architecture": "armhf",
+    "source": "gcc-14"
+  },
+  {
+    "package": "libgpg-error0",
+    "version": "1.47-3build2.1",
+    "architecture": "armhf",
+    "source": "libgpg-error"
+  },
+  {
+    "package": "libgpgme11t64",
+    "version": "1.18.0-4.1ubuntu4",
+    "architecture": "armhf",
+    "source": "gpgme1.0"
+  },
+  {
+    "package": "libgphoto2-6t64",
+    "version": "2.5.31-2.1ubuntu1.1",
+    "architecture": "armhf",
+    "source": "libgphoto2"
+  },
+  {
+    "package": "libgphoto2-port12t64",
+    "version": "2.5.31-2.1ubuntu1.1",
+    "architecture": "armhf",
+    "source": "libgphoto2"
+  },
+  {
+    "package": "libgpm2",
+    "version": "1.20.7-11",
+    "architecture": "armhf",
+    "source": "gpm"
+  },
+  {
+    "package": "libgraphene-1.0-0",
+    "version": "1.10.8-3build2",
+    "architecture": "armhf",
+    "source": "graphene"
+  },
+  {
+    "package": "libgraphite2-3",
+    "version": "1.3.14-2ubuntu0.24.04.1",
+    "architecture": "armhf",
+    "source": "graphite2"
+  },
+  {
+    "package": "libgsf-1-114",
+    "version": "1.14.51-2ubuntu0.1",
+    "architecture": "armhf",
+    "source": "libgsf"
+  },
+  {
+    "package": "libgsf-1-common",
+    "version": "1.14.51-2ubuntu0.1",
+    "architecture": "all",
+    "source": "libgsf"
+  },
+  {
+    "package": "libgsm1",
+    "version": "1.0.22-1build1",
+    "architecture": "armhf",
+    "source": "libgsm"
+  },
+  {
+    "package": "libgsound0t64",
+    "version": "1.0.3-3.2build2",
+    "architecture": "armhf",
+    "source": "gsound"
+  },
+  {
+    "package": "libgssapi-krb5-2",
+    "version": "1.20.1-6ubuntu2.10",
+    "architecture": "armhf",
+    "source": "krb5"
+  },
+  {
+    "package": "libgstreamer-gl1.0-0",
+    "version": "1.24.2-1ubuntu0.5",
+    "architecture": "armhf",
+    "source": "gst-plugins-base1.0"
+  },
+  {
+    "package": "libgstreamer-plugins-base1.0-0",
+    "version": "1.24.2-1ubuntu0.5",
+    "architecture": "armhf",
+    "source": "gst-plugins-base1.0"
+  },
+  {
+    "package": "libgstreamer-plugins-good1.0-0",
+    "version": "1.24.2-1ubuntu1.8",
+    "architecture": "armhf",
+    "source": "gst-plugins-good1.0"
+  },
+  {
+    "package": "libgstreamer1.0-0",
+    "version": "1.24.2-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "gstreamer1.0"
+  },
+  {
+    "package": "libgtk-3-0t64",
+    "version": "3.24.41-4ubuntu1.3",
+    "architecture": "armhf",
+    "source": "gtk+3.0"
+  },
+  {
+    "package": "libgtk-3-common",
+    "version": "3.24.41-4ubuntu1.3",
+    "architecture": "all",
+    "source": "gtk+3.0"
+  },
+  {
+    "package": "libgtk-4-1",
+    "version": "4.14.5+ds-0ubuntu0.10",
+    "architecture": "armhf",
+    "source": "gtk4"
+  },
+  {
+    "package": "libgtk-4-common",
+    "version": "4.14.5+ds-0ubuntu0.10",
+    "architecture": "all",
+    "source": "gtk4"
+  },
+  {
+    "package": "libgtk-4-media-gstreamer",
+    "version": "4.14.5+ds-0ubuntu0.10",
+    "architecture": "armhf",
+    "source": "gtk4"
+  },
+  {
+    "package": "libgtop-2.0-11",
+    "version": "2.41.3-1ubuntu0.24.04.1",
+    "architecture": "armhf",
+    "source": "libgtop2"
+  },
+  {
+    "package": "libgtop2-common",
+    "version": "2.41.3-1ubuntu0.24.04.1",
+    "architecture": "all",
+    "source": "libgtop2"
+  },
+  {
+    "package": "libgudev-1.0-0",
+    "version": "1:238-5ubuntu1",
+    "architecture": "armhf",
+    "source": "libgudev (238-5ubuntu1)"
+  },
+  {
+    "package": "libgusb2",
+    "version": "0.4.8-1build2",
+    "architecture": "armhf",
+    "source": "libgusb"
+  },
+  {
+    "package": "libgweather-4-0t64",
+    "version": "4.4.2-1build1",
+    "architecture": "armhf",
+    "source": "libgweather4"
+  },
+  {
+    "package": "libgweather-4-common",
+    "version": "4.4.2-1build1",
+    "architecture": "all",
+    "source": "libgweather4"
+  },
+  {
+    "package": "libgxps2t64",
+    "version": "0.3.2-4build3",
+    "architecture": "armhf",
+    "source": "libgxps"
+  },
+  {
+    "package": "libhandy-1-0",
+    "version": "1.8.3-1build2",
+    "architecture": "armhf",
+    "source": "libhandy-1"
+  },
+  {
+    "package": "libharfbuzz-gobject0",
+    "version": "8.3.0-2build2",
+    "architecture": "armhf",
+    "source": "harfbuzz"
+  },
+  {
+    "package": "libharfbuzz-icu0",
+    "version": "8.3.0-2build2",
+    "architecture": "armhf",
+    "source": "harfbuzz"
+  },
+  {
+    "package": "libharfbuzz0b",
+    "version": "8.3.0-2build2",
+    "architecture": "armhf",
+    "source": "harfbuzz"
+  },
+  {
+    "package": "libheif-plugin-aomdec",
+    "version": "1.17.6-1ubuntu4.9",
+    "architecture": "armhf",
+    "source": "libheif"
+  },
+  {
+    "package": "libheif1",
+    "version": "1.17.6-1ubuntu4.9",
+    "architecture": "armhf",
+    "source": "libheif"
+  },
+  {
+    "package": "libhogweed6t64",
+    "version": "3.9.1-2.2build1.1",
+    "architecture": "armhf",
+    "source": "nettle"
+  },
+  {
+    "package": "libhunspell-1.7-0",
+    "version": "1.7.2+really1.7.2-10build3",
+    "architecture": "armhf",
+    "source": "hunspell"
+  },
+  {
+    "package": "libhwy1t64",
+    "version": "1.0.7-8.1build1",
+    "architecture": "armhf",
+    "source": "highway"
+  },
+  {
+    "package": "libhyphen0",
+    "version": "2.8.8-7build3",
+    "architecture": "armhf",
+    "source": "hyphen"
+  },
+  {
+    "package": "libibus-1.0-5",
+    "version": "1.5.29-2",
+    "architecture": "armhf",
+    "source": "ibus"
+  },
+  {
+    "package": "libice6",
+    "version": "2:1.0.10-1build3",
+    "architecture": "armhf",
+    "source": "libice"
+  },
+  {
+    "package": "libicu74",
+    "version": "74.2-1ubuntu3.1",
+    "architecture": "armhf",
+    "source": "icu"
+  },
+  {
+    "package": "libidn2-0",
+    "version": "2.3.7-2build1.1",
+    "architecture": "armhf",
+    "source": "libidn2"
+  },
+  {
+    "package": "libiec61883-0",
+    "version": "1.2.0-6build1",
+    "architecture": "armhf",
+    "source": "libiec61883"
+  },
+  {
+    "package": "libieee1284-3t64",
+    "version": "0.2.11-14.1build1",
+    "architecture": "armhf",
+    "source": "libieee1284"
+  },
+  {
+    "package": "libimagequant0",
+    "version": "2.18.0-1build1",
+    "architecture": "armhf",
+    "source": "libimagequant"
+  },
+  {
+    "package": "libimobiledevice6",
+    "version": "1.3.0-8.1build3",
+    "architecture": "armhf",
+    "source": "libimobiledevice"
+  },
+  {
+    "package": "libinstpatch-1.0-2",
+    "version": "1.1.6-1build2",
+    "architecture": "armhf",
+    "source": "libinstpatch"
+  },
+  {
+    "package": "libjack-jackd2-0",
+    "version": "1.9.21~dfsg-3ubuntu3",
+    "architecture": "armhf",
+    "source": "jackd2"
+  },
+  {
+    "package": "libjansson4",
+    "version": "2.14-2build2",
+    "architecture": "armhf",
+    "source": "jansson"
+  },
+  {
+    "package": "libjavascriptcoregtk-4.1-0",
+    "version": "2.52.6-0ubuntu0.24.04.1",
+    "architecture": "armhf",
+    "source": "webkit2gtk"
+  },
+  {
+    "package": "libjbig0",
+    "version": "2.1-6.1ubuntu2",
+    "architecture": "armhf",
+    "source": "jbigkit"
+  },
+  {
+    "package": "libjpeg-turbo8",
+    "version": "2.1.5-2ubuntu2",
+    "architecture": "armhf",
+    "source": "libjpeg-turbo"
+  },
+  {
+    "package": "libjpeg8",
+    "version": "8c-2ubuntu11",
+    "architecture": "armhf",
+    "source": "libjpeg8-empty"
+  },
+  {
+    "package": "libjs-jquery",
+    "version": "3.6.1+dfsg+~3.5.14-1",
+    "architecture": "all",
+    "source": "node-jquery"
+  },
+  {
+    "package": "libjs-sphinxdoc",
+    "version": "7.2.6-6",
+    "architecture": "all",
+    "source": "sphinx"
+  },
+  {
+    "package": "libjs-underscore",
+    "version": "1.13.4~dfsg+~1.11.4-3",
+    "architecture": "all",
+    "source": "underscore"
+  },
+  {
+    "package": "libjson-c5",
+    "version": "0.17-1build1",
+    "architecture": "armhf",
+    "source": "json-c"
+  },
+  {
+    "package": "libjson-glib-1.0-0",
+    "version": "1.8.0-2build2",
+    "architecture": "armhf",
+    "source": "json-glib"
+  },
+  {
+    "package": "libjson-glib-1.0-common",
+    "version": "1.8.0-2build2",
+    "architecture": "all",
+    "source": "json-glib"
+  },
+  {
+    "package": "libjxl0.7",
+    "version": "0.7.0-10.2ubuntu6.1",
+    "architecture": "armhf",
+    "source": "jpeg-xl"
+  },
+  {
+    "package": "libk5crypto3",
+    "version": "1.20.1-6ubuntu2.10",
+    "architecture": "armhf",
+    "source": "krb5"
+  },
+  {
+    "package": "libkeyutils1",
+    "version": "1.6.3-3build1",
+    "architecture": "armhf",
+    "source": "keyutils"
+  },
+  {
+    "package": "libklibc",
+    "version": "2.0.13-4ubuntu0.2",
+    "architecture": "armhf",
+    "source": "klibc"
+  },
+  {
+    "package": "libkmod2",
+    "version": "31+20240202-2ubuntu7.2",
+    "architecture": "armhf",
+    "source": "kmod"
+  },
+  {
+    "package": "libkrb5-3",
+    "version": "1.20.1-6ubuntu2.10",
+    "architecture": "armhf",
+    "source": "krb5"
+  },
+  {
+    "package": "libkrb5support0",
+    "version": "1.20.1-6ubuntu2.10",
+    "architecture": "armhf",
+    "source": "krb5"
+  },
+  {
+    "package": "libksba8",
+    "version": "1.6.6-1build1",
+    "architecture": "armhf",
+    "source": "libksba"
+  },
+  {
+    "package": "liblapack3",
+    "version": "3.12.0-3build1.1",
+    "architecture": "armhf",
+    "source": "lapack"
+  },
+  {
+    "package": "liblc3-1",
+    "version": "1.0.4-3build1",
+    "architecture": "armhf",
+    "source": "liblc3"
+  },
+  {
+    "package": "liblcms2-2",
+    "version": "2.14-2ubuntu0.1",
+    "architecture": "armhf",
+    "source": "lcms2"
+  },
+  {
+    "package": "libldacbt-abr2",
+    "version": "2.0.2.3+git20200429+ed310a0-4ubuntu2",
+    "architecture": "armhf",
+    "source": "libldac"
+  },
+  {
+    "package": "libldacbt-enc2",
+    "version": "2.0.2.3+git20200429+ed310a0-4ubuntu2",
+    "architecture": "armhf",
+    "source": "libldac"
+  },
+  {
+    "package": "libldap2",
+    "version": "2.6.10+dfsg-0ubuntu0.24.04.1",
+    "architecture": "armhf",
+    "source": "openldap"
+  },
+  {
+    "package": "libldb2",
+    "version": "2:2.8.0+samba4.19.5+dfsg-4ubuntu9.8",
+    "architecture": "armhf",
+    "source": "samba (2:4.19.5+dfsg-4ubuntu9.8)"
+  },
+  {
+    "package": "liblerc4",
+    "version": "4.0.0+ds-4ubuntu2",
+    "architecture": "armhf",
+    "source": "lerc"
+  },
+  {
+    "package": "liblilv-0-0",
+    "version": "0.24.22-1build1",
+    "architecture": "armhf",
+    "source": "lilv"
+  },
+  {
+    "package": "libllvm20",
+    "version": "1:20.1.2-0ubuntu1~24.04.3",
+    "architecture": "armhf",
+    "source": "llvm-toolchain-20"
+  },
+  {
+    "package": "libltdl7",
+    "version": "2.4.7-7build1",
+    "architecture": "armhf",
+    "source": "libtool"
+  },
+  {
+    "package": "liblua5.4-0",
+    "version": "5.4.6-3build2",
+    "architecture": "armhf",
+    "source": "lua5.4"
+  },
+  {
+    "package": "liblz4-1",
+    "version": "1.9.4-1build1.1",
+    "architecture": "armhf",
+    "source": "lz4"
+  },
+  {
+    "package": "liblzma5",
+    "version": "5.6.1+really5.4.5-1ubuntu0.3",
+    "architecture": "armhf",
+    "source": "xz-utils"
+  },
+  {
+    "package": "liblzo2-2",
+    "version": "2.10-2build4",
+    "architecture": "armhf",
+    "source": "lzo2"
+  },
+  {
+    "package": "libmalcontent-0-0",
+    "version": "0.11.1-1ubuntu1.3",
+    "architecture": "armhf",
+    "source": "malcontent"
+  },
+  {
+    "package": "libmanette-0.2-0",
+    "version": "0.2.7-1build2",
+    "architecture": "armhf",
+    "source": "libmanette"
+  },
+  {
+    "package": "libmbedcrypto7t64",
+    "version": "2.28.8-1",
+    "architecture": "armhf",
+    "source": "mbedtls"
+  },
+  {
+    "package": "libmbim-glib4",
+    "version": "1.31.2-0ubuntu3.1",
+    "architecture": "armhf",
+    "source": "libmbim"
+  },
+  {
+    "package": "libmbim-proxy",
+    "version": "1.31.2-0ubuntu3.1",
+    "architecture": "armhf",
+    "source": "libmbim"
+  },
+  {
+    "package": "libmd0",
+    "version": "1.1.0-2build1.1",
+    "architecture": "armhf",
+    "source": "libmd"
+  },
+  {
+    "package": "libmm-glib0",
+    "version": "1.23.4-0ubuntu2",
+    "architecture": "armhf",
+    "source": "modemmanager"
+  },
+  {
+    "package": "libmnl0",
+    "version": "1.0.5-2build1",
+    "architecture": "armhf",
+    "source": "libmnl"
+  },
+  {
+    "package": "libmodplug1",
+    "version": "1:0.8.9.0-3build1",
+    "architecture": "armhf",
+    "source": "libmodplug"
+  },
+  {
+    "package": "libmount1",
+    "version": "2.39.3-9ubuntu6.6",
+    "architecture": "armhf",
+    "source": "util-linux"
+  },
+  {
+    "package": "libmp3lame0",
+    "version": "3.100-6build1",
+    "architecture": "armhf",
+    "source": "lame"
+  },
+  {
+    "package": "libmpfr6",
+    "version": "4.2.1-1build1.1",
+    "architecture": "armhf",
+    "source": "mpfr4"
+  },
+  {
+    "package": "libmpg123-0t64",
+    "version": "1.32.5-1ubuntu1.1",
+    "architecture": "armhf",
+    "source": "mpg123"
+  },
+  {
+    "package": "libmysofa1",
+    "version": "1.3.2+dfsg-2ubuntu2",
+    "architecture": "armhf",
+    "source": "libmysofa"
+  },
+  {
+    "package": "libnautilus-extension4",
+    "version": "1:46.4-0ubuntu0.2",
+    "architecture": "armhf",
+    "source": "nautilus"
+  },
+  {
+    "package": "libncurses6",
+    "version": "6.4+20240113-1ubuntu2.2",
+    "architecture": "armhf",
+    "source": "ncurses"
+  },
+  {
+    "package": "libncursesw6",
+    "version": "6.4+20240113-1ubuntu2.2",
+    "architecture": "armhf",
+    "source": "ncurses"
+  },
+  {
+    "package": "libndp0",
+    "version": "1.8-1fakesync1ubuntu0.24.04.1",
+    "architecture": "armhf",
+    "source": "libndp"
+  },
+  {
+    "package": "libnetplan1",
+    "version": "1.1.2-8ubuntu1~24.04.3",
+    "architecture": "armhf",
+    "source": "netplan.io"
+  },
+  {
+    "package": "libnettle8t64",
+    "version": "3.9.1-2.2build1.1",
+    "architecture": "armhf",
+    "source": "nettle"
+  },
+  {
+    "package": "libnewt0.52",
+    "version": "0.52.24-2ubuntu2",
+    "architecture": "armhf",
+    "source": "newt"
+  },
+  {
+    "package": "libnghttp2-14",
+    "version": "1.59.0-1ubuntu0.4",
+    "architecture": "armhf",
+    "source": "nghttp2"
+  },
+  {
+    "package": "libnl-3-200",
+    "version": "3.7.0-0.3build1.1",
+    "architecture": "armhf",
+    "source": "libnl3"
+  },
+  {
+    "package": "libnl-genl-3-200",
+    "version": "3.7.0-0.3build1.1",
+    "architecture": "armhf",
+    "source": "libnl3"
+  },
+  {
+    "package": "libnl-route-3-200",
+    "version": "3.7.0-0.3build1.1",
+    "architecture": "armhf",
+    "source": "libnl3"
+  },
+  {
+    "package": "libnm0",
+    "version": "1.46.0-1ubuntu2.8",
+    "architecture": "armhf",
+    "source": "network-manager"
+  },
+  {
+    "package": "libnma-common",
+    "version": "1.10.6-3build2",
+    "architecture": "all",
+    "source": "libnma"
+  },
+  {
+    "package": "libnma-gtk4-0",
+    "version": "1.10.6-3build2",
+    "architecture": "armhf",
+    "source": "libnma"
+  },
+  {
+    "package": "libnma0",
+    "version": "1.10.6-3build2",
+    "architecture": "armhf",
+    "source": "libnma"
+  },
+  {
+    "package": "libnorm1t64",
+    "version": "1.5.9+dfsg-3.1build1",
+    "architecture": "armhf",
+    "source": "norm"
+  },
+  {
+    "package": "libnotify4",
+    "version": "0.8.3-1build2",
+    "architecture": "armhf",
+    "source": "libnotify"
+  },
+  {
+    "package": "libnpth0t64",
+    "version": "1.6-3.1build1",
+    "architecture": "armhf",
+    "source": "npth"
+  },
+  {
+    "package": "libnspr4",
+    "version": "2:4.35-1.1build1",
+    "architecture": "armhf",
+    "source": "nspr"
+  },
+  {
+    "package": "libnss3",
+    "version": "2:3.98-1ubuntu0.2",
+    "architecture": "armhf",
+    "source": "nss"
+  },
+  {
+    "package": "libnvme1t64",
+    "version": "1.8-3ubuntu1",
+    "architecture": "armhf",
+    "source": "libnvme"
+  },
+  {
+    "package": "libogg0",
+    "version": "1.3.5-3build1",
+    "architecture": "armhf",
+    "source": "libogg"
+  },
+  {
+    "package": "libopengl0",
+    "version": "1.7.0-1build1",
+    "architecture": "armhf",
+    "source": "libglvnd"
+  },
+  {
+    "package": "libopenjp2-7",
+    "version": "2.5.0-2ubuntu0.5",
+    "architecture": "armhf",
+    "source": "openjpeg2"
+  },
+  {
+    "package": "libopenmpt0t64",
+    "version": "0.7.3-1.1build3",
+    "architecture": "armhf",
+    "source": "libopenmpt"
+  },
+  {
+    "package": "libopus0",
+    "version": "1.4-1build1",
+    "architecture": "armhf",
+    "source": "opus"
+  },
+  {
+    "package": "libopusfile0",
+    "version": "0.12-4build3",
+    "architecture": "armhf",
+    "source": "opusfile"
+  },
+  {
+    "package": "liborc-0.4-0t64",
+    "version": "1:0.4.38-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "orc"
+  },
+  {
+    "package": "libp11-kit0",
+    "version": "0.25.3-4ubuntu2.2",
+    "architecture": "armhf",
+    "source": "p11-kit"
+  },
+  {
+    "package": "libpackagekit-glib2-18",
+    "version": "1.2.8-2ubuntu1.5",
+    "architecture": "armhf",
+    "source": "packagekit"
+  },
+  {
+    "package": "libpam-modules",
+    "version": "1.5.3-5ubuntu5.7",
+    "architecture": "armhf",
+    "source": "pam"
+  },
+  {
+    "package": "libpam-modules-bin",
+    "version": "1.5.3-5ubuntu5.7",
+    "architecture": "armhf",
+    "source": "pam"
+  },
+  {
+    "package": "libpam-runtime",
+    "version": "1.5.3-5ubuntu5.7",
+    "architecture": "all",
+    "source": "pam"
+  },
+  {
+    "package": "libpam-systemd",
+    "version": "255.4-1ubuntu8.18",
+    "architecture": "armhf",
+    "source": "systemd"
+  },
+  {
+    "package": "libpam0g",
+    "version": "1.5.3-5ubuntu5.7",
+    "architecture": "armhf",
+    "source": "pam"
+  },
+  {
+    "package": "libpango-1.0-0",
+    "version": "1.52.1+ds-1build1",
+    "architecture": "armhf",
+    "source": "pango1.0"
+  },
+  {
+    "package": "libpangocairo-1.0-0",
+    "version": "1.52.1+ds-1build1",
+    "architecture": "armhf",
+    "source": "pango1.0"
+  },
+  {
+    "package": "libpangoft2-1.0-0",
+    "version": "1.52.1+ds-1build1",
+    "architecture": "armhf",
+    "source": "pango1.0"
+  },
+  {
+    "package": "libpangoxft-1.0-0",
+    "version": "1.52.1+ds-1build1",
+    "architecture": "armhf",
+    "source": "pango1.0"
+  },
+  {
+    "package": "libparted2t64",
+    "version": "3.6-4build1",
+    "architecture": "armhf",
+    "source": "parted"
+  },
+  {
+    "package": "libpci3",
+    "version": "1:3.10.0-2build1",
+    "architecture": "armhf",
+    "source": "pciutils"
+  },
+  {
+    "package": "libpcre2-8-0",
+    "version": "10.42-4ubuntu2.1",
+    "architecture": "armhf",
+    "source": "pcre2"
+  },
+  {
+    "package": "libpcsclite1",
+    "version": "2.0.3-1build1",
+    "architecture": "armhf",
+    "source": "pcsc-lite"
+  },
+  {
+    "package": "libperl5.38t64",
+    "version": "5.38.2-3.2ubuntu0.6",
+    "architecture": "armhf",
+    "source": "perl"
+  },
+  {
+    "package": "libpgm-5.3-0t64",
+    "version": "5.3.128~dfsg-2.1build1",
+    "architecture": "armhf",
+    "source": "libpgm"
+  },
+  {
+    "package": "libpinyin-data",
+    "version": "2.8.1-1build3",
+    "architecture": "armhf",
+    "source": "libpinyin"
+  },
+  {
+    "package": "libpinyin15",
+    "version": "2.8.1-1build3",
+    "architecture": "armhf",
+    "source": "libpinyin"
+  },
+  {
+    "package": "libpipewire-0.3-0t64",
+    "version": "1.0.5-1ubuntu3.3",
+    "architecture": "armhf",
+    "source": "pipewire"
+  },
+  {
+    "package": "libpipewire-0.3-modules",
+    "version": "1.0.5-1ubuntu3.3",
+    "architecture": "armhf",
+    "source": "pipewire"
+  },
+  {
+    "package": "libpixman-1-0",
+    "version": "0.42.2-1build1",
+    "architecture": "armhf",
+    "source": "pixman"
+  },
+  {
+    "package": "libplacebo338",
+    "version": "6.338.2-2build1",
+    "architecture": "armhf",
+    "source": "libplacebo"
+  },
+  {
+    "package": "libplist-2.0-4",
+    "version": "2.3.0-1~exp2build2",
+    "architecture": "armhf",
+    "source": "libplist"
+  },
+  {
+    "package": "libpng16-16t64",
+    "version": "1.6.43-5ubuntu0.7",
+    "architecture": "armhf",
+    "source": "libpng1.6"
+  },
+  {
+    "package": "libpocketsphinx3",
+    "version": "0.8.0+real5prealpha+1-15ubuntu5",
+    "architecture": "armhf",
+    "source": "pocketsphinx"
+  },
+  {
+    "package": "libpolkit-agent-1-0",
+    "version": "124-2ubuntu1.24.04.4",
+    "architecture": "armhf",
+    "source": "policykit-1"
+  },
+  {
+    "package": "libpolkit-gobject-1-0",
+    "version": "124-2ubuntu1.24.04.4",
+    "architecture": "armhf",
+    "source": "policykit-1"
+  },
+  {
+    "package": "libpoppler-glib8t64",
+    "version": "24.02.0-1ubuntu9.10",
+    "architecture": "armhf",
+    "source": "poppler"
+  },
+  {
+    "package": "libpoppler134",
+    "version": "24.02.0-1ubuntu9.10",
+    "architecture": "armhf",
+    "source": "poppler"
+  },
+  {
+    "package": "libpopt0",
+    "version": "1.19+dfsg-1build1",
+    "architecture": "armhf",
+    "source": "popt"
+  },
+  {
+    "package": "libportal-gtk4-1",
+    "version": "0.7.1-5build5",
+    "architecture": "armhf",
+    "source": "libportal"
+  },
+  {
+    "package": "libportal1",
+    "version": "0.7.1-5build5",
+    "architecture": "armhf",
+    "source": "libportal"
+  },
+  {
+    "package": "libportmidi0",
+    "version": "1:217-6.1build3",
+    "architecture": "armhf",
+    "source": "portmidi"
+  },
+  {
+    "package": "libpostproc57",
+    "version": "7:6.1.1-3ubuntu5",
+    "architecture": "armhf",
+    "source": "ffmpeg"
+  },
+  {
+    "package": "libproc2-0",
+    "version": "2:4.0.4-4ubuntu3.3",
+    "architecture": "armhf",
+    "source": "procps"
+  },
+  {
+    "package": "libproxy1v5",
+    "version": "0.5.4-4build1",
+    "architecture": "armhf",
+    "source": "libproxy"
+  },
+  {
+    "package": "libpsl5t64",
+    "version": "0.21.2-1.1build1",
+    "architecture": "armhf",
+    "source": "libpsl"
+  },
+  {
+    "package": "libpulse-mainloop-glib0",
+    "version": "1:16.1+dfsg1-2ubuntu10.1",
+    "architecture": "armhf",
+    "source": "pulseaudio"
+  },
+  {
+    "package": "libpulse0",
+    "version": "1:16.1+dfsg1-2ubuntu10.1",
+    "architecture": "armhf",
+    "source": "pulseaudio"
+  },
+  {
+    "package": "libpwquality-common",
+    "version": "1.4.5-3build1",
+    "architecture": "all",
+    "source": "libpwquality"
+  },
+  {
+    "package": "libpwquality1",
+    "version": "1.4.5-3build1",
+    "architecture": "armhf",
+    "source": "libpwquality"
+  },
+  {
+    "package": "libpython3-stdlib",
+    "version": "3.12.3-0ubuntu2.1",
+    "architecture": "armhf",
+    "source": "python3-defaults"
+  },
+  {
+    "package": "libpython3.12-minimal",
+    "version": "3.12.3-1ubuntu0.17",
+    "architecture": "armhf",
+    "source": "python3.12"
+  },
+  {
+    "package": "libpython3.12-stdlib",
+    "version": "3.12.3-1ubuntu0.17",
+    "architecture": "armhf",
+    "source": "python3.12"
+  },
+  {
+    "package": "libqmi-glib5",
+    "version": "1.35.2-0ubuntu2",
+    "architecture": "armhf",
+    "source": "libqmi"
+  },
+  {
+    "package": "libqmi-proxy",
+    "version": "1.35.2-0ubuntu2",
+    "architecture": "armhf",
+    "source": "libqmi"
+  },
+  {
+    "package": "libqmi-utils",
+    "version": "1.35.2-0ubuntu2",
+    "architecture": "armhf",
+    "source": "libqmi"
+  },
+  {
+    "package": "libqrtr-glib0",
+    "version": "1.2.2-1ubuntu4",
+    "architecture": "armhf",
+    "source": "libqrtr-glib"
+  },
+  {
+    "package": "libqrtr1",
+    "version": "1.0-2ubuntu3",
+    "architecture": "armhf",
+    "source": "qrtr"
+  },
+  {
+    "package": "librabbitmq4",
+    "version": "0.11.0-1ubuntu0.2",
+    "architecture": "armhf",
+    "source": "librabbitmq"
+  },
+  {
+    "package": "libraqm0",
+    "version": "0.10.1-1build1",
+    "architecture": "armhf",
+    "source": "raqm"
+  },
+  {
+    "package": "librav1e0",
+    "version": "0.7.1-2",
+    "architecture": "armhf",
+    "source": "rust-rav1e"
+  },
+  {
+    "package": "libraw1394-11",
+    "version": "2.1.2-2build3",
+    "architecture": "armhf",
+    "source": "libraw1394"
+  },
+  {
+    "package": "libreadline8t64",
+    "version": "8.2-4build1",
+    "architecture": "armhf",
+    "source": "readline"
+  },
+  {
+    "package": "librest-1.0-0",
+    "version": "0.9.1-6build3",
+    "architecture": "armhf",
+    "source": "librest"
+  },
+  {
+    "package": "librist4",
+    "version": "0.2.10+dfsg-2",
+    "architecture": "armhf",
+    "source": "librist"
+  },
+  {
+    "package": "libroc0.3",
+    "version": "0.3.0+dfsg-7ubuntu2",
+    "architecture": "armhf",
+    "source": "roc-toolkit"
+  },
+  {
+    "package": "librsvg2-2",
+    "version": "2.58.0+dfsg-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "librsvg"
+  },
+  {
+    "package": "librsvg2-common",
+    "version": "2.58.0+dfsg-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "librsvg"
+  },
+  {
+    "package": "librtmp1",
+    "version": "2.4+20151223.gitfa8646d.1-2build7",
+    "architecture": "armhf",
+    "source": "rtmpdump"
+  },
+  {
+    "package": "librubberband2",
+    "version": "3.3.0+dfsg-2build1",
+    "architecture": "armhf",
+    "source": "rubberband"
+  },
+  {
+    "package": "libsamplerate0",
+    "version": "0.2.2-4build1",
+    "architecture": "armhf",
+    "source": "libsamplerate"
+  },
+  {
+    "package": "libsane-common",
+    "version": "1.2.1-7build4",
+    "architecture": "all",
+    "source": "sane-backends"
+  },
+  {
+    "package": "libsane1",
+    "version": "1.2.1-7build4",
+    "architecture": "armhf",
+    "source": "sane-backends"
+  },
+  {
+    "package": "libsasl2-2",
+    "version": "2.1.28+dfsg1-5ubuntu3.1",
+    "architecture": "armhf",
+    "source": "cyrus-sasl2"
+  },
+  {
+    "package": "libsasl2-modules-db",
+    "version": "2.1.28+dfsg1-5ubuntu3.1",
+    "architecture": "armhf",
+    "source": "cyrus-sasl2"
+  },
+  {
+    "package": "libsbc1",
+    "version": "2.0-1build1",
+    "architecture": "armhf",
+    "source": "sbc"
+  },
+  {
+    "package": "libsdl2-2.0-0",
+    "version": "2.30.0+dfsg-1ubuntu3.1",
+    "architecture": "armhf",
+    "source": "libsdl2"
+  },
+  {
+    "package": "libsdl2-image-2.0-0",
+    "version": "2.8.2+dfsg-1build2",
+    "architecture": "armhf",
+    "source": "libsdl2-image"
+  },
+  {
+    "package": "libsdl2-mixer-2.0-0",
+    "version": "2.8.0+dfsg-1build3",
+    "architecture": "armhf",
+    "source": "libsdl2-mixer"
+  },
+  {
+    "package": "libsdl2-ttf-2.0-0",
+    "version": "2.22.0+dfsg-1",
+    "architecture": "armhf",
+    "source": "libsdl2-ttf"
+  },
+  {
+    "package": "libseccomp2",
+    "version": "2.5.5-1ubuntu3.1",
+    "architecture": "armhf",
+    "source": "libseccomp"
+  },
+  {
+    "package": "libsecret-1-0",
+    "version": "0.21.4-1build3",
+    "architecture": "armhf",
+    "source": "libsecret"
+  },
+  {
+    "package": "libsecret-common",
+    "version": "0.21.4-1build3",
+    "architecture": "all",
+    "source": "libsecret"
+  },
+  {
+    "package": "libselinux1",
+    "version": "3.5-2ubuntu2.1",
+    "architecture": "armhf",
+    "source": "libselinux"
+  },
+  {
+    "package": "libsemanage-common",
+    "version": "3.5-1build5",
+    "architecture": "all",
+    "source": "libsemanage"
+  },
+  {
+    "package": "libsemanage2",
+    "version": "3.5-1build5",
+    "architecture": "armhf",
+    "source": "libsemanage"
+  },
+  {
+    "package": "libsensors-config",
+    "version": "1:3.6.0-9build1",
+    "architecture": "all",
+    "source": "lm-sensors"
+  },
+  {
+    "package": "libsensors5",
+    "version": "1:3.6.0-9build1",
+    "architecture": "armhf",
+    "source": "lm-sensors"
+  },
+  {
+    "package": "libsepol2",
+    "version": "3.5-2build1",
+    "architecture": "armhf",
+    "source": "libsepol"
+  },
+  {
+    "package": "libserd-0-0",
+    "version": "0.32.2-1",
+    "architecture": "armhf",
+    "source": "serd"
+  },
+  {
+    "package": "libsharpyuv0",
+    "version": "1.3.2-0.4build3",
+    "architecture": "armhf",
+    "source": "libwebp"
+  },
+  {
+    "package": "libshine3",
+    "version": "3.1.1-2build1",
+    "architecture": "armhf",
+    "source": "shine"
+  },
+  {
+    "package": "libshout3",
+    "version": "2.4.6-1build2",
+    "architecture": "armhf",
+    "source": "libshout"
+  },
+  {
+    "package": "libslang2",
+    "version": "2.3.3-3build2",
+    "architecture": "armhf",
+    "source": "slang2"
+  },
+  {
+    "package": "libsm6",
+    "version": "2:1.2.3-1build3",
+    "architecture": "armhf",
+    "source": "libsm"
+  },
+  {
+    "package": "libsmartcols1",
+    "version": "2.39.3-9ubuntu6.6",
+    "architecture": "armhf",
+    "source": "util-linux"
+  },
+  {
+    "package": "libsmbclient0",
+    "version": "2:4.19.5+dfsg-4ubuntu9.8",
+    "architecture": "armhf",
+    "source": "samba"
+  },
+  {
+    "package": "libsnapd-glib-2-1",
+    "version": "1.64-0ubuntu5",
+    "architecture": "armhf",
+    "source": "snapd-glib"
+  },
+  {
+    "package": "libsnappy1v5",
+    "version": "1.1.10-1build1",
+    "architecture": "armhf",
+    "source": "snappy"
+  },
+  {
+    "package": "libsndfile1",
+    "version": "1.2.2-1ubuntu5.24.04.1",
+    "architecture": "armhf",
+    "source": "libsndfile"
+  },
+  {
+    "package": "libsnmp-base",
+    "version": "5.9.4+dfsg-1.1ubuntu3.2",
+    "architecture": "all",
+    "source": "net-snmp"
+  },
+  {
+    "package": "libsnmp40t64",
+    "version": "5.9.4+dfsg-1.1ubuntu3.2",
+    "architecture": "armhf",
+    "source": "net-snmp"
+  },
+  {
+    "package": "libsodium23",
+    "version": "1.0.18-1ubuntu0.24.04.1",
+    "architecture": "armhf",
+    "source": "libsodium"
+  },
+  {
+    "package": "libsord-0-0",
+    "version": "0.16.16-2build1",
+    "architecture": "armhf",
+    "source": "sord"
+  },
+  {
+    "package": "libsoup-3.0-0",
+    "version": "3.4.4-5ubuntu0.9",
+    "architecture": "armhf",
+    "source": "libsoup3"
+  },
+  {
+    "package": "libsoup-3.0-common",
+    "version": "3.4.4-5ubuntu0.9",
+    "architecture": "all",
+    "source": "libsoup3"
+  },
+  {
+    "package": "libsoxr0",
+    "version": "0.1.3-4build3",
+    "architecture": "armhf",
+    "source": "libsoxr"
+  },
+  {
+    "package": "libspa-0.2-bluetooth",
+    "version": "1.0.5-1ubuntu3.3",
+    "architecture": "armhf",
+    "source": "pipewire"
+  },
+  {
+    "package": "libspa-0.2-modules",
+    "version": "1.0.5-1ubuntu3.3",
+    "architecture": "armhf",
+    "source": "pipewire"
+  },
+  {
+    "package": "libspeex1",
+    "version": "1.2.1-2ubuntu2.24.04.1",
+    "architecture": "armhf",
+    "source": "speex"
+  },
+  {
+    "package": "libspeexdsp1",
+    "version": "1.2.1-1ubuntu3",
+    "architecture": "armhf",
+    "source": "speexdsp"
+  },
+  {
+    "package": "libsphinxbase3t64",
+    "version": "0.8+5prealpha+1-17build2",
+    "architecture": "armhf",
+    "source": "sphinxbase"
+  },
+  {
+    "package": "libsqlite3-0",
+    "version": "3.45.1-1ubuntu2.8",
+    "architecture": "armhf",
+    "source": "sqlite3"
+  },
+  {
+    "package": "libsratom-0-0",
+    "version": "0.6.16-1build1",
+    "architecture": "armhf",
+    "source": "sratom"
+  },
+  {
+    "package": "libsrt1.5-gnutls",
+    "version": "1.5.3-1build2",
+    "architecture": "armhf",
+    "source": "srt"
+  },
+  {
+    "package": "libss2",
+    "version": "1.47.0-2.4~exp1ubuntu4.1",
+    "architecture": "armhf",
+    "source": "e2fsprogs"
+  },
+  {
+    "package": "libssh-4",
+    "version": "0.10.6-2ubuntu0.5",
+    "architecture": "armhf",
+    "source": "libssh"
+  },
+  {
+    "package": "libssh-gcrypt-4",
+    "version": "0.10.6-2ubuntu0.5",
+    "architecture": "armhf",
+    "source": "libssh"
+  },
+  {
+    "package": "libssl3t64",
+    "version": "3.0.13-0ubuntu3.16",
+    "architecture": "armhf",
+    "source": "openssl"
+  },
+  {
+    "package": "libstdc++6",
+    "version": "14.2.0-4ubuntu2~24.04.1",
+    "architecture": "armhf",
+    "source": "gcc-14"
+  },
+  {
+    "package": "libstemmer0d",
+    "version": "2.2.0-4build1",
+    "architecture": "armhf",
+    "source": "snowball"
+  },
+  {
+    "package": "libsvtav1enc1d1",
+    "version": "1.7.0+dfsg-2build1",
+    "architecture": "armhf",
+    "source": "svt-av1"
+  },
+  {
+    "package": "libswresample4",
+    "version": "7:6.1.1-3ubuntu5",
+    "architecture": "armhf",
+    "source": "ffmpeg"
+  },
+  {
+    "package": "libswscale7",
+    "version": "7:6.1.1-3ubuntu5",
+    "architecture": "armhf",
+    "source": "ffmpeg"
+  },
+  {
+    "package": "libsystemd-shared",
+    "version": "255.4-1ubuntu8.18",
+    "architecture": "armhf",
+    "source": "systemd"
+  },
+  {
+    "package": "libsystemd0",
+    "version": "255.4-1ubuntu8.18",
+    "architecture": "armhf",
+    "source": "systemd"
+  },
+  {
+    "package": "libtag1v5",
+    "version": "1.13.1-1build1",
+    "architecture": "armhf",
+    "source": "taglib"
+  },
+  {
+    "package": "libtag1v5-vanilla",
+    "version": "1.13.1-1build1",
+    "architecture": "armhf",
+    "source": "taglib"
+  },
+  {
+    "package": "libtalloc2",
+    "version": "2.4.2-1build2",
+    "architecture": "armhf",
+    "source": "talloc"
+  },
+  {
+    "package": "libtasn1-6",
+    "version": "4.19.0-3ubuntu0.24.04.2",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "libtdb1",
+    "version": "1.4.10-1build1",
+    "architecture": "armhf",
+    "source": "tdb"
+  },
+  {
+    "package": "libteamdctl0",
+    "version": "1.31-1build3",
+    "architecture": "armhf",
+    "source": "libteam"
+  },
+  {
+    "package": "libtevent0t64",
+    "version": "0.16.1-2build1",
+    "architecture": "armhf",
+    "source": "tevent"
+  },
+  {
+    "package": "libtext-iconv-perl",
+    "version": "1.7-8build3",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "libthai-data",
+    "version": "0.1.29-2build1",
+    "architecture": "all",
+    "source": "libthai"
+  },
+  {
+    "package": "libthai0",
+    "version": "0.1.29-2build1",
+    "architecture": "armhf",
+    "source": "libthai"
+  },
+  {
+    "package": "libtheora0",
+    "version": "1.1.1+dfsg.1-16.1build3",
+    "architecture": "armhf",
+    "source": "libtheora"
+  },
+  {
+    "package": "libtiff6",
+    "version": "4.5.1+git230720-4ubuntu2.5",
+    "architecture": "armhf",
+    "source": "tiff"
+  },
+  {
+    "package": "libtinfo6",
+    "version": "6.4+20240113-1ubuntu2.2",
+    "architecture": "armhf",
+    "source": "ncurses"
+  },
+  {
+    "package": "libtirpc-common",
+    "version": "1.3.4+ds-1.1build1",
+    "architecture": "all",
+    "source": "libtirpc"
+  },
+  {
+    "package": "libtirpc3t64",
+    "version": "1.3.4+ds-1.1build1",
+    "architecture": "armhf",
+    "source": "libtirpc"
+  },
+  {
+    "package": "libtotem-plparser-common",
+    "version": "3.26.6-1build5",
+    "architecture": "all",
+    "source": "totem-pl-parser"
+  },
+  {
+    "package": "libtotem-plparser18",
+    "version": "3.26.6-1build5",
+    "architecture": "armhf",
+    "source": "totem-pl-parser"
+  },
+  {
+    "package": "libtracker-sparql-3.0-0",
+    "version": "3.7.1-1build1",
+    "architecture": "armhf",
+    "source": "tracker"
+  },
+  {
+    "package": "libtwolame0",
+    "version": "0.4.0-2build3",
+    "architecture": "armhf",
+    "source": "twolame"
+  },
+  {
+    "package": "libudev1",
+    "version": "255.4-1ubuntu8.18",
+    "architecture": "armhf",
+    "source": "systemd"
+  },
+  {
+    "package": "libudfread0",
+    "version": "1.1.2-1build1",
+    "architecture": "armhf",
+    "source": "libudfread"
+  },
+  {
+    "package": "libudisks2-0",
+    "version": "2.10.1-6ubuntu1.5",
+    "architecture": "armhf",
+    "source": "udisks2"
+  },
+  {
+    "package": "libunibreak5",
+    "version": "5.1-2build1",
+    "architecture": "armhf",
+    "source": "libunibreak"
+  },
+  {
+    "package": "libunistring5",
+    "version": "1.1-2build1.1",
+    "architecture": "armhf",
+    "source": "libunistring"
+  },
+  {
+    "package": "libunity-protocol-private0",
+    "version": "7.1.4+19.04.20190319-6build4",
+    "architecture": "armhf",
+    "source": "libunity"
+  },
+  {
+    "package": "libunity-scopes-json-def-desktop",
+    "version": "7.1.4+19.04.20190319-6build4",
+    "architecture": "all",
+    "source": "libunity"
+  },
+  {
+    "package": "libunity9",
+    "version": "7.1.4+19.04.20190319-6build4",
+    "architecture": "armhf",
+    "source": "libunity"
+  },
+  {
+    "package": "libunwind8",
+    "version": "1.6.2-3build1.1",
+    "architecture": "armhf",
+    "source": "libunwind"
+  },
+  {
+    "package": "libupower-glib3",
+    "version": "1.90.3-1",
+    "architecture": "armhf",
+    "source": "upower"
+  },
+  {
+    "package": "libusb-1.0-0",
+    "version": "2:1.0.27-1",
+    "architecture": "armhf",
+    "source": "libusb-1.0"
+  },
+  {
+    "package": "libusbmuxd6",
+    "version": "2.0.2-4build3",
+    "architecture": "armhf",
+    "source": "libusbmuxd"
+  },
+  {
+    "package": "libuuid1",
+    "version": "2.39.3-9ubuntu6.6",
+    "architecture": "armhf",
+    "source": "util-linux"
+  },
+  {
+    "package": "libuv1t64",
+    "version": "1.48.0-1.1build1",
+    "architecture": "armhf",
+    "source": "libuv1"
+  },
+  {
+    "package": "libv4l-0t64",
+    "version": "1.26.1-4build3",
+    "architecture": "armhf",
+    "source": "v4l-utils"
+  },
+  {
+    "package": "libv4lconvert0t64",
+    "version": "1.26.1-4build3",
+    "architecture": "armhf",
+    "source": "v4l-utils"
+  },
+  {
+    "package": "libva-drm2",
+    "version": "2.20.0-2ubuntu0.2",
+    "architecture": "armhf",
+    "source": "libva"
+  },
+  {
+    "package": "libva-x11-2",
+    "version": "2.20.0-2ubuntu0.2",
+    "architecture": "armhf",
+    "source": "libva"
+  },
+  {
+    "package": "libva2",
+    "version": "2.20.0-2ubuntu0.2",
+    "architecture": "armhf",
+    "source": "libva"
+  },
+  {
+    "package": "libvdpau1",
+    "version": "1.5-2build1",
+    "architecture": "armhf",
+    "source": "libvdpau"
+  },
+  {
+    "package": "libvidstab1.1",
+    "version": "1.1.0-2build1",
+    "architecture": "armhf",
+    "source": "libvidstab"
+  },
+  {
+    "package": "libvisual-0.4-0",
+    "version": "0.4.2-2build1",
+    "architecture": "armhf",
+    "source": "libvisual"
+  },
+  {
+    "package": "libvolume-key1",
+    "version": "0.3.12-7build2",
+    "architecture": "armhf",
+    "source": "volume-key"
+  },
+  {
+    "package": "libvorbis0a",
+    "version": "1.3.7-1build3",
+    "architecture": "armhf",
+    "source": "libvorbis"
+  },
+  {
+    "package": "libvorbisenc2",
+    "version": "1.3.7-1build3",
+    "architecture": "armhf",
+    "source": "libvorbis"
+  },
+  {
+    "package": "libvorbisfile3",
+    "version": "1.3.7-1build3",
+    "architecture": "armhf",
+    "source": "libvorbis"
+  },
+  {
+    "package": "libvpx9",
+    "version": "1.14.0-1ubuntu2.3",
+    "architecture": "armhf",
+    "source": "libvpx"
+  },
+  {
+    "package": "libvte-2.91-0",
+    "version": "0.76.0-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "vte2.91"
+  },
+  {
+    "package": "libvte-2.91-common",
+    "version": "0.76.0-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "vte2.91"
+  },
+  {
+    "package": "libvulkan1",
+    "version": "1.3.275.0-1build1",
+    "architecture": "armhf",
+    "source": "vulkan-loader"
+  },
+  {
+    "package": "libwacom-common",
+    "version": "2.10.0-2",
+    "architecture": "all",
+    "source": "libwacom"
+  },
+  {
+    "package": "libwacom9",
+    "version": "2.10.0-2",
+    "architecture": "armhf",
+    "source": "libwacom"
+  },
+  {
+    "package": "libwavpack1",
+    "version": "5.6.0-1build1",
+    "architecture": "armhf",
+    "source": "wavpack"
+  },
+  {
+    "package": "libwayland-client0",
+    "version": "1.22.0-2.1build1",
+    "architecture": "armhf",
+    "source": "wayland"
+  },
+  {
+    "package": "libwayland-cursor0",
+    "version": "1.22.0-2.1build1",
+    "architecture": "armhf",
+    "source": "wayland"
+  },
+  {
+    "package": "libwayland-egl1",
+    "version": "1.22.0-2.1build1",
+    "architecture": "armhf",
+    "source": "wayland"
+  },
+  {
+    "package": "libwayland-server0",
+    "version": "1.22.0-2.1build1",
+    "architecture": "armhf",
+    "source": "wayland"
+  },
+  {
+    "package": "libwbclient0",
+    "version": "2:4.19.5+dfsg-4ubuntu9.8",
+    "architecture": "armhf",
+    "source": "samba"
+  },
+  {
+    "package": "libwebkit2gtk-4.1-0",
+    "version": "2.52.6-0ubuntu0.24.04.1",
+    "architecture": "armhf",
+    "source": "webkit2gtk"
+  },
+  {
+    "package": "libwebp7",
+    "version": "1.3.2-0.4build3",
+    "architecture": "armhf",
+    "source": "libwebp"
+  },
+  {
+    "package": "libwebpdemux2",
+    "version": "1.3.2-0.4build3",
+    "architecture": "armhf",
+    "source": "libwebp"
+  },
+  {
+    "package": "libwebpmux3",
+    "version": "1.3.2-0.4build3",
+    "architecture": "armhf",
+    "source": "libwebp"
+  },
+  {
+    "package": "libwebrtc-audio-processing1",
+    "version": "0.3.1-0ubuntu6",
+    "architecture": "armhf",
+    "source": "webrtc-audio-processing"
+  },
+  {
+    "package": "libwhoopsie-preferences0",
+    "version": "23build3",
+    "architecture": "armhf",
+    "source": "whoopsie-preferences"
+  },
+  {
+    "package": "libwhoopsie0",
+    "version": "0.2.77ubuntu0.1",
+    "architecture": "armhf",
+    "source": "whoopsie"
+  },
+  {
+    "package": "libwireplumber-0.4-0",
+    "version": "0.4.17-1ubuntu4.1",
+    "architecture": "armhf",
+    "source": "wireplumber"
+  },
+  {
+    "package": "libwrap0",
+    "version": "7.6.q-33",
+    "architecture": "armhf",
+    "source": "tcp-wrappers"
+  },
+  {
+    "package": "libx11-6",
+    "version": "2:1.8.7-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "libx11"
+  },
+  {
+    "package": "libx11-data",
+    "version": "2:1.8.7-1ubuntu0.1",
+    "architecture": "all",
+    "source": "libx11"
+  },
+  {
+    "package": "libx11-xcb1",
+    "version": "2:1.8.7-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "libx11"
+  },
+  {
+    "package": "libx264-164",
+    "version": "2:0.164.3108+git31e19f9-1",
+    "architecture": "armhf",
+    "source": "x264"
+  },
+  {
+    "package": "libx265-199",
+    "version": "3.5-2build1",
+    "architecture": "armhf",
+    "source": "x265"
+  },
+  {
+    "package": "libxau6",
+    "version": "1:1.0.9-1build6",
+    "architecture": "armhf",
+    "source": "libxau"
+  },
+  {
+    "package": "libxaw7",
+    "version": "2:1.0.14-1build2",
+    "architecture": "armhf",
+    "source": "libxaw"
+  },
+  {
+    "package": "libxcb-dri3-0",
+    "version": "1.15-1ubuntu2",
+    "architecture": "armhf",
+    "source": "libxcb"
+  },
+  {
+    "package": "libxcb-glx0",
+    "version": "1.15-1ubuntu2",
+    "architecture": "armhf",
+    "source": "libxcb"
+  },
+  {
+    "package": "libxcb-present0",
+    "version": "1.15-1ubuntu2",
+    "architecture": "armhf",
+    "source": "libxcb"
+  },
+  {
+    "package": "libxcb-randr0",
+    "version": "1.15-1ubuntu2",
+    "architecture": "armhf",
+    "source": "libxcb"
+  },
+  {
+    "package": "libxcb-render0",
+    "version": "1.15-1ubuntu2",
+    "architecture": "armhf",
+    "source": "libxcb"
+  },
+  {
+    "package": "libxcb-shm0",
+    "version": "1.15-1ubuntu2",
+    "architecture": "armhf",
+    "source": "libxcb"
+  },
+  {
+    "package": "libxcb-sync1",
+    "version": "1.15-1ubuntu2",
+    "architecture": "armhf",
+    "source": "libxcb"
+  },
+  {
+    "package": "libxcb-xfixes0",
+    "version": "1.15-1ubuntu2",
+    "architecture": "armhf",
+    "source": "libxcb"
+  },
+  {
+    "package": "libxcb-xkb1",
+    "version": "1.15-1ubuntu2",
+    "architecture": "armhf",
+    "source": "libxcb"
+  },
+  {
+    "package": "libxcb1",
+    "version": "1.15-1ubuntu2",
+    "architecture": "armhf",
+    "source": "libxcb"
+  },
+  {
+    "package": "libxcomposite1",
+    "version": "1:0.4.5-1build3",
+    "architecture": "armhf",
+    "source": "libxcomposite"
+  },
+  {
+    "package": "libxcursor1",
+    "version": "1:1.2.1-1build1",
+    "architecture": "armhf",
+    "source": "libxcursor"
+  },
+  {
+    "package": "libxcvt0",
+    "version": "0.1.2-1build1",
+    "architecture": "armhf",
+    "source": "libxcvt"
+  },
+  {
+    "package": "libxdamage1",
+    "version": "1:1.1.6-1build1",
+    "architecture": "armhf",
+    "source": "libxdamage"
+  },
+  {
+    "package": "libxdmcp6",
+    "version": "1:1.1.3-0ubuntu6",
+    "architecture": "armhf",
+    "source": "libxdmcp"
+  },
+  {
+    "package": "libxext6",
+    "version": "2:1.3.4-1build2",
+    "architecture": "armhf",
+    "source": "libxext"
+  },
+  {
+    "package": "libxfixes3",
+    "version": "1:6.0.0-2build1",
+    "architecture": "armhf",
+    "source": "libxfixes"
+  },
+  {
+    "package": "libxfont2",
+    "version": "1:2.0.6-1+deb13u1build0.24.04.2",
+    "architecture": "armhf",
+    "source": "libxfont"
+  },
+  {
+    "package": "libxft2",
+    "version": "2.3.6-1build1",
+    "architecture": "armhf",
+    "source": "xft"
+  },
+  {
+    "package": "libxi6",
+    "version": "2:1.8.1-1build1",
+    "architecture": "armhf",
+    "source": "libxi"
+  },
+  {
+    "package": "libxinerama1",
+    "version": "2:1.1.4-3build1",
+    "architecture": "armhf",
+    "source": "libxinerama"
+  },
+  {
+    "package": "libxkbcommon-x11-0",
+    "version": "1.6.0-1build1",
+    "architecture": "armhf",
+    "source": "libxkbcommon"
+  },
+  {
+    "package": "libxkbcommon0",
+    "version": "1.6.0-1build1",
+    "architecture": "armhf",
+    "source": "libxkbcommon"
+  },
+  {
+    "package": "libxkbfile1",
+    "version": "1:1.1.0-1build4",
+    "architecture": "armhf",
+    "source": "libxkbfile"
+  },
+  {
+    "package": "libxkbregistry0",
+    "version": "1.6.0-1build1",
+    "architecture": "armhf",
+    "source": "libxkbcommon"
+  },
+  {
+    "package": "libxml2",
+    "version": "2.9.14+dfsg-1.3ubuntu3.10",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "libxmlb2",
+    "version": "0.3.24-1~ubuntu0.24.04.1",
+    "architecture": "armhf",
+    "source": "libxmlb"
+  },
+  {
+    "package": "libxmu6",
+    "version": "2:1.1.3-3build2",
+    "architecture": "armhf",
+    "source": "libxmu"
+  },
+  {
+    "package": "libxpm4",
+    "version": "1:3.5.17-1ubuntu0.24.04.2",
+    "architecture": "armhf",
+    "source": "libxpm"
+  },
+  {
+    "package": "libxrandr2",
+    "version": "2:1.5.2-2build1",
+    "architecture": "armhf",
+    "source": "libxrandr"
+  },
+  {
+    "package": "libxrender1",
+    "version": "1:0.9.10-1.1build1",
+    "architecture": "armhf",
+    "source": "libxrender"
+  },
+  {
+    "package": "libxshmfence1",
+    "version": "1.3-1build5",
+    "architecture": "armhf",
+    "source": "libxshmfence"
+  },
+  {
+    "package": "libxslt1.1",
+    "version": "1.1.39-0exp1ubuntu0.24.04.3",
+    "architecture": "armhf",
+    "source": "libxslt"
+  },
+  {
+    "package": "libxss1",
+    "version": "1:1.2.3-1build3",
+    "architecture": "armhf",
+    "source": "libxss"
+  },
+  {
+    "package": "libxt6t64",
+    "version": "1:1.2.1-1.2build1",
+    "architecture": "armhf",
+    "source": "libxt"
+  },
+  {
+    "package": "libxtables12",
+    "version": "1.8.10-3ubuntu2",
+    "architecture": "armhf",
+    "source": "iptables"
+  },
+  {
+    "package": "libxtst6",
+    "version": "2:1.2.3-1.1build1",
+    "architecture": "armhf",
+    "source": "libxtst"
+  },
+  {
+    "package": "libxvidcore4",
+    "version": "2:1.3.7-1build1",
+    "architecture": "armhf",
+    "source": "xvidcore"
+  },
+  {
+    "package": "libxxf86vm1",
+    "version": "1:1.1.4-1build4",
+    "architecture": "armhf",
+    "source": "libxxf86vm"
+  },
+  {
+    "package": "libxxhash0",
+    "version": "0.8.2-2build1",
+    "architecture": "armhf",
+    "source": "xxhash"
+  },
+  {
+    "package": "libyaml-0-2",
+    "version": "0.2.5-1build1",
+    "architecture": "armhf",
+    "source": "libyaml"
+  },
+  {
+    "package": "libzimg2",
+    "version": "3.0.5+ds1-1build1",
+    "architecture": "armhf",
+    "source": "zimg"
+  },
+  {
+    "package": "libzix-0-0",
+    "version": "0.4.2-2build1",
+    "architecture": "armhf",
+    "source": "zix"
+  },
+  {
+    "package": "libzmq5",
+    "version": "4.3.5-1build2",
+    "architecture": "armhf",
+    "source": "zeromq3"
+  },
+  {
+    "package": "libzstd1",
+    "version": "1.5.5+dfsg2-2build1.1",
+    "architecture": "armhf",
+    "source": "libzstd"
+  },
+  {
+    "package": "libzvbi-common",
+    "version": "0.2.42-2",
+    "architecture": "all",
+    "source": "zvbi"
+  },
+  {
+    "package": "libzvbi0t64",
+    "version": "0.2.42-2",
+    "architecture": "armhf",
+    "source": "zvbi"
+  },
+  {
+    "package": "linux-base",
+    "version": "4.5ubuntu9+24.04.2",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "locales",
+    "version": "2.39-0ubuntu8.9",
+    "architecture": "all",
+    "source": "glibc"
+  },
+  {
+    "package": "login",
+    "version": "1:4.13+dfsg1-4ubuntu3.2",
+    "architecture": "armhf",
+    "source": "shadow"
+  },
+  {
+    "package": "logsave",
+    "version": "1.47.0-2.4~exp1ubuntu4.1",
+    "architecture": "armhf",
+    "source": "e2fsprogs"
+  },
+  {
+    "package": "lsof",
+    "version": "4.95.0-1build3",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "mawk",
+    "version": "1.3.4.20240123-1build1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "media-types",
+    "version": "10.1.0",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "mesa-libgallium",
+    "version": "25.2.8-0ubuntu0.24.04.4",
+    "architecture": "armhf",
+    "source": "mesa"
+  },
+  {
+    "package": "mesa-utils",
+    "version": "9.0.0-2",
+    "architecture": "armhf",
+    "source": "mesa-demos"
+  },
+  {
+    "package": "mesa-utils-bin",
+    "version": "9.0.0-2",
+    "architecture": "armhf",
+    "source": "mesa-demos"
+  },
+  {
+    "package": "mount",
+    "version": "2.39.3-9ubuntu6.6",
+    "architecture": "armhf",
+    "source": "util-linux"
+  },
+  {
+    "package": "nano",
+    "version": "7.2-2ubuntu0.2",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "nautilus",
+    "version": "1:46.4-0ubuntu0.2",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "nautilus-data",
+    "version": "1:46.4-0ubuntu0.2",
+    "architecture": "all",
+    "source": "nautilus"
+  },
+  {
+    "package": "ncurses-base",
+    "version": "6.4+20240113-1ubuntu2.2",
+    "architecture": "all",
+    "source": "ncurses"
+  },
+  {
+    "package": "ncurses-bin",
+    "version": "6.4+20240113-1ubuntu2.2",
+    "architecture": "armhf",
+    "source": "ncurses"
+  },
+  {
+    "package": "net-tools",
+    "version": "2.10-0.1ubuntu4.4",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "netbase",
+    "version": "6.4",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "netplan-generator",
+    "version": "1.1.2-8ubuntu1~24.04.3",
+    "architecture": "armhf",
+    "source": "netplan.io"
+  },
+  {
+    "package": "netplan.io",
+    "version": "1.1.2-8ubuntu1~24.04.3",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "network-manager",
+    "version": "1.46.0-1ubuntu2.8",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "network-manager-gnome",
+    "version": "1.34.0-1ubuntu3",
+    "architecture": "armhf",
+    "source": "network-manager-applet"
+  },
+  {
+    "package": "ocl-icd-libopencl1",
+    "version": "2.3.2-1build1",
+    "architecture": "armhf",
+    "source": "ocl-icd"
+  },
+  {
+    "package": "openssh-client",
+    "version": "1:9.6p1-3ubuntu13.20",
+    "architecture": "armhf",
+    "source": "openssh"
+  },
+  {
+    "package": "openssh-server",
+    "version": "1:9.6p1-3ubuntu13.20",
+    "architecture": "armhf",
+    "source": "openssh"
+  },
+  {
+    "package": "openssh-sftp-server",
+    "version": "1:9.6p1-3ubuntu13.20",
+    "architecture": "armhf",
+    "source": "openssh"
+  },
+  {
+    "package": "openssl",
+    "version": "3.0.13-0ubuntu3.16",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "parted",
+    "version": "3.6-4build1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "passwd",
+    "version": "1:4.13+dfsg1-4ubuntu3.2",
+    "architecture": "armhf",
+    "source": "shadow"
+  },
+  {
+    "package": "pci.ids",
+    "version": "0.0~2024.03.31-1ubuntu0.1",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "perl-base",
+    "version": "5.38.2-3.2ubuntu0.6",
+    "architecture": "armhf",
+    "source": "perl"
+  },
+  {
+    "package": "perl-modules-5.38",
+    "version": "5.38.2-3.2ubuntu0.6",
+    "architecture": "all",
+    "source": "perl"
+  },
+  {
+    "package": "pinentry-curses",
+    "version": "1.2.1-3ubuntu5",
+    "architecture": "armhf",
+    "source": "pinentry"
+  },
+  {
+    "package": "pipewire",
+    "version": "1.0.5-1ubuntu3.3",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "pipewire-alsa",
+    "version": "1.0.5-1ubuntu3.3",
+    "architecture": "armhf",
+    "source": "pipewire"
+  },
+  {
+    "package": "pipewire-audio",
+    "version": "1.0.5-1ubuntu3.3",
+    "architecture": "all",
+    "source": "pipewire"
+  },
+  {
+    "package": "pipewire-bin",
+    "version": "1.0.5-1ubuntu3.3",
+    "architecture": "armhf",
+    "source": "pipewire"
+  },
+  {
+    "package": "pipewire-pulse",
+    "version": "1.0.5-1ubuntu3.3",
+    "architecture": "armhf",
+    "source": "pipewire"
+  },
+  {
+    "package": "pkexec",
+    "version": "124-2ubuntu1.24.04.4",
+    "architecture": "armhf",
+    "source": "policykit-1"
+  },
+  {
+    "package": "policykit-1",
+    "version": "124-2ubuntu1.24.04.4",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "policykit-1-gnome",
+    "version": "0.105-7ubuntu5",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "polkitd",
+    "version": "124-2ubuntu1.24.04.4",
+    "architecture": "armhf",
+    "source": "policykit-1"
+  },
+  {
+    "package": "procps",
+    "version": "2:4.0.4-4ubuntu3.3",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "python-apt-common",
+    "version": "2.7.7ubuntu5.3",
+    "architecture": "all",
+    "source": "python-apt"
+  },
+  {
+    "package": "python3",
+    "version": "3.12.3-0ubuntu2.1",
+    "architecture": "armhf",
+    "source": "python3-defaults"
+  },
+  {
+    "package": "python3-apt",
+    "version": "2.7.7ubuntu5.3",
+    "architecture": "armhf",
+    "source": "python-apt"
+  },
+  {
+    "package": "python3-aptdaemon",
+    "version": "1.1.1+bzr982-0ubuntu44",
+    "architecture": "all",
+    "source": "aptdaemon"
+  },
+  {
+    "package": "python3-aptdaemon.gtk3widgets",
+    "version": "1.1.1+bzr982-0ubuntu44",
+    "architecture": "all",
+    "source": "aptdaemon"
+  },
+  {
+    "package": "python3-bleak",
+    "version": "0.21.1-1",
+    "architecture": "all",
+    "source": "bleak"
+  },
+  {
+    "package": "python3-cairo",
+    "version": "1.25.1-2build2",
+    "architecture": "armhf",
+    "source": "pycairo"
+  },
+  {
+    "package": "python3-cffi-backend",
+    "version": "1.16.0-2build1",
+    "architecture": "armhf",
+    "source": "python-cffi"
+  },
+  {
+    "package": "python3-cryptography",
+    "version": "41.0.7-4ubuntu0.4",
+    "architecture": "armhf",
+    "source": "python-cryptography"
+  },
+  {
+    "package": "python3-dbus",
+    "version": "1.3.2-5build3",
+    "architecture": "armhf",
+    "source": "dbus-python"
+  },
+  {
+    "package": "python3-dbus-fast",
+    "version": "2.21.1-1build1",
+    "architecture": "armhf",
+    "source": "dbus-fast"
+  },
+  {
+    "package": "python3-defer",
+    "version": "1.0.6-2.1ubuntu1",
+    "architecture": "all",
+    "source": "python-defer"
+  },
+  {
+    "package": "python3-gi",
+    "version": "3.48.2-1",
+    "architecture": "armhf",
+    "source": "pygobject"
+  },
+  {
+    "package": "python3-gi-cairo",
+    "version": "3.48.2-1",
+    "architecture": "armhf",
+    "source": "pygobject"
+  },
+  {
+    "package": "python3-minimal",
+    "version": "3.12.3-0ubuntu2.1",
+    "architecture": "armhf",
+    "source": "python3-defaults"
+  },
+  {
+    "package": "python3-netplan",
+    "version": "1.1.2-8ubuntu1~24.04.3",
+    "architecture": "armhf",
+    "source": "netplan.io"
+  },
+  {
+    "package": "python3-numpy",
+    "version": "1:1.26.4+ds-6ubuntu1",
+    "architecture": "armhf",
+    "source": "numpy"
+  },
+  {
+    "package": "python3-opengl",
+    "version": "3.1.7+dfsg-1",
+    "architecture": "all",
+    "source": "pyopengl"
+  },
+  {
+    "package": "python3-pil",
+    "version": "10.2.0-1ubuntu1.3",
+    "architecture": "armhf",
+    "source": "pillow"
+  },
+  {
+    "package": "python3-pkg-resources",
+    "version": "68.1.2-2ubuntu1.2",
+    "architecture": "all",
+    "source": "setuptools"
+  },
+  {
+    "package": "python3-png",
+    "version": "0.20231004.0-2",
+    "architecture": "all",
+    "source": "pypng"
+  },
+  {
+    "package": "python3-pygame",
+    "version": "2.5.2-2",
+    "architecture": "armhf",
+    "source": "pygame"
+  },
+  {
+    "package": "python3-qrcode",
+    "version": "7.4.2-4",
+    "architecture": "all",
+    "source": "python-qrcode"
+  },
+  {
+    "package": "python3-typing-extensions",
+    "version": "4.10.0-1",
+    "architecture": "all",
+    "source": "python-typing-extensions"
+  },
+  {
+    "package": "python3-yaml",
+    "version": "6.0.1-2build2",
+    "architecture": "armhf",
+    "source": "pyyaml"
+  },
+  {
+    "package": "python3.12",
+    "version": "3.12.3-1ubuntu0.17",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "python3.12-minimal",
+    "version": "3.12.3-1ubuntu0.17",
+    "architecture": "armhf",
+    "source": "python3.12"
+  },
+  {
+    "package": "readline-common",
+    "version": "8.2-4build1",
+    "architecture": "all",
+    "source": "readline"
+  },
+  {
+    "package": "rfkill",
+    "version": "2.39.3-9ubuntu6.6",
+    "architecture": "armhf",
+    "source": "util-linux"
+  },
+  {
+    "package": "rmtfs",
+    "version": "1.0-3",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "samba-libs",
+    "version": "2:4.19.5+dfsg-4ubuntu9.8",
+    "architecture": "armhf",
+    "source": "samba"
+  },
+  {
+    "package": "sed",
+    "version": "4.9-2ubuntu0.24.04.1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "sensible-utils",
+    "version": "0.0.22",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "session-migration",
+    "version": "0.3.9build1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "sgml-base",
+    "version": "1.31",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "shared-mime-info",
+    "version": "2.4-4",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "sound-theme-freedesktop",
+    "version": "0.8-2ubuntu1",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "sudo",
+    "version": "1.9.15p5-3ubuntu5.24.04.4",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "systemd",
+    "version": "255.4-1ubuntu8.18",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "systemd-dev",
+    "version": "255.4-1ubuntu8.18",
+    "architecture": "all",
+    "source": "systemd"
+  },
+  {
+    "package": "systemd-resolved",
+    "version": "255.4-1ubuntu8.18",
+    "architecture": "armhf",
+    "source": "systemd"
+  },
+  {
+    "package": "systemd-sysv",
+    "version": "255.4-1ubuntu8.18",
+    "architecture": "armhf",
+    "source": "systemd"
+  },
+  {
+    "package": "systemd-timesyncd",
+    "version": "255.4-1ubuntu8.18",
+    "architecture": "armhf",
+    "source": "systemd"
+  },
+  {
+    "package": "sysvinit-utils",
+    "version": "3.08-6ubuntu3",
+    "architecture": "armhf",
+    "source": "sysvinit"
+  },
+  {
+    "package": "tar",
+    "version": "1.35+dfsg-3ubuntu0.4",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "tecla",
+    "version": "46.0-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "timgm6mb-soundfont",
+    "version": "1.3-5",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "tracker",
+    "version": "3.7.1-1build1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "tracker-extract",
+    "version": "3.7.1-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "tracker-miners"
+  },
+  {
+    "package": "tracker-miner-fs",
+    "version": "3.7.1-1ubuntu0.1",
+    "architecture": "armhf",
+    "source": "tracker-miners"
+  },
+  {
+    "package": "tzdata",
+    "version": "2026e-0ubuntu0.24.04.1",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "ubuntu-keyring",
+    "version": "2023.11.28.1",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "ubuntu-mono",
+    "version": "24.04-0ubuntu1",
+    "architecture": "all",
+    "source": "ubuntu-themes"
+  },
+  {
+    "package": "ucf",
+    "version": "3.0043+nmu1",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "udev",
+    "version": "255.4-1ubuntu8.18",
+    "architecture": "armhf",
+    "source": "systemd"
+  },
+  {
+    "package": "udisks2",
+    "version": "2.10.1-6ubuntu1.5",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "upower",
+    "version": "1.90.3-1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "usbutils",
+    "version": "1:017-3build1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "util-linux",
+    "version": "2.39.3-9ubuntu6.6",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "webp-pixbuf-loader",
+    "version": "0.2.4-2build2",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "wget",
+    "version": "1.21.4-1ubuntu4.5",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "whoopsie-preferences",
+    "version": "23build3",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "wireplumber",
+    "version": "0.4.17-1ubuntu4.1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "wpasupplicant",
+    "version": "2:2.10-21ubuntu0.4",
+    "architecture": "armhf",
+    "source": "wpa"
+  },
+  {
+    "package": "x11-common",
+    "version": "1:7.7+23ubuntu3",
+    "architecture": "all",
+    "source": "xorg"
+  },
+  {
+    "package": "x11-xkb-utils",
+    "version": "7.7+8build2",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "xdg-dbus-proxy",
+    "version": "0.1.5-1ubuntu0.2",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "xdg-desktop-portal",
+    "version": "1.18.4-1ubuntu2.24.04.3",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "xdg-desktop-portal-gnome",
+    "version": "46.2-0ubuntu1",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "xdg-desktop-portal-gtk",
+    "version": "1.15.1-1build2",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "xkb-data",
+    "version": "2.41-2ubuntu1.1",
+    "architecture": "all",
+    "source": "xkeyboard-config"
+  },
+  {
+    "package": "xml-core",
+    "version": "0.19",
+    "architecture": "all",
+    "source": ""
+  },
+  {
+    "package": "xserver-common",
+    "version": "2:21.1.12-1ubuntu1.8",
+    "architecture": "all",
+    "source": "xorg-server"
+  },
+  {
+    "package": "xwayland",
+    "version": "2:23.2.6-1ubuntu0.8",
+    "architecture": "armhf",
+    "source": ""
+  },
+  {
+    "package": "zlib1g",
+    "version": "1:1.3.dfsg-3.1ubuntu2.2",
+    "architecture": "armhf",
+    "source": "zlib"
+  },
+  {
+    "package": "zstd",
+    "version": "1.5.5+dfsg2-2build1.1",
+    "architecture": "armhf",
+    "source": "libzstd"
+  }
+]

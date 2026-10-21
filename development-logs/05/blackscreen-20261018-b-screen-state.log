@@ -1,0 +1,27 @@
+
+=== DSI-1 属性
+connector_id=33
+dpms=Off
+edid=
+enabled=disabled
+modes=1080x1920
+status=connected
+uevent=DEVTYPE=drm_connector
+=== 背光
+backlight brightness=2351 actual=2351 max=4095 bl_power=4
+=== gpu/调试 fs
+clients
+crtc-0
+devfreq
+disable_err_irq
+DSI-1
+encoder-0
+fb
+framebuffer
+gem
+gem_names
+gpu
+hangcheck_period_ms
+
+DONE_516687764e9a4cf4a11642a4a30efd53
+umeko@umeko-cancro:~$ 

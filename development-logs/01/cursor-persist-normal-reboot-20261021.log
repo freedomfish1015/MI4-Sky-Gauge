@@ -1,0 +1,37 @@
+
+60.85 157.70
+b6f34a7f-23e3-4f2a-a3be-6efe18c45eb9
+earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=0 vt.global_cursor_default=0
+{"pid": 457, "uptime": 19.53, "elapsed": 6.581}Result=success
+NRestarts=0
+Id=obd-gauge-kiosk.service
+ActiveState=active
+
+Result=success
+NRestarts=0
+Id=mi4-bms-fixed.service
+ActiveState=active
+
+Result=success
+NRestarts=0
+Id=mi4-motion.service
+ActiveState=active
+
+Result=success
+NRestarts=0
+Id=mi4-charge-mode.service
+ActiveState=active
+901
+0
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+10月 21 07:43:28 umeko-cancro python3[457]: FPS 47.7  paint=7.5ms upload=1.5ms present=15.8ms wait=3.6ms pipeline=1
+10月 21 07:43:30 umeko-cancro python3[457]: FPS 46.9  paint=8.7ms upload=1.8ms present=15.0ms wait=4.5ms pipeline=1
+10月 21 07:43:32 umeko-cancro python3[457]: FPS 49.4  paint=7.7ms upload=1.5ms present=15.0ms wait=3.7ms pipeline=1
+10月 21 07:43:34 umeko-cancro python3[457]: FPS 43.4  paint=9.9ms upload=2.1ms present=14.9ms wait=6.0ms pipeline=1
+
+umeko@umeko-cancro:~$ 

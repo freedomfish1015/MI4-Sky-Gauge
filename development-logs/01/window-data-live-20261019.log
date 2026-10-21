@@ -1,0 +1,16 @@
+
+NRestarts=0
+ActiveState=active
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+[ 4585.196286] umeko-cancro python3[1076]: BOOT_HANDOFF_TO_GAUGE same_window=0
+[ 4586.228503] umeko-cancro python3[1076]: BLE connected [BT-ADDRESS] profile=bmw-g-sim
+[ 4586.341807] umeko-cancro python3[1076]: Mouse cursor hidden (SDL cursor state=0)
+[ 4586.650176] umeko-cancro python3[1076]: Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+[ 4586.665414] umeko-cancro python3[1076]: KMS mode 1080x1920 @60Hz vsync=True
+
+umeko@umeko-cancro:~$ 

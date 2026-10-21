@@ -1,0 +1,43 @@
+
+ -7 6f33b11af4c1437a8728e7627ecb86d3 Tue 2026-10-20 01:52:24 CST Tue 2026-10-20 02:09:24 CST
+ -6 e2f9a31d82e04ab38b52a9a77e51d50e Tue 2026-10-20 03:50:12 CST Tue 2026-10-20 05:04:19 CST
+ -5 20c4a937d8aa40f6a5b320816bbff583 Tue 2026-10-20 07:28:05 CST Tue 2026-10-20 08:17:57 CST
+ -4 d80c0191379445e9a056b243b6b50dc8 Tue 2026-10-20 13:13:21 CST Tue 2026-10-20 13:33:03 CST
+ -3 9cad793ab28b4a8791d696c43d5a3fa3 Tue 2026-10-20 14:04:06 CST Tue 2026-10-20 15:20:50 CST
+ -2 e35af922371842f8b02967799457e15e Tue 2026-10-20 15:33:08 CST Tue 2026-10-20 15:51:09 CST
+ -1 fb2f2ce04ab14851b7c23bbc34a94033 Tue 2026-10-20 15:59:23 CST Tue 2026-10-20 16:25:35 CST
+  0 199d2ab64efd45bcbc096da99fc29209 Tue 2026-10-20 16:41:19 CST Tue 2026-10-20 16:45:47 CST
+IIO:/sys/bus/iio/devices/iio:device0
+fc4cf000.spmi:pm8941@0:adc@3100
+/sys/bus/iio/devices/iio:device0/in_temp8_label:DIE_TEMP
+/sys/bus/iio/devices/iio:device0/in_voltage10_label:REF_1250MV
+/sys/bus/iio/devices/iio:device0/in_voltage14_label:GND_REF
+/sys/bus/iio/devices/iio:device0/in_voltage15_label:VDD_VADC
+/sys/bus/iio/devices/iio:device0/in_voltage48_label:LR_MUX1_BAT_THERM
+/sys/bus/iio/devices/iio:device0/in_voltage6_label:VBAT_SNS
+/sys/bus/iio/devices/iio:device0/in_voltage9_label:REF_625MV
+/sys/bus/iio/devices/iio:device0/in_temp8_input:49495
+/sys/bus/iio/devices/iio:device0/in_voltage10_input:1249215
+/sys/bus/iio/devices/iio:device0/in_voltage14_input:0
+/sys/bus/iio/devices/iio:device0/in_voltage15_input:1792463
+/sys/bus/iio/devices/iio:device0/in_voltage9_input:623824
+IIO:/sys/bus/iio/devices/iio:device1
+fc4cf000.spmi:pm8941@0:adc@3600
+IIO:/sys/bus/iio/devices/iio:device2
+qcom-smgr-mag
+IIO:/sys/bus/iio/devices/iio:device3
+qcom-smgr-prox
+IIO:/sys/bus/iio/devices/iio:device4
+qcom-smgr-gyro
+IIO:/sys/bus/iio/devices/iio:device5
+qcom-smgr-accel
+IIO:/sys/bus/iio/devices/iio:device6
+qcom-smgr-pressure
+[    0.613999] qcom-smbb fc4cf000.spmi:pm8941@0:charger@1000: Initializing SMBB rev 3
+[   10.639169] input: pm8941_pwrkey as /devices/platform/soc/fc4cf000.spmi/spmi-0/0-00/fc4cf000.spmi:pm8941@0:pon@800/fc4cf000.spmi:pm8941@0:pon@800:pwrkey/input/input2
+[   11.339334] wcd9320 217:a0:1:0: ASoC component registered: wcd9320-codec, 1 DAI(s): wcd9320-slim-rx1
+[   11.399683] wcd9320 217:a0:1:0: fresh bring-up: 7 supplies enabled, reset released
+[   11.584964] wcd9320 217:a0:1:0: bring-up step  2/4: reg 0x080 (VE 0x0880) old=00 mask=ff want=00 -> read=00  delay=5000us  unverifiable  [bring_up: CDC_CTL = 0 (assert digital-core reset), 5 ms]
+[   11.901842] wcd9320 217:a0:0:0: interface function: no power or reset taken, waiting for enumeration
+
+umeko@umeko-cancro:~$ 

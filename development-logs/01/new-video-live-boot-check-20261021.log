@@ -1,0 +1,41 @@
+
+386.67 1270.87
+earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=0 vt.global_cursor_default=0
+de537ad8-aeef-427d-8ac5-ef962f663818
+MainPID=453
+NRestarts=0
+ExecMainStartTimestampMonotonic=11981824
+ExecStart={ path=/usr/bin/python3 ; argv[]=/usr/bin/python3 /usr/local/lib/obd-gauge/launch_gauge_direct.py --ble [BT-ADDRESS] ; ignore_errors=no ; start_time=[Wed 2026-10-21 08:25:44 CST] ; stop_time=[n/a] ; pid=453 ; code=(null) ; status=0/0 }
+Id=obd-gauge-kiosk.service
+
+MainPID=0
+NRestarts=0
+ExecMainStartTimestampMonotonic=5387584
+ExecStart={ path=/usr/local/lib/obd-gauge/sky_boot_curtain ; argv[]=/usr/local/lib/obd-gauge/sky_boot_curtain /usr/local/share/obd-gauge/sky-logo-1080.argb ; ignore_errors=no ; start_time=[Mon 2026-10-12 15:36:17 CST] ; stop_time=[Mon 2026-10-12 15:36:17 CST] ; pid=245 ; code=exited ; status=0 }
+Id=obd-boot-curtain.service
+0
+0
+901
+{"pid": 453, "uptime": 19.59, "elapsed": 7.055}Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+[   12.539848] umeko-cancro python3[453]: DIRECT_GAUGE_START uptime=12.53
+[   16.937134] umeko-cancro python3[453]: Mouse cursor hidden (SDL cursor state=0)
+[   17.308866] umeko-cancro python3[453]: Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+[   17.634196] umeko-cancro python3[453]: DIRECT_GAUGE_LOGO_PRESENTED uptime=17.63
+[   17.640181] umeko-cancro python3[453]: KMS mode 1080x1920 @60Hz vsync=True
+[   19.594124] umeko-cancro python3[453]: DIRECT_GAUGE_FIRST_FRAME {"pid": 453, "uptime": 19.59, "elapsed": 7.055}
+[   21.113774] umeko-cancro python3[453]: FPS 41.7  paint=6.8ms upload=0.3ms present=18.1ms wait=0.8ms pipeline=1
+[   23.118319] umeko-cancro python3[453]: FPS 58.4  paint=1.6ms upload=0.1ms present=16.7ms wait=0.3ms pipeline=1
+[   25.123086] umeko-cancro python3[453]: FPS 59.4  paint=1.2ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   27.127034] umeko-cancro python3[453]: FPS 59.4  paint=1.2ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   29.131679] umeko-cancro python3[453]: FPS 59.4  paint=1.1ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   31.136411] umeko-cancro python3[453]: FPS 59.4  paint=1.2ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+[   31.955187] umeko-cancro python3[453]: BLE error: BleakError('No Bluetooth adapters found.')
+[   33.141221] umeko-cancro python3[453]: FPS 57.4  paint=1.4ms upload=0.1ms present=17.3ms wait=0.1ms pipeline=1
+[   35.146082] umeko-cancro python3[453]: FPS 59.4  paint=1.2ms upload=0.0ms present=16.7ms wait=0.1ms pipeline=1
+
+umeko@umeko-cancro:~$ 

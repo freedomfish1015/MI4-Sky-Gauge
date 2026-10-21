@@ -1,0 +1,9 @@
+
+PRECHECK_OK exact OCV-fixed boot; lk2nd preserved
+
+AUDIO_KERNEL_UPDATE_VERIFIED_NO_REBOOT
+
+5715032761b50157ea495d5dfb3d71b2b6de300f00ce7681f48f154dd9f67653  /dev/disk/by-partlabel/boot
+
+
+umeko@umeko-cancro:~$ 

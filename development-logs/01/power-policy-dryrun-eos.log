@@ -1,0 +1,20 @@
+
+{"online": false, "phase": "shutdown", "remaining": 20, "message": ""}CABLE_STATE {"online": false, "phase": "countdown", "remaining": 6, "message": ""}
+
+CABLE_STATE {"online": false, "phase": "countdown", "remaining": 5, "message": ""}
+
+CABLE_STATE {"online": false, "phase": "countdown", "remaining": 4, "message": ""}
+
+CABLE_STATE {"online": false, "phase": "countdown", "remaining": 3, "message": ""}
+
+CABLE_STATE {"online": false, "phase": "countdown", "remaining": 2, "message": ""}
+
+CABLE_STATE {"online": false, "phase": "countdown", "remaining": 1, "message": ""}
+
+CABLE_STATE {"online": false, "phase": "shutdown", "remaining": 20, "message": ""}
+
+DRY_RUN_POWEROFF_NO_ACTION
+
+active
+{"online": false, "phase": "countdown", "remaining": 20, "message": ""}
+umeko@umeko-cancro:~$ 

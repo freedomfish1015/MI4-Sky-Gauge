@@ -1,0 +1,21 @@
+
+=== card0 sysfs ===
+总计 0
+drwxr-xr-x 3 root root    0 10月 18 17:28 controlC0
+lrwxrwxrwx 1 root root    0 10月 18 17:28 device -> ../../../sound
+-rw-r--r-- 1 root root 4096 10月 18 17:34 id
+-r--r--r-- 1 root root 4096 10月 18 17:28 number
+drwxr-xr-x 3 root root    0 10月 18 17:28 pcmC0D0p
+drwxr-xr-x 2 root root    0 10月 18 17:34 power
+lrwxrwxrwx 1 root root    0 10月 18 17:28 subsystem -> ../../../../../class/sound
+=== driver link ===
+/sys/bus/platform/drivers/wcd9320-lumia-q6
+=== modalias ===
+of:NsoundT(null)Cxiaomi,cancro-taiko-sndcard
+=== 平台设备目录名 ===
+/sys/bus/platform/devices/sound
+=== of_node ===
+/sys/firmware/devicetree/base/sound
+
+DONE_73a0bbd281d742538739eeb40730db5b
+umeko@umeko-cancro:~$ 

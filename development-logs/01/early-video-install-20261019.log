@@ -1,0 +1,18 @@
+
+/usr/local/lib/obd-gauge/boot_video.py: 成功
+/usr/local/lib/obd-gauge/launch_boot_video.py: 成功
+boot_video.early-candidate.py: 成功
+launch_boot_video.early-candidate.py: 成功
+libgstalsa.so: 成功
+Running timer as unit: obd-early-video-install-guard.timer
+
+
+Will run service as unit: obd-early-video-install-guard.service
+
+
+Created symlink /etc/systemd/system/timers.target.wants/obd-early-video-check.timer → /etc/systemd/system/obd-early-video-check.timer.
+
+
+EARLY_VIDEO_LIVE_TEST_STARTED
+
+umeko@umeko-cancro:~$ 

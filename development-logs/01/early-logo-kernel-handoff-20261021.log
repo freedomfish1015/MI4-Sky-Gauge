@@ -1,0 +1,102 @@
+
+[   14.226777] umeko-cancro kernel: dsi_err_worker: status=c
+[   14.267246] umeko-cancro kernel: dsi_err_worker: status=c
+[   19.086145] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   19.086390] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   19.624942] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   19.625187] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   20.197758] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   20.198010] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   20.911922] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   20.912166] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   21.545082] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   21.545328] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   22.134225] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   22.134472] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   22.791112] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   22.791353] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   23.380735] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   23.380989] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   24.020875] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   24.021133] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   24.627501] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   24.627752] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   25.368675] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   25.368920] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   26.109979] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   26.110230] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   26.766778] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   26.767028] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   27.508585] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   27.508827] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   28.216150] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   28.216397] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   28.889406] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   28.889651] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   29.595497] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   29.595752] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   30.371572] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   30.371824] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   31.060992] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   31.061249] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   31.871209] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   31.871451] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   32.530581] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   32.530832] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   33.299560] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   33.299831] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   33.976484] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   33.976742] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   34.718830] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   34.719084] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   35.384046] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   35.384301] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   35.998710] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   35.998961] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   36.606221] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   36.606473] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   37.279884] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   37.280136] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   37.927019] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   37.927267] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   38.501651] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   38.501898] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   39.140991] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   39.141239] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   39.739058] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   39.739307] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   40.346021] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   40.346263] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   40.991250] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   40.991495] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   41.592089] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   41.592333] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   42.215588] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+[   42.215840] umeko-cancro kernel: Exception stack(0xf0fadfb0 to 0xf0fadff8)
+[   42.805622] umeko-cancro kernel: CPU: 3 UID: 0 PID: 153 Comm: gpu-worker Tainted: G           O        6.15.11-mi4-audio1 #1 PREEMPT 
+grep: 写入错误: 断开的管道
+[   12.803619] umeko-cancro python3[341]: BMS_FIXED_READY DEVTYPE=power_supply
+
+[   12.803619] umeko-cancro python3[341]: POWER_SUPPLY_NAME=bms
+
+[   12.803619] umeko-cancro python3[341]: POWER_SUPPLY_TYPE=Battery
+
+[   12.803619] umeko-cancro python3[341]: POWER_SUPPLY_STATUS=Charging
+
+[   12.803619] umeko-cancro python3[341]: POWER_SUPPLY_VOLTAGE_NOW=4027701
+
+[   12.803619] umeko-cancro python3[341]: POWER_SUPPLY_VOLTAGE_OCV=4062645
+
+[   12.803619] umeko-cancro python3[341]: POWER_SUPPLY_CHARGE_COUNTER=787
+
+[   12.803619] umeko-cancro python3[341]: POWER_SUPPLY_CAPACITY=76
+
+[   12.803619] umeko-cancro python3[341]: POWER_SUPPLY_TYPE=Battery
+
+[   12.808550] umeko-cancro systemd[1]: Finished mi4-bms-fixed.service - Mi4 corrected BMS ADC conversion and capacity reporting.
+
+Before=shutdown.target multi-user.target
+After=sysinit.target -.mount systemd-journald.socket basic.target systemd-udev-trigger.service system.slice
+{"phase": "normal"}901
+
+umeko@umeko-cancro:~$ 

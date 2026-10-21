@@ -1,0 +1,10 @@
+
+RUNTIME_MASK_FIX_INSTALLED; charging mode remains normal
+
+ENTER_REPLY {'ok': True}
+CHARGING {"services": {"obd-gauge-kiosk.service": "inactive", "mi4-motion.service": "inactive", "mi4-elm-advertiser.service": "inactive", "bluetooth.service": "inactive"}, "brightness": 0, "usb_online": "1"}
+RESTORE_REPLY {'ok': True}
+RESTORED {"services": {"obd-gauge-kiosk.service": "active", "mi4-motion.service": "active", "mi4-elm-advertiser.service": "active", "bluetooth.service": "active"}, "brightness": 901}
+LIVE_ENTER_AND_USB_RESTORE_PASSED
+
+umeko@umeko-cancro:~$ 

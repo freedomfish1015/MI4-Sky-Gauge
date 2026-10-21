@@ -1,0 +1,6 @@
+
+文件系统         大小  已用  可用 已用% 挂载点
+/dev/mmcblk0p25   13G  3.2G  8.7G   27% /
+EXPORT_CHECK {'source': 'telemetry-20261021T030500812926Z-6a980646.jsonl', 'bytes': 112008, 'samples': 1250, 'rpm_samples': 314, 'speed_samples': 311, 'rpm_min': 526.25, 'rpm_max': 2182.0, 'source_unchanged': True}
+
+umeko@umeko-cancro:~$ 

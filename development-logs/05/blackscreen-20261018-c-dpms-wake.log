@@ -1,0 +1,22 @@
+
+=== BEFORE ===
+On
+0
+sh: 1: cannot create /sys/class/drm/card0-DSI-1/dpms: Permission denied
+
+=== AFTER ===
+On
+enabled
+0
+=== 新日志 ===
+10月 18 17:14:55 umeko-cancro kernel: Division by zero in kernel.
+10月 18 17:14:55 umeko-cancro kernel: Division by zero in kernel.
+10月 18 17:14:55 umeko-cancro kernel: Division by zero in kernel.
+10月 18 17:14:55 umeko-cancro kernel: Division by zero in kernel.
+10月 18 17:15:24 umeko-cancro kernel: Division by zero in kernel.
+10月 18 17:15:24 umeko-cancro kernel: Division by zero in kernel.
+10月 18 17:15:48 umeko-cancro kernel: Division by zero in kernel.
+10月 18 17:16:00 umeko-cancro kernel: Division by zero in kernel.
+
+DONE_d45e557eb92f4e90947460d3d0307ada
+umeko@umeko-cancro:~$ 

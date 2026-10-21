@@ -1,0 +1,13 @@
+
+{"online": false, "phase": "held", "remaining": 20, "message": ""}CABLE_STATE {"online": false, "phase": "countdown", "remaining": 3, "message": ""}
+
+CABLE_STATE {"online": false, "phase": "countdown", "remaining": 2, "message": ""}
+
+CABLE_STATE {"online": false, "phase": "countdown", "remaining": 1, "message": ""}
+
+CABLE_STATE {"online": false, "phase": "held", "remaining": 20, "message": ""}
+
+1
+0
+
+umeko@umeko-cancro:~$ 

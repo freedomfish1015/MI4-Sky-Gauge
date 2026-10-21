@@ -1,0 +1,23 @@
+Connecting...
+Detecting chip type... ESP32-C3
+Uploading stub...
+Running stub...
+Stub running...
+BACKUP 4096 / 8388608
+Hard resetting via RTS pin...
+Traceback (most recent call last):
+  File "[LOCAL-PATH]", line 14, in <module>
+    data = esp.read_flash(offset, 4096)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "[LOCAL-PATH]", line 1404, in read_flash
+    self.check_command(
+  File "[LOCAL-PATH]", line 558, in check_command
+    val, data = self.command(op, data, chk, timeout=timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "[LOCAL-PATH]", line 488, in command
+    p = self.read()
+        ^^^^^^^^^^^
+  File "[LOCAL-PATH]", line 421, in read
+    return next(self._slip_reader)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration

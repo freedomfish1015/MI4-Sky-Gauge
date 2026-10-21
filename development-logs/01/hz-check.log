@@ -1,0 +1,22 @@
+
+10月 18 20:27:21 umeko-cancro python3[1506]: KMS mode 1080x1920
+10月 18 20:29:17 umeko-cancro python3[1533]: KMS mode 1080x1920
+10月 18 20:30:30 umeko-cancro python3[1566]: KMS mode 1080x1920
+=== edid/panel ===
+connector_id
+device
+dpms
+edid
+enabled
+modes
+power
+status
+subsystem
+uevent
+=== modeinfo ===
+U:1080x1920p-0
+
+4352
+
+DONE_98708590d8ac4a299cc8b08a070b2606
+umeko@umeko-cancro:~$ 

@@ -1,20 +1,42 @@
-build/
-managed_components/
-sdkconfig.old
-sdkconfig
-.vscode/
-.qwen/
-.DS_Store
-**/.DS_Store
-main/SAX0AC BC CC.pdf
+# Build artifacts belong in Releases, never the source repository.
+/build/
+/dist/
+/release-assets/
+/inputs/
+app/compat/build-*/
 __pycache__/
 *.pyc
-# generated PID probe artifacts (from tools/analyze_proble.py)
-pid_can_summary.csv
-tools/probe_log
-tools/elm_pids
-tools/pids_full.csv
-.mimosa
-.zcode
-# per-developer AI preferences (see AGENTS.md self-update protocol)
-AGENTS.local.md
+*.pyo
+*.so
+*.o
+*.ko
+*.exe
+*.dll
+*.img
+*.dtb
+*.dtbo
+*.elf
+*.argb
+*.mi4sky
+*.tar
+*.tar.gz
+*.zip
+*.mp4
+*.avi
+.venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pk8
+.obd-sudo-pass
+*.private.*
+settings.json
+sky-peer.conf
+radio-restore.json
+logs/
+tracks/
+!development-logs/
+# Sanitized historical logs are intentional source artifacts.
+!development-logs/**

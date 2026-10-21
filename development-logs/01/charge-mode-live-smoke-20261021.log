@@ -1,0 +1,12 @@
+
+ENTER_REPLY {'ok': True}
+CHARGING {"services": {"obd-gauge-kiosk.service": "inactive", "mi4-motion.service": "inactive", "mi4-elm-advertiser.service": "inactive", "bluetooth.service": "active"}, "brightness": 0, "usb_online": "1"}
+RESTORE_REPLY {'ok': True}
+RESTORED {"services": {"obd-gauge-kiosk.service": "active", "mi4-motion.service": "active", "mi4-elm-advertiser.service": "active", "bluetooth.service": "active"}, "brightness": 901}
+Traceback (most recent call last):
+  File "/home/umeko/desktop-offline/smoke_charge_mode_device.py", line 35, in <module>
+    assert light==0 and not any(v=='active' for v in active.values())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+umeko@umeko-cancro:~$ 

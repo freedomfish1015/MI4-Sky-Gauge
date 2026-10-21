@@ -1,0 +1,574 @@
+
+10月 18 16:59:00 umeko-cancro kernel: [<c0101914>] (unwind_backtrace) from [<c011ad50>] (show_stack+0x18/0x1c)
+
+10月 18 16:59:00 umeko-cancro kernel: [<c011ad50>] (show_stack) from [<c010fabc>] (dump_stack_lvl+0x50/0x64)
+
+10月 18 16:59:00 umeko-cancro kernel: [<c010fabc>] (dump_stack_lvl) from [<c0c84a00>] (Ldiv0_64+0x8/0x18)
+
+10月 18 16:59:00 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:59:00 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:59:00 umeko-cancro kernel: [<c01602f4>] (kthread_worker_fn) from [<c015f3d4>] (kthread+0x130/0x26c)
+
+10月 18 16:59:00 umeko-cancro kernel: [<c015f3d4>] (kthread) from [<c010014c>] (ret_from_fork+0x14/0x28)
+
+10月 18 16:59:00 umeko-cancro kernel: Exception stack(0xf0fe1fb0 to 0xf0fe1ff8)
+
+10月 18 16:59:00 umeko-cancro kernel: 1fa0:                                     00000000 00000000 00000000 00000000
+
+10月 18 16:59:00 umeko-cancro kernel: 1fc0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+
+10月 18 16:59:00 umeko-cancro kernel: 1fe0: 00000000 00000000 00000000 00000000 00000013 00000000
+
+10月 18 16:59:21 umeko-cancro kernel: mi4_audio_overlay: loading out-of-tree module taints kernel.
+
+10月 18 16:59:21 umeko-cancro kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /sound/status
+
+10月 18 16:59:21 umeko-cancro kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /soc/slim-ngd@fe12f000/ngd@1/codec@1,0/clocks
+
+10月 18 16:59:21 umeko-cancro kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /soc/slim-ngd@fe12f000/ngd@1/codec@1,0/clock-names
+
+10月 18 16:59:21 umeko-cancro kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /soc/slim-ngd@fe12f000/ngd@1/codec@1,0/vdd-spkdrv-supply
+
+10月 18 16:59:21 umeko-cancro kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /__symbols__/mi4_mclk_off
+
+10月 18 16:59:21 umeko-cancro kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /__symbols__/mi4_mclk_on
+
+10月 18 16:59:21 umeko-cancro kernel: wcd9320-lumia-q6 sound: front end: MultiMedia1 Playback (id 0), trigger POST
+
+10月 18 16:59:21 umeko-cancro kernel: wcd9320-lumia-q6 sound: back end: SLIMBUS_0_RX (id 2)
+
+10月 18 16:59:21 umeko-cancro kernel: wcd9320-lumia-q6 sound: QDSP6 card registered: 2 link(s)
+
+10月 18 16:59:21 umeko-cancro kernel: lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: Lumia MCLK experiment ready: base 0x5b00, DIV_CTL1 00, divclk state present
+
+10月 18 16:59:21 umeko-cancro kernel: mi4-audio: applied mi4-audio-output-prepare.dtbo, overlay id 1
+
+10月 18 16:59:21 umeko-cancro kernel:  MultiMedia1 Playback: ASoC: no backend DAIs enabled for MultiMedia1 Playback, possibly missing ALSA mixer-based routing or UCM profile
+
+10月 18 16:59:49 umeko-cancro kernel: wcd9320 217:a0:0:0: removing (fresh path, power_owned=0)
+
+10月 18 16:59:49 umeko-cancro kernel: wcd9320 217:a0:1:0: removing (fresh path, power_owned=1)
+
+10月 18 16:59:49 umeko-cancro kernel: wcd9320 217:a0:1:0: released power: reset asserted, supplies off
+
+10月 18 16:59:49 umeko-cancro kernel: wcd9320 217:a0:1:0: CTL probe #1: sdev=7da04e1e dev=7da04e1e name=217:a0:1:0 laddr=0xcb laddr_valid=1 status=1
+
+10月 18 16:59:49 umeko-cancro kernel: wcd9320 217:a0:1:0: CTL probe #1: driver=f5885cff name=wcd9320 task=modprobe pid=1363 drvdata_before=00000000
+
+10月 18 16:59:49 umeko-cancro kernel: wcd9320 217:a0:1:0: No cache used with register defaults set!
+
+10月 18 16:59:49 umeko-cancro kernel: wcd9320 217:a0:1:0: ASoC component registered: wcd9320-codec, 1 DAI(s): wcd9320-slim-rx1
+
+10月 18 16:59:49 umeko-cancro kernel: wcd9320 217:a0:1:0: bus reports enumerated (laddr 0xcb); verifying before adopting
+
+10月 18 16:59:49 umeko-cancro kernel: qcom,slim-ngd-ctrl fe12f000.slim-ngd: Error Interrupt received 0x83000000
+
+10月 18 16:59:49 umeko-cancro kernel: qcom,slim-ngd qcom,slim-ngd.1: Tx:MT:0x0, MC:0x60, LA:0xcb failed:-110
+
+10月 18 16:59:49 umeko-cancro kernel: wcd9320 217:a0:1:0: identity read failed: -110
+
+10月 18 16:59:50 umeko-cancro kernel: qcom,slim-ngd-ctrl fe12f000.slim-ngd: Error Interrupt received 0x82000000
+
+10月 18 16:59:50 umeko-cancro kernel: qcom,slim-ngd qcom,slim-ngd.1: Tx:MT:0x0, MC:0x60, LA:0xcb failed:-110
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: identity read failed: -110
+
+10月 18 16:59:50 umeko-cancro kernel: qcom,slim-ngd-ctrl fe12f000.slim-ngd: Error Interrupt received 0x82000000
+
+10月 18 16:59:50 umeko-cancro kernel: qcom,slim-ngd qcom,slim-ngd.1: Tx:MT:0x0, MC:0x60, LA:0xcb failed:-110
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: identity read failed: -110
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: stale bus state: reported UP but unresponsive; falling back to fresh bring-up
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: fresh bring-up: 7 supplies enabled, reset released
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: id_major 0x0102 id_minor 0x0001 version 0x00 (raw 01 00 02 01 00)
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: irq snapshot: raw_level=0 mode=00 status=00 00 00 00 mask=ff ff 3f 3f level=01 00 00
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: masks written ff ff 3f 7f, read back ff ff 3f 7f
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: nested irq chip registered: 29 sources, all masked, domain on parent irq 92
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: parent irq 92 requested, kernel reports trigger type 0x4 (level high)
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: bounded sampling started: 45 samples over ~30 s, then stop
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: core init: 0/448 non-zero -- initialising
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: bring-up step  1/4: reg 0x088 (VE 0x0888) old=04 mask=ff want=04 -> read=04  delay=0us  unverifiable  [bring_up: LEAKAGE_CTL = 0x04]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: bring-up step  2/4: reg 0x080 (VE 0x0880) old=00 mask=ff want=00 -> read=00  delay=5000us  unverifiable  [bring_up: CDC_CTL = 0 (assert digital-core reset), 5 ms]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: bring-up step  3/4: reg 0x080 (VE 0x0880) old=00 mask=ff want=03 -> read=03  delay=0us  unverifiable  [bring_up: CDC_CTL = 3 (release digital core)]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: bring-up step  4/4: reg 0x088 (VE 0x0888) old=04 mask=ff want=03 -> read=03  delay=0us  unverifiable  [bring_up: LEAKAGE_CTL = 0x03]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: bring-up: all 4 steps applied cleanly
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: core init: after release, 94/448 non-zero
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  1/15: reg 0x101 (VE 0x0901) old=50 mask=80 want=80 -> read=d0  delay=0us  OK  [BG: slow mode on]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  2/15: reg 0x101 (VE 0x0901) old=d0 mask=04 want=04 -> read=d4  delay=0us  OK  [BG: precharge]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: sample 1/45: raw_level=0 status=00 00 00 00 pending=no irqs=0
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  3/15: reg 0x101 (VE 0x0901) old=d4 mask=01 want=01 -> read=d5  delay=1000us  OK  [BG: enable, then 1 ms settle]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  4/15: reg 0x101 (VE 0x0901) old=d5 mask=80 want=00 -> read=55  delay=0us  OK  [BG: slow mode off]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  5/15: reg 0x1fa (VE 0x09fa) old=46 mask=10 want=00 -> read=46  delay=0us  OK  [RC_OSC_FREQ: clear bit 4]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  6/15: reg 0x105 (VE 0x0905) old=16 mask=ff want=17 -> read=17  delay=5us  OK  [BIAS_OSC_BG_CTL = 0x17 (inherited magic: 'bandgap mode to fast')]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  7/15: reg 0x1fa (VE 0x09fa) old=46 mask=80 want=80 -> read=c6  delay=0us  OK  [RC_OSC_FREQ: enable the RC oscillator]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  8/15: reg 0x1fb (VE 0x09fb) old=0a mask=80 want=80 -> read=8a  delay=10us  OK  [RC_OSC_TEST: start pulse, rising]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  9/15: reg 0x1fb (VE 0x09fb) old=8a mask=80 want=00 -> read=0a  delay=10000us  OK  [RC_OSC_TEST: start pulse, falling, then 10 ms settle]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step 10/15: reg 0x108 (VE 0x0908) old=04 mask=08 want=08 -> read=0c  delay=0us  OK  [CLK_BUFF_EN1: select RCO as the buffer source]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step 11/15: reg 0x109 (VE 0x0909) old=02 mask=ff want=02 -> read=02  delay=1000us  OK  [CLK_BUFF_EN2 = 0x02]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step 12/15: reg 0x108 (VE 0x0908) old=0c mask=01 want=01 -> read=0d  delay=1200us  OK  [CLK_BUFF_EN1: enable clock buffer (hardware-required delay)]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step 13/15: reg 0x109 (VE 0x0909) old=02 mask=02 want=00 -> read=00  delay=0us  OK  [CLK_BUFF_EN2: clear bit 1]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step 14/15: reg 0x109 (VE 0x0909) old=00 mask=04 want=04 -> read=04  delay=0us  OK  [CLK_BUFF_EN2: clock on]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step 15/15: reg 0x311 (VE 0x0b11) old=00 mask=01 want=01 -> read=01  delay=50us  unverifiable  [CDC_CLK_MCLK_CTL: gate the clock into the CDC block (unverifiable)]
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake: all 15 steps applied cleanly
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: core verify: 95/448 non-zero (min 48), canary 0x320 = e4 (want e4)
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: core init: complete, core_ready (0 -> 94 -> 95 non-zero)
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: recovered after fresh bring-up
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: CTL probe #1: exit after 920 ms: laddr=0xcb laddr_valid=1 status=1 path=adopt -- slim_get_logical_addr() decides next
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:0:0: IFD probe #1: sdev=6b298b24 dev=6b298b24 name=217:a0:0:0 laddr=0xca laddr_valid=1 status=1
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:0:0: IFD probe #1: driver=f5885cff name=wcd9320 task=modprobe pid=1363
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:0:0: IFD probe #1: before: ifd_instance=00000000 drvdata=00000000 this_wcd=48fa7e21
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:0:0: interface function: no power or reset taken, waiting for enumeration
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:0:0: interface regmap: own config, max_register 0x1b0, uncached
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:0:0: IFD probe #1: after:  ifd_instance=48fa7e21 drvdata=48fa7e21 replaced=0
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:0:0: IFD probe #1: exit after 0 ms: laddr=0xca laddr_valid=1 status=1 path=ifd -- slim_get_logical_addr() decides next
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:0:0: interface function UP (#1), logical address 0xca
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:0:0: IFD probe #1: returning 0 (bound)
+
+10月 18 16:59:50 umeko-cancro kernel: lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: Lumia MCLK experiment ready: base 0x5b00, DIV_CTL1 00, divclk state present
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320-lumia-q6 sound: front end: MultiMedia1 Playback (id 0), trigger POST
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320-lumia-q6 sound: back end: SLIMBUS_0_RX (id 2)
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320-lumia-q6 sound: QDSP6 card registered: 2 link(s)
+
+10月 18 16:59:51 umeko-cancro kernel: lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: DIV_CTL1 measured 00 before any write
+
+10月 18 16:59:51 umeko-cancro kernel: lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: DIV_CTL1 = 02, factor 2 -> XO/2
+
+10月 18 16:59:51 umeko-cancro kernel: lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: gpio15 MODE_CTL = 25 (dir 2, function 2)
+
+10月 18 16:59:51 umeko-cancro kernel: lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: APPLIED
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: ASoC startup (dai wcd9320-slim-rx1) -> 0
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320-lumia-q6 sound: BE hw_params: cpu=SLIMBUS_0_RX codec=wcd9320-slim-rx1 rate=48000 ch=1 ch_map={144} (reported by the codec)
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: RX path invocation: ASoC hw_params (dai wcd9320-slim-rx1, rate 48000, ch 1, fmt 2)
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: rx-port 16: multi-channel 0x180 want 01 -> read 01
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: rx-port 16: config 0x040 want 05 -> read 05
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: rx-port 16: PROGRAMMED, 2 write(s) total
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: config port 16 (mask 0x10000) channel 144 rate 48000 bps 16
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO off step  1/3: reg 0x109 (VE 0x0909) old=04 mask=04 want=00 -> read=00  delay=50us  OK  [CLK_BUFF_EN2: clock off]
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO off step  2/3: reg 0x109 (VE 0x0909) old=00 mask=02 want=02 -> read=02  delay=0us  OK  [CLK_BUFF_EN2: set bit 1]
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO off step  3/3: reg 0x108 (VE 0x0908) old=0d mask=05 want=00 -> read=08  delay=50us  OK  [CLK_BUFF_EN1: disable buffer and source select]
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO off: all 3 steps applied cleanly
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 select MCLK step  1/1: reg 0x108 (VE 0x0908) old=08 mask=08 want=00 -> read=00  delay=0us  OK  [CLK_BUFF_EN1: stop selecting the RC oscillator]
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 select MCLK: all 1 steps applied cleanly
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO shutdown step  1/3: reg 0x109 (VE 0x0909) old=02 mask=ff want=02 -> read=02  delay=0us  OK  [CLK_BUFF_EN2 = 0x02 (a full write downstream, not a masked one)]
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO shutdown step  2/3: reg 0x105 (VE 0x0905) old=17 mask=01 want=00 -> read=16  delay=0us  OK  [BIAS_OSC_BG_CTL: clear bit 0]
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO shutdown step  3/3: reg 0x1fa (VE 0x09fa) old=c6 mask=80 want=00 -> read=46  delay=0us  OK  [RC_OSC_FREQ: RC oscillator OFF -- no warm fallback past this row]
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 RCO shutdown: all 3 steps applied cleanly
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 MCLK on step  1/5: reg 0x108 (VE 0x0908) old=00 mask=0c want=04 -> read=04  delay=0us  OK  [CLK_BUFF_EN1: source = external, reference = VBG]
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 MCLK on step  2/5: reg 0x108 (VE 0x0908) old=04 mask=01 want=01 -> read=05  delay=1200us  OK  [CLK_BUFF_EN1: enable clock buffer (hardware-required delay)]
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 MCLK on step  3/5: reg 0x109 (VE 0x0909) old=02 mask=02 want=00 -> read=00  delay=0us  OK  [CLK_BUFF_EN2: clear bit 1]
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 MCLK on step  4/5: reg 0x109 (VE 0x0909) old=00 mask=04 want=04 -> read=04  delay=0us  OK  [CLK_BUFF_EN2: clock on]
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 MCLK on step  5/5: reg 0x311 (VE 0x0b11) old=01 mask=01 want=01 -> read=01  delay=50us  unverifiable  [CDC_CLK_MCLK_CTL: gate the clock into the CDC block (unverifiable)]
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 MCLK on: all 5 steps applied cleanly
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 speaker: RX1->RX7, 100 percent / 0 dB digital gain, PA ON
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: ASoC trigger START (dai wcd9320-slim-rx1)
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: prepare -> 0 (CONNECT_SINK to the manager)
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: enable -> 0 (SLIM_USR_MC_DEF_ACT_CHAN)
+
+10月 18 16:59:51 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: UP port 16 channel 144
+
+10月 18 16:59:56 umeko-cancro kernel: wcd9320 217:a0:1:0: sample 21/45: raw_level=0 status=00 00 00 00 pending=no irqs=0
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: ASoC trigger STOP (dai wcd9320-slim-rx1)
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: disable -> 0 (no-op here: the NGD drops every reconfiguration message)
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: unprepare -> 0 (DISCONNECT_PORT -- the real teardown)
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: DOWN port 16
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: RX path invocation: ASoC hw_free (dai wcd9320-slim-rx1)
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: rx-port 16: config 0x040 want 00 -> read 00
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: rx-port 16: multi-channel 0x180 want 00 -> read 00
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: rx-port 16: TORN DOWN, 4 write(s) total
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: slim-stream: ASoC shutdown (dai wcd9320-slim-rx1)
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 clock off step  1/3: reg 0x109 (VE 0x0909) old=04 mask=04 want=00 -> read=00  delay=50us  OK  [CLK_BUFF_EN2: clock off]
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 clock off step  2/3: reg 0x109 (VE 0x0909) old=00 mask=02 want=02 -> read=02  delay=0us  OK  [CLK_BUFF_EN2: set bit 1]
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 clock off step  3/3: reg 0x108 (VE 0x0908) old=05 mask=05 want=00 -> read=00  delay=50us  OK  [CLK_BUFF_EN1: disable buffer and source select]
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 clock off: all 3 steps applied cleanly
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 restore RCO step  1/11: reg 0x1fa (VE 0x09fa) old=46 mask=10 want=00 -> read=46  delay=0us  OK  [RC_OSC_FREQ: clear bit 4]
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 restore RCO step  2/11: reg 0x105 (VE 0x0905) old=16 mask=ff want=17 -> read=17  delay=5us  OK  [BIAS_OSC_BG_CTL = 0x17 (inherited magic: 'bandgap mode to fast')]
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 restore RCO step  3/11: reg 0x1fa (VE 0x09fa) old=46 mask=80 want=80 -> read=c6  delay=0us  OK  [RC_OSC_FREQ: enable the RC oscillator]
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 restore RCO step  4/11: reg 0x1fb (VE 0x09fb) old=0a mask=80 want=80 -> read=8a  delay=10us  OK  [RC_OSC_TEST: start pulse, rising]
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 restore RCO step  5/11: reg 0x1fb (VE 0x09fb) old=8a mask=80 want=00 -> read=0a  delay=10000us  OK  [RC_OSC_TEST: start pulse, falling, then 10 ms settle]
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 restore RCO step  6/11: reg 0x108 (VE 0x0908) old=00 mask=08 want=08 -> read=08  delay=0us  OK  [CLK_BUFF_EN1: select RCO as the buffer source]
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 restore RCO step  7/11: reg 0x109 (VE 0x0909) old=02 mask=ff want=02 -> read=02  delay=1000us  OK  [CLK_BUFF_EN2 = 0x02]
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 restore RCO step  8/11: reg 0x108 (VE 0x0908) old=08 mask=01 want=01 -> read=09  delay=1200us  OK  [CLK_BUFF_EN1: enable clock buffer (hardware-required delay)]
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 restore RCO step  9/11: reg 0x109 (VE 0x0909) old=02 mask=02 want=00 -> read=00  delay=0us  OK  [CLK_BUFF_EN2: clear bit 1]
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 restore RCO step 10/11: reg 0x109 (VE 0x0909) old=00 mask=04 want=04 -> read=04  delay=0us  OK  [CLK_BUFF_EN2: clock on]
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 restore RCO step 11/11: reg 0x311 (VE 0x0b11) old=01 mask=01 want=01 -> read=01  delay=50us  unverifiable  [CDC_CLK_MCLK_CTL: gate the clock into the CDC block (unverifiable)]
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 restore RCO: all 11 steps applied cleanly
+
+10月 18 17:00:11 umeko-cancro kernel: wcd9320 217:a0:1:0: Mi4 speaker: PA, RX7, bias, MCLK and boost OFF
+
+10月 18 17:00:11 umeko-cancro kernel: lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: DIV_CTL1 restored to factor 0
+
+10月 18 17:00:11 umeko-cancro kernel: lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: mclk-div: RESTORED
+
+10月 18 17:00:12 umeko-cancro kernel: wcd9320 217:a0:0:0: removing (fresh path, power_owned=0)
+
+10月 18 17:00:12 umeko-cancro kernel: wcd9320 217:a0:1:0: removing (fresh path, power_owned=1)
+
+10月 18 17:00:12 umeko-cancro kernel: wcd9320 217:a0:1:0: released power: reset asserted, supplies off
+
+10月 18 17:00:12 umeko-cancro kernel: wcd9320 217:a0:1:0: CTL probe #1: sdev=7da04e1e dev=7da04e1e name=217:a0:1:0 laddr=0xcb laddr_valid=1 status=1
+
+10月 18 17:00:12 umeko-cancro kernel: wcd9320 217:a0:1:0: CTL probe #1: driver=f5885cff name=wcd9320 task=modprobe pid=1429 drvdata_before=00000000
+
+10月 18 17:00:12 umeko-cancro kernel: wcd9320 217:a0:1:0: No cache used with register defaults set!
+
+10月 18 17:00:12 umeko-cancro kernel: wcd9320 217:a0:1:0: ASoC component registered: wcd9320-codec, 1 DAI(s): wcd9320-slim-rx1
+
+10月 18 17:00:12 umeko-cancro kernel: wcd9320 217:a0:1:0: bus reports enumerated (laddr 0xcb); verifying before adopting
+
+10月 18 17:00:12 umeko-cancro kernel: qcom,slim-ngd-ctrl fe12f000.slim-ngd: Error Interrupt received 0x82000000
+
+10月 18 17:00:12 umeko-cancro kernel: qcom,slim-ngd qcom,slim-ngd.1: Tx:MT:0x0, MC:0x60, LA:0xcb failed:-110
+
+10月 18 17:00:12 umeko-cancro kernel: wcd9320 217:a0:1:0: identity read failed: -110
+
+10月 18 17:00:12 umeko-cancro kernel: qcom,slim-ngd-ctrl fe12f000.slim-ngd: Error Interrupt received 0x82000000
+
+10月 18 17:00:13 umeko-cancro kernel: qcom,slim-ngd qcom,slim-ngd.1: Tx:MT:0x0, MC:0x60, LA:0xcb failed:-110
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: identity read failed: -110
+
+10月 18 17:00:13 umeko-cancro kernel: qcom,slim-ngd-ctrl fe12f000.slim-ngd: Error Interrupt received 0x82000000
+
+10月 18 17:00:13 umeko-cancro kernel: qcom,slim-ngd qcom,slim-ngd.1: Tx:MT:0x0, MC:0x60, LA:0xcb failed:-110
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: identity read failed: -110
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: stale bus state: reported UP but unresponsive; falling back to fresh bring-up
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: fresh bring-up: 7 supplies enabled, reset released
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: id_major 0x0102 id_minor 0x0001 version 0x00 (raw 01 00 02 01 00)
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: irq snapshot: raw_level=0 mode=00 status=00 00 00 00 mask=ff ff 3f 3f level=01 00 00
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: masks written ff ff 3f 7f, read back ff ff 3f 7f
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: nested irq chip registered: 29 sources, all masked, domain on parent irq 92
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: parent irq 92 requested, kernel reports trigger type 0x4 (level high)
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: bounded sampling started: 45 samples over ~30 s, then stop
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: core init: 0/448 non-zero -- initialising
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: bring-up step  1/4: reg 0x088 (VE 0x0888) old=04 mask=ff want=04 -> read=04  delay=0us  unverifiable  [bring_up: LEAKAGE_CTL = 0x04]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: bring-up step  2/4: reg 0x080 (VE 0x0880) old=00 mask=ff want=00 -> read=00  delay=5000us  unverifiable  [bring_up: CDC_CTL = 0 (assert digital-core reset), 5 ms]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: bring-up step  3/4: reg 0x080 (VE 0x0880) old=00 mask=ff want=03 -> read=03  delay=0us  unverifiable  [bring_up: CDC_CTL = 3 (release digital core)]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: bring-up step  4/4: reg 0x088 (VE 0x0888) old=04 mask=ff want=03 -> read=03  delay=0us  unverifiable  [bring_up: LEAKAGE_CTL = 0x03]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: bring-up: all 4 steps applied cleanly
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: sample 1/45: raw_level=0 status=00 00 00 00 pending=no irqs=0
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: core init: after release, 94/448 non-zero
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  1/15: reg 0x101 (VE 0x0901) old=50 mask=80 want=80 -> read=d0  delay=0us  OK  [BG: slow mode on]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  2/15: reg 0x101 (VE 0x0901) old=d0 mask=04 want=04 -> read=d4  delay=0us  OK  [BG: precharge]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  3/15: reg 0x101 (VE 0x0901) old=d4 mask=01 want=01 -> read=d5  delay=1000us  OK  [BG: enable, then 1 ms settle]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  4/15: reg 0x101 (VE 0x0901) old=d5 mask=80 want=00 -> read=55  delay=0us  OK  [BG: slow mode off]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  5/15: reg 0x1fa (VE 0x09fa) old=46 mask=10 want=00 -> read=46  delay=0us  OK  [RC_OSC_FREQ: clear bit 4]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  6/15: reg 0x105 (VE 0x0905) old=16 mask=ff want=17 -> read=17  delay=5us  OK  [BIAS_OSC_BG_CTL = 0x17 (inherited magic: 'bandgap mode to fast')]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  7/15: reg 0x1fa (VE 0x09fa) old=46 mask=80 want=80 -> read=c6  delay=0us  OK  [RC_OSC_FREQ: enable the RC oscillator]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  8/15: reg 0x1fb (VE 0x09fb) old=0a mask=80 want=80 -> read=8a  delay=10us  OK  [RC_OSC_TEST: start pulse, rising]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step  9/15: reg 0x1fb (VE 0x09fb) old=8a mask=80 want=00 -> read=0a  delay=10000us  OK  [RC_OSC_TEST: start pulse, falling, then 10 ms settle]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step 10/15: reg 0x108 (VE 0x0908) old=04 mask=08 want=08 -> read=0c  delay=0us  OK  [CLK_BUFF_EN1: select RCO as the buffer source]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step 11/15: reg 0x109 (VE 0x0909) old=02 mask=ff want=02 -> read=02  delay=1000us  OK  [CLK_BUFF_EN2 = 0x02]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step 12/15: reg 0x108 (VE 0x0908) old=0c mask=01 want=01 -> read=0d  delay=1200us  OK  [CLK_BUFF_EN1: enable clock buffer (hardware-required delay)]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step 13/15: reg 0x109 (VE 0x0909) old=02 mask=02 want=00 -> read=00  delay=0us  OK  [CLK_BUFF_EN2: clear bit 1]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step 14/15: reg 0x109 (VE 0x0909) old=00 mask=04 want=04 -> read=04  delay=0us  OK  [CLK_BUFF_EN2: clock on]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake step 15/15: reg 0x311 (VE 0x0b11) old=00 mask=01 want=01 -> read=01  delay=50us  unverifiable  [CDC_CLK_MCLK_CTL: gate the clock into the CDC block (unverifiable)]
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: rco-wake: all 15 steps applied cleanly
+
+10月 18 17:00:14 umeko-cancro kernel: wcd9320 217:a0:1:0: core verify: 95/448 non-zero (min 48), canary 0x320 = e4 (want e4)
+
+10月 18 17:00:14 umeko-cancro kernel: wcd9320 217:a0:1:0: core init: complete, core_ready (0 -> 94 -> 95 non-zero)
+
+10月 18 17:00:14 umeko-cancro kernel: wcd9320 217:a0:1:0: recovered after fresh bring-up
+
+10月 18 17:00:14 umeko-cancro kernel: wcd9320 217:a0:1:0: CTL probe #1: exit after 1303 ms: laddr=0xcb laddr_valid=1 status=1 path=adopt -- slim_get_logical_addr() decides next
+
+10月 18 17:00:14 umeko-cancro kernel: wcd9320 217:a0:0:0: IFD probe #1: sdev=6b298b24 dev=6b298b24 name=217:a0:0:0 laddr=0xca laddr_valid=1 status=1
+
+10月 18 17:00:14 umeko-cancro kernel: wcd9320 217:a0:0:0: IFD probe #1: driver=f5885cff name=wcd9320 task=modprobe pid=1429
+
+10月 18 17:00:14 umeko-cancro kernel: wcd9320 217:a0:0:0: IFD probe #1: before: ifd_instance=00000000 drvdata=00000000 this_wcd=fe30c82a
+
+10月 18 17:00:14 umeko-cancro kernel: wcd9320 217:a0:0:0: interface function: no power or reset taken, waiting for enumeration
+
+10月 18 17:00:14 umeko-cancro kernel: wcd9320 217:a0:0:0: interface regmap: own config, max_register 0x1b0, uncached
+
+10月 18 17:00:14 umeko-cancro kernel: wcd9320 217:a0:0:0: IFD probe #1: after:  ifd_instance=fe30c82a drvdata=fe30c82a replaced=0
+
+10月 18 17:00:14 umeko-cancro kernel: wcd9320 217:a0:0:0: IFD probe #1: exit after 0 ms: laddr=0xca laddr_valid=1 status=1 path=ifd -- slim_get_logical_addr() decides next
+
+10月 18 17:00:14 umeko-cancro kernel: wcd9320 217:a0:0:0: interface function UP (#1), logical address 0xca
+
+10月 18 17:00:14 umeko-cancro kernel: wcd9320 217:a0:0:0: IFD probe #1: returning 0 (bound)
+
+10月 18 17:00:14 umeko-cancro kernel: lumia-mclk-experiment fc4cf000.spmi:pm8941@0:mi4-mclk-divider@5b00: Lumia MCLK experiment ready: base 0x5b00, DIV_CTL1 00, divclk state present
+
+10月 18 17:00:14 umeko-cancro kernel: wcd9320-lumia-q6 sound: front end: MultiMedia1 Playback (id 0), trigger POST
+
+10月 18 17:00:14 umeko-cancro kernel: wcd9320-lumia-q6 sound: back end: SLIMBUS_0_RX (id 2)
+
+10月 18 17:00:14 umeko-cancro kernel: wcd9320-lumia-q6 sound: QDSP6 card registered: 2 link(s)
+
+10月 18 17:00:19 umeko-cancro kernel: wcd9320 217:a0:1:0: sample 21/45: raw_level=0 status=00 00 00 00 pending=no irqs=0
+
+10月 18 17:00:44 umeko-cancro kernel: wcd9320 217:a0:1:0: sampling complete: 45 samples, pad high in 0, live source in 0, parent irqs 0 (spurious 0, acked 0)
+
+10月 18 17:02:51 umeko-cancro kernel: msm_mdp fd900100.display-controller: pp done time out, lm=0
+
+
+PREVIOUS_BOOT_WARNINGS
+10月 18 16:59:00 umeko-cancro kernel: Division by zero in kernel.
+
+10月 18 16:59:00 umeko-cancro kernel: CPU: 3 UID: 0 PID: 179 Comm: gpu-worker Not tainted 6.15.11-mi4-audio1 #1 PREEMPT 
+
+10月 18 16:59:00 umeko-cancro kernel: Hardware name: Generic DT based system
+
+10月 18 16:59:00 umeko-cancro kernel: Call trace: 
+
+10月 18 16:59:00 umeko-cancro kernel: [<c0101914>] (unwind_backtrace) from [<c011ad50>] (show_stack+0x18/0x1c)
+
+10月 18 16:59:00 umeko-cancro kernel: [<c011ad50>] (show_stack) from [<c010fabc>] (dump_stack_lvl+0x50/0x64)
+
+10月 18 16:59:00 umeko-cancro kernel: [<c010fabc>] (dump_stack_lvl) from [<c0c84a00>] (Ldiv0_64+0x8/0x18)
+
+10月 18 16:59:00 umeko-cancro kernel: [<c0c84a00>] (Ldiv0_64) from [<c071f38c>] (retire_submits+0x3ec/0x420)
+
+10月 18 16:59:00 umeko-cancro kernel: [<c071f38c>] (retire_submits) from [<c01602f4>] (kthread_worker_fn+0xec/0x328)
+
+10月 18 16:59:00 umeko-cancro kernel: [<c01602f4>] (kthread_worker_fn) from [<c015f3d4>] (kthread+0x130/0x26c)
+
+10月 18 16:59:00 umeko-cancro kernel: [<c015f3d4>] (kthread) from [<c010014c>] (ret_from_fork+0x14/0x28)
+
+10月 18 16:59:00 umeko-cancro kernel: Exception stack(0xf0fe1fb0 to 0xf0fe1ff8)
+
+10月 18 16:59:00 umeko-cancro kernel: 1fa0:                                     00000000 00000000 00000000 00000000
+
+10月 18 16:59:00 umeko-cancro kernel: 1fc0: 00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+
+10月 18 16:59:00 umeko-cancro kernel: 1fe0: 00000000 00000000 00000000 00000000 00000013 00000000
+
+10月 18 16:59:21 umeko-cancro kernel: mi4_audio_overlay: loading out-of-tree module taints kernel.
+
+10月 18 16:59:21 umeko-cancro kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /sound/status
+
+10月 18 16:59:21 umeko-cancro kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /soc/slim-ngd@fe12f000/ngd@1/codec@1,0/clocks
+
+10月 18 16:59:21 umeko-cancro kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /soc/slim-ngd@fe12f000/ngd@1/codec@1,0/clock-names
+
+10月 18 16:59:21 umeko-cancro kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /soc/slim-ngd@fe12f000/ngd@1/codec@1,0/vdd-spkdrv-supply
+
+10月 18 16:59:21 umeko-cancro kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /__symbols__/mi4_mclk_off
+
+10月 18 16:59:21 umeko-cancro kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /__symbols__/mi4_mclk_on
+
+10月 18 16:59:21 umeko-cancro (udev-worker)[1315]: controlC0: Process '/usr/sbin/alsactl -E HOME=/run/alsa -E XDG_RUNTIME_DIR=/run/alsa/runtime restore 0' failed with exit code 99.
+
+10月 18 16:59:21 umeko-cancro kernel:  MultiMedia1 Playback: ASoC: no backend DAIs enabled for MultiMedia1 Playback, possibly missing ALSA mixer-based routing or UCM profile
+
+10月 18 16:59:48 umeko-cancro gsd-media-keys[674]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+
+10月 18 16:59:49 umeko-cancro kernel: wcd9320 217:a0:1:0: No cache used with register defaults set!
+
+10月 18 16:59:49 umeko-cancro kernel: qcom,slim-ngd-ctrl fe12f000.slim-ngd: Error Interrupt received 0x83000000
+
+10月 18 16:59:49 umeko-cancro kernel: qcom,slim-ngd qcom,slim-ngd.1: Tx:MT:0x0, MC:0x60, LA:0xcb failed:-110
+
+10月 18 16:59:49 umeko-cancro kernel: wcd9320 217:a0:1:0: identity read failed: -110
+
+10月 18 16:59:50 umeko-cancro kernel: qcom,slim-ngd-ctrl fe12f000.slim-ngd: Error Interrupt received 0x82000000
+
+10月 18 16:59:50 umeko-cancro kernel: qcom,slim-ngd qcom,slim-ngd.1: Tx:MT:0x0, MC:0x60, LA:0xcb failed:-110
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: identity read failed: -110
+
+10月 18 16:59:50 umeko-cancro kernel: qcom,slim-ngd-ctrl fe12f000.slim-ngd: Error Interrupt received 0x82000000
+
+10月 18 16:59:50 umeko-cancro kernel: qcom,slim-ngd qcom,slim-ngd.1: Tx:MT:0x0, MC:0x60, LA:0xcb failed:-110
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: identity read failed: -110
+
+10月 18 16:59:50 umeko-cancro kernel: wcd9320 217:a0:1:0: stale bus state: reported UP but unresponsive; falling back to fresh bring-up
+
+10月 18 16:59:51 umeko-cancro (udev-worker)[1357]: controlC0: Process '/usr/sbin/alsactl -E HOME=/run/alsa -E XDG_RUNTIME_DIR=/run/alsa/runtime restore 0' failed with exit code 99.
+
+10月 18 17:00:12 umeko-cancro kernel: wcd9320 217:a0:1:0: No cache used with register defaults set!
+
+10月 18 17:00:12 umeko-cancro kernel: qcom,slim-ngd-ctrl fe12f000.slim-ngd: Error Interrupt received 0x82000000
+
+10月 18 17:00:12 umeko-cancro kernel: qcom,slim-ngd qcom,slim-ngd.1: Tx:MT:0x0, MC:0x60, LA:0xcb failed:-110
+
+10月 18 17:00:12 umeko-cancro kernel: wcd9320 217:a0:1:0: identity read failed: -110
+
+10月 18 17:00:12 umeko-cancro kernel: qcom,slim-ngd-ctrl fe12f000.slim-ngd: Error Interrupt received 0x82000000
+
+10月 18 17:00:13 umeko-cancro kernel: qcom,slim-ngd qcom,slim-ngd.1: Tx:MT:0x0, MC:0x60, LA:0xcb failed:-110
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: identity read failed: -110
+
+10月 18 17:00:13 umeko-cancro kernel: qcom,slim-ngd-ctrl fe12f000.slim-ngd: Error Interrupt received 0x82000000
+
+10月 18 17:00:13 umeko-cancro kernel: qcom,slim-ngd qcom,slim-ngd.1: Tx:MT:0x0, MC:0x60, LA:0xcb failed:-110
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: identity read failed: -110
+
+10月 18 17:00:13 umeko-cancro kernel: wcd9320 217:a0:1:0: stale bus state: reported UP but unresponsive; falling back to fresh bring-up
+
+10月 18 17:00:14 umeko-cancro (udev-worker)[1418]: controlC0: Process '/usr/sbin/alsactl -E HOME=/run/alsa -E XDG_RUNTIME_DIR=/run/alsa/runtime restore 0' failed with exit code 99.
+
+10月 18 17:01:53 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+10月 18 17:01:59 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+10月 18 17:02:51 umeko-cancro kernel: msm_mdp fd900100.display-controller: pp done time out, lm=0
+
+10月 18 17:03:05 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+10月 18 17:03:11 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+10月 18 17:03:17 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+10月 18 17:03:23 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+10月 18 17:03:35 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+10月 18 17:03:47 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+10月 18 17:05:11 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+10月 18 17:05:23 umeko-cancro nm-applet[973]: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+
+
+POWER_STATE
+[s2idle]
+freeze mem
+inactive
+inactive
+wcd9320               118784  0
+regmap_slimbus         12288  1 wcd9320
+slimbus                24576  3 wcd9320,slim_qcom_ngd_ctrl,regmap_slimbus
+
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,11 @@
+
+EARLY_LOGO_ROOTFS_ROLLBACK_OK (no partition writes)
+
+{"pid": 882, "uptime": 217.04, "elapsed": 4.007}MainPID=882
+NRestarts=0
+ActiveState=active
+2de324d0f3d3efd1f3a048de3ca25a2ea5b9caa982617a5b3f65df8aabb404ed  /etc/systemd/system/obd-gauge-kiosk.service
+6604420868ef3f3c7136a7f8650ecf0ce914605fe6b4311d3549b12833069a59  /etc/systemd/system/mi4-bms-fixed.service
+ee4deddac1e366ca705ad852f97e0ef86232d372d3f0558e01115acc5c7e9693  /usr/local/lib/obd-gauge/sky_boot_curtain
+
+umeko@umeko-cancro:~$ 

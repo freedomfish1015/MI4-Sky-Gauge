@@ -1,0 +1,24 @@
+
+=== sink 44 详情 ===
+    alsa.card = "0"
+    alsa.card_name = "Mi4-Taiko"
+    api.alsa.card.longname = "Mi4-Taiko"
+    api.alsa.card.name = "Mi4-Taiko"
+    api.alsa.open.ucm = "true"
+    api.alsa.path = "hw:Mi4Taiko,0"
+    api.alsa.pcm.card = "0"
+    api.alsa.pcm.stream = "playback"
+    audio.channels = "1"
+    audio.position = "MONO"
+  * device.id = "39"
+    factory.name = "api.alsa.pcm.sink"
+  * media.class = "Audio/Sink"
+  * node.name = "alsa_output.platform-sound.HiFi__hw_Mi4Taiko_0__sink"
+  * object.path = "alsa:pcm:0:hw:Mi4Taiko,0:playback"
+=== ALSA 设备支持的声道 ===
+closed
+=== 当前 hw_params (空闲) ===
+closed
+
+DONE_06eb42c0b1b44ba4aa68d53cb3f31c60
+umeko@umeko-cancro:~$ 

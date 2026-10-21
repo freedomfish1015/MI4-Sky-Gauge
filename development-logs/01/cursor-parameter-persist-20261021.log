@@ -1,0 +1,13 @@
+
+{"source_sha256": "edf91d38f7cd87b5a59480ac5b0f00acb79a71aaa5f16577047959e47e4b035d", "target_sha256": "724783b32b5b09dd53245ec42277df4ef3b85cd1da7560ced1c0caaa92da8d2b", "accepted_linux_sha256": "3eea09bc54d4a6851ea16368d5dc9919d84f38bfa0c947a5f01d3cc69b070dfa", "new_cmdline": "earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=0 vt.global_cursor_default=0", "write_offset": 524288, "write_bytes": 512, "partition_written": false}
+
+CURSOR_PERSIST_READ_ONLY_VALIDATION_OK
+
+{"source_sha256": "edf91d38f7cd87b5a59480ac5b0f00acb79a71aaa5f16577047959e47e4b035d", "target_sha256": "724783b32b5b09dd53245ec42277df4ef3b85cd1da7560ced1c0caaa92da8d2b", "accepted_linux_sha256": "3eea09bc54d4a6851ea16368d5dc9919d84f38bfa0c947a5f01d3cc69b070dfa", "new_cmdline": "earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=0 vt.global_cursor_default=0", "write_offset": 524288, "write_bytes": 512, "partition_written": false}
+
+BACKUP /home/umeko/desktop-offline/backups/cursor-persist-before-57giu9yt
+
+CURSOR_PARAMETER_PERSISTED_FULL_READBACK_OK {"source_sha256": "edf91d38f7cd87b5a59480ac5b0f00acb79a71aaa5f16577047959e47e4b035d", "target_sha256": "724783b32b5b09dd53245ec42277df4ef3b85cd1da7560ced1c0caaa92da8d2b", "accepted_linux_sha256": "3eea09bc54d4a6851ea16368d5dc9919d84f38bfa0c947a5f01d3cc69b070dfa", "new_cmdline": "earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=0 vt.global_cursor_default=0", "write_offset": 524288, "write_bytes": 512, "partition_written": true, "backup": "/home/umeko/desktop-offline/backups/cursor-persist-before-57giu9yt", "sector_verified": true}
+
+
+umeko@umeko-cancro:~$ 

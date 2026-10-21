@@ -1,0 +1,12 @@
+
+active
+总计 4
+-rw-r--r-- 1 root root 280 10月 18 23:11 50-obd-boot-video.conf
+{"status": "complete", "complete": true, "frames": 361, "last_pts": 12.0}active
+f235338150c5fd64a0a74b11a7e3490a1e981e574b568217befdbdf8869dd799  /home/umeko/desktop-offline/gauge_sdl.py
+10月 18 23:13:25 umeko-cancro systemd[1]: Started obd-boot-video-install-guard.service - /usr/local/sbin/rollback-obd-boot-video.
+
+10月 18 23:13:25 umeko-cancro systemctl[1338]: Removed "/etc/systemd/system/sysinit.target.wants/obd-boot-curtain.service".
+
+
+umeko@umeko-cancro:~$ 

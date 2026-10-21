@@ -1,0 +1,46 @@
+
+10月 18 23:11:25 umeko-cancro systemd[1]: Stopped obd-gauge-kiosk.service - OBD Gauge kiosk (KMSDRM, no compositor).
+
+10月 18 23:11:25 umeko-cancro systemd[1]: obd-gauge-kiosk.service: Consumed 3min 28.935s CPU time, 50.6M memory peak, 0B memory swap peak.
+
+10月 18 23:11:25 umeko-cancro systemd[1]: Started obd-gauge-kiosk.service - OBD Gauge kiosk (KMSDRM, no compositor).
+
+10月 18 23:11:27 umeko-cancro python3[1288]: Mouse cursor hidden (SDL cursor state=0)
+
+10月 18 23:11:27 umeko-cancro python3[1288]: Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+
+10月 18 23:11:28 umeko-cancro python3[1288]: BOOT_VIDEO_FIRST_FRAME startup=0.46s native=1080x1920 audio=1 volume=0.50 GPU=YUV strides=[1080, 540, 540]
+
+10月 18 23:11:49 umeko-cancro python3[1288]: BOOT_VIDEO_EOS_COMPLETE frames=361 elapsed=21.18s fps=17.0 last_pts=12.0 render=4.5ms
+
+10月 18 23:11:49 umeko-cancro python3[1288]: BOOT_HANDOFF_TO_GAUGE same_window=1
+
+10月 18 23:11:50 umeko-cancro python3[1288]: KMS mode 1080x1920 @60Hz vsync=True
+
+10月 18 23:11:50 umeko-cancro python3[1288]: BLE connected [BT-ADDRESS] profile=bmw-g-sim
+
+10月 18 23:11:53 umeko-cancro python3[1288]: FPS 17.2  paint=54.3ms upload=3.1ms present=2.4ms wait=52.5ms pipeline=1
+
+10月 18 23:11:55 umeko-cancro python3[1288]: FPS 41.7  paint=14.6ms upload=0.9ms present=11.9ms wait=11.2ms pipeline=1
+
+10月 18 23:11:57 umeko-cancro python3[1288]: FPS 58.7  paint=4.1ms upload=0.2ms present=15.5ms wait=1.4ms pipeline=1
+
+10月 18 23:11:59 umeko-cancro python3[1288]: FPS 56.2  paint=3.9ms upload=0.2ms present=16.1ms wait=1.5ms pipeline=1
+
+10月 18 23:12:01 umeko-cancro python3[1288]: FPS 53.3  paint=4.7ms upload=0.2ms present=16.5ms wait=2.1ms pipeline=1
+
+10月 18 23:12:03 umeko-cancro python3[1288]: FPS 55.2  paint=5.5ms upload=0.2ms present=15.7ms wait=2.2ms pipeline=1
+
+10月 18 23:12:05 umeko-cancro python3[1288]: FPS 56.7  paint=4.2ms upload=0.2ms present=15.7ms wait=1.8ms pipeline=1
+
+10月 18 23:12:07 umeko-cancro python3[1288]: FPS 56.3  paint=5.3ms upload=0.2ms present=15.2ms wait=2.4ms pipeline=1
+
+NRestarts=0
+ActiveState=active
+{"status": "complete", "complete": true, "frames": 361, "last_pts": 12.0}NEXT                    LEFT LAST PASSED UNIT                ACTIVATES          
+Sun 2026-10-18 23:… 1min 15s -         - obd-boot-video-ins… obd-boot-video-ins…
+
+1 timers listed.
+Pass --all to see loaded but inactive timers, too.
+
+umeko@umeko-cancro:~$ 

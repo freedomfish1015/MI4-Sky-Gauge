@@ -1,0 +1,24 @@
+
+ 17:24:15 up 11 min,  1 user,  load average: 1.63, 1.57, 0.98
+VBAT_EST_V 3.4663 raw 36487 refs 31079 37451 SOC 100
+VBAT_EST_V 3.4705 raw 36503 refs 31079 37453 SOC 100
+VBAT_EST_V 3.4706 raw 36506 refs 31081 37456 SOC 100
+VBAT_EST_V 3.4812 raw 36540 refs 31078 37454 SOC 100
+VBAT_EST_V 3.4908 raw 36574 refs 31081 37455 SOC 100
+VBAT_EST_V 3.4788 raw 36531 refs 31078 37453 SOC 100
+VBAT_EST_V 3.4742 raw 36517 refs 31079 37455 SOC 100
+VBAT_EST_V 3.4793 raw 36531 refs 31078 37451 SOC 100
+VBAT_EST_V 3.4839 raw 36552 refs 31080 37457 SOC 100
+VBAT_EST_V 3.4506 raw 36438 refs 31080 37456 SOC 100
+VBAT_EST_V 3.475 raw 36519 refs 31080 37454 SOC 100
+VBAT_EST_V 3.4793 raw 36534 refs 31081 37454 SOC 100
+qcom,ocv-lut-microvolt count 145 min 3000000 max 4305000
+qcom,fcc-lut-microamp-hours count 5 min 3230000 max 3410000
+USB 1
+Charging
+1
+earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=0
+lrwxrwxrwx 1 root root 15  1月  1  1970 /dev/disk/by-partlabel/aboot -> ../../mmcblk0p7
+lrwxrwxrwx 1 root root 16  1月  1  1970 /dev/disk/by-partlabel/boot -> ../../mmcblk0p19
+
+umeko@umeko-cancro:~$ 

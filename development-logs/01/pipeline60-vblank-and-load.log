@@ -1,0 +1,24 @@
+
+VBLANK samples=30 mean=16.866ms median=16.863ms measured_refresh=59.289Hz
+10月 18 21:37:42 umeko-cancro python3[2480]: FPS 55.3  paint=4.9ms upload=0.2ms present=15.7ms wait=2.2ms pipeline=1
+10月 18 21:37:44 umeko-cancro python3[2480]: FPS 54.3  paint=5.6ms upload=0.2ms present=15.6ms wait=2.6ms pipeline=1
+10月 18 21:37:46 umeko-cancro python3[2480]: FPS 51.8  paint=5.2ms upload=0.2ms present=16.5ms wait=2.6ms pipeline=1
+10月 18 21:37:48 umeko-cancro python3[2480]: FPS 57.2  paint=5.0ms upload=0.2ms present=15.0ms wait=2.2ms pipeline=1
+10月 18 21:37:50 umeko-cancro python3[2480]: FPS 58.3  paint=4.3ms upload=0.2ms present=15.2ms wait=1.7ms pipeline=1
+10月 18 21:37:52 umeko-cancro python3[2480]: FPS 59.3  paint=4.0ms upload=0.2ms present=15.4ms wait=1.3ms pipeline=1
+10月 18 21:37:54 umeko-cancro python3[2480]: FPS 58.8  paint=3.5ms upload=0.2ms present=15.6ms wait=1.2ms pipeline=1
+10月 18 21:37:56 umeko-cancro python3[2480]: FPS 59.3  paint=3.6ms upload=0.2ms present=15.5ms wait=1.2ms pipeline=1
+10月 18 21:37:58 umeko-cancro python3[2480]: FPS 57.8  paint=4.3ms upload=0.2ms present=15.1ms wait=2.0ms pipeline=1
+10月 18 21:38:00 umeko-cancro python3[2480]: FPS 58.3  paint=3.7ms upload=0.2ms present=15.5ms wait=1.5ms pipeline=1
+ 2480 umeko     20   0  428536 119572  69884 S  25.0   4.0   0:31.65 python3
+
+top - 21:38:05 up  1:35,  2 users,  load average: 1.68, 1.55, 1.44
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  7.6 us,  2.4 sy,  0.0 ni, 90.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   2898.0 total,   2253.9 free,    422.9 used,    320.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   2475.1 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 2480 umeko     20   0  428536 119572  69884 S  33.0   4.0   0:32.31 python3
+
+umeko@umeko-cancro:~$ 

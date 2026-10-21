@@ -1,0 +1,15 @@
+
+MainPID=2592
+NRestarts=0
+ActiveState=active
+10月 18 21:45:06 umeko-cancro python3[2480]: FPS 59.2  paint=3.8ms upload=0.1ms present=15.1ms wait=1.6ms pipeline=1
+10月 18 21:45:08 umeko-cancro python3[2480]: FPS 57.7  paint=5.0ms upload=0.2ms present=14.7ms wait=2.4ms pipeline=1
+10月 18 21:45:10 umeko-cancro python3[2480]: FPS 57.2  paint=5.5ms upload=0.2ms present=14.7ms wait=2.5ms pipeline=1
+10月 18 21:45:14 umeko-cancro python3[2592]: Mouse cursor hidden (SDL cursor state=0)
+10月 18 21:45:14 umeko-cancro python3[2592]: Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+10月 18 21:45:14 umeko-cancro python3[2592]: KMS mode 1080x1920 @60Hz vsync=True
+10月 18 21:45:15 umeko-cancro python3[2592]: BLE connected [BT-ADDRESS]
+10月 18 21:45:15 umeko-cancro python3[2592]: BLE first read rpm=910.25 coolant=90.0
+bc7f9139f1890350609dfc7067f6d6b18510564e0ec582c630547547dded00d1  gauge_sdl.py
+
+umeko@umeko-cancro:~$ 

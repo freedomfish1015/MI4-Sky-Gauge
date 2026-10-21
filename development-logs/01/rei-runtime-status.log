@@ -1,0 +1,20 @@
+
+MainPID=1612
+NRestarts=0
+ActiveState=active
+SubState=running
+{"status": "started"}FPS 57.7  paint=3.6ms upload=0.2ms present=16.0ms wait=1.1ms pipeline=1
+FPS 56.7  paint=4.4ms upload=0.2ms present=15.9ms wait=1.5ms pipeline=1
+FPS 53.8  paint=5.2ms upload=0.2ms present=16.1ms wait=2.3ms pipeline=1
+FPS 54.8  paint=5.2ms upload=0.2ms present=16.0ms wait=2.1ms pipeline=1
+FPS 53.2  paint=5.7ms upload=0.2ms present=16.0ms wait=2.6ms pipeline=1
+Mouse cursor hidden (SDL cursor state=0)
+Native texture 1080x1920 -> output 1080x1920 (1:1, no upscaling)
+BOOT_VIDEO_FIRST_FRAME startup=0.46s native=1080x1920 audio=1 volume=0.50 GPU=YUV strides=[1080, 540, 540]
+2e29826a25f403f70175028c7e38280396e3b56ff6f28df3de3f2f165f3ed488  /usr/local/lib/obd-gauge/boot_video.py
+26459997a32a572bff17841eed1b35d6747594c6b2ea6962e0d0cb4473a23067  /usr/local/lib/obd-gauge/launch_boot_video.py
+ed2b212b0309f473dc5d884adcf7c72370fac7d69df4f18f0ae37f2eab2df074  /usr/local/lib/obd-gauge/boot_curtain.py
+5715032761b50157ea495d5dfb3d71b2b6de300f00ce7681f48f154dd9f67653  /dev/mmcblk0p19
+
+
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,11 @@
+
+=== 运行服务 ===
+accounts-daemon.service bluetooth.service dbus.service ncm-serial.service NetworkManager.service obd-gauge-kiosk.service polkit.service serial-getty@ttyMSM0.service ssh.service systemd-journald.service systemd-logind.service systemd-resolved.service systemd-timesyncd.service systemd-udevd.service user@1000.service wpa_supplicant.service 
+=== 磁盘/内存 ===
+/dev/mmcblk0p25   13G  2.6G  9.3G   22% /
+               总计        已用        空闲        共享   缓冲/缓存        可用
+内存：          2898         408        2317           1         271        2489
+=== 卸载模拟 ===
+
+DONE_be88cc1bf18640d7906ba6640fe7a069
+umeko@umeko-cancro:~$ 

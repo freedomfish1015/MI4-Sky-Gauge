@@ -1,0 +1,15 @@
+
+=== 播放中的关键寄存器 ===
+supply_owned=0 clock_owned=0 supply_hw_enabled=0
+reg[0x1a2]=00 rc=0
+reg[0x1df]=6f rc=0
+reg[0x1e0]=3c rc=0
+reg[0x2e7]=f4 rc=0
+reg[0x30f]=00 rc=0
+reg[0x38e]=05 rc=0
+=== 播放进程 ===
+5472 pw-play /home/umeko/desktop-offline/mi4-long-test.wav
+=== 播放日志 ===
+
+DONE_6d2a196e620e4383894db78f0e02f525
+umeko@umeko-cancro:~$ 

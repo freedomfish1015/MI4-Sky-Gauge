@@ -1,0 +1,24 @@
+
+793.53 2515.96
+earlycon console=ttyMSM0,115200 console=tty0 clk_ignore_unused pd_ignore_unused regulator_ignore_unused irqpoll msm.vram=192m msm.allow_vram_carveout=1 no_console_suspend root=UUID=93afcbbe-875f-49b0-83da-ee8193f20ca5 rw rootwait quiet loglevel=0 vt.global_cursor_default=0
+{"pid": 1011, "uptime": 537.37, "elapsed": 4.01}Result=success
+ExecMainStartTimestampMonotonic=531830507
+ExecMainExitTimestampMonotonic=531942096
+ActiveState=active
+Hint: You are currently not seeing messages from other users and the system.
+
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+
+      Pass -q to turn off this notice.
+
+[   12.739456] umeko-cancro python3[450]: DIRECT_GAUGE_START uptime=12.73
+[   19.637386] umeko-cancro python3[450]: DIRECT_GAUGE_FIRST_FRAME {"pid": 450, "uptime": 19.63, "elapsed": 6.898}
+[  533.363244] umeko-cancro python3[1011]: DIRECT_GAUGE_START uptime=533.36
+[  535.595310] umeko-cancro python3[1011]: DIRECT_GAUGE_LOGO_PRESENTED uptime=535.59
+[  537.373536] umeko-cancro python3[1011]: DIRECT_GAUGE_FIRST_FRAME {"pid": 1011, "uptime": 537.37, "elapsed": 4.01}
+NRestarts=0
+ActiveState=active
+81
+4062303
+{"phase": "normal"}
+umeko@umeko-cancro:~$ 

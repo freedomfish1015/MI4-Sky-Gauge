@@ -1,0 +1,96 @@
+
+--- no soundcards ---
+/usr/bin/aplay
+/usr/bin/amixer
+[  849.547602] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL7(*) -> [MultiMedia7] -> PRIMARY_TDM_RX_0 Audio Mixer
+[  849.561764] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL8(*) -> [MultiMedia8] -> PRIMARY_TDM_RX_0 Audio Mixer
+[  849.575944] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL1(*) -> [MultiMedia1] -> PRIMARY_TDM_RX_1 Audio Mixer
+[  849.590052] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL2(*) -> [MultiMedia2] -> PRIMARY_TDM_RX_1 Audio Mixer
+[  849.604348] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL3(*) -> [MultiMedia3] -> PRIMARY_TDM_RX_1 Audio Mixer
+[  849.618361] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL4(*) -> [MultiMedia4] -> PRIMARY_TDM_RX_1 Audio Mixer
+[  849.632510] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL5(*) -> [MultiMedia5] -> PRIMARY_TDM_RX_1 Audio Mixer
+[  849.646650] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL6(*) -> [MultiMedia6] -> PRIMARY_TDM_RX_1 Audio Mixer
+[  849.660798] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL7(*) -> [MultiMedia7] -> PRIMARY_TDM_RX_1 Audio Mixer
+[  849.674945] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL8(*) -> [MultiMedia8] -> PRIMARY_TDM_RX_1 Audio Mixer
+[  849.689100] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL1(*) -> [MultiMedia1] -> PRIMARY_TDM_RX_2 Audio Mixer
+[  849.703248] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL2(*) -> [MultiMedia2] -> PRIMARY_TDM_RX_2 Audio Mixer
+[  849.717400] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL3(*) -> [MultiMedia3] -> PRIMARY_TDM_RX_2 Audio Mixer
+[  849.731544] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL4(*) -> [MultiMedia4] -> PRIMARY_TDM_RX_2 Audio Mixer
+[  849.745692] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL5(*) -> [MultiMedia5] -> PRIMARY_TDM_RX_2 Audio Mixer
+[  849.759857] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL6(*) -> [MultiMedia6] -> PRIMARY_TDM_RX_2 Audio Mixer
+[  849.773991] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL7(*) -> [MultiMedia7] -> PRIMARY_TDM_RX_2 Audio Mixer
+[  849.788140] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL8(*) -> [MultiMedia8] -> PRIMARY_TDM_RX_2 Audio Mixer
+[  849.802292] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL1(*) -> [MultiMedia1] -> PRIMARY_TDM_RX_3 Audio Mixer
+[  849.816441] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL2(*) -> [MultiMedia2] -> PRIMARY_TDM_RX_3 Audio Mixer
+[  849.830592] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL3(*) -> [MultiMedia3] -> PRIMARY_TDM_RX_3 Audio Mixer
+[  849.844832] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL4(*) -> [MultiMedia4] -> PRIMARY_TDM_RX_3 Audio Mixer
+[  849.858897] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL5(*) -> [MultiMedia5] -> PRIMARY_TDM_RX_3 Audio Mixer
+[  849.873051] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL6(*) -> [MultiMedia6] -> PRIMARY_TDM_RX_3 Audio Mixer
+[  849.887185] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL7(*) -> [MultiMedia7] -> PRIMARY_TDM_RX_3 Audio Mixer
+[  849.901333] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL8(*) -> [MultiMedia8] -> PRIMARY_TDM_RX_3 Audio Mixer
+[  849.915489] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL1(*) -> [MultiMedia1] -> PRIMARY_TDM_RX_4 Audio Mixer
+[  849.929719] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL2(*) -> [MultiMedia2] -> PRIMARY_TDM_RX_4 Audio Mixer
+[  849.943800] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL3(*) -> [MultiMedia3] -> PRIMARY_TDM_RX_4 Audio Mixer
+[  849.957931] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL4(*) -> [MultiMedia4] -> PRIMARY_TDM_RX_4 Audio Mixer
+[  849.972080] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL5(*) -> [MultiMedia5] -> PRIMARY_TDM_RX_4 Audio Mixer
+[  849.986233] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL6(*) -> [MultiMedia6] -> PRIMARY_TDM_RX_4 Audio Mixer
+[  850.000387] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL7(*) -> [MultiMedia7] -> PRIMARY_TDM_RX_4 Audio Mixer
+[  850.014631] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL8(*) -> [MultiMedia8] -> PRIMARY_TDM_RX_4 Audio Mixer
+[  850.028778] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL1(*) -> [MultiMedia1] -> PRIMARY_TDM_RX_5 Audio Mixer
+[  850.042844] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL2(*) -> [MultiMedia2] -> PRIMARY_TDM_RX_5 Audio Mixer
+[  850.056991] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL3(*) -> [MultiMedia3] -> PRIMARY_TDM_RX_5 Audio Mixer
+[  850.071165] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL4(*) -> [MultiMedia4] -> PRIMARY_TDM_RX_5 Audio Mixer
+[  850.085431] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL5(*) -> [MultiMedia5] -> PRIMARY_TDM_RX_5 Audio Mixer
+[  850.099556] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL6(*) -> [MultiMedia6] -> PRIMARY_TDM_RX_5 Audio Mixer
+[  850.113634] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL7(*) -> [MultiMedia7] -> PRIMARY_TDM_RX_5 Audio Mixer
+[  850.127795] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL8(*) -> [MultiMedia8] -> PRIMARY_TDM_RX_5 Audio Mixer
+[  850.141922] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL1(*) -> [MultiMedia1] -> PRIMARY_TDM_RX_6 Audio Mixer
+[  850.156039] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL2(*) -> [MultiMedia2] -> PRIMARY_TDM_RX_6 Audio Mixer
+[  850.170259] q6routing fe200000.remoteproc:smd-edge:apr:service@8:routing: ASoC: Failed to add route MM_DL3(*) -> [MultiMedia3] -> PRIMARY_TDM_RX_6 Audio Mixer
+bringup
+cache_check
+cdc_clk_prereq
+chip_ctl_test
+clk_source_state
+clk_source_test
+clsh_state
+clsh_test
+comp1_test
+core_reinit
+driver
+forced_log
+hphl_dac_state
+hphl_dac_test
+hphl_pa_state
+hphl_pa_test
+hph_status_state
+hph_status_test
+identity
+irq_live
+irq_observe
+low_after
+low_after_bringup
+low_before
+mbhc_detect
+mbhc_probe
+mbhc_test
+mclk_state
+mclk_test
+of_node
+power
+rco_wake
+rdac_probe
+rx1_digital_state
+rx1_digital_test
+rx_port_state
+rx_port_test
+sentinel_after
+sentinel_after_bringup
+sentinel_before
+sentinel_teardown
+slim_stream_state
+slim_stream_test
+slim_transport
+subsystem
+
+umeko@umeko-cancro:~$ 

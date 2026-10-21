@@ -1,0 +1,35 @@
+
+DAEMON_UNDER_TEST /usr/local/lib/obd-motion/mi4_motiond.py
+test_both_bars_are_bottom_to_top_on_opposite_sides (test_mi4_motion.MotionTests.test_both_bars_are_bottom_to_top_on_opposite_sides) ... ok
+test_control_merge_preserves_recording_when_zeroing (test_mi4_motion.MotionTests.test_control_merge_preserves_recording_when_zeroing) ... ok
+test_display_range_is_two_point_two_without_changing_raw_peaks (test_mi4_motion.MotionTests.test_display_range_is_two_point_two_without_changing_raw_peaks) ... ok
+test_envelope_includes_diagonal_extrema_not_just_axis_peaks (test_mi4_motion.MotionTests.test_envelope_includes_diagonal_extrema_not_just_axis_peaks) ... ok
+test_four_directional_peaks_keep_extrema_until_reset (test_mi4_motion.MotionTests.test_four_directional_peaks_keep_extrema_until_reset) ... ok
+test_g_meter_incremental_pixels_match_static_telemetry (test_mi4_motion.MotionTests.test_g_meter_incremental_pixels_match_static_telemetry) ... ok
+test_raw_acceleration_uses_first_sample_and_keeps_gravity (test_mi4_motion.MotionTests.test_raw_acceleration_uses_first_sample_and_keeps_gravity) ... ok
+test_raw_visual_output_has_no_calibration_or_interpolation (test_mi4_motion.MotionTests.test_raw_visual_output_has_no_calibration_or_interpolation) ... ok
+test_stale_state_never_becomes_a_live_reading (test_mi4_motion.MotionTests.test_stale_state_never_becomes_a_live_reading) ... ok
+test_track_rejects_no_fix_and_duplicate_points_and_writes_valid_gpx (test_mi4_motion.MotionTests.test_track_rejects_no_fix_and_duplicate_points_and_writes_valid_gpx) ... ok
+test_trail_expires_after_five_seconds (test_mi4_motion.MotionTests.test_trail_expires_after_five_seconds) ... ok
+test_visual_smoothing_approaches_target_without_changing_peak_data (test_mi4_motion.MotionTests.test_visual_smoothing_approaches_target_without_changing_peak_data) ... ok
+test_freeze_is_independent_of_recording_and_history (test_gauge_telemetry.TelemetryTests.test_freeze_is_independent_of_recording_and_history) ... ok
+test_legacy_sky_migrates_only_saved_direct (test_gauge_telemetry.TelemetryTests.test_legacy_sky_migrates_only_saved_direct) ... ok
+test_native_page_draw_and_full_gauge_restore (test_gauge_telemetry.TelemetryTests.test_native_page_draw_and_full_gauge_restore) ... ok
+test_raw_acceleration_logged_without_calibration (test_gauge_telemetry.TelemetryTests.test_raw_acceleration_logged_without_calibration) ... ok
+test_raw_missing_throttle_g_and_strict_json (test_gauge_telemetry.TelemetryTests.test_raw_missing_throttle_g_and_strict_json) ... ok
+test_rotation_does_not_touch_other_files (test_gauge_telemetry.TelemetryTests.test_rotation_does_not_touch_other_files) ... ok
+test_storage_error_is_reported (test_gauge_telemetry.TelemetryTests.test_storage_error_is_reported) ... ok
+test_track_channels_keep_unavailable_pedals_unknown (test_gauge_telemetry.TelemetryTests.test_track_channels_keep_unavailable_pedals_unknown) ... ok
+test_vertical_navigation_and_buttons_do_not_toggle_settings (test_gauge_telemetry.TelemetryTests.test_vertical_navigation_and_buttons_do_not_toggle_settings) ... ok
+test_each_trip_separate_and_no_fix_has_no_coordinates (test_trip_recording.TripTests.test_each_trip_separate_and_no_fix_has_no_coordinates) ... ok
+test_log_stop_button_stops_gps_when_linked (test_trip_recording.TripTests.test_log_stop_button_stops_gps_when_linked) ... ok
+test_resume_existing_trip_after_app_restart (test_trip_recording.TripTests.test_resume_existing_trip_after_app_restart) ... ok
+test_settings_gps_button_and_route_button_share_daemon (test_trip_recording.TripTests.test_settings_gps_button_and_route_button_share_daemon) ... ok
+test_trip_rotates_independent_log_and_stops_both (test_trip_recording.TripTests.test_trip_rotates_independent_log_and_stops_both) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 13.187s
+
+OK
+
+umeko@umeko-cancro:~$ 

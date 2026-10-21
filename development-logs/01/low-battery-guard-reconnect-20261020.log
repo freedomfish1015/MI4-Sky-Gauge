@@ -1,0 +1,39 @@
+
+ 20:47:34 up 28 min,  1 user,  load average: 1.90, 1.68, 1.48
+DEVTYPE=power_supply
+POWER_SUPPLY_NAME=bms
+POWER_SUPPLY_TYPE=Battery
+POWER_SUPPLY_STATUS=Charging
+POWER_SUPPLY_VOLTAGE_NOW=3809145
+POWER_SUPPLY_VOLTAGE_OCV=3882750
+POWER_SUPPLY_CHARGE_COUNTER=49311
+POWER_SUPPLY_CAPACITY=55
+POWER_SUPPLY_TYPE=Battery
+总计 0
+lrwxrwxrwx 1 root root 15  1月  1  1970 aboot -> ../../mmcblk0p7
+lrwxrwxrwx 1 root root 15  1月  1  1970 bk1 -> ../../mmcblk0p8
+lrwxrwxrwx 1 root root 16  1月  1  1970 bk2 -> ../../mmcblk0p11
+lrwxrwxrwx 1 root root 16  1月  1  1970 bk3 -> ../../mmcblk0p15
+lrwxrwxrwx 1 root root 16  1月  1  1970 bk4 -> ../../mmcblk0p17
+lrwxrwxrwx 1 root root 16  1月  1  1970 bk5 -> ../../mmcblk0p18
+lrwxrwxrwx 1 root root 16  1月  1  1970 boot -> ../../mmcblk0p19
+lrwxrwxrwx 1 root root 16  1月  1  1970 cache -> ../../mmcblk0p24
+lrwxrwxrwx 1 root root 15  1月  1  1970 dbi -> ../../mmcblk0p6
+lrwxrwxrwx 1 root root 15  1月  1  1970 DDR -> ../../mmcblk0p4
+lrwxrwxrwx 1 root root 16  1月  1  1970 fsc -> ../../mmcblk0p14
+lrwxrwxrwx 1 root root 16  1月  1  1970 fsg -> ../../mmcblk0p16
+lrwxrwxrwx 1 root root 16  1月  1  1970 logo -> ../../mmcblk0p10
+lrwxrwxrwx 1 root root 15  1月  1  1970 misc -> ../../mmcblk0p9
+lrwxrwxrwx 1 root root 16  1月  1  1970 modem -> ../../mmcblk0p22
+lrwxrwxrwx 1 root root 16  1月  1  1970 modemst1 -> ../../mmcblk0p12
+lrwxrwxrwx 1 root root 16  1月  1  1970 modemst2 -> ../../mmcblk0p13
+lrwxrwxrwx 1 root root 16  1月  1  1970 persist -> ../../mmcblk0p21
+lrwxrwxrwx 1 root root 16  1月  1  1970 recovery -> ../../mmcblk0p20
+lrwxrwxrwx 1 root root 15  1月  1  1970 rpm -> ../../mmcblk0p2
+lrwxrwxrwx 1 root root 15  1月  1  1970 sbl1 -> ../../mmcblk0p1
+lrwxrwxrwx 1 root root 15  1月  1  1970 ssd -> ../../mmcblk0p5
+lrwxrwxrwx 1 root root 16  1月  1  1970 system -> ../../mmcblk0p23
+lrwxrwxrwx 1 root root 15  1月  1  1970 tz -> ../../mmcblk0p3
+active
+
+umeko@umeko-cancro:~$ 

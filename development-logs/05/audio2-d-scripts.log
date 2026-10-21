@@ -1,0 +1,84 @@
+
+=== replace_mi4_codec.sh ===
+#!/bin/bash
+set -euo pipefail
+audio_module=${1:?module basename required}
+audio_test_mode=${2:-low}
+[[ "$audio_module" =~ ^wcd9320-mi4-spk-rc[0-9]+\.ko$ ]] || exit 2
+case "$audio_test_mode" in
+    low) audio_module_options=() ;;
+    max) audio_module_options=(mi4_speaker_test_max=1) ;;
+    *) exit 2 ;;
+esac
+test "$(uname -r)" = '6.15.11-mi4-audio1'
+sudo -n true
+audio_wp_was_active=$(systemctl --user is-active wireplumber || true)
+restore_audio_session() {
+    if [ "$audio_wp_was_active" = active ]; then
+        systemctl --user start wireplumber
+    fi
+}
+trap restore_audio_session EXIT
+systemctl --user stop wireplumber
+amixer -c 0 cset name='Mi4 Speaker Gate Switch' 0 >/dev/null
+amixer -c 0 cset name='SLIMBUS_0_RX Audio Mixer MultiMedia1' 0 >/dev/null
+for audio_clock in /sys/bus/platform/devices/*mi4-mclk-divider*; do
+    if grep -q 'applied=1' "$audio_clock/mclk_div_state"; then
+        echo off | sudo -n tee "$audio_clock/mclk_div_test" >/dev/null
+    fi
+done
+sudo -n modprobe -r snd_soc_lumia1520_q6
+sudo -n modprobe -r wcd9320
+sudo -n install -m 0644 "/home/umeko/desktop-offline/$audio_module" /lib/modules/6.15.11-mi4-audio1/kernel/drivers/slimbus/wcd9320.ko
+sudo -n modprobe wcd9320 "${audio_module_options[@]}"
+sudo -n modprobe snd_soc_lumia1520_q6
+cat /proc/asound/cards
+cat /sys/module/wcd9320/version
+cat /sys/bus/slimbus/devices/217:a0:1:0/mi4_speaker_state
+=== test_mi4_speaker.sh ===
+#!/bin/bash
+set -euo pipefail
+audio_wav=${1:-mi4-quiet-test.wav}
+case "$audio_wav" in
+    mi4-quiet-test.wav) audio_timeout=9 ;;
+    mi4-long-test.wav) audio_timeout=25 ;;
+    *) exit 2 ;;
+esac
+audio_play_pid=''
+cleanup_audio_test() {
+    set +e
+    if [ -n "$audio_play_pid" ] && kill -0 "$audio_play_pid" 2>/dev/null; then
+        kill -TERM "$audio_play_pid"
+        wait "$audio_play_pid"
+    fi
+    amixer -c 0 cset name='Mi4 Speaker Gate Switch' 0 >/dev/null
+    amixer -c 0 cset name='SLIMBUS_0_RX Audio Mixer MultiMedia1' 0 >/dev/null
+    for audio_clock in /sys/bus/platform/devices/*mi4-mclk-divider*; do
+        if grep -q 'applied=1' "$audio_clock/mclk_div_state"; then
+            echo off | sudo -n tee "$audio_clock/mclk_div_test" >/dev/null
+        fi
+    done
+    echo AUDIO_TEST_CLEANUP_DONE
+}
+trap cleanup_audio_test EXIT
+for audio_clock in /sys/bus/platform/devices/*mi4-mclk-divider*; do
+    echo on | sudo -n tee "$audio_clock/mclk_div_test" >/dev/null
+    cat "$audio_clock/mclk_div_state"
+done
+amixer -c 0 cset name='SLIMBUS_0_RX Audio Mixer MultiMedia1' 1 >/dev/null
+amixer -c 0 cset name='Mi4 Speaker Gate Switch' 1 >/dev/null
+timeout "$audio_timeout" aplay -D hw:0,0 "/home/umeko/desktop-offline/$audio_wav" &
+audio_play_pid=$!
+sleep 0.35
+if [ -f /sys/bus/slimbus/devices/217:a0:1:0/mi4_speaker_state ]; then
+    cat /sys/bus/slimbus/devices/217:a0:1:0/mi4_speaker_state
+fi
+for audio_clock in /sys/bus/platform/devices/*mi4-mclk-divider*; do
+    cat "$audio_clock/mclk_div_state"
+done
+wait "$audio_play_pid"
+audio_play_pid=''
+echo LOW_VOLUME_PCM_COMPLETED
+
+DONE_c4eee59a1fc5443386d504ae87f3cfd7
+umeko@umeko-cancro:~$ 

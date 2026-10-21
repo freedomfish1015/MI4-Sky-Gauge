@@ -1,0 +1,42 @@
+
+
+GPU_BUSY_SAMPLES
+%BUSY	ALUACTIVE	ALUFULL
+
+ 11.1%	   18.11	  116.28
+
+ 12.4%	   18.11	  116.28
+
+ 11.4%	   18.41	  118.22
+
+ 13.4%	   20.40	  130.95
+
+ 11.6%	   19.10	  122.63
+
+ 12.7%	   18.41	  118.23
+
+ 12.2%	   19.40	  124.58
+
+ 12.2%	   19.40	  124.58
+
+ 12.2%	   18.11	  116.28
+
+ 12.2%	   20.70	  132.89
+
+ 11.5%	   18.36	  117.90
+
+head: /sys/kernel/debug/dri/fd900100.display-controller/perf: 无法寻址 (seek) 至相对偏移量 0: 非法 seek 操作
+
+ 12.8%	   19.15	  122.96
+
+
+SERVICE
+NRestarts=0
+ActiveState=active
+
+LATEST_FPS
+10月 18 21:40:49 umeko-cancro python3[2480]: FPS 58.3  paint=4.0ms upload=0.2ms present=15.6ms wait=1.4ms pipeline=1
+10月 18 21:40:51 umeko-cancro python3[2480]: FPS 58.3  paint=3.5ms upload=0.2ms present=15.7ms wait=1.3ms pipeline=1
+10月 18 21:40:53 umeko-cancro python3[2480]: FPS 59.3  paint=3.7ms upload=0.2ms present=15.4ms wait=1.3ms pipeline=1
+
+umeko@umeko-cancro:~$ 

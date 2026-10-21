@@ -1,0 +1,11 @@
+
+2026-10-20T21:33:07+08:00
+NRestarts=0
+ActiveState=active
+{"at": 1953.989688367, "gps": {"status": "searching", "fix": false, "satellites": 0, "nmea_at": 1953.129628472, "nmea_count": 2188}}
+{"at": 1958.991933521, "gps": {"status": "searching", "fix": false, "satellites": 0, "nmea_at": 1958.127288834, "nmea_count": 2208}}
+{"at": 1963.994051853, "gps": {"status": "searching", "fix": false, "satellites": 0, "nmea_at": 1963.127378259, "nmea_count": 2228}}
+{"at": 1968.996100549, "gps": {"status": "searching", "fix": false, "satellites": 0, "nmea_at": 1968.126944195, "nmea_count": 2248}}
+{"at": 1973.998088516, "gps": {"status": "searching", "fix": false, "satellites": 0, "nmea_at": 1973.127803776, "nmea_count": 2268}}
+
+umeko@umeko-cancro:~$ 

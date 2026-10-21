@@ -1,0 +1,42 @@
+
+
+CPU
+ 2480 umeko     20   0  428536 119572  69884 S  36.4   4.0   1:15.33 python3
+
+top - 21:40:09 up  1:37,  2 users,  load average: 1.35, 1.46, 1.42
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  8.5 us,  1.1 sy,  0.0 ni, 90.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   2898.0 total,   2256.0 free,    419.0 used,    322.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   2479.0 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 2480 umeko     20   0  428536 119572  69884 S  33.3   4.0   1:16.00 python3
+
+ONLINE
+0-3
+
+GPU_INTERFACES
+/sys/kernel/debug/dri/fd900100.display-controller/perf
+/sys/kernel/debug/dri/fd900100.display-controller/hangrd
+/sys/kernel/debug/dri/fd900100.display-controller/rd
+/sys/kernel/debug/dri/fd900100.display-controller/shrink
+/sys/kernel/debug/dri/fd900100.display-controller/kms
+/sys/kernel/debug/dri/fd900100.display-controller/fb
+/sys/kernel/debug/dri/fd900100.display-controller/disable_err_irq
+/sys/kernel/debug/dri/fd900100.display-controller/hangcheck_period_ms
+/sys/kernel/debug/dri/fd900100.display-controller/gpu
+/sys/kernel/debug/dri/fd900100.display-controller/mm
+/sys/kernel/debug/dri/fd900100.display-controller/gem
+/sys/kernel/debug/dri/fd900100.display-controller/state
+/sys/kernel/debug/dri/fd900100.display-controller/internal_clients
+/sys/kernel/debug/dri/fd900100.display-controller/framebuffer
+/sys/kernel/debug/dri/fd900100.display-controller/gem_names
+/sys/kernel/debug/dri/fd900100.display-controller/clients
+/sys/kernel/debug/dri/fd900100.display-controller/name
+
+FPS
+10月 18 21:40:03 umeko-cancro python3[2480]: FPS 55.8  paint=4.4ms upload=0.2ms present=15.7ms wait=2.1ms pipeline=1
+10月 18 21:40:05 umeko-cancro python3[2480]: FPS 58.8  paint=4.8ms upload=0.2ms present=14.7ms wait=2.1ms pipeline=1
+10月 18 21:40:07 umeko-cancro python3[2480]: FPS 57.3  paint=4.7ms upload=0.2ms present=15.2ms wait=2.1ms pipeline=1
+
+umeko@umeko-cancro:~$ 

@@ -1,0 +1,90 @@
+2026-10-19T20:22:18+08:00 umeko-cancro systemd[1]: Started mi4-wcn-fw-trial.service - /bin/sh /home/umeko/desktop-offline/trial_wireless_action_fw.sh trial.
+2026-10-19T20:22:18+08:00 umeko-cancro sh[1371]: wcnss.b00: 成功
+2026-10-19T20:22:18+08:00 umeko-cancro sh[1371]: wcnss.b01: 成功
+2026-10-19T20:22:18+08:00 umeko-cancro sh[1371]: wcnss.b02: 成功
+2026-10-19T20:22:18+08:00 umeko-cancro sh[1371]: wcnss.b04: 成功
+2026-10-19T20:22:18+08:00 umeko-cancro sh[1371]: wcnss.b06: 成功
+2026-10-19T20:22:18+08:00 umeko-cancro sh[1371]: wcnss.b07: 成功
+2026-10-19T20:22:18+08:00 umeko-cancro sh[1371]: wcnss.b08: 成功
+2026-10-19T20:22:18+08:00 umeko-cancro sh[1371]: wcnss.b09: 成功
+2026-10-19T20:22:18+08:00 umeko-cancro sh[1371]: wcnss.mdt: 成功
+2026-10-19T20:22:21+08:00 umeko-cancro sh[1362]: CANDIDATE_STATE running
+2026-10-19T20:22:27+08:00 umeko-cancro sh[1415]: MONITOR_CREATED
+2026-10-19T20:22:29+08:00 umeko-cancro sh[1415]: LISTEN channel=1 duration=20.0s
+2026-10-19T20:22:49+08:00 umeko-cancro sh[1415]: SKY_PACKETS_TOTAL 0
+2026-10-19T20:22:49+08:00 umeko-cancro sh[1415]: FRAME_COUNTS {"all_frames": 1160, "frame_type_80": 1160}
+2026-10-19T20:22:49+08:00 umeko-cancro sh[1415]: SKY_SIGNATURES {}
+2026-10-19T20:22:49+08:00 umeko-cancro sh[1415]: MONITOR_REMOVED
+2026-10-19T20:22:49+08:00 umeko-cancro sh[1362]: rx_total=
+2026-10-19T20:22:49+08:00 umeko-cancro sh[1456]: 1170
+2026-10-19T20:22:49+08:00 umeko-cancro sh[1362]: rx_action=
+2026-10-19T20:22:49+08:00 umeko-cancro sh[1457]: 0
+2026-10-19T20:22:49+08:00 umeko-cancro sh[1362]: rx_beacon=
+2026-10-19T20:22:49+08:00 umeko-cancro sh[1458]: 1170
+2026-10-19T20:22:49+08:00 umeko-cancro sh[1362]: rx_drop=
+2026-10-19T20:22:49+08:00 umeko-cancro sh[1459]: 0
+2026-10-19T20:22:49+08:00 umeko-cancro sh[1362]: TRIAL_COMPLETED
+2026-10-19T20:22:49+08:00 umeko-cancro sh[1460]: RESTORE_BEGIN
+2026-10-19T20:22:51+08:00 umeko-cancro sh[1460]: RESTORED wcnss.mdt running
+2026-10-19T20:22:51+08:00 umeko-cancro systemd[1]: mi4-wcn-fw-trial.service: Deactivated successfully.
+2026-10-19T20:22:51+08:00 umeko-cancro systemd[1]: mi4-wcn-fw-trial.service: Consumed 1.431s CPU time, 3.7M memory peak, 0B memory swap peak.
+2026-10-19T20:25:41+08:00 umeko-cancro systemd[1]: Started mi4-wcn-route-trial.service - /bin/sh /home/umeko/desktop-offline/trial_wireless_action_fw.sh trial.
+2026-10-19T20:25:41+08:00 umeko-cancro sh[1569]: wcnss.b00: 成功
+2026-10-19T20:25:41+08:00 umeko-cancro sh[1569]: wcnss.b01: 成功
+2026-10-19T20:25:41+08:00 umeko-cancro sh[1569]: wcnss.b02: 成功
+2026-10-19T20:25:41+08:00 umeko-cancro sh[1569]: wcnss.b04: 成功
+2026-10-19T20:25:41+08:00 umeko-cancro sh[1569]: wcnss.b06: 成功
+2026-10-19T20:25:41+08:00 umeko-cancro sh[1569]: wcnss.b07: 成功
+2026-10-19T20:25:41+08:00 umeko-cancro sh[1569]: wcnss.b08: 成功
+2026-10-19T20:25:41+08:00 umeko-cancro sh[1569]: wcnss.b09: 成功
+2026-10-19T20:25:41+08:00 umeko-cancro sh[1569]: wcnss.mdt: 成功
+2026-10-19T20:25:44+08:00 umeko-cancro sh[1560]: CANDIDATE_STATE running
+2026-10-19T20:25:50+08:00 umeko-cancro sh[1602]: MONITOR_CREATED
+2026-10-19T20:25:51+08:00 umeko-cancro sh[1602]: LISTEN channel=1 duration=20.0s
+2026-10-19T20:26:11+08:00 umeko-cancro sh[1602]: SKY_PACKETS_TOTAL 0
+2026-10-19T20:26:11+08:00 umeko-cancro sh[1602]: FRAME_COUNTS {"all_frames": 1158, "frame_type_80": 1158}
+2026-10-19T20:26:11+08:00 umeko-cancro sh[1602]: SKY_SIGNATURES {}
+2026-10-19T20:26:12+08:00 umeko-cancro sh[1602]: MONITOR_REMOVED
+2026-10-19T20:26:12+08:00 umeko-cancro sh[1560]: rx_total=
+2026-10-19T20:26:12+08:00 umeko-cancro sh[1619]: 1167
+2026-10-19T20:26:12+08:00 umeko-cancro sh[1560]: rx_action=
+2026-10-19T20:26:12+08:00 umeko-cancro sh[1620]: 0
+2026-10-19T20:26:12+08:00 umeko-cancro sh[1560]: rx_beacon=
+2026-10-19T20:26:12+08:00 umeko-cancro sh[1621]: 1167
+2026-10-19T20:26:12+08:00 umeko-cancro sh[1560]: rx_drop=
+2026-10-19T20:26:12+08:00 umeko-cancro sh[1622]: 0
+2026-10-19T20:26:12+08:00 umeko-cancro sh[1560]: TRIAL_COMPLETED
+2026-10-19T20:26:12+08:00 umeko-cancro sh[1623]: RESTORE_BEGIN
+2026-10-19T20:26:13+08:00 umeko-cancro sh[1623]: RESTORED wcnss.mdt running
+2026-10-19T20:26:13+08:00 umeko-cancro systemd[1]: mi4-wcn-route-trial.service: Deactivated successfully.
+2026-10-19T20:26:13+08:00 umeko-cancro systemd[1]: mi4-wcn-route-trial.service: Consumed 1.432s CPU time.
+2026-10-19T20:27:54+08:00 umeko-cancro systemd[1]: Started mi4-wcn-control-trial.service - /bin/sh /home/umeko/desktop-offline/trial_wireless_action_fw.sh trial.
+2026-10-19T20:27:54+08:00 umeko-cancro sh[1714]: wcnss.b00: 成功
+2026-10-19T20:27:54+08:00 umeko-cancro sh[1714]: wcnss.b01: 成功
+2026-10-19T20:27:54+08:00 umeko-cancro sh[1714]: wcnss.b02: 成功
+2026-10-19T20:27:54+08:00 umeko-cancro sh[1714]: wcnss.b04: 成功
+2026-10-19T20:27:54+08:00 umeko-cancro sh[1714]: wcnss.b06: 成功
+2026-10-19T20:27:54+08:00 umeko-cancro sh[1714]: wcnss.b07: 成功
+2026-10-19T20:27:54+08:00 umeko-cancro sh[1714]: wcnss.b08: 成功
+2026-10-19T20:27:54+08:00 umeko-cancro sh[1714]: wcnss.b09: 成功
+2026-10-19T20:27:54+08:00 umeko-cancro sh[1714]: wcnss.mdt: 成功
+2026-10-19T20:27:56+08:00 umeko-cancro sh[1705]: CANDIDATE_STATE running
+2026-10-19T20:28:03+08:00 umeko-cancro sh[1748]: MONITOR_CREATED
+2026-10-19T20:28:04+08:00 umeko-cancro sh[1748]: LISTEN channel=1 duration=20.0s
+2026-10-19T20:28:24+08:00 umeko-cancro sh[1748]: SKY_PACKETS_TOTAL 0
+2026-10-19T20:28:24+08:00 umeko-cancro sh[1748]: FRAME_COUNTS {}
+2026-10-19T20:28:24+08:00 umeko-cancro sh[1748]: SKY_SIGNATURES {}
+2026-10-19T20:28:24+08:00 umeko-cancro sh[1748]: MONITOR_REMOVED
+2026-10-19T20:28:24+08:00 umeko-cancro sh[1705]: rx_total=
+2026-10-19T20:28:24+08:00 umeko-cancro sh[1758]: 0
+2026-10-19T20:28:24+08:00 umeko-cancro sh[1705]: rx_action=
+2026-10-19T20:28:24+08:00 umeko-cancro sh[1759]: 0
+2026-10-19T20:28:24+08:00 umeko-cancro sh[1705]: rx_beacon=
+2026-10-19T20:28:24+08:00 umeko-cancro sh[1760]: 0
+2026-10-19T20:28:24+08:00 umeko-cancro sh[1705]: rx_drop=
+2026-10-19T20:28:24+08:00 umeko-cancro sh[1761]: 0
+2026-10-19T20:28:24+08:00 umeko-cancro sh[1705]: TRIAL_COMPLETED
+2026-10-19T20:28:24+08:00 umeko-cancro sh[1762]: RESTORE_BEGIN
+2026-10-19T20:28:26+08:00 umeko-cancro sh[1762]: RESTORED wcnss.mdt running
+2026-10-19T20:28:26+08:00 umeko-cancro systemd[1]: mi4-wcn-control-trial.service: Deactivated successfully.
+2026-10-19T20:28:26+08:00 umeko-cancro systemd[1]: mi4-wcn-control-trial.service: Consumed 1.255s CPU time.

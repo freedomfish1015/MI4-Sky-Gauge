@@ -1,0 +1,25 @@
+
+ 17:14:03 up 7 min,  2 users,  load average: 0.16, 0.40, 0.26
+=== 本次启动 Division by zero 计数
+7
+=== 本次启动 pp timeout 计数
+2
+=== 尾部异常
+10月 18 17:08:44 umeko-cancro kernel: Division by zero in kernel.
+10月 18 17:08:44 umeko-cancro kernel: Division by zero in kernel.
+10月 18 17:08:45 umeko-cancro kernel: Division by zero in kernel.
+10月 18 17:10:25 umeko-cancro kernel: Division by zero in kernel.
+10月 18 17:11:00 umeko-cancro kernel: Division by zero in kernel.
+10月 18 17:12:15 umeko-cancro kernel: msm_mdp fd900100.display-controller: pp done time out, lm=0
+=== phoc/phosh
+  504 phoc
+  636 phosh
+  979 phosh-osk-stub
+=== drm 状态
+card0
+card0-DSI-1
+renderD128
+version
+
+DONE_e19b675300f646ebac4c8d6e0896e72b
+umeko@umeko-cancro:~$ 
